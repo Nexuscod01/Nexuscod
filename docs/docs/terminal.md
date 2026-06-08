@@ -1,31 +1,36 @@
+---
+title: Terminal
+description: Run commands in NimoteCode terminal sessions, search output, use quick commands, and unlock multi-terminal workflows with Pro.
+---
+
 # Terminal
 
 Terminal is the command center for build, test, deploy, and incident operations in NimoteCode.
 
-## Core Capabilities
+## Core capabilities
 
-- Multi-tab terminal sessions
-- Real-time command output
-- Output search for fast log targeting
-- Quick command shortcuts for repeated actions
-- Send key terminal output to AI for analysis
-- Rename and organize tabs for long workflows
+- Run commands inside the active workspace.
+- Stream command output in real time.
+- Search terminal output.
+- Use quick/custom command shortcuts.
+- Send relevant output to AI for analysis.
+- Recover terminal sessions when SSH connectivity is restored.
 
-## Typical Command Journey
+## Multi-terminal workflows
 
-1. Open terminal in current workspace.
-2. Run build/test/deploy commands.
-3. Search output for errors and warnings.
-4. Escalate complex logs to AI or Timeline.
+Pro unlocks advanced multi-terminal actions for parallel workflows such as logs, tests, servers, and deployment commands.
 
-## Why It Matters
+## Typical command journey
 
-- Faster command-to-result loop on mobile
-- Better visibility when handling incidents remotely
-- Stronger continuity with editor, source control, and AI panels
+1. Open terminal in the current workspace.
+2. Run a verification command.
+3. Search output for errors or warnings.
+4. Escalate complex output to AI or Timeline.
+5. Keep parallel terminal contexts with Pro when needed.
 
-## Related Pages
+## Related pages
 
 - [SSH Workspace](/docs/ssh)
 - [AI Assistant](/docs/ai)
-- [Timeline Panel](/docs/timeline)
+- [Timeline](/docs/timeline)
+- [Pro](/pro)

@@ -1,84 +1,62 @@
-# Quick Start (3 Minutes)
+---
+title: Quick Start
+description: Open a NimoteCode workspace, edit a file, run a command, and choose your next workflow in a few minutes.
+---
 
-This guide is optimized for first success in one session.
+# Quick Start
 
-## Goal
+This guide gets you to first success: open a workspace, edit a file, run a command, and choose the next workflow.
 
-In 3 minutes, you will:
-
-1. Open a workspace
-2. Run a real command
-3. Edit one file
-4. Use one high-value panel (Source Control / AI / Debug)
-
-## Step 1: Open Workspace (30s)
+## 1. Open a workspace
 
 Choose one mode:
 
-- Local Explorer: open local project directory
-- Remote Explorer: connect via SSH
+- **Local Explorer**: open a local project directory.
+- **Remote Explorer**: connect to a project over SSH.
 
-If using remote mode:
+For SSH:
 
-1. Create SSH profile (`host`, `port`, `username`)
-2. Select auth method (password or private key)
-3. Connect and confirm workspace root path
+1. Enter host, port, and username.
+2. Choose password, private-key file, or pasted private-key authentication.
+3. Connect.
+4. Confirm the workspace root path.
+5. Save the profile if you want quick reconnection later.
 
-## Step 2: Run Command in Terminal (30s)
+## 2. Open and edit a file
 
-1. Open terminal panel
-2. Run a verification command (for example `pwd`, `ls`, or your build/test command)
-3. If output is long, use terminal search
+1. Select a file from the explorer or search results.
+2. Edit the file in the tabbed editor.
+3. Save the file.
+4. Use outline, AI, or terminal panels when helpful.
 
-## Step 3: Edit and Save (45s)
+## 3. Run a command
 
-1. Open a source file from explorer
-2. Edit one line
-3. Save file
-4. Use symbol navigation or in-file find/replace if needed
+1. Open the terminal.
+2. Run a simple verification command such as `pwd`, `ls`, or your project’s test command.
+3. Search terminal output if the result is long.
 
-## Step 4: Choose One Outcome Path (75s)
+## 4. Choose your next path
 
-### Path A: Commit Changes
+### Commit changes (Pro)
 
-Open Source Control and:
+Use Source Control to review diffs, stage changes, commit, and sync with remote branches.
 
-- inspect modified files
-- stage changes
-- commit (and push if configured)
+### Ask AI
 
-Reference: [/docs/source-control](/docs/source-control)
+Use AI Chat for explanations and planning. Use AI Agent for multi-step work. Agent usage is metered on Free and unlimited on Pro.
 
-### Path B: Ask AI to Accelerate
+### Diagnose a problem (Pro for advanced tools)
 
-Open AI panel and:
+Use LSP diagnostics, code actions, Debug, and Timeline AI when a problem requires deeper investigation.
 
-- choose provider config
-- ask for explanation/refactor/fix suggestions
-- optionally run AI Agent for workflow automation
+### Automate repeated commands
 
-Reference: [/docs/ai](/docs/ai)
+Use Tasks for repeated terminal-backed workflows. Advanced filtered and parallel task runs are Pro capabilities.
 
-### Path C: Diagnose Faster (Pro)
+## Next pages
 
-Open LSP/Debug and:
-
-- check diagnostics
-- apply code actions
-- start debug session and inspect variables/watch
-
-References: [/docs/lsp](/docs/lsp), [/docs/debug](/docs/debug)
-
-## High-Value Scenarios
-
-1. Remote hotfix on production-like server: `/docs/ssh` + `/docs/terminal` + `/docs/source-control`
-2. Fast bug triage: `/docs/lsp` + `/docs/debug` + `/docs/timeline`
-3. Repetitive task automation: `/docs/tasks` + `/docs/ai`
-4. Stable daily setup: `/docs/settings` + `/docs/configuration`
-
-## Next Best Step
-
-After first run, configure these immediately:
-
-- AI provider profile: [/docs/configuration](/docs/configuration)
-- Editor and keyboard preferences: [/docs/settings](/docs/settings)
+- [SSH Workspace](/docs/ssh)
+- [Editor](/docs/editor)
+- [Terminal](/docs/terminal)
+- [AI Assistant](/docs/ai)
+- [Pro](/pro)

@@ -1,38 +1,45 @@
+---
+title: Source Control
+description: Use NimoteCode Pro Source Control for Git diffs, commits, branches, stash workflows, push/pull/fetch, and Git AI assistance.
+---
+
 # Source Control
 
-Source Control brings full Git workflows into NimoteCode so you can review, commit, and sync changes from mobile.
+Source Control brings Git review and write workflows into NimoteCode so you can inspect, commit, and sync changes from mobile.
 
-## What You Can Do
+Source Control write workflows are Pro capabilities.
 
-- Review staged, unstaged, and conflicted files
-- Stage or discard changes in batch or per file
-- Commit and sync with pull/push/fetch
-- Manage branches and stash workflows
-- Inspect commit/file/line history and diffs
+## What you can do
 
-## Git AI Assistance
+- Review staged, unstaged, and conflicted files.
+- Inspect file diffs and commit history.
+- Stage selected changes.
+- Commit changes.
+- Pull, push, and fetch.
+- Create and switch branches.
+- Merge and rebase.
+- Use stash workflows.
 
-Built-in AI can help you:
+## Git AI assistance
 
-- Generate commit messages
-- Explain changed files
-- Highlight potential change risks
+Git AI can help with:
 
-## Typical Commit Flow
+- Commit message generation.
+- Change explanation.
+- Risk-oriented review prompts.
 
-1. Review file diffs.
-2. Stage selected changes.
-3. Generate or write commit message.
-4. Commit and sync.
-5. Validate on target branch.
+## Typical commit flow
 
-## Why Teams Use It
+1. Save your edited files.
+2. Open Source Control.
+3. Review diffs.
+4. Stage selected changes.
+5. Write or generate a commit message.
+6. Commit.
+7. Pull/push/fetch as appropriate for your repository.
 
-- Faster code delivery while mobile
-- Lower friction for emergency fixes
-- Better change quality with AI-assisted review
+## Related pages
 
-## Related Pages
-
+- [Remote Hotfix](/use-cases/remote-hotfix)
 - [AI Assistant](/docs/ai)
-- [Timeline Panel](/docs/timeline)
+- [Pro](/pro)

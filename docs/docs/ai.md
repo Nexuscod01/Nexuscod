@@ -1,56 +1,45 @@
+---
+title: AI Assistant
+description: Use NimoteCode AI Chat and AI Agent with provider configuration, file context, metered free agent runs, and Pro unlimited usage.
+---
+
 # AI Assistant
 
-NimoteCode includes two AI experiences: AI Chat for direct help and AI Agent for multi-step execution.
+NimoteCode includes two AI experiences: AI Chat for direct help and AI Agent for controlled multi-step execution.
 
 ## AI Chat
 
-Use AI Chat when you want fast answers during coding:
+Use AI Chat when you want fast help while coding:
 
-- Explain unfamiliar code
-- Analyze terminal errors
-- Propose refactor plans
-- Generate safer next steps before commit
+- Explain unfamiliar code.
+- Analyze terminal errors.
+- Plan refactors or fixes.
+- Review a change before committing.
+- Work with current-file context.
 
 ## AI Agent
 
-Use AI Agent when work requires multiple actions and checks:
+Use AI Agent when work requires multiple actions:
 
-- Step-by-step execution flow
-- Progress visibility and run status
-- Risk prompts before sensitive actions
-- Auto mode or confirm mode based on your control preference
+- Inspect files.
+- Plan implementation steps.
+- Apply changes.
+- Run commands or checks.
+- Summarize results.
 
-## Provider Flexibility
+Free users have metered AI Agent usage. Pro unlocks unlimited Agent runs.
 
-NimoteCode supports multiple provider templates:
+## Provider flexibility
 
-- OpenAI
-- Anthropic
-- Gemini
-- Grok
-- DeepSeek
-- Zhipu
-- Moonshot
-- Ollama
-- Custom OpenAI-compatible endpoints
+NimoteCode can be configured with provider profiles and model settings. Use the configuration panel to manage endpoint, model, API credentials, output behavior, streaming, and context options.
 
-## What You Can Configure
+## Safety expectations
 
-- Model identity and endpoint
-- Sampling behavior and output size
-- Streaming response mode
-- System prompt and context size
-- File-context usage for codebase-aware responses
+AI Agent workflows can use tools, so review commands and file changes before applying them to sensitive systems. The app includes validation and locking layers, but user review is still important for production work.
 
-## Best-Practice Setup
+## Related pages
 
-1. Keep one primary cloud model and one backup model.
-2. Use lower creativity for deterministic coding tasks.
-3. Keep file context on for project-level analysis.
-4. Review AI output before running in production.
-
-## Related Pages
-
+- [AI Agent Workflows](/use-cases/ai-agent)
 - [Configuration](/docs/configuration)
-- [Source Control](/docs/source-control)
-- [Timeline](/docs/timeline)
+- [Security and Safety](/docs/security)
+- [Pro](/pro)
