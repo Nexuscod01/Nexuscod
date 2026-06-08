@@ -12,9 +12,11 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: 'NimoteCode - Mobile SSH Developer Workspace' }],
     ['meta', { property: 'og:description', content: 'Edit files, run terminals, review Git changes, ask AI, and diagnose remote projects from phone or tablet.' }],
     ['meta', { property: 'og:url', content: 'https://nimotecode.com' }],
+    ['meta', { property: 'og:image', content: 'https://nimotecode.com/app_icon.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'NimoteCode - Mobile SSH Developer Workspace' }],
     ['meta', { name: 'twitter:description', content: 'A mobile SSH workspace for editor, terminal, Git, AI, LSP, debug, tasks, timeline, and sync/cache workflows.' }],
+    ['meta', { name: 'twitter:image', content: 'https://nimotecode.com/app_icon.png' }],
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',

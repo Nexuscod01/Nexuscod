@@ -1,7 +1,8 @@
 ---
 layout: home
-title: NimoteCode - 随时随地编码。处处交付成果。
+title: NimoteCode - 手机上连接、修复、发布与验证代码
 titleTemplate: false
+description: 在手机或平板上编辑文件、运行终端、查看 Git 变更、使用 AI，并诊断远程项目。
 
 hero:
   name: ""
@@ -10,245 +11,188 @@ hero:
   actions: []
 ---
 
-<section class="home-page-section">
-  <div class="home-page-logo-title">
-    <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo">
-    <span class="home-page-brand">NimoteCode</span>
+<section class="home-page-hero">
+  <div class="home-page-hero-copy">
+    <p class="home-page-kicker">面向真实生产修复的移动开发工作区</p>
+    <div class="home-page-logo-title">
+      <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo">
+      <span class="home-page-brand">NimoteCode</span>
+    </div>
+    <h1 class="home-page-title">在手机上通过 SSH、修复、发布并验证代码的最简方式。</h1>
+    <p class="home-page-subtitle">为独立开发者打造的专注型移动工作区，终端、编辑器、Git、AI、诊断和发布确认都能在不打开笔记本的情况下完成。</p>
+    <div class="home-page-actions home-page-actions-left">
+      <a href="/zh/download" class="home-page-btn primary">下载</a>
+      <a href="/zh/docs/quick-start" class="home-page-btn secondary">3 分钟上手</a>
+      <a href="/pro" class="home-page-btn ghost">对比 Pro</a>
+    </div>
+    <div class="home-page-stat-row">
+      <div class="home-page-stat">
+        <strong>SSH 优先</strong>
+        <span>远程工作区、密钥、终端、搜索</span>
+      </div>
+      <div class="home-page-stat">
+        <strong>AI + Git</strong>
+        <span>解释变更、安全提交、更快推进</span>
+      </div>
+      <div class="home-page-stat">
+        <strong>为移动端而生</strong>
+        <span>针对手机和平板优化的真实编辑体验</span>
+      </div>
+    </div>
   </div>
-  <h1 class="home-page-title">随时随地编码。<br>处处交付成果。</h1>
-  <p class="home-page-subtitle">专业的移动端 IDE。完整的 SSH、Git、AI 和调试功能——专为 iPhone、iPad 和 Android 优化。</p>
-  <div class="home-page-actions">
-    <a href="/zh/download" class="home-page-btn primary">下载</a>
-    <a href="/zh/docs/quick-start" class="home-page-btn secondary">文档</a>
+
+  <div class="home-page-hero-panel">
+    <div class="home-page-hero-orb home-page-hero-orb-a"></div>
+    <div class="home-page-hero-orb home-page-hero-orb-b"></div>
+    <div class="home-page-terminal-chip">
+      <span class="home-page-terminal-dot red"></span>
+      <span class="home-page-terminal-dot amber"></span>
+      <span class="home-page-terminal-dot green"></span>
+      <code>ssh prod-workspace</code>
+    </div>
+    <div class="home-page-hero-stack">
+      <div class="home-page-glass-card">
+        <p class="home-page-card-label">正在移动端交付</p>
+        <h2 class="home-page-panel-title">编辑器、终端、Git、AI、LSP、调试。</h2>
+        <p class="home-page-panel-copy">把快速诊断、修复和确认放进同一个界面，人在外面也能继续推进工作。</p>
+      </div>
+      <div class="home-page-preview-grid">
+        <img src="/screenshots/p1.png" alt="NimoteCode 工作区和编辑器预览" class="home-page-preview-card feature">
+        <img src="/screenshots/p2.png" alt="NimoteCode 终端和工作流预览" class="home-page-preview-card">
+        <img src="/screenshots/p3.png" alt="NimoteCode 源码管理和工具预览" class="home-page-preview-card">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-page-section home-page-video-section">
+  <div class="home-page-section-head">
+    <p class="home-page-eyebrow">观看流程</p>
+    <h2 class="home-page-section-title">一个铺满画面的产品演示，而不是堆满噪音的页面</h2>
+    <p class="home-page-section-copy">看 SSH、代码编辑、终端操作、Git 审查和 AI 辅助如何在同一个移动优先工作区里协同。</p>
+  </div>
+  <div class="home-page-video">
+    <div class="home-page-video-shell">
+      <video class="home-page-video-frame" src="/screenshots/NimoteCode_BETA.mp4" poster="/screenshots/NimoteCode_BETA.jpg" controls preload="metadata" playsinline>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p class="home-page-video-meta">本地预览 · 全幅播放器 · 适合移动端</p>
+  </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-section-head">
+    <p class="home-page-eyebrow">产品界面</p>
+    <h2 class="home-page-section-title">一眼就能看懂工作流的屏幕展示</h2>
+    <p class="home-page-section-copy">首页直接展示真实界面，不再只靠文案。下面这些预览突出工作区上下文、终端执行和交付工具。</p>
+  </div>
+  <div class="home-page-showcase">
+    <figure class="home-page-shot home-page-shot-wide">
+      <img src="/screenshots/p1.png" alt="NimoteCode 移动端代码编辑器截图">
+      <figcaption>带有移动端优化控件的工作区与编辑器。</figcaption>
+    </figure>
+    <figure class="home-page-shot">
+      <img src="/screenshots/p2.png" alt="NimoteCode 终端截图">
+      <figcaption>紧凑布局中的终端与执行反馈。</figcaption>
+    </figure>
+    <figure class="home-page-shot">
+      <img src="/screenshots/p3.png" alt="NimoteCode Git 和开发工具截图">
+      <figcaption>当修复需要落地时，Git、审查和更深层工具都在这里。</figcaption>
+    </figure>
   </div>
 </section>
 
 <section class="home-page-section dense alt">
-  <h2 style="font-size: 1.35rem; font-weight: 600; margin: 0 0 0.5rem; color: var(--nimote-text-primary);">功能</h2>
-  <p style="font-size: 0.98rem; color: var(--nimote-text-secondary); margin: 0 0 1.5rem;">从手机交付所需的一切。</p>
+  <p class="home-page-eyebrow">核心流程</p>
+  <h2 class="home-page-section-title">从连接服务器到完成发布</h2>
+  <p class="home-page-section-copy">NimoteCode 围绕真实工作路径设计：工作区、编辑器、终端、Git、AI、诊断和同步。</p>
   <div class="home-page-grid">
     <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">🖥️</span>
-        SSH 工作区
-      </div>
-      <p class="home-page-card-desc">连接真实服务器，支持自动重连和心跳检测。</p>
+      <div class="home-page-card-title"><span class="home-page-card-icon">01</span>连接</div>
+      <p class="home-page-card-desc">打开本地项目，或通过 SSH 连接工作区，支持已保存配置、密码/密钥认证和根路径选择。</p>
     </div>
     <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">💻</span>
-        终端
-      </div>
-      <p class="home-page-card-desc">单标签终端，支持会话持久化。</p>
+      <div class="home-page-card-title"><span class="home-page-card-icon">02</span>编辑</div>
+      <p class="home-page-card-desc">使用带标签页的代码编辑器，支持光标跟踪、撤销/重做、剪贴板、代码大纲和移动端键盘控制。</p>
     </div>
     <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">🔀</span>
-        Git 源码控制
-        <span class="home-page-badge">Pro</span>
-      </div>
-      <p class="home-page-card-desc">完整的 Git 工作流，包含差异查看、提交、分支和 Git AI。</p>
+      <div class="home-page-card-title"><span class="home-page-card-icon">03</span>运行</div>
+      <p class="home-page-card-desc">在终端会话中执行命令、搜索输出、断线后恢复，并用 Pro 组织多终端工作。</p>
     </div>
     <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">🔧</span>
-        LSP & 调试
-        <span class="home-page-badge">Pro</span>
-      </div>
-      <p class="home-page-card-desc">专业诊断、代码动作、断点、调用堆栈和变量监控。</p>
+      <div class="home-page-card-title"><span class="home-page-card-icon">04</span>查找</div>
+      <p class="home-page-card-desc">在远程文件内容中搜索，支持大小写和正则。免费版有额度限制，Pro 解锁无限搜索。</p>
     </div>
     <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">💬</span>
-        AI 聊天
-      </div>
-      <p class="home-page-card-desc">对话式 AI 帮助，用于代码帮助和建议。</p>
+      <div class="home-page-card-title"><span class="home-page-card-icon">05</span>提交 <span class="home-page-badge">Pro</span></div>
+      <p class="home-page-card-desc">审查差异、管理分支、暂存变更、提交、拉取、推送、获取，并用 Git AI 理解改动。</p>
     </div>
     <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">🤖</span>
-        AI Agent
-        <span class="home-page-badge">Pro</span>
-      </div>
-      <p class="home-page-card-desc">自主 AI Agent，带记忆系统用于自动化任务。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">📊</span>
-        Timeline
-      </div>
-      <p class="home-page-card-desc">因果追踪和 AI 根因分析，用于诊断。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">🔄</span>
-        Sync / Cache
-        <span class="home-page-badge">Pro</span>
-      </div>
-      <p class="home-page-card-desc">本地与远程间的双向同步，带路径安全检查。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">⚡</span>
-        Tasks 面板
-      </div>
-      <p class="home-page-card-desc">运行分组的远程任务，带状态跟踪和输出捕获。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">📑</span>
-        多终端
-        <span class="home-page-badge">Pro</span>
-      </div>
-      <p class="home-page-card-desc">多终端标签页，用于并行工作流。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">🔍</span>
-        全局文件搜索
-      </div>
-      <p class="home-page-card-desc">在远程工作区中快速搜索和定位文件。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">📝</span>
-        文件内容搜索
-      </div>
-      <p class="home-page-card-desc">在文件内容中搜索关键词。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">📁</span>
-        Git 文件与行历史
-        <span class="home-page-badge">Pro</span>
-      </div>
-      <p class="home-page-card-desc">查看文件和代码行的完整提交历史。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">📋</span>
-        代码大纲视图
-      </div>
-      <p class="home-page-card-desc">快速浏览和导航代码结构。</p>
-    </div>
-    <div class="home-page-card">
-      <div class="home-page-card-title">
-        <span class="home-page-card-icon">📱</span>
-        iPad 优化
-      </div>
-      <p class="home-page-card-desc">多窗口支持、触控板和桌面级体验。</p>
+      <div class="home-page-card-title"><span class="home-page-card-icon">06</span>诊断 <span class="home-page-badge">Pro 工具</span></div>
+      <p class="home-page-card-desc">LSP、调试器、Timeline AI、Tasks 和 Sync/Cache，让移动端也能处理更深层的项目控制。</p>
     </div>
   </div>
 </section>
 
 <section class="home-page-section dense">
-  <h2 style="font-size: 1.35rem; font-weight: 600; margin: 0 0 0.5rem; color: var(--nimote-text-primary);">定价</h2>
-  <p style="font-size: 0.98rem; color: var(--nimote-text-secondary); margin: 0 0 1.5rem;">免费开始，需要更多功能时再升级。</p>
+  <p class="home-page-eyebrow">使用场景</p>
+  <h2 class="home-page-section-title">专为不能等到电脑前的工作而设计</h2>
+  <div class="home-page-grid">
+    <div class="home-page-card">
+      <div class="home-page-card-title"><span class="home-page-card-icon">修复</span>远程热修复</div>
+      <p class="home-page-card-desc">SSH 进入项目、检查文件、修补代码、运行验证命令，并在同一应用中完成提交。</p>
+      <p class="home-page-card-link"><a href="/use-cases/remote-hotfix">查看流程 →</a></p>
+    </div>
+    <div class="home-page-card">
+      <div class="home-page-card-title"><span class="home-page-card-icon">值班</span>值班诊断</div>
+      <p class="home-page-card-desc">搜索输出、查看运行时状态、使用 LSP/调试面板，并让 Timeline AI 提供根因建议。</p>
+      <p class="home-page-card-link"><a href="/use-cases/on-call-diagnostics">查看流程 →</a></p>
+    </div>
+    <div class="home-page-card">
+      <div class="home-page-card-title"><span class="home-page-card-icon">AI</span>AI 辅助编码</div>
+      <p class="home-page-card-desc">用 AI Chat 做解释，用 AI Agent 完成多步骤工作，包含用量限制、安全检查和 Pro 无限访问。</p>
+      <p class="home-page-card-link"><a href="/use-cases/ai-agent">探索 AI 工作流 →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="home-page-section dense alt">
+  <p class="home-page-eyebrow">方案</p>
+  <h2 class="home-page-section-title">先从核心工作区开始，需要更强能力时再升级。</h2>
   <table class="home-page-table">
     <thead>
       <tr>
-        <th>功能</th>
+        <th>能力</th>
         <th>免费版</th>
-        <th>专业版</th>
+        <th>Pro</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>SSH 工作区 & 自动重连</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>终端会话持久化</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>AI 聊天</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>Timeline & AI 根因分析</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>Tasks 面板 & 远程执行</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>iPad 优化</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>全局文件搜索</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>文件内容搜索</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>代码大纲视图</td>
-        <td><span class="home-page-check">✓</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>Git 源码控制（完整工作流 & 差异）</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>Git AI（提交信息、风险检测）</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>Git 文件与行历史</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>多终端支持</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>LSP 诊断 & 代码动作</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>完整调试器（断点、变量）</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>AI Agent（自主模式）</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
-      <tr>
-        <td>Sync / Cache（本地 ↔ 远程）</td>
-        <td><span class="home-page-cross">✗</span></td>
-        <td><span class="home-page-check">✓</span></td>
-      </tr>
+      <tr><td>本地与 SSH 工作区</td><td><span class="home-page-check">✓</span></td><td><span class="home-page-check">✓</span></td></tr>
+      <tr><td>标签页代码编辑器与基础终端</td><td><span class="home-page-check">✓</span></td><td><span class="home-page-check">✓</span></td></tr>
+      <tr><td>AI Chat 与已配置提供商</td><td><span class="home-page-check">✓</span></td><td><span class="home-page-check">✓</span></td></tr>
+      <tr><td>AI Agent 运行</td><td>按量</td><td>无限</td></tr>
+      <tr><td>远程内容搜索</td><td>按量</td><td>无限</td></tr>
+      <tr><td>Git 写入工作流与 Git AI</td><td><span class="home-page-cross">—</span></td><td><span class="home-page-check">✓</span></td></tr>
+      <tr><td>多终端工作流</td><td><span class="home-page-cross">—</span></td><td><span class="home-page-check">✓</span></td></tr>
+      <tr><td>LSP 诊断与代码操作</td><td><span class="home-page-cross">—</span></td><td><span class="home-page-check">✓</span></td></tr>
+      <tr><td>调试器、Timeline AI、Sync/Cache、高级 Tasks</td><td><span class="home-page-cross">—</span></td><td><span class="home-page-check">✓</span></td></tr>
     </tbody>
   </table>
+  <div class="home-page-actions home-page-actions-left">
+    <a href="/pro" class="home-page-btn primary">查看 Pro 功能</a>
+    <a href="/zh/features" class="home-page-btn secondary">查看完整能力图</a>
+  </div>
 </section>
 
 <section class="home-page-section">
   <div class="home-page-cta">
-    <h2 class="home-page-cta-title">准备好随时随地编码了吗？</h2>
-    <p class="home-page-cta-text">立即下载 NimoteCode，在你的 iPhone、iPad 和 Android 上体验专业开发。</p>
+    <h2 class="home-page-cta-title">现在就从手机打开真实工作区。</h2>
+    <p class="home-page-cta-text">先从 SSH、终端、编辑器和 AI Chat 开始，需要 Git 写入、LSP、调试、同步和自动化时再升级 Pro。</p>
     <div class="home-page-actions">
-      <a href="/zh/download" class="home-page-btn primary">立即下载</a>
-      <a href="/zh/features" class="home-page-btn secondary">查看所有功能</a>
+      <a href="/zh/download" class="home-page-btn primary">下载 NimoteCode</a>
+      <a href="/zh/docs/quick-start" class="home-page-btn secondary">阅读快速入门</a>
     </div>
   </div>
 </section>

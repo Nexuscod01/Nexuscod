@@ -279,6 +279,7 @@ Findings:
 - Global metadata exists in `docs/.vitepress/config.ts`.
 - Missing page-specific descriptions on key pages.
 - Missing structured product/software app schema.
+- Missing `robots.txt`, `sitemap.xml`, `og:image`, and `twitter:image` in the source/public website files before refresh.
 - Weak keyword focus: pages do not target “mobile IDE”, “SSH code editor”, “Git client for iPad/iPhone/Android”, “AI coding agent mobile”, “remote development on phone”.
 - Generated dist exists but source should own SEO improvements.
 
@@ -473,6 +474,7 @@ Phase 3: Locale migration
 ## 10. Risks and assumptions
 
 - Store URLs, exact OS requirements, public community links, and user counts are not derivable from app source code and must remain omitted or phrased cautiously unless verified elsewhere.
+- Store availability was inconsistent across website source and README during audit; download copy should avoid promising availability until listings are verified.
 - Generated localization pages may become stale after English source refresh; translations should be a follow-up task.
 - Some advanced AI agent internals are present in source but may be partially hidden by review safety mode (`lib/core/config.dart`); copy should emphasize controlled automation rather than fully autonomous background execution.
 - Feature gates can be remotely overridden by Firebase Remote Config (`lib/services/remote_feature_config_service.dart`), so website should describe default product model while noting Pro availability may vary by plan/platform.

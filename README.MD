@@ -37,27 +37,18 @@ Everything is designed around real mobile development workflows: focused panels,
 ## Preview
 
 <p align="center">
-  <img src="docs/public/screenshots/explorer_phone.png" alt="NimoteCode file explorer on phone" width="31%">
-  <img src="docs/public/screenshots/editor_phone.png" alt="NimoteCode code editor on phone" width="31%">
-  <img src="docs/public/screenshots/terminal_phone.png" alt="NimoteCode terminal on phone" width="31%">
+  <img src="docs/public/screenshots/p1.png" alt="NimoteCode file explorer on phone" width="100%">
+  <img src="docs/public/screenshots/p2.png" alt="NimoteCode file explorer on phone" width="100%">
+  <img src="docs/public/screenshots/p3.png" alt="NimoteCode file explorer on phone" width="100%">
 </p>
 
-### iPad Workspace
 
 <p align="center">
-  <img src="docs/public/screenshots/git_pad.png" alt="NimoteCode Git source control on iPad" width="49%">
-  <img src="docs/public/screenshots/terminal_pad.png" alt="NimoteCode terminal workspace on iPad" width="49%">
-</p>
-
-<!--
-Demo video can be added here later.
-Recommended format:
-<p align="center">
-  <a href="https://your-demo-video-link">
-    <img src="docs/public/screenshots/video-cover.png" alt="Watch NimoteCode demo" width="100%">
+  <a href="https://www.youtube.com/watch?v=SlzmbOsNGmA">
+    <img src="docs/public/screenshots/NimoteCode_BETA.jpg" alt="Watch NimoteCode demo" width="100%">
   </a>
 </p>
--->
+
 
 ## Features
 

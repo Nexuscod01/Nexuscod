@@ -9,13 +9,15 @@ Download NimoteCode to open a local or SSH workspace, edit files, run commands, 
 
 ## Store links
 
+Use the links below when the store listing is available in your region. If a listing is not available yet, check back from this page or contact support.
+
 ### iOS App Store
 
-<a href="https://apps.apple.com/app/nimotecode" class="home-page-btn primary">Download on the App Store</a>
+<a href="https://apps.apple.com/app/nimotecode" class="home-page-btn primary">Open App Store listing</a>
 
 ### Google Play
 
-<a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary">Get it on Google Play</a>
+<a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary">Open Google Play listing</a>
 
 ## What to do after install
 
