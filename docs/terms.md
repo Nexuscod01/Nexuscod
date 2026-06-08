@@ -79,5 +79,5 @@ We may update these Terms. Continued use after updates means you accept the revi
 
 ## 12. Contact
 
-- Email: aoun.ma@foxmail.com
+- Email: nimotecode@gmail.com
 - GitHub Issues: https://github.com/nimotecode/nimote_issues/issues

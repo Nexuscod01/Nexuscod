@@ -79,5 +79,5 @@ NimoteCode 依赖第三方服务及您自行选择的端点。其可用性、行
 
 ## 12. 联系方式
 
-- 邮箱：aoun.ma@foxmail.com
+- 邮箱：nimotecode@gmail.com
 - GitHub Issues：https://github.com/nimotecode/nimote_issues/issues

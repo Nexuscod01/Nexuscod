@@ -118,7 +118,7 @@ If you encounter any issues during installation:
 
 - Check the [Quick Start Guide](/docs/quick-start) for setup help
 - Visit [Support](/support) for troubleshooting
-- Contact us at aoun.ma@foxmail.com for assistance
+- Contact us at nimotecode@gmail.com for assistance
 
 ---
 

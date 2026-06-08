@@ -6,7 +6,7 @@ title: 支持 | NimoteCode
 
 ## 联系方式
 
-- 邮箱：aoun.ma@foxmail.com
+- 邮箱：nimotecode@gmail.com
 - GitHub Issues：https://github.com/nimotecode/nimote_issues/issues
 
 ## 隐私 / 账户请求

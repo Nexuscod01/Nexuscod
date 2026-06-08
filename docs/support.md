@@ -14,7 +14,7 @@ Get in touch with our team for support, feedback, or questions.
 <VPFeatures>
   <VPFeature
     title="Email Support"
-    details="Reach out to us directly at aoun.ma@foxmail.com for personalized assistance."
+    details="Reach out to us directly at nimotecode@gmail.com for personalized assistance."
   />
   <VPFeature
     title="GitHub Issues"
@@ -130,7 +130,7 @@ Get in touch with our team for support, feedback, or questions.
 **Solutions:**
 1. Confirm you're in an SSH workspace (not available in Local mode)
 2. Verify debug adapter is properly configured
-3. Check launch configuration in `.vscode/launch.json`
+3. Check launch configuration in `.nimote/launch.json`
 4. Ensure your program is compiled with debug symbols
 5. Check debugger logs in Timeline panel
 
@@ -177,7 +177,7 @@ Your security is important to us. Here's how we protect your data:
 We love hearing from our users! To suggest features or provide feedback:
 
 1. **GitHub Issues**: Submit detailed feature requests with use cases
-2. **Email**: Send general feedback to aoun.ma@foxmail.com
+2. **Email**: Send general feedback to nimotecode@gmail.com
 3. **Community**: Share ideas with other users
 
 When submitting feedback, include:

@@ -137,5 +137,5 @@ We may update this policy. The latest published version and effective date on th
 
 ## 12. Contact
 
-- Email: aoun.ma@foxmail.com
+- Email: nimotecode@gmail.com
 - GitHub Issues: https://github.com/nimotecode/nimote_issues/issues

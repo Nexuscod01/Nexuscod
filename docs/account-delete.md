@@ -22,7 +22,7 @@ After confirmation, your NimoteCode account and associated cloud user record are
 
 If you cannot sign in to the app, send a deletion request through one of these channels:
 
-- Email: aoun.ma@foxmail.com
+- Email: nimotecode@gmail.com
 - GitHub Issues: https://github.com/nimotecode/nimote_issues/issues
 
 Include:
