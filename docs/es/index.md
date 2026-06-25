@@ -11,39 +11,38 @@ hero:
   actions: []
 ---
 
-<section class="home-page-hero home-page-hero-centered">
-  <div class="home-page-hero-copy">
-    <p class="home-page-badge">Para iPhone y Android</p>
-    <div class="home-page-logo-lockup">
-      <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo">
-      <span class="home-page-brand">NimoteCode</span>
+<section class="home-page-hero">
+  <div class="home-page-hero-shell">
+    <div class="home-page-hero-copy">
+      <p class="home-page-badge">Para iPhone y Android</p>
+      <div class="home-page-logo-lockup">
+        <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo">
+        <span class="home-page-brand">NimoteCode</span>
+      </div>
+      <h1 class="home-page-title">No es un editor de código.<br>Es un espacio real de desarrollo.</h1>
+      <p class="home-page-subtitle">Une flujos SSH, edición de código real, revisión Git y ayuda de IA en una sola IDE mobile-first.</p>
+      <div class="home-page-actions">
+        <a href="/es/download" class="home-page-btn primary">Descargar NimoteCode</a>
+        <a href="/es/docs/quick-start" class="home-page-btn secondary">Inicio rápido</a>
+      </div>
     </div>
-    <h1 class="home-page-title">IDE móvil para trabajo real.</h1>
-    <p class="home-page-subtitle">Edita código, abre una terminal SSH, revisa cambios de Git, pide ayuda a la IA y mantén tu espacio sincronizado desde una app móvil limpia.</p>
-    <div class="home-page-actions">
-      <a href="/es/download" class="home-page-btn primary">Descargar</a>
-      <a href="/es/docs/quick-start" class="home-page-btn secondary">Inicio rápido</a>
-    </div>
-  </div>
-
-  <div class="home-page-hero-visual">
-    <div class="home-page-device-stage">
-      <div class="home-page-device-strip" aria-label="NimoteCode product screenshots">
-        <figure class="home-page-device home-page-device-hero">
-          <div class="home-page-device-frame">
-            <img src="/screenshots/p1.png" alt="Captura del IDE móvil NimoteCode">
-          </div>
-        </figure>
-        <figure class="home-page-device home-page-device-hero">
-          <div class="home-page-device-frame">
-            <img src="/screenshots/p2.png" alt="Captura de terminal SSH NimoteCode">
-          </div>
-        </figure>
-        <figure class="home-page-device home-page-device-hero">
-          <div class="home-page-device-frame">
-            <img src="/screenshots/p3.png" alt="Captura de Git y herramientas de NimoteCode">
-          </div>
-        </figure>
+    <div class="home-page-hero-stack" aria-label="Aspectos clave del producto">
+      <article class="home-page-signal-card home-page-signal-card-primary">
+        <p class="home-page-feature-label">Mobile IDE</p>
+        <h2>Flujos de nivel desktop, pensados para touch.</h2>
+        <p>Abre un workspace, entra a la terminal, corrige código y mantén el ritmo cuando el portátil no está cerca.</p>
+      </article>
+      <div class="home-page-signal-row">
+        <article class="home-page-signal-card">
+          <p class="home-page-feature-label">SSH + Terminal</p>
+          <h3>Conecta rápido</h3>
+          <p>Entra a servidores reales, ejecuta comandos y revisa logs.</p>
+        </article>
+        <article class="home-page-signal-card">
+          <p class="home-page-feature-label">Git + AI</p>
+          <h3>Entrega con contexto</h3>
+          <p>Revisa diffs, razona correcciones y confirma cambios desde móvil.</p>
+        </article>
       </div>
     </div>
   </div>
@@ -51,9 +50,9 @@ hero:
 
 <section class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">Demo</p>
-    <h2 class="home-page-section-title">Mira el flujo completo en móvil.</h2>
-    <p class="home-page-section-copy">SSH, edición de código, terminal, revisión de Git e IA trabajando juntas en un solo espacio móvil.</p>
+    <p class="home-page-eyebrow">Demo del producto</p>
+    <h2 class="home-page-section-title">Mira un flujo real de hotfix en móvil.</h2>
+    <p class="home-page-section-copy">Acceso SSH, edición, terminal, revisión Git y ayuda de IA en un solo workspace continuo.</p>
   </div>
   <div class="home-page-video">
     <div class="home-page-video-shell">
@@ -61,77 +60,93 @@ hero:
         Your browser does not support the video tag.
       </video>
     </div>
-    <p class="home-page-video-meta">Demo del producto · Reproductor ancho · Listo para móvil</p>
   </div>
 </section>
-
-<section class="home-page-section home-page-section-tight">
-  <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">Flujo central</p>
-    <h2 class="home-page-section-title">Inspecciona, corrige y entrega desde el móvil.</h2>
-    <p class="home-page-section-copy">Una página clara para visitantes de App Store, Product Hunt, Hacker News y X.</p>
-  </div>
-
-  <div class="home-page-feature-grid">
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Terminal</p>
-      <h3>SSH a entornos reales</h3>
-      <p>Ejecuta comandos, revisa logs y trabaja directamente en servidores o máquinas de desarrollo.</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Git</p>
-      <h3>Revisa y confirma cambios</h3>
-      <p>Consulta diffs, prepara cambios y mantén Git dentro del mismo flujo que el editor.</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">AI Assistant</p>
-      <h3>Ayuda con contexto</h3>
-      <p>Explica código, investiga problemas y avanza en correcciones de varios pasos con IA.</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Workspace</p>
-      <h3>Sincroniza tu trabajo</h3>
-      <p>Mantén proyectos, sesiones y contexto entre móvil, tablet y escritorio.</p>
-    </article>
-  </div>
-</section>
-
-<PricingFeatureSystem lang="en" />
 
 <section class="home-page-section">
   <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">Galería</p>
-    <h2 class="home-page-section-title">Interfaz real, grande y fácil de entender.</h2>
-    <p class="home-page-section-copy">Capturas amplias, espaciado consistente y marcos estables para mostrar el producto sin ruido.</p>
+    <p class="home-page-eyebrow">Flujo central</p>
+    <h2 class="home-page-section-title">Diseñado para trabajo real de producción desde móvil.</h2>
+    <p class="home-page-section-copy">El flujo principal se mantiene claro: conectar, inspeccionar, editar, verificar y entregar.</p>
   </div>
 
-  <div class="home-page-gallery">
-    <figure class="home-page-device home-page-device-large">
-      <div class="home-page-device-frame">
-        <img src="/screenshots/p1.png" alt="Captura del editor de código NimoteCode">
-      </div>
-      <figcaption>Edición de código y contexto del proyecto.</figcaption>
-    </figure>
-    <figure class="home-page-device">
-      <div class="home-page-device-frame">
-        <img src="/screenshots/p2.png" alt="Captura de terminal SSH NimoteCode">
-      </div>
-      <figcaption>Terminal SSH para trabajo real.</figcaption>
-    </figure>
-    <figure class="home-page-device">
-      <div class="home-page-device-frame">
-        <img src="/screenshots/p3.png" alt="Captura de Git y herramientas NimoteCode">
-      </div>
-      <figcaption>Git, herramientas y control del espacio.</figcaption>
-    </figure>
+  <div class="home-page-feature-grid home-page-feature-grid-priority">
+    <article class="home-page-feature-card home-page-feature-card-ai">
+      <p class="home-page-feature-label">AI Assistant</p>
+      <h3>Avanza cambios con IA y contexto completo del workspace.</h3>
+      <p>Explica código, investiga problemas y recorre correcciones de varios pasos sin salir de la app.</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Terminal</p>
+      <h3>Trabaja en entornos reales</h3>
+      <p>Haz SSH a servidores y máquinas de desarrollo para ejecutar los comandos que importan.</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Git</p>
+      <h3>Revisa y confirma con claridad</h3>
+      <p>Mantén diffs, staging y control de versiones junto al código que estás tocando.</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Workspace Sync</p>
+      <h3>Retoma el trabajo al instante</h3>
+      <p>Conserva estado del proyecto y contexto entre distintos momentos móviles.</p>
+    </article>
   </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-positioning">
+    <p>No es un editor de código.</p>
+    <p>Es un espacio real de desarrollo.</p>
+  </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-section-head home-page-section-head-centered">
+    <p class="home-page-eyebrow">Casos de uso</p>
+    <h2 class="home-page-section-title">Creado para flujos urgentes y prácticos.</h2>
+    <p class="home-page-section-copy">El valor se entiende de inmediato cuando necesitas actuar, no solo mirar código.</p>
+  </div>
+
+  <div class="home-page-scenario-grid">
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Hotfix</p>
+      <h3><a href="/use-cases/remote-hotfix">Corrige producción desde el teléfono</a></h3>
+      <p>Haz SSH, edita, verifica y confirma cambios sin esperar al portátil.</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">On-call</p>
+      <h3><a href="/use-cases/on-call-diagnostics">Resuelve incidentes lejos del escritorio</a></h3>
+      <p>Inspecciona logs y sigue bucles de diagnóstico mientras estás en movimiento.</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">AI Workflow</p>
+      <h3><a href="/use-cases/ai-agent">Usa IA dentro del flujo real</a></h3>
+      <p>Combina AI Chat, AI Agent, herramientas de terminal y controles de seguridad.</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Docs</p>
+      <h3><a href="/es/docs">Entra a la documentación cuando necesites detalle</a></h3>
+      <p>Consulta guías de SSH, editor, Git, IA, debugging, tareas y sync.</p>
+    </article>
+  </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-section-head home-page-section-head-centered">
+    <p class="home-page-eyebrow">Vista previa de precio</p>
+    <h2 class="home-page-section-title">Empieza gratis. Pro desbloquea la IDE móvil completa.</h2>
+    <p class="home-page-section-copy">Una comparación enfocada entre la base gratuita y los flujos profundos de Pro.</p>
+  </div>
+
+  <PricingFeatureSystem lang="es" mode="preview" />
 </section>
 
 <section class="home-page-section">
   <div class="home-page-cta">
     <p class="home-page-eyebrow">Empezar</p>
-    <h2 class="home-page-cta-title">Abre un entorno de desarrollo desde tu bolsillo.</h2>
-    <p class="home-page-cta-text">NimoteCode une editor, terminal, Git, IA y sincronización en un flujo pensado para móvil.</p>
+    <h2 class="home-page-cta-title">Lleva un workspace real de desarrollo a todas partes.</h2>
+    <p class="home-page-cta-text">Pensado para developers y ops engineers que necesitan inspeccionar, corregir y entregar desde móvil.</p>
     <div class="home-page-actions">
       <a href="/es/download" class="home-page-btn primary">Descargar NimoteCode</a>
       <a href="/es/docs/quick-start" class="home-page-btn secondary">Leer docs</a>

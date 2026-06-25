@@ -2,33 +2,58 @@
 title: 简介 | NimoteCode
 ---
 
-# 简介
+# NimoteCode
 
-NimoteCode 是一款移动优先 IDE，让你在手机或平板上完成开发、调试与交付。
+**AI-Powered Mobile SSH IDE for Real Development Workflows**
 
-## 为什么选择 NimoteCode
+NimoteCode 是一款面向开发者与运维工程师的 **移动端 SSH IDE**，让你在手机或平板上也能完成接近桌面级的开发、调试与交付。
 
-- 一个工作区打通编码、终端、Source Control、AI 与排障
-- 面向真实 SSH 服务器工作流，而非轻量玩具编辑
-- 借助 LSP、Debug、Timeline 快速定位并修复问题
-- 针对移动端长时间开发优化了键盘、排版与面板协同
+它不是编辑器，而是一个完整的 **远程开发 + AI 驱动工程工作台**。
 
-## 你可以完成什么
+---
 
-- 连接本地或远程工作区并立即编辑项目文件
-- 在多标签终端执行构建、测试、部署命令
-- 在 Source Control 中完成提交、同步、分支与差异审查
-- 使用 AI Chat 与 AI Agent 做解释、重构与自动化执行
-- 通过 LSP、Debug、Tasks、Timeline 建立完整诊断闭环
+## ⚡ 为什么选择 NimoteCode
 
-## 面向真实交付场景
+- 一个统一工作区，集成 **Code Editor / Terminal / Git / AI / Debug**
+- 原生支持真实 **SSH 远程开发工作流（生产级环境）**
+- 深度集成 **LSP、Debug、Tasks、Timeline**，快速定位复杂问题
+- 内置 AI Copilot + Agent：解释代码、重构系统、执行任务、自动修复
+- 为移动端重构开发体验：多面板协同、键盘优化、平板分屏支持
 
-NimoteCode 重点支持以下高价值场景：
+---
 
-1. 离开电脑时进行远程热修复
-2. 值班期间快速定位线上问题
-3. 在移动端完成日常提交与代码同步
-4. 用 AI 自动化重复工程操作
+## 🧠 AI 驱动开发体验
+
+- AI Code Explain：快速理解复杂代码逻辑
+- AI Refactor：自动优化与重构代码结构
+- AI Fix (LSP)：基于诊断信息自动修复问题
+- AI Terminal：理解并生成 Shell 命令
+- AI Timeline Analysis：分析代码变更与问题来源
+- AI Agent：跨文件执行开发与运维任务
+
+---
+
+## 🛠 你可以用 NimoteCode 做什么
+
+- SSH 连接远程服务器 / 本地工作区并直接开发
+- 在多标签 Terminal 中执行 build / test / deploy
+- 使用 Git 完成提交、分支管理、代码审查与同步
+- 在移动端完成日常开发与紧急修复（Hotfix）
+- 通过 AI 自动化重复工程操作与排障流程
+
+---
+
+## 🌍 面向真实生产场景
+
+NimoteCode 专为真实工程环境设计，而不是学习或玩具工具：
+
+- 🔥 线上故障紧急修复（Incident / Hotfix）
+- 📡 On-call 值班快速排障
+- 📱 移动端远程开发与代码提交
+- ⚙️ 自动化运维与脚本执行
+- 🧩 分布式系统问题定位与调试
+
+---
 
 ## 下一步阅读
 

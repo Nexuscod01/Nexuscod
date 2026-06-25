@@ -172,8 +172,8 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'NimoteCode',
     logo: {
-      light: '/logo-light.png',
-      dark: '/logo-dark.png'
+      light: '/app_icon.png',
+      dark: '/app_icon.png'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nimotecode' },

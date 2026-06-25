@@ -11,39 +11,38 @@ hero:
   actions: []
 ---
 
-<section class="home-page-hero home-page-hero-centered">
-  <div class="home-page-hero-copy">
-    <p class="home-page-badge">iPhone と Android に対応</p>
-    <div class="home-page-logo-lockup">
-      <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo">
-      <span class="home-page-brand">NimoteCode</span>
+<section class="home-page-hero">
+  <div class="home-page-hero-shell">
+    <div class="home-page-hero-copy">
+      <p class="home-page-badge">iPhone と Android に対応</p>
+      <div class="home-page-logo-lockup">
+        <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo">
+        <span class="home-page-brand">NimoteCode</span>
+      </div>
+      <h1 class="home-page-title">ただのコードエディタではない。<br>本物の開発ワークスペースです。</h1>
+      <p class="home-page-subtitle">SSH ワークフロー、実コード編集、Git レビュー、AI 支援をひとつのモバイル優先 IDE に統合します。</p>
+      <div class="home-page-actions">
+        <a href="/ja/download" class="home-page-btn primary">NimoteCode を入手</a>
+        <a href="/ja/docs/quick-start" class="home-page-btn secondary">クイックスタート</a>
+      </div>
     </div>
-    <h1 class="home-page-title">スマホの本格開発ワークスペース。</h1>
-    <p class="home-page-subtitle">コード編集、SSH 端末、Git レビュー、AI への質問、ワークスペース同期を、ひとつのクリーンなモバイルアプリで行えます。</p>
-    <div class="home-page-actions">
-      <a href="/ja/download" class="home-page-btn primary">ダウンロード</a>
-      <a href="/ja/docs/quick-start" class="home-page-btn secondary">クイックスタート</a>
-    </div>
-  </div>
-
-  <div class="home-page-hero-visual">
-    <div class="home-page-device-stage">
-      <div class="home-page-device-strip" aria-label="NimoteCode product screenshots">
-        <figure class="home-page-device home-page-device-hero">
-          <div class="home-page-device-frame">
-            <img src="/screenshots/p1.png" alt="NimoteCode モバイル IDE のスクリーンショット">
-          </div>
-        </figure>
-        <figure class="home-page-device home-page-device-hero">
-          <div class="home-page-device-frame">
-            <img src="/screenshots/p2.png" alt="NimoteCode SSH 端末のスクリーンショット">
-          </div>
-        </figure>
-        <figure class="home-page-device home-page-device-hero">
-          <div class="home-page-device-frame">
-            <img src="/screenshots/p3.png" alt="NimoteCode Git とワークスペースツールのスクリーンショット">
-          </div>
-        </figure>
+    <div class="home-page-hero-stack" aria-label="主要な製品ハイライト">
+      <article class="home-page-signal-card home-page-signal-card-primary">
+        <p class="home-page-feature-label">Mobile IDE</p>
+        <h2>タッチ中心でも、デスクトップ級の開発フロー。</h2>
+        <p>ワークスペースを開き、端末に入り、コードを直し、ノート PC がない場面でも流れを止めません。</p>
+      </article>
+      <div class="home-page-signal-row">
+        <article class="home-page-signal-card">
+          <p class="home-page-feature-label">SSH + Terminal</p>
+          <h3>すぐ接続</h3>
+          <p>実サーバーに入り、コマンドを実行し、ログを確認します。</p>
+        </article>
+        <article class="home-page-signal-card">
+          <p class="home-page-feature-label">Git + AI</p>
+          <h3>文脈ごと出荷</h3>
+          <p>差分確認、修正方針の整理、コミットまでモバイルで完結します。</p>
+        </article>
       </div>
     </div>
   </div>
@@ -51,9 +50,9 @@ hero:
 
 <section class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">デモ</p>
-    <h2 class="home-page-section-title">モバイル開発の流れを見る。</h2>
-    <p class="home-page-section-copy">SSH、コード編集、端末操作、Git レビュー、AI 支援がひとつのワークスペースで連携します。</p>
+    <p class="home-page-eyebrow">製品デモ</p>
+    <h2 class="home-page-section-title">実際のモバイル hotfix フローを見る。</h2>
+    <p class="home-page-section-copy">SSH 接続、コード修正、端末実行、Git レビュー、AI 支援までをひとつのワークスペースで進められます。</p>
   </div>
   <div class="home-page-video">
     <div class="home-page-video-shell">
@@ -61,77 +60,93 @@ hero:
         Your browser does not support the video tag.
       </video>
     </div>
-    <p class="home-page-video-meta">製品デモ · フル幅プレイヤー · モバイル対応</p>
   </div>
 </section>
-
-<section class="home-page-section home-page-section-tight">
-  <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">主要ワークフロー</p>
-    <h2 class="home-page-section-title">確認、修正、出荷までをモバイルで。</h2>
-    <p class="home-page-section-copy">アプリストア訪問者にも開発者にも、数秒で価値が伝わるように整理しています。</p>
-  </div>
-
-  <div class="home-page-feature-grid">
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Terminal</p>
-      <h3>実環境へ SSH 接続</h3>
-      <p>サーバーや開発環境に入り、コマンド実行、ログ確認、リモート作業を進められます。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Git</p>
-      <h3>変更を確認してコミット</h3>
-      <p>diff、ステージング、ブランチ操作をコードの近くで扱えます。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">AI Assistant</p>
-      <h3>文脈のある AI 支援</h3>
-      <p>コードの説明、原因調査、複数ステップの修正を AI に相談できます。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Workspace</p>
-      <h3>作業状態を同期</h3>
-      <p>スマホ、タブレット、デスクトップの間でプロジェクトと文脈を保てます。</p>
-    </article>
-  </div>
-</section>
-
-<PricingFeatureSystem lang="ja" />
 
 <section class="home-page-section">
   <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">製品画面</p>
-    <h2 class="home-page-section-title">実際の画面を大きく見せます。</h2>
-    <p class="home-page-section-copy">統一された余白とデバイス表示で、NimoteCode の操作感をすぐに理解できます。</p>
+    <p class="home-page-eyebrow">コアワークフロー</p>
+    <h2 class="home-page-section-title">本番対応の仕事をモバイルから進めるための設計。</h2>
+    <p class="home-page-section-copy">接続、確認、修正、検証、出荷までを無駄なくつなぎます。</p>
   </div>
 
-  <div class="home-page-gallery">
-    <figure class="home-page-device home-page-device-large">
-      <div class="home-page-device-frame">
-        <img src="/screenshots/p1.png" alt="NimoteCode コードエディタのスクリーンショット">
-      </div>
-      <figcaption>コード編集とプロジェクト文脈。</figcaption>
-    </figure>
-    <figure class="home-page-device">
-      <div class="home-page-device-frame">
-        <img src="/screenshots/p2.png" alt="NimoteCode SSH 端末のスクリーンショット">
-      </div>
-      <figcaption>本番作業に使える SSH 端末。</figcaption>
-    </figure>
-    <figure class="home-page-device">
-      <div class="home-page-device-frame">
-        <img src="/screenshots/p3.png" alt="NimoteCode Git とツールのスクリーンショット">
-      </div>
-      <figcaption>Git、ツール、ワークスペース操作。</figcaption>
-    </figure>
+  <div class="home-page-feature-grid home-page-feature-grid-priority">
+    <article class="home-page-feature-card home-page-feature-card-ai">
+      <p class="home-page-feature-label">AI Assistant</p>
+      <h3>ワークスペース文脈を保ったまま AI と変更を進める。</h3>
+      <p>コード説明、原因調査、複数ステップの修正をアプリ内で完結できます。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Terminal</p>
+      <h3>実環境で作業する</h3>
+      <p>サーバーや開発マシンに SSH 接続し、必要なコマンドをその場で実行します。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Git</p>
+      <h3>差分確認からコミットまで明快</h3>
+      <p>diff、staging、バージョン管理をコードの近くで処理できます。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Workspace Sync</p>
+      <h3>途中の作業を持ち運ぶ</h3>
+      <p>プロジェクト状態と作業文脈をモバイルの流れに合わせて維持します。</p>
+    </article>
   </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-positioning">
+    <p>ただのコードエディタではない。</p>
+    <p>本物の開発ワークスペースです。</p>
+  </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-section-head home-page-section-head-centered">
+    <p class="home-page-eyebrow">ユースケース</p>
+    <h2 class="home-page-section-title">緊急性が高く、実務に近いフローのために作られています。</h2>
+    <p class="home-page-section-copy">ただ見るためではなく、すぐ動く必要がある場面で価値が伝わります。</p>
+  </div>
+
+  <div class="home-page-scenario-grid">
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Hotfix</p>
+      <h3><a href="/use-cases/remote-hotfix">スマホから本番修正</a></h3>
+      <p>SSH 接続、編集、検証、コミットまでをノート PC なしで進めます。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">On-call</p>
+      <h3><a href="/use-cases/on-call-diagnostics">デスクを離れても障害対応</a></h3>
+      <p>ログ確認と診断ループを移動中でも継続できます。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">AI Workflow</p>
+      <h3><a href="/use-cases/ai-agent">AI を実開発フローに入れる</a></h3>
+      <p>AI Chat、AI Agent、端末ツール、安全制御を組み合わせます。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">Docs</p>
+      <h3><a href="/ja/docs">詳しく知りたい時はドキュメントへ</a></h3>
+      <p>SSH、エディタ、Git、AI、デバッグ、Tasks、同期のガイドを確認できます。</p>
+    </article>
+  </div>
+</section>
+
+<section class="home-page-section">
+  <div class="home-page-section-head home-page-section-head-centered">
+    <p class="home-page-eyebrow">価格プレビュー</p>
+    <h2 class="home-page-section-title">Free で始めて、Pro で完全なモバイル IDE を解放。</h2>
+    <p class="home-page-section-copy">無料の基礎機能と、Pro で広がる実務向けフローを絞って比較できます。</p>
+  </div>
+
+  <PricingFeatureSystem lang="ja" mode="preview" />
 </section>
 
 <section class="home-page-section">
   <div class="home-page-cta">
     <p class="home-page-eyebrow">はじめる</p>
-    <h2 class="home-page-cta-title">ポケットから開発環境を開く。</h2>
-    <p class="home-page-cta-text">NimoteCode はコード編集、端末、Git、AI 支援、同期をモバイル優先のワークフローにまとめます。</p>
+    <h2 class="home-page-cta-title">本物の開発ワークスペースを持ち歩く。</h2>
+    <p class="home-page-cta-text">開発者や運用担当が、モバイルから確認、修正、出荷まで進めるための設計です。</p>
     <div class="home-page-actions">
       <a href="/ja/download" class="home-page-btn primary">NimoteCode を入手</a>
       <a href="/ja/docs/quick-start" class="home-page-btn secondary">ドキュメント</a>

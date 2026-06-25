@@ -6,14 +6,16 @@ type Locale = keyof typeof translations
 
 const props = defineProps<{
   lang?: Locale
+  mode?: 'full' | 'preview'
 }>()
 
 const copy = computed(() => translations[props.lang || 'en'] || translations.en)
+const showFeatures = computed(() => props.mode !== 'preview')
 </script>
 
 <template>
   <div class="pricing-feature-system">
-    <section class="home-page-section dense alt pf-section">
+    <section v-if="showFeatures" class="home-page-section dense alt pf-section">
       <div class="home-page-section-head">
         <p class="home-page-eyebrow">{{ copy.features.eyebrow }}</p>
         <h2 class="home-page-section-title">{{ copy.features.title }}</h2>
