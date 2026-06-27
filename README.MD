@@ -61,7 +61,7 @@ Everything is designed around real mobile development workflows: focused panels,
 
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=SlzmbOsNGmA">
+  <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s">
     <img src="docs/public/screenshots/NimoteCode_BETA.jpg" alt="Watch NimoteCode demo" width="100%">
   </a>
 </p>

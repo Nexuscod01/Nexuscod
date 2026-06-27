@@ -56,7 +56,7 @@ hero:
   </div>
   <div class="home-page-video">
     <div class="home-page-video-shell">
-      <video class="home-page-video-frame" src="/screenshots/NimoteCode_BETA.mp4" poster="/screenshots/NimoteCode_BETA.jpg" controls preload="metadata" playsinline>
+      <video class="home-page-video-frame" src="/screenshots/NimoteCode_DEMO_Video.mp4" poster="/screenshots/NimoteCode_BETA.jpg" controls preload="metadata" playsinline>
         Your browser does not support the video tag.
       </video>
     </div>
