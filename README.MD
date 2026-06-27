@@ -31,6 +31,10 @@ Build, SSH, Terminal, Git and AI — all from your phone & tablet.
 </p>
 
 ## Overview
+> 📢 **NimoteCode is now available on Google Play!**  
+> 🍏 The iOS version is currently under App Store review and will be released soon.
+[![Google Play](https://img.shields.io/badge/Google_Play-Available-success?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nimote.nimotecode)
+![App Store](https://img.shields.io/badge/App_Store-Coming_Soon-blue?logo=apple)
 
 **NimoteCode** is a mobile-first IDE designed for developers who want a real development environment on phones and tablets.
 
@@ -53,19 +57,21 @@ Everything is designed around real mobile development workflows: focused panels,
 
 ## Preview
 
+### Screeshots
 <p align="center">
   <img src="docs/public/screenshots/p1.png" alt="NimoteCode file explorer on phone" width="100%">
   <img src="docs/public/screenshots/p2.png" alt="NimoteCode file explorer on phone" width="100%">
   <img src="docs/public/screenshots/p3.png" alt="NimoteCode file explorer on phone" width="100%">
 </p>
 
-
+### DEMO Video
 <p align="center">
   <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s">
-    <img src="docs/public/screenshots/NimoteCode_BETA.jpg" alt="Watch NimoteCode demo" width="100%">
+    <img src="docs/public/screenshots/NimoteCode_Promotion.jpg" alt="Watch NimoteCode demo" width="100%">
   </a>
 </p>
 
+Youtube: https://www.youtube.com/watch?v=cTpxPqJwo_s
 
 ## Features
 
@@ -107,14 +113,10 @@ Start free with the essentials for mobile development. Upgrade to Pro when you n
 
 ## Availability
 
-NimoteCode supports **iOS** and **Android**. Store release is currently in progress.
-
 | Platform | Status |
 | --- | --- |
-| **iOS** | App Store listing in progress |
-| **Android** | Google Play listing in progress |
-
-Download links will be added when the store pages are live.
+| **iOS** | ![App Store](https://img.shields.io/badge/App_Store-Coming_Soon-blue?logo=apple) |
+| **Android** | [![Google Play](https://img.shields.io/badge/Google_Play-Available-success?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nimote.nimotecode) |
 
 ## Links
 

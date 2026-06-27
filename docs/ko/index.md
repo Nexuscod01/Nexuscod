@@ -56,9 +56,15 @@ hero:
   </div>
   <div class="home-page-video">
     <div class="home-page-video-shell">
-      <video class="home-page-video-frame" src="/screenshots/NimoteCode_DEMO_Video.mp4" poster="/screenshots/NimoteCode_BETA.jpg" controls preload="metadata" playsinline>
-        Your browser does not support the video tag.
-      </video>
+      <iframe
+        class="home-page-video-frame"
+        src="https://www.youtube.com/embed/cTpxPqJwo_s"
+        title="NimoteCode 제품 데모"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </div>
   </div>
 </section>
