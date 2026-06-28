@@ -21,34 +21,21 @@ hero:
       </div>
       <h1 class="home-page-title">No es un editor de código.<br>Es un espacio real de desarrollo.</h1>
       <p class="home-page-subtitle">Une flujos SSH, edición de código real, revisión Git y ayuda de IA en una sola IDE mobile-first.</p>
-      <div class="home-page-actions">
-        <a href="/es/download" class="home-page-btn primary">Descargar NimoteCode</a>
+      <div class="home-page-actions home-page-actions-hero">
+        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary" target="_blank" rel="noreferrer">Google Play</a>
+        <span class="home-page-btn tertiary" aria-disabled="true">App Store pronto</span>
         <a href="/es/docs/quick-start" class="home-page-btn secondary">Inicio rápido</a>
       </div>
     </div>
-    <div class="home-page-hero-stack" aria-label="Aspectos clave del producto">
-      <article class="home-page-signal-card home-page-signal-card-primary">
-        <p class="home-page-feature-label">Mobile IDE</p>
-        <h2>Flujos de nivel desktop, pensados para touch.</h2>
-        <p>Abre un workspace, entra a la terminal, corrige código y mantén el ritmo cuando el portátil no está cerca.</p>
-      </article>
-      <div class="home-page-signal-row">
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">SSH + Terminal</p>
-          <h3>Conecta rápido</h3>
-          <p>Entra a servidores reales, ejecuta comandos y revisa logs.</p>
-        </article>
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">Git + AI</p>
-          <h3>Entrega con contexto</h3>
-          <p>Revisa diffs, razona correcciones y confirma cambios desde móvil.</p>
-        </article>
-      </div>
+    <div class="home-page-store-showcase" aria-hidden="true">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-google">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-apple">
     </div>
+    <a href="#product-demo" class="home-page-scroll-hint">Ver demo</a>
   </div>
 </section>
 
-<section class="home-page-section home-page-video-section">
+<section id="product-demo" class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">Demo del producto</p>
     <h2 class="home-page-section-title">Mira un flujo real de hotfix en móvil.</h2>

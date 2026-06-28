@@ -77,7 +77,9 @@
   pointer-events: none;
   background:
     linear-gradient(90deg, rgba(2, 6, 23, 0.78) 0%, rgba(2, 6, 23, 0.6) 34%, rgba(2, 6, 23, 0.26) 58%, rgba(2, 6, 23, 0.12) 100%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(15, 23, 42, 0.08) 28%, rgba(15, 23, 42, 0.26) 100%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(15, 23, 42, 0.08) 28%, rgba(15, 23, 42, 0.26) 100%),
+    radial-gradient(circle at 16% 18%, rgba(255, 255, 255, 0.12), transparent 28%),
+    radial-gradient(circle at 82% 14%, rgba(103, 232, 249, 0.1), transparent 24%);
 }
 
 .home-page-hero > .home-page-hero-frame {
@@ -89,7 +91,7 @@
   z-index: 3;
   max-width: var(--nimote-container);
   margin: 0 auto;
-  padding: 56px 28px 28px;
+  padding: 56px 28px 120px;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 28px;
@@ -234,6 +236,117 @@
   margin-top: 32px;
 }
 
+.home-page-video-shell::before,
+.home-page-feature-card::before,
+.home-page-link-card::before,
+.home-page-cta::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.18), transparent 26%, transparent 72%, rgba(255, 255, 255, 0.06)),
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 34%);
+  opacity: 0.9;
+}
+
+.home-page-actions-hero {
+  max-width: 540px;
+  gap: 14px;
+}
+
+.home-page-btn.tertiary {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
+    rgba(15, 23, 42, 0.12);
+  color: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 10px 24px rgba(2, 6, 23, 0.12);
+  cursor: default;
+}
+
+.home-page-store-showcase {
+  position: absolute;
+  left: 50%;
+  bottom: 48px;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 18px;
+  transform: translateX(-50%);
+  opacity: 0.94;
+  pointer-events: none;
+}
+
+.home-page-store-showcase-badge {
+  display: block;
+  width: auto;
+  height: 42px;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 10px 26px rgba(2, 6, 23, 0.22));
+}
+
+.home-page-store-showcase-badge-apple {
+  opacity: 0.9;
+}
+
+.home-page-scroll-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  z-index: 4;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  font-size: 0.84rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.home-page-scroll-hint::before {
+  content: "";
+  width: 20px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.home-page-scroll-hint::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+  animation: nimote-scroll-nudge 1.8s ease-in-out infinite;
+}
+
+.home-page-scroll-hint:hover {
+  color: #ffffff;
+}
+
+@keyframes nimote-scroll-nudge {
+  0%,
+  100% {
+    transform: rotate(45deg) translateY(-1px);
+    opacity: 0.66;
+  }
+  50% {
+    transform: rotate(45deg) translateY(3px);
+    opacity: 1;
+  }
+}
+
 .home-page-hero .home-page-signal-card,
 .home-page-hero .home-page-signal-card-primary {
   padding: 20px 20px 20px 22px;
@@ -320,11 +433,12 @@
 .home-page-feature-card,
 .home-page-link-card {
   border-radius: var(--nimote-radius-2xl);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 0;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.08)),
     linear-gradient(135deg, rgba(168, 85, 247, 0.12), rgba(79, 70, 229, 0.04));
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+  box-shadow:
+    0 16px 40px rgba(15, 23, 42, 0.16);
   backdrop-filter: blur(10px);
   transition: transform 0.4s var(--nimote-ease), border-color 0.4s var(--nimote-ease),
     box-shadow 0.4s var(--nimote-ease);
@@ -425,9 +539,13 @@
 
 .home-page-btn.secondary {
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.06)),
+    rgba(255, 255, 255, 0.06);
   border-color: rgba(255, 255, 255, 0.22);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -543,9 +661,12 @@
   margin: 0 auto;
   border-radius: 32px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: #020617;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  border: 0;
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.9), rgba(2, 6, 23, 0.94)),
+    #020617;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.35);
   transition: transform 0.4s var(--nimote-ease), box-shadow 0.4s var(--nimote-ease);
 }
 .home-page-video-shell:hover {
@@ -593,12 +714,13 @@
   text-align: center;
   padding: 64px 32px;
   border-radius: 40px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 0;
   background:
     linear-gradient(180deg, rgba(15, 23, 42, 0.84), rgba(15, 23, 42, 0.66)),
     radial-gradient(circle at top, rgba(168, 85, 247, 0.24), transparent 46%),
     radial-gradient(circle at bottom right, rgba(6, 182, 212, 0.18), transparent 46%);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -657,19 +779,21 @@ html:not(.dark) .home-page-feature-label {
 
 html:not(.dark) .home-page-hero::after {
   background:
-    linear-gradient(90deg, rgba(2, 6, 23, 0.72) 0%, rgba(2, 6, 23, 0.54) 34%, rgba(2, 6, 23, 0.22) 58%, rgba(2, 6, 23, 0.1) 100%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(15, 23, 42, 0.08) 34%, rgba(15, 23, 42, 0.2) 100%);
+    linear-gradient(90deg, rgba(2, 6, 23, 0.66) 0%, rgba(2, 6, 23, 0.5) 34%, rgba(2, 6, 23, 0.2) 58%, rgba(2, 6, 23, 0.08) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(15, 23, 42, 0.08) 34%, rgba(15, 23, 42, 0.16) 100%),
+    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.16), transparent 28%),
+    radial-gradient(circle at 82% 14%, rgba(255, 255, 255, 0.08), transparent 22%);
 }
 
 html:not(.dark) .home-page-signal-card,
 html:not(.dark) .home-page-feature-card,
 html:not(.dark) .home-page-link-card,
 html:not(.dark) .home-page-cta {
-  border-color: rgba(15, 23, 42, 0.08);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.94)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 250, 252, 0.88)),
     linear-gradient(135deg, rgba(168, 85, 247, 0.04), rgba(79, 70, 229, 0.02));
-  box-shadow: 0 18px 44px rgba(15, 23, 42, 0.08);
+  box-shadow:
+    0 18px 44px rgba(15, 23, 42, 0.08);
 }
 html:not(.dark) .home-page-signal-card:hover,
 html:not(.dark) .home-page-feature-card:hover,
@@ -703,8 +827,11 @@ html:not(.dark) .home-page-positioning p:last-child {
 }
 
 html:not(.dark) .home-page-video-shell {
-  border-color: rgba(15, 23, 42, 0.1);
-  box-shadow: 0 28px 72px rgba(15, 23, 42, 0.14);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.88)),
+    #f8fafc;
+  box-shadow:
+    0 28px 72px rgba(15, 23, 42, 0.14);
 }
 
 /* Secondary button keeps glassy look across modes (works on hero/CTA/sections) */
@@ -722,6 +849,15 @@ html:not(.dark) .home-page-hero .home-page-subtitle {
 
 html:not(.dark) .home-page-hero .home-page-subtitle {
   color: rgba(255, 255, 255, 0.9);
+}
+
+html:not(.dark) .home-page-btn.tertiary {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.52)),
+    rgba(255, 255, 255, 0.2);
+  color: rgba(15, 23, 42, 0.72);
+  border-color: rgba(148, 163, 184, 0.22);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
 }
 
 html:not(.dark) .home-page-hero .home-page-signal-card,

@@ -21,34 +21,21 @@ hero:
       </div>
       <h1 class="home-page-title">ただのコードエディタではない。<br>本物の開発ワークスペースです。</h1>
       <p class="home-page-subtitle">SSH ワークフロー、実コード編集、Git レビュー、AI 支援をひとつのモバイル優先 IDE に統合します。</p>
-      <div class="home-page-actions">
-        <a href="/ja/download" class="home-page-btn primary">NimoteCode を入手</a>
+      <div class="home-page-actions home-page-actions-hero">
+        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary" target="_blank" rel="noreferrer">Google Play</a>
+        <span class="home-page-btn tertiary" aria-disabled="true">App Store 近日公開</span>
         <a href="/ja/docs/quick-start" class="home-page-btn secondary">クイックスタート</a>
       </div>
     </div>
-    <div class="home-page-hero-stack" aria-label="主要な製品ハイライト">
-      <article class="home-page-signal-card home-page-signal-card-primary">
-        <p class="home-page-feature-label">Mobile IDE</p>
-        <h2>タッチ中心でも、デスクトップ級の開発フロー。</h2>
-        <p>ワークスペースを開き、端末に入り、コードを直し、ノート PC がない場面でも流れを止めません。</p>
-      </article>
-      <div class="home-page-signal-row">
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">SSH + Terminal</p>
-          <h3>すぐ接続</h3>
-          <p>実サーバーに入り、コマンドを実行し、ログを確認します。</p>
-        </article>
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">Git + AI</p>
-          <h3>文脈ごと出荷</h3>
-          <p>差分確認、修正方針の整理、コミットまでモバイルで完結します。</p>
-        </article>
-      </div>
+    <div class="home-page-store-showcase" aria-hidden="true">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-google">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-apple">
     </div>
+    <a href="#product-demo" class="home-page-scroll-hint">デモを見る</a>
   </div>
 </section>
 
-<section class="home-page-section home-page-video-section">
+<section id="product-demo" class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">製品デモ</p>
     <h2 class="home-page-section-title">実際のモバイル hotfix フローを見る。</h2>

@@ -21,34 +21,21 @@ hero:
       </div>
       <h1 class="home-page-title">不是代码编辑器。<br>而是真实开发工作区。</h1>
       <p class="home-page-subtitle">把 SSH 工作流、生产代码编辑、Git 审查和 AI 协作放进同一个移动优先 IDE。</p>
-      <div class="home-page-actions">
-        <a href="/zh/download" class="home-page-btn primary">下载 NimoteCode</a>
+      <div class="home-page-actions home-page-actions-hero">
+        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary" target="_blank" rel="noreferrer">Google Play 下载</a>
+        <span class="home-page-btn tertiary" aria-disabled="true">App Store 即将上线</span>
         <a href="/zh/docs/quick-start" class="home-page-btn secondary">查看快速入门</a>
       </div>
     </div>
-    <div class="home-page-hero-stack" aria-label="核心产品亮点">
-      <article class="home-page-signal-card home-page-signal-card-primary">
-        <p class="home-page-feature-label">Mobile IDE</p>
-        <h2>面向触控设计，也能承载桌面级工作流。</h2>
-        <p>打开工作区、进入终端、修复代码，在没有电脑时也能保持开发节奏。</p>
-      </article>
-      <div class="home-page-signal-row">
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">SSH + Terminal</p>
-          <h3>快速连接</h3>
-          <p>进入真实服务器，运行命令，检查日志。</p>
-        </article>
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">Git + AI</p>
-          <h3>带着上下文交付</h3>
-          <p>在手机上审查 diff、分析修复方案并完成提交。</p>
-        </article>
-      </div>
+    <div class="home-page-store-showcase" aria-hidden="true">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-google">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-apple">
     </div>
+    <a href="#product-demo" class="home-page-scroll-hint">下滑查看演示</a>
   </div>
 </section>
 
-<section class="home-page-section home-page-video-section">
+<section id="product-demo" class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">产品演示</p>
     <h2 class="home-page-section-title">看一遍真实的移动热修流程。</h2>

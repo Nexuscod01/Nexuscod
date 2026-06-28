@@ -21,34 +21,21 @@ hero:
       </div>
       <h1 class="home-page-title">Not a code editor.<br>A real development workspace.</h1>
       <p class="home-page-subtitle">Run SSH workflows, edit production code, review Git, and work with AI in one mobile-first IDE.</p>
-      <div class="home-page-actions">
-        <a href="/download" class="home-page-btn primary">Download NimoteCode</a>
+      <div class="home-page-actions home-page-actions-hero">
+        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary" target="_blank" rel="noreferrer">Get on Google Play</a>
+        <span class="home-page-btn tertiary" aria-disabled="true">App Store Soon</span>
         <a href="/docs/quick-start" class="home-page-btn secondary">View Quick Start</a>
       </div>
     </div>
-    <div class="home-page-hero-stack" aria-label="Core product highlights">
-      <article class="home-page-signal-card home-page-signal-card-primary">
-        <p class="home-page-feature-label">Mobile IDE</p>
-        <h2>Desktop-grade workflows, designed for touch.</h2>
-        <p>Open a workspace, jump into terminal, fix code, and stay in flow when the laptop is not nearby.</p>
-      </article>
-      <div class="home-page-signal-row">
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">SSH + Terminal</p>
-          <h3>Connect fast</h3>
-          <p>Enter real servers, run commands, inspect logs.</p>
-        </article>
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">Git + AI</p>
-          <h3>Ship with context</h3>
-          <p>Review diffs, reason through fixes, commit from mobile.</p>
-        </article>
-      </div>
+    <div class="home-page-store-showcase" aria-hidden="true">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-google">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-apple">
     </div>
+    <a href="#product-demo" class="home-page-scroll-hint">Scroll to Demo</a>
   </div>
 </section>
 
-<section class="home-page-section home-page-video-section">
+<section id="product-demo" class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">Product Demo</p>
     <h2 class="home-page-section-title">See a real mobile hotfix workflow.</h2>

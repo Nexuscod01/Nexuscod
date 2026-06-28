@@ -21,34 +21,21 @@ hero:
       </div>
       <h1 class="home-page-title">단순한 코드 편집기가 아닙니다.<br>실제 개발 워크스페이스입니다.</h1>
       <p class="home-page-subtitle">SSH 워크플로, 실코드 편집, Git 검토, AI 보조를 하나의 모바일 우선 IDE로 묶었습니다.</p>
-      <div class="home-page-actions">
-        <a href="/ko/download" class="home-page-btn primary">NimoteCode 받기</a>
+      <div class="home-page-actions home-page-actions-hero">
+        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary" target="_blank" rel="noreferrer">Google Play</a>
+        <span class="home-page-btn tertiary" aria-disabled="true">App Store 출시 예정</span>
         <a href="/ko/docs/quick-start" class="home-page-btn secondary">빠른 시작</a>
       </div>
     </div>
-    <div class="home-page-hero-stack" aria-label="핵심 제품 하이라이트">
-      <article class="home-page-signal-card home-page-signal-card-primary">
-        <p class="home-page-feature-label">Mobile IDE</p>
-        <h2>터치 중심이지만, 데스크톱급 워크플로.</h2>
-        <p>워크스페이스를 열고, 터미널에 들어가고, 코드를 고치며, 노트북이 없을 때도 흐름을 유지합니다.</p>
-      </article>
-      <div class="home-page-signal-row">
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">SSH + Terminal</p>
-          <h3>빠르게 접속</h3>
-          <p>실서버에 들어가 명령을 실행하고 로그를 확인합니다.</p>
-        </article>
-        <article class="home-page-signal-card">
-          <p class="home-page-feature-label">Git + AI</p>
-          <h3>문맥과 함께 배포</h3>
-          <p>모바일에서 diff를 검토하고 수정 방향을 잡아 커밋합니다.</p>
-        </article>
-      </div>
+    <div class="home-page-store-showcase" aria-hidden="true">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-google">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-apple">
     </div>
+    <a href="#product-demo" class="home-page-scroll-hint">데모 보기</a>
   </div>
 </section>
 
-<section class="home-page-section home-page-video-section">
+<section id="product-demo" class="home-page-section home-page-video-section">
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">제품 데모</p>
     <h2 class="home-page-section-title">실제 모바일 핫픽스 흐름을 확인하세요.</h2>
