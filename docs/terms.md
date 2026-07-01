@@ -6,78 +6,117 @@ title: Terms of Service | NimoteCode
 
 **Effective Date:** April 16, 2026
 
-These Terms of Service govern your use of NimoteCode.
+These Terms of Service ("Terms") govern your access to and use of NimoteCode ("Application", "we", "us").
 
-## 1. Service Overview
+By installing or using NimoteCode, you agree to these Terms and the applicable third-party platform terms, including:
 
-NimoteCode is a mobile IDE product with local/remote workspace workflows, editor and terminal tools, source control features, AI integrations, task execution, and timeline diagnostics.
+- Apple Media Services Terms and Apple Standard EULA  
+  https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
-## 2. Eligibility and Account Responsibility
+- Google Play Terms of Service  
+  https://play.google.com/about/play-terms/
 
-You are responsible for:
+If you do not agree to these Terms, do not use the Application.
 
-- Maintaining account and device security
-- Activity performed under your account
-- Compliance with applicable laws and third-party terms when using connected services
+---
 
-If you use third-party sign-in providers, their terms also apply.
+## 1. Service Description
 
-## 3. Subscriptions, Trials, and Billing
+NimoteCode is a mobile Integrated Development Environment (IDE) that provides local and remote SSH development workflows, code editing, terminal access, Git tools, AI-assisted features, task automation, and debugging utilities.
 
-- Some features are Pro-gated.
-- Subscription billing, renewal, cancellation, and refunds are managed by App Store / Google Play under their policies.
-- Entitlement state may be synchronized via RevenueCat and related backend verification.
-- Trial eligibility and anti-abuse controls may use device/account state.
+## 2. Eligibility
 
-## 4. Remote Access and Credentials
+You must be at least 13 years old (or the minimum legal age in your jurisdiction) to use this Application.
+
+You are responsible for maintaining the security of your account, device, credentials, and any actions performed under your account.
+
+## 3. Subscriptions, Billing, and Renewal
+
+Certain features require a paid subscription (e.g., NimoteCode Pro).
+
+- All payments are processed by Apple App Store or Google Play.
+- Subscriptions automatically renew unless canceled at least 24 hours before the end of the current billing period.
+- Your account will be charged within 24 hours prior to renewal at the then-current price.
+- You may manage or cancel subscriptions via Apple ID or Google Play settings.
+- Refunds are handled by Apple or Google according to their respective policies.
+- Purchases can be restored using the “Restore Purchases” function.
+- Subscription pricing may vary by region.
+
+## 4. Remote Systems and User Responsibility
 
 You are solely responsible for:
 
-- Your remote servers, SSH credentials, and permissions
-- Actions executed against your own infrastructure
-- Secure handling of keys, passwords, and secrets
+- Remote servers, SSH connections, and any infrastructure you access
+- Commands executed through the Application
+- Security of credentials, keys, and secrets
 
-## 5. AI Features and External Endpoints
+We do not store SSH credentials on our servers.
 
-NimoteCode can send content to AI providers configured by you.
+## 5. AI Features (Bring Your Own Key)
 
-You are responsible for:
+NimoteCode may support AI features through third-party providers.
 
-- Choosing appropriate provider endpoints
-- Protecting your API credentials
-- Reviewing AI-generated output before production use
-
-AI output may be inaccurate, incomplete, or unsuitable without validation.
+- You must provide your own API keys (“BYO Key” model)
+- We do not provide AI models, inference services, or usage credits
+- You are responsible for all third-party API usage costs
+- AI outputs may be incorrect and must not be used as the sole source of truth in production systems
 
 ## 6. Acceptable Use
 
-You agree not to use NimoteCode to:
+You agree not to:
 
-- Access systems or data without authorization
-- Distribute malware or perform unlawful activity
-- Abuse, disrupt, or attempt unauthorized exploitation of services
+- Access systems without authorization
+- Use the Application for illegal, harmful, or abusive activities
+- Attempt to reverse engineer, disrupt, or interfere with the Application
+- Abuse system resources, APIs, or infrastructure
 
 ## 7. Third-Party Services
 
-NimoteCode depends on third-party services and your selected endpoints. Their availability, behavior, and terms are outside NimoteCode’s direct control.
+The Application may integrate or interact with third-party services such as Git providers, SSH servers, or AI providers.
+
+We are not responsible for the availability, performance, or content of third-party services.
 
 ## 8. Privacy
 
-Your use of NimoteCode is also governed by the Privacy Policy.
+Your use of NimoteCode is also governed by our Privacy Policy:
 
-## 9. Suspension or Termination
+https://nimotecode.com/privacy
 
-We may suspend or limit access where needed for abuse prevention, security, legal compliance, or operational integrity.
+## 9. Suspension and Termination
 
-## 10. Disclaimer and Limitation of Liability
+We may suspend or terminate access to the Application at any time if required for:
 
-To the maximum extent permitted by law, NimoteCode is provided on an "as is" and "as available" basis, without warranties of uninterrupted service or fitness for a particular purpose.
+- Security protection
+- Legal compliance
+- Abuse prevention
+- System stability
 
-## 11. Changes to Terms
+## 10. Disclaimer of Warranties
 
-We may update these Terms. Continued use after updates means you accept the revised Terms.
+The Application is provided on an “AS IS” and “AS AVAILABLE” basis.
 
-## 12. Contact
+We do not guarantee uninterrupted operation, error-free performance, or complete data accuracy.
 
-- Email: nimotecode@gmail.com
-- GitHub Issues: https://github.com/nimotecode/nimote_issues/issues
+## 11. Limitation of Liability
+
+To the maximum extent permitted by law, we are not liable for indirect, incidental, or consequential damages.
+
+This includes data loss, system damage, or service interruptions.
+
+## 12. Export Compliance
+
+You agree to comply with all applicable export control laws and regulations.
+
+
+## 13. Governing Law
+
+These Terms are governed by the laws of the People's Republic of China, without regard to conflict of law principles.
+
+## 14. Changes to Terms
+
+We may update these Terms from time to time. Continued use of the Application constitutes acceptance of the updated Terms.
+
+## 15. Contact
+
+Email: nimotecode@gmail.com  
+GitHub: https://github.com/nimotecode/nimote_issues/issues

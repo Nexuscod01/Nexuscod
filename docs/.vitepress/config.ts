@@ -198,10 +198,11 @@ export default defineConfig({
         nav: [
           { text: 'Features', link: '/features' },
           { text: 'Use Cases', link: '/use-cases/' },
-          { text: 'Pro', link: '/pro' },
           { text: 'Docs', link: '/docs/quick-start' },
-          { text: 'Download', link: '/download' },
-          { text: 'Support', link: '/support' }
+          { text: 'Support', link: '/support' },
+          { text: 'Account Delete', link: '/account-delete' },
+          { text: 'Privacy', link: '/privacy' },
+          { text: 'Terms', link: '/terms' }
         ],
         sidebar: {
           '/': [
@@ -304,27 +305,35 @@ export default defineConfig({
               ]
             },
             {
-              text: '文档',
+              text: '日常开发',
               items: [
                 { text: 'SSH 远程开发', link: '/zh/docs/ssh' },
                 { text: '编辑器', link: '/zh/docs/editor' },
                 { text: '终端使用', link: '/zh/docs/terminal' },
                 { text: 'Source Control 工作流', link: '/zh/docs/source-control' },
-                { text: 'AI 助手', link: '/zh/docs/ai' },
-                { text: 'LSP 面板', link: '/zh/docs/lsp' },
-                { text: '调试面板', link: '/zh/docs/debug' },
-                { text: 'Tasks 面板', link: '/zh/docs/tasks' },
-                { text: 'Timeline 面板', link: '/zh/docs/timeline' },
-                { text: 'Sync / Cache 面板', link: '/zh/docs/sync-cache' },
-                { text: '设置', link: '/zh/docs/settings' },
-                { text: '配置', link: '/zh/docs/configuration' }
+                { text: 'Tasks 面板', link: '/zh/docs/tasks' }
               ]
             },
             {
-              text: '帮助',
+              text: 'AI 与诊断',
               items: [
+                { text: 'AI 助手', link: '/zh/docs/ai' },
+                { text: 'LSP 面板', link: '/zh/docs/lsp' },
+                { text: '调试面板', link: '/zh/docs/debug' },
+                { text: 'Timeline 面板', link: '/zh/docs/timeline' },
+                { text: 'Sync / Cache 面板', link: '/zh/docs/sync-cache' }
+              ]
+            },
+            {
+              text: '参考',
+              items: [
+                { text: '设置', link: '/zh/docs/settings' },
+                { text: '配置', link: '/zh/docs/configuration' },
                 { text: '常见问题', link: '/zh/docs/faq' },
-                { text: '支持', link: '/zh/support' }
+                { text: '支持', link: '/zh/support' },
+                { text: '隐私政策', link: '/zh/privacy' },
+                { text: '服务条款', link: '/zh/terms' },
+                { text: '账号删除', link: '/zh/account-delete' }
               ]
             }
           ]
@@ -342,6 +351,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '機能', link: '/ja/features' },
+          { text: 'ユースケース', link: '/ja/use-cases/' },
           { text: 'ドキュメント', link: '/ja/docs/quick-start' },
           { text: 'サポート', link: '/ja/support' },
           { text: 'アカウント削除', link: '/ja/account-delete' },
@@ -360,26 +370,34 @@ export default defineConfig({
               ]
             },
             {
-              text: 'ドキュメント',
+              text: '日常のワークフロー',
               items: [
                 { text: 'SSHリモート開発', link: '/ja/docs/ssh' },
                 { text: 'ターミナル使用', link: '/ja/docs/terminal' },
                 { text: 'Source Controlワークフロー', link: '/ja/docs/source-control' },
-                { text: 'AIアシスタント', link: '/ja/docs/ai' },
-                { text: 'LSPパネル', link: '/ja/docs/lsp' },
-                { text: 'デバッグパネル', link: '/ja/docs/debug' },
-                { text: 'Tasksパネル', link: '/ja/docs/tasks' },
-                { text: 'Timelineパネル', link: '/ja/docs/timeline' },
-                { text: 'Sync / Cacheパネル', link: '/ja/docs/sync-cache' },
-                { text: '設定', link: '/ja/docs/settings' },
-                { text: '構成', link: '/ja/docs/configuration' }
+                { text: 'Tasksパネル', link: '/ja/docs/tasks' }
               ]
             },
             {
-              text: 'ヘルプ',
+              text: 'AIと診断',
               items: [
+                { text: 'AIアシスタント', link: '/ja/docs/ai' },
+                { text: 'LSPパネル', link: '/ja/docs/lsp' },
+                { text: 'デバッグパネル', link: '/ja/docs/debug' },
+                { text: 'Timelineパネル', link: '/ja/docs/timeline' },
+                { text: 'Sync / Cacheパネル', link: '/ja/docs/sync-cache' }
+              ]
+            },
+            {
+              text: 'リファレンス',
+              items: [
+                { text: '設定', link: '/ja/docs/settings' },
+                { text: '構成', link: '/ja/docs/configuration' },
                 { text: 'FAQ', link: '/ja/docs/faq' },
-                { text: 'サポート', link: '/ja/support' }
+                { text: 'サポート', link: '/ja/support' },
+                { text: 'プライバシー', link: '/ja/privacy' },
+                { text: '利用規約', link: '/ja/terms' },
+                { text: 'アカウント削除', link: '/ja/account-delete' }
               ]
             }
           ]
@@ -397,10 +415,11 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '기능', link: '/ko/features' },
+          { text: '사용 사례', link: '/ko/use-cases/' },
           { text: '문서', link: '/ko/docs/quick-start' },
           { text: '지원', link: '/ko/support' },
           { text: '계정 삭제', link: '/ko/account-delete' },
-          { text: '개인정보', link: '/ko/privacy' },
+          { text: '개인정보 처리방침', link: '/ko/privacy' },
           { text: '이용 약관', link: '/ko/terms' }
         ],
         sidebar: {
@@ -415,26 +434,34 @@ export default defineConfig({
               ]
             },
             {
-              text: '문서',
+              text: '일상 워크플로우',
               items: [
                 { text: 'SSH 원격 개발', link: '/ko/docs/ssh' },
                 { text: '터미널 사용', link: '/ko/docs/terminal' },
                 { text: 'Source Control 워크플로우', link: '/ko/docs/source-control' },
-                { text: 'AI 어시스턴트', link: '/ko/docs/ai' },
-                { text: 'LSP 패널', link: '/ko/docs/lsp' },
-                { text: '디버그 패널', link: '/ko/docs/debug' },
-                { text: 'Tasks 패널', link: '/ko/docs/tasks' },
-                { text: 'Timeline 패널', link: '/ko/docs/timeline' },
-                { text: 'Sync / Cache 패널', link: '/ko/docs/sync-cache' },
-                { text: '설정', link: '/ko/docs/settings' },
-                { text: '구성', link: '/ko/docs/configuration' }
+                { text: 'Tasks 패널', link: '/ko/docs/tasks' }
               ]
             },
             {
-              text: '도움말',
+              text: 'AI 및 진단',
               items: [
+                { text: 'AI 어시스턴트', link: '/ko/docs/ai' },
+                { text: 'LSP 패널', link: '/ko/docs/lsp' },
+                { text: '디버그 패널', link: '/ko/docs/debug' },
+                { text: 'Timeline 패널', link: '/ko/docs/timeline' },
+                { text: 'Sync / Cache 패널', link: '/ko/docs/sync-cache' }
+              ]
+            },
+            {
+              text: '참조',
+              items: [
+                { text: '설정', link: '/ko/docs/settings' },
+                { text: '구성', link: '/ko/docs/configuration' },
                 { text: 'FAQ', link: '/ko/docs/faq' },
-                { text: '지원', link: '/ko/support' }
+                { text: '지원', link: '/ko/support' },
+                { text: '개인정보 처리방침', link: '/ko/privacy' },
+                { text: '이용 약관', link: '/ko/terms' },
+                { text: '계정 삭제', link: '/ko/account-delete' }
               ]
             }
           ]
@@ -452,6 +479,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Функции', link: '/ru/features' },
+          { text: 'Сценарии', link: '/ru/use-cases/' },
           { text: 'Документация', link: '/ru/docs/quick-start' },
           { text: 'Поддержка', link: '/ru/support' },
           { text: 'Удаление аккаунта', link: '/ru/account-delete' },
@@ -470,26 +498,34 @@ export default defineConfig({
               ]
             },
             {
-              text: 'Документация',
+              text: 'Повседневная работа',
               items: [
                 { text: 'SSH-разработка', link: '/ru/docs/ssh' },
                 { text: 'Использование терминала', link: '/ru/docs/terminal' },
                 { text: 'Source Control', link: '/ru/docs/source-control' },
-                { text: 'AI-ассистент', link: '/ru/docs/ai' },
-                { text: 'Панель LSP', link: '/ru/docs/lsp' },
-                { text: 'Панель Debug', link: '/ru/docs/debug' },
-                { text: 'Панель Tasks', link: '/ru/docs/tasks' },
-                { text: 'Панель Timeline', link: '/ru/docs/timeline' },
-                { text: 'Sync / Cache', link: '/ru/docs/sync-cache' },
-                { text: 'Настройки', link: '/ru/docs/settings' },
-                { text: 'Конфигурация', link: '/ru/docs/configuration' }
+                { text: 'Tasks', link: '/ru/docs/tasks' }
               ]
             },
             {
-              text: 'Помощь',
+              text: 'ИИ и диагностика',
               items: [
+                { text: 'AI-ассистент', link: '/ru/docs/ai' },
+                { text: 'Панель LSP', link: '/ru/docs/lsp' },
+                { text: 'Панель Debug', link: '/ru/docs/debug' },
+                { text: 'Панель Timeline', link: '/ru/docs/timeline' },
+                { text: 'Sync / Cache', link: '/ru/docs/sync-cache' }
+              ]
+            },
+            {
+              text: 'Справка',
+              items: [
+                { text: 'Настройки', link: '/ru/docs/settings' },
+                { text: 'Конфигурация', link: '/ru/docs/configuration' },
                 { text: 'FAQ', link: '/ru/docs/faq' },
-                { text: 'Поддержка', link: '/ru/support' }
+                { text: 'Поддержка', link: '/ru/support' },
+                { text: 'Конфиденциальность', link: '/ru/privacy' },
+                { text: 'Условия', link: '/ru/terms' },
+                { text: 'Удаление аккаунта', link: '/ru/account-delete' }
               ]
             }
           ]
@@ -507,6 +543,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Funciones', link: '/es/features' },
+          { text: 'Casos de uso', link: '/es/use-cases/' },
           { text: 'Documentación', link: '/es/docs/quick-start' },
           { text: 'Soporte', link: '/es/support' },
           { text: 'Eliminar cuenta', link: '/es/account-delete' },
@@ -525,26 +562,34 @@ export default defineConfig({
               ]
             },
             {
-              text: 'Documentación',
+              text: 'Flujo diario',
               items: [
                 { text: 'Desarrollo SSH', link: '/es/docs/ssh' },
                 { text: 'Uso del terminal', link: '/es/docs/terminal' },
                 { text: 'Source Control', link: '/es/docs/source-control' },
-                { text: 'Asistente AI', link: '/es/docs/ai' },
-                { text: 'Panel LSP', link: '/es/docs/lsp' },
-                { text: 'Panel Debug', link: '/es/docs/debug' },
-                { text: 'Panel Tasks', link: '/es/docs/tasks' },
-                { text: 'Panel Timeline', link: '/es/docs/timeline' },
-                { text: 'Sync / Cache', link: '/es/docs/sync-cache' },
-                { text: 'Ajustes', link: '/es/docs/settings' },
-                { text: 'Configuración', link: '/es/docs/configuration' }
+                { text: 'Tasks', link: '/es/docs/tasks' }
               ]
             },
             {
-              text: 'Ayuda',
+              text: 'IA y diagnóstico',
               items: [
+                { text: 'Asistente AI', link: '/es/docs/ai' },
+                { text: 'Panel LSP', link: '/es/docs/lsp' },
+                { text: 'Panel Debug', link: '/es/docs/debug' },
+                { text: 'Panel Timeline', link: '/es/docs/timeline' },
+                { text: 'Sync / Cache', link: '/es/docs/sync-cache' }
+              ]
+            },
+            {
+              text: 'Referencia',
+              items: [
+                { text: 'Ajustes', link: '/es/docs/settings' },
+                { text: 'Configuración', link: '/es/docs/configuration' },
                 { text: 'FAQ', link: '/es/docs/faq' },
-                { text: 'Soporte', link: '/es/support' }
+                { text: 'Soporte', link: '/es/support' },
+                { text: 'Privacidad', link: '/es/privacy' },
+                { text: 'Términos', link: '/es/terms' },
+                { text: 'Eliminar cuenta', link: '/es/account-delete' }
               ]
             }
           ]
