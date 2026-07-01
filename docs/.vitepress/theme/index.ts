@@ -4,19 +4,17 @@ import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import { type Theme } from 'vitepress'
 import './custom.css'
-
-// @ts-ignore - Tells TypeScript to ignore the missing type definitions for this specific plugin
+// @ts-ignore - The package does not ship TypeScript types.
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 
 const theme: Theme = {
   extends: DefaultTheme,
   Layout,
 
-  enhanceApp({ app }) {
-    // Only trigger tracking when the site is built and running in production
+  enhanceApp() {
     if (import.meta.env.PROD) {
       googleAnalytics({
-        id: 'G-JML9VGDMXJ', // Replace with your real ID
+        id: 'G-JML9VGDMXJ'
       })
     }
   }

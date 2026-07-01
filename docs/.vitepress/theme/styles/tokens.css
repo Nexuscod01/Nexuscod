@@ -12,10 +12,10 @@
   --vp-font-family-mono: "JetBrains Mono", "SF Mono", "Fira Code", "Roboto Mono", ui-monospace, monospace;
 
   /* VitePress brand hooks (kept for inline links & buttons) */
-  --vp-c-brand-1: #4f46e5;
-  --vp-c-brand-2: #06b6d4;
-  --vp-c-brand-3: #a855f7;
-  --vp-c-brand-soft: rgba(79, 70, 229, 0.08);
+  --vp-c-brand-1: #5350f5;
+  --vp-c-brand-2: #18c7d8;
+  --vp-c-brand-3: #9a7cf7;
+  --vp-c-brand-soft: rgba(83, 80, 245, 0.08);
 
   /* Fluid type scale */
   --nimote-fs-xs: 0.78rem;
@@ -50,52 +50,52 @@
   --nimote-radius-pill: 999px;
 
   /* Accent (refined indigo + cyan + violet triad) */
-  --nimote-accent: #4f46e5;
-  --nimote-accent-rgb: 79, 70, 229;
-  --nimote-accent-light: #6366f1;
+  --nimote-accent: #5350f5;
+  --nimote-accent-rgb: 83, 80, 245;
+  --nimote-accent-light: #6b6ef8;
   --nimote-accent-dark: #3730a3;
-  --nimote-accent-2: #06b6d4;
-  --nimote-accent-2-rgb: 6, 182, 212;
-  --nimote-accent-3: #a855f7;
-  --nimote-accent-3-rgb: 168, 85, 247;
-  --nimote-gold: #f59e0b;
-  --nimote-gold-rgb: 245, 158, 11;
+  --nimote-accent-2: #18c7d8;
+  --nimote-accent-2-rgb: 24, 199, 216;
+  --nimote-accent-3: #9a7cf7;
+  --nimote-accent-3-rgb: 154, 124, 247;
+  --nimote-gold: #d8a24b;
+  --nimote-gold-rgb: 216, 162, 75;
 
   /* Surfaces — Light */
-  --nimote-bg: #ffffff;
-  --nimote-bg-rgb: 255, 255, 255;
+  --nimote-bg: #f7f8fc;
+  --nimote-bg-rgb: 247, 248, 252;
   --nimote-bg-elevated: #ffffff;
-  --nimote-bg-subtle: #f6f7fb;
-  --nimote-bg-muted: #eef0f7;
+  --nimote-bg-subtle: #f1f4f9;
+  --nimote-bg-muted: #e8edf5;
   --nimote-card: #ffffff;
-  --nimote-card-hover: #fafbff;
+  --nimote-card-hover: #fbfcfe;
 
   /* Text — Light */
   --nimote-text-primary: #0b1020;
-  --nimote-text-secondary: #475569;
-  --nimote-text-muted: #94a3b8;
+  --nimote-text-secondary: #52607a;
+  --nimote-text-muted: #90a0b8;
   --nimote-text-inverse: #ffffff;
 
   /* Borders — Light */
-  --nimote-border: rgba(15, 23, 42, 0.06);
+  --nimote-border: rgba(15, 23, 42, 0.07);
   --nimote-border-strong: rgba(15, 23, 42, 0.12);
-  --nimote-border-accent: rgba(79, 70, 229, 0.22);
+  --nimote-border-accent: rgba(83, 80, 245, 0.22);
 
   /* Shadows — Light (slightly stronger for clarity) */
   --nimote-shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
-  --nimote-shadow-sm: 0 2px 6px rgba(15, 23, 42, 0.05);
-  --nimote-shadow-md: 0 8px 28px rgba(15, 23, 42, 0.07);
-  --nimote-shadow-lg: 0 18px 48px rgba(15, 23, 42, 0.09);
-  --nimote-shadow-xl: 0 30px 80px rgba(15, 23, 42, 0.12);
-  --nimote-shadow-brand: 0 18px 48px rgba(79, 70, 229, 0.22);
-  --nimote-shadow-gold: 0 18px 48px rgba(245, 158, 11, 0.18);
+  --nimote-shadow-sm: 0 3px 10px rgba(15, 23, 42, 0.06);
+  --nimote-shadow-md: 0 12px 30px rgba(15, 23, 42, 0.08);
+  --nimote-shadow-lg: 0 18px 48px rgba(15, 23, 42, 0.1);
+  --nimote-shadow-xl: 0 32px 84px rgba(15, 23, 42, 0.14);
+  --nimote-shadow-brand: 0 18px 48px rgba(83, 80, 245, 0.18);
+  --nimote-shadow-gold: 0 18px 48px rgba(216, 162, 75, 0.14);
 
   /* Gradients — Light */
-  --nimote-gradient: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
-  --nimote-gradient-soft: linear-gradient(135deg, rgba(79, 70, 229, 0.08), rgba(6, 182, 212, 0.05));
-  --nimote-gradient-vivid: linear-gradient(135deg, #6366f1 0%, #06b6d4 50%, #a855f7 100%);
-  --nimote-gradient-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-  --nimote-gradient-bg: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(79, 70, 229, 0.08) 0%, transparent 70%);
+  --nimote-gradient: linear-gradient(135deg, #5350f5 0%, #18c7d8 100%);
+  --nimote-gradient-soft: linear-gradient(135deg, rgba(83, 80, 245, 0.08), rgba(24, 199, 216, 0.05));
+  --nimote-gradient-vivid: linear-gradient(135deg, #4f46e5 0%, #18c7d8 50%, #9a7cf7 100%);
+  --nimote-gradient-gold: linear-gradient(135deg, #e0b76f 0%, #d8a24b 100%);
+  --nimote-gradient-bg: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(83, 80, 245, 0.07) 0%, transparent 70%);
 
   /* Motion */
   --nimote-ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -117,38 +117,38 @@
   --vp-c-brand-soft: rgba(129, 140, 248, 0.12);
 
   /* Surfaces — Dark */
-  --nimote-bg: #060814;
-  --nimote-bg-rgb: 6, 8, 20;
-  --nimote-bg-elevated: #0a0e1f;
-  --nimote-bg-subtle: #0d1228;
-  --nimote-bg-muted: #11172e;
-  --nimote-card: #0a0e1f;
-  --nimote-card-hover: #11172e;
+  --nimote-bg: #050710;
+  --nimote-bg-rgb: 5, 7, 16;
+  --nimote-bg-elevated: #0a0f1c;
+  --nimote-bg-subtle: #0d1324;
+  --nimote-bg-muted: #11182a;
+  --nimote-card: #0a0f1c;
+  --nimote-card-hover: #11182a;
 
   /* Text — Dark */
-  --nimote-text-primary: #f1f5f9;
-  --nimote-text-secondary: #94a3b8;
-  --nimote-text-muted: #64748b;
+  --nimote-text-primary: #f4f7fb;
+  --nimote-text-secondary: #a6b1c5;
+  --nimote-text-muted: #738097;
   --nimote-text-inverse: #0b1020;
 
   /* Borders — Dark */
-  --nimote-border: rgba(255, 255, 255, 0.07);
-  --nimote-border-strong: rgba(255, 255, 255, 0.12);
-  --nimote-border-accent: rgba(129, 140, 248, 0.3);
+  --nimote-border: rgba(255, 255, 255, 0.08);
+  --nimote-border-strong: rgba(255, 255, 255, 0.14);
+  --nimote-border-accent: rgba(83, 80, 245, 0.32);
 
   /* Shadows — Dark */
   --nimote-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.5);
-  --nimote-shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.45);
-  --nimote-shadow-md: 0 8px 28px rgba(0, 0, 0, 0.55);
+  --nimote-shadow-sm: 0 3px 10px rgba(0, 0, 0, 0.46);
+  --nimote-shadow-md: 0 10px 30px rgba(0, 0, 0, 0.52);
   --nimote-shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.6);
-  --nimote-shadow-xl: 0 30px 80px rgba(0, 0, 0, 0.7);
-  --nimote-shadow-brand: 0 18px 48px rgba(79, 70, 229, 0.35);
-  --nimote-shadow-gold: 0 18px 48px rgba(245, 158, 11, 0.2);
+  --nimote-shadow-xl: 0 32px 84px rgba(0, 0, 0, 0.72);
+  --nimote-shadow-brand: 0 18px 48px rgba(83, 80, 245, 0.28);
+  --nimote-shadow-gold: 0 18px 48px rgba(216, 162, 75, 0.18);
 
-  --nimote-gradient: linear-gradient(135deg, #818cf8 0%, #22d3ee 100%);
-  --nimote-gradient-soft: linear-gradient(135deg, rgba(129, 140, 248, 0.14), rgba(34, 211, 238, 0.08));
-  --nimote-gradient-vivid: linear-gradient(135deg, #818cf8 0%, #22d3ee 50%, #c084fc 100%);
-  --nimote-gradient-bg: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(129, 140, 248, 0.12) 0%, transparent 70%);
+  --nimote-gradient: linear-gradient(135deg, #7678ff 0%, #18c7d8 100%);
+  --nimote-gradient-soft: linear-gradient(135deg, rgba(118, 120, 255, 0.12), rgba(24, 199, 216, 0.08));
+  --nimote-gradient-vivid: linear-gradient(135deg, #818cf8 0%, #18c7d8 50%, #b59af9 100%);
+  --nimote-gradient-bg: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(118, 120, 255, 0.12) 0%, transparent 70%);
 
   color-scheme: dark;
 }

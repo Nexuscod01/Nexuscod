@@ -104,8 +104,8 @@
 .vp-doc code {
   font-size: 0.86em;
   border: 1px solid var(--nimote-border);
-  background: var(--nimote-bg-subtle);
-  border-radius: 6px;
+  background: rgba(var(--nimote-bg-rgb), 0.3);
+  border-radius: 8px;
   padding: 0.15em 0.5em;
   font-weight: 500;
   color: var(--nimote-text-primary);
@@ -122,11 +122,11 @@
   box-shadow: var(--nimote-shadow-xs);
   margin: 20px 0;
   padding: 18px 20px;
-  background: var(--nimote-bg-subtle);
+  background: rgba(var(--nimote-bg-rgb), 0.28);
   overflow-x: auto;
 }
 .dark .vp-doc pre {
-  background: #0a0e1f;
+  background: #0a0f1c;
 }
 .vp-doc pre code {
   border: none;
@@ -149,7 +149,7 @@
   overflow-x: auto;
 }
 .vp-doc th {
-  background: var(--nimote-bg-subtle);
+  background: rgba(var(--nimote-bg-rgb), 0.22);
   color: var(--nimote-text-primary);
   font-weight: 600;
   padding: 12px 16px;
@@ -170,12 +170,12 @@
   border-bottom: none;
 }
 .vp-doc tr:hover td {
-  background: var(--nimote-bg-subtle);
+  background: rgba(var(--nimote-bg-rgb), 0.18);
 }
 
 .vp-doc blockquote {
   border-left: 3px solid var(--nimote-accent);
-  background: var(--nimote-bg-subtle);
+  background: rgba(var(--nimote-bg-rgb), 0.22);
   border-radius: 0 var(--nimote-radius-md) var(--nimote-radius-md) 0;
   padding: 14px 18px;
   margin: 20px 0;
@@ -203,7 +203,7 @@
   border: 1px solid var(--nimote-border);
   padding: 14px 18px;
   margin: 20px 0;
-  background: var(--nimote-bg-subtle);
+  background: rgba(var(--nimote-bg-rgb), 0.22);
 }
 .vp-doc .custom-block-title {
   font-weight: 600;
