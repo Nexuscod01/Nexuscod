@@ -50,7 +50,7 @@ function pageSchemas(context: TransformContext): object[] {
   const title = asContent(context.pageData.frontmatter.title, asContent(context.pageData.title, 'NimoteCode'))
   const description = asContent(
     context.pageData.frontmatter.description,
-    asContent(context.siteConfig.description, 'NimoteCode mobile developer workspace documentation.')
+    asContent(context.siteConfig.site.description, 'NimoteCode mobile developer workspace documentation.')
   )
 
   const schemas: object[] = [
@@ -131,7 +131,7 @@ export default defineConfig({
     const title = asContent(context.pageData.frontmatter.title, asContent(context.pageData.title, 'NimoteCode'))
     const description = asContent(
       context.pageData.frontmatter.description,
-      asContent(context.siteConfig.description, 'NimoteCode mobile developer workspace.')
+      asContent(context.siteConfig.site.description, 'NimoteCode mobile developer workspace.')
     )
     const image = asContent(context.pageData.frontmatter.image, socialImage)
 
