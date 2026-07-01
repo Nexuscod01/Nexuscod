@@ -118,8 +118,58 @@ function pageSchemas(context: TransformContext): object[] {
   return schemas
 }
 
+// Load the primary UI font asynchronously so it never blocks first paint.
+// The fallback stack in tokens.css renders immediately, and the web font
+// swaps in once the stylesheet finishes loading.
+const FONT_LATIN = 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap'
+const FONT_ZH = 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500;600;700;800&display=swap'
+const FONT_JA = 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;600;700;800&display=swap'
+const FONT_KO = 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;600;700;800&display=swap'
+const FONT_RU = 'https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap'
+const FONT_ES = 'https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap'
+
+function fontByLocale(lang: string): string {
+  if (lang.startsWith('zh')) return FONT_ZH
+  if (lang.startsWith('ja')) return FONT_JA
+  if (lang.startsWith('ko')) return FONT_KO
+  if (lang.startsWith('ru')) return FONT_RU
+  if (lang.startsWith('es')) return FONT_ES
+  return FONT_LATIN
+}
+
+function fontLinks(path: string): HeadConfig[] {
+  const normalized = normalizePath(path)
+  const stripped = suffixToLocaleKey(normalized)
+  const lang =
+    stripped === 'zh' ? 'zh-CN' :
+    stripped === 'ja' ? 'ja-JP' :
+    stripped === 'ko' ? 'ko-KR' :
+    stripped === 'ru' ? 'ru-RU' :
+    stripped === 'es' ? 'es-ES' : 'en-US'
+  const href = fontByLocale(lang)
+  return [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    // Async pattern: stylesheet is print-only until the browser swaps it to all.
+    // This keeps the font off the critical render path.
+    ['link', { rel: 'preload', as: 'style', href }],
+    ['link', { rel: 'stylesheet', href, media: 'print', onload: "this.media='all'" }],
+    // noscript fallback so the font still works without JS.
+    ['noscript', {}, `<link rel="stylesheet" href="${href}">`]
+  ]
+}
+
+function suffixToLocaleKey(normalized: string): string {
+  const m = normalized.match(/^\/(zh|ja|ko|ru|es)(?:\/|$)/)
+  return m ? m[1] : ''
+}
+
+function pageLocaleKey(path: string): string {
+  const normalized = normalizePath(path)
+  return suffixToLocaleKey(normalized)
+}
+
 export default defineConfig({
-  title: 'NimoteCode',
   description: 'NimoteCode is a mobile-first IDE and developer workspace with SSH terminal, code editor, Git, AI agent, LSP, debugger, tasks, timeline diagnostics, and sync/cache.',
   base: '/',
   lang: 'en-US',
