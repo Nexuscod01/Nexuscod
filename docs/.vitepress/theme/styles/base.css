@@ -30,7 +30,7 @@ body,
 
 body {
   font-family: var(--vp-font-family-base);
-  font-feature-settings: "cv11", "ss01", "ss03";
+  font-feature-settings: "cv01" on, "ss03" on;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: var(--nimote-gradient-bg);
