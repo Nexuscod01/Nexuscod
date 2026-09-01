@@ -111,7 +111,7 @@ function pageSchemas(context: TransformContext): object[] {
       '@type': 'WebSite',
       name: 'NimoteCode',
       url: siteUrl,
-      description: 'NimoteCode is a mobile-first IDE and developer workspace for SSH, terminal, Git, AI, debugging, and daily software delivery from iPhone, iPad, Android phones, and tablets.',
+      description: 'NimoteCode is a mobile AI development workspace for developers on the move: code editor, SSH terminal, Git, AI Agent, LSP, debugger, tasks and sync/cache.',
       inLanguage: 'en-US'
     },
     {
@@ -130,7 +130,7 @@ function pageSchemas(context: TransformContext): object[] {
       operatingSystem: 'iOS, iPadOS, Android',
       url: siteUrl,
       image: socialImage,
-      description: 'Mobile IDE and developer workspace with code editor, SSH terminal, Git, AI coding assistant, LSP, debugger, tasks and sync/cache workflows.',
+      description: 'Mobile AI development workspace with code editor, SSH terminal, Git, AI Assistant and Agent, LSP, debugger, tasks and sync/cache.',
       offers: {
         '@type': 'Offer',
         price: '0',
@@ -420,7 +420,7 @@ function pageLocaleKey(path: string): string {
 export default defineConfig({
   title: 'NimoteCode',
   titleTemplate: false,
-  description: 'NimoteCode is a mobile-first IDE and developer workspace with SSH terminal, code editor, Git, AI agent, LSP, debugger, tasks and sync/cache.',
+  description: 'NimoteCode is a mobile AI development workspace: an SSH-enabled code editor with terminal, Git, AI Agent, LSP, debugger, tasks and sync/cache.',
   base: '/',
   lang: 'en-US',
   cleanUrls: true,
@@ -455,10 +455,13 @@ export default defineConfig({
     ]
   },
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/app_icon.png', type: 'image/png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/app_icon.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['meta', { name: 'theme-color', content: '#4f46e5' }],
+    ['meta', { name: 'theme-color', content: '#d946ef' }],
+    ['meta', { name: 'theme-color', content: '#a21caf', media: '(prefers-color-scheme: dark)' }],
     ['meta', { name: 'generator', content: 'VitePress' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -505,22 +508,6 @@ export default defineConfig({
                 { text: 'Pro', link: '/pro' },
                 { text: 'Download', link: '/download?utm_source=sidebar&utm_medium=website&utm_campaign=product_navigation' },
                 { text: 'Watch Demo', link: '/demo?utm_source=sidebar&utm_medium=website&utm_campaign=product_navigation' }
-              ]
-            },
-            {
-              text: 'Mobile IDE Solutions',
-              collapsed: true,
-              items: [
-                { text: 'Mobile IDE', link: '/mobile-ide' },
-                { text: 'SSH IDE', link: '/ssh-ide' },
-                { text: 'Android SSH Client', link: '/android-ssh-client' },
-                { text: 'iPhone SSH Client', link: '/iphone-ssh-client' },
-                { text: 'iPad Coding', link: '/ipad-coding' },
-                { text: 'Mobile AI Coding', link: '/mobile-ai-coding' },
-                { text: 'Claude Code From Phone', link: '/claude-code-from-phone' },
-                { text: 'Codex From Phone', link: '/codex-from-phone' },
-                { text: 'Termius Alternative', link: '/termius-alternative' },
-                { text: 'Blink Shell Alternative', link: '/blink-shell-alternative' }
               ]
             },
             {

@@ -6,7 +6,7 @@
 
 :root {
   /* Typography */
-  --vp-font-family-base: "Inter Variable", "Inter", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR",
+  --vp-font-family-base: "Plus Jakarta Sans", "Inter Variable", "Inter", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR",
     -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI",
     "Helvetica Neue", Arial, sans-serif;
   --vp-font-family-mono: "Berkeley Mono", "JetBrains Mono", "SF Mono", "Fira Code", "Roboto Mono", ui-monospace, monospace;

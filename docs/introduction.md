@@ -11,7 +11,7 @@ NimoteCode is a **Mobile AI Development Workspace** for the moments when develop
   <div class="product-card"><strong>Open the real project</strong><span>Work locally or connect to an SSH host and stay inside a clear project root.</span></div>
   <div class="product-card"><strong>Make and verify a change</strong><span>Edit files, run commands, inspect output and review the resulting Git diff without changing apps.</span></div>
   <div class="product-card"><strong>Ask for useful help</strong><span>Use AI Chat for explanations and AI Agent for controlled, multi-step assistance.</span></div>
-  <div class="product-card"><strong>Go deeper when needed</strong><span>Pro workflows add Git writes, multi-terminal, LSP, debugging, advanced Tasks and sync/cache.</span></div>
+  <div class="product-card"><strong>Go deeper when needed</strong><span>Pro workflows add unlimited AI Agent and remote search, Git writes, multi-terminal, LSP, debugging, advanced Tasks and sync/cache.</span></div>
 </div>
 
 ## Built for a focused mobile workflow

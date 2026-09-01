@@ -30,6 +30,8 @@ Pro is most useful when a mobile task ends with a carefully reviewed commit, req
 
 For subscription verification, purchase restoration and access behavior, see [Account and Subscription](/docs/account-subscription).
 
+<PricingFeatureSystem lang="en" mode="full" />
+
 <div class="seo-cta">
   <p><strong>Start with the core workspace; upgrade when mobile work needs to reach a reviewable finish.</strong></p>
   <p class="seo-cta-actions">

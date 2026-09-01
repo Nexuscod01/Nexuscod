@@ -23,3 +23,5 @@ NimoteCode 免费版可打开项目、编辑文件、使用基础终端与 AI Ch
 免费版仍可充分体验核心工作区：本地或 SSH 项目、编辑、终端、AI Chat、基础 Tasks，以及 Agent 和远程搜索的免费额度。
 
 Pro 并不替代命令、diff 或 AI 结果的人工审查，尤其是在生产相关环境中。
+
+<PricingFeatureSystem lang="zh" mode="full" />
