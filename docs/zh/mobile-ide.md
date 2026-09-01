@@ -1,13 +1,13 @@
 ---
 title: "适用于 SSH、Git 与 AI 编程的移动 IDE | NimoteCode"
-description: NimoteCode 是面向 iPhone、Android 与 iPad 的移动 IDE，集编辑器、资源管理器、终端与 AI Agent 于一个移动开发工作区，支持 SSH、Git 与 AI 编程。
+description: NimoteCode 是面向 Android 的移动 AI 开发工作台，集编辑器、资源管理器、终端与 AI Chat 和 Agent 于一个工作区，支持 SSH、Git 与 AI 编程。
 ---
 
 # 适用于 SSH、Git 与 AI 编程的移动 IDE
 
 大多数移动编码工具只解决其中一环：打开文件、连接服务器或用 SSH 运行命令。而一个**移动 IDE** 应该把完整开发闭环串在一起：浏览项目、理解代码、做出修改、完成验证，并审查将要交付的内容。
 
-NimoteCode 是一个**移动 AI 开发工作台**，它把 Editor、Explorer、SSH、Terminal、Git 与 AI Agent 放进同一个工作区，服务于 iPhone、Android 与 iPad 的工作流。
+NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor、Explorer、SSH、Terminal、Git、AI Chat 与 Agent 放进同一个工作区；iOS 公版仍在准备中。
 
 <ImagePlaceholder image-key="mobileIde" alt="NimoteCode 移动 IDE">
   <strong>图片占位 —— 移动 IDE 总览</strong>
@@ -42,7 +42,7 @@ NimoteCode 是一个**移动 AI 开发工作台**，它把 Editor、Explorer、S
 
 ### NimoteCode 只是 SSH 客户端吗？
 
-不是。NimoteCode 在同一个移动开发工作区里结合了 Editor、Explorer、SSH、Terminal、Git 与 AI Agent。
+不是。NimoteCode 在同一个移动开发工作区里结合了 Editor、Explorer、SSH、Terminal、Git、AI Chat 与 Agent。
 
 ### 能在手机或平板上处理远程项目吗？
 

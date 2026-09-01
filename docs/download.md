@@ -16,7 +16,7 @@ NimoteCode lets you open a local or SSH project, edit files, run terminal comman
 
 <p class="seo-cta-actions">
   <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=download_page" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-  <a href="/support?utm_source=download&utm_medium=website&utm_campaign=ios_availability" class="home-page-btn tertiary">Check iOS availability</a>
+  <a href="/support?utm_source=download&utm_medium=website&utm_campaign=ios_availability" class="home-page-btn tertiary">Contact support about iOS availability</a>
   <a href="/demo?utm_source=download&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
 </p>
 
@@ -30,6 +30,6 @@ NimoteCode lets you open a local or SSH project, edit files, run terminal comman
 
 ## What comes with the app
 
-Free includes local and SSH workspaces, editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote content search include a Free allowance. Pro adds Git write workflows, multi-terminal, unlimited Agent and search, LSP, Debug, advanced Tasks and Sync / Cache.
+Free includes local and SSH workspaces, editor, baseline terminal, AI Chat and Tasks. AI Agent and remote content search are available during the three-day, per-device trial and with Pro. Pro also adds Git write workflows, multi-terminal, LSP, Debug and Sync / Cache.
 
 After installation, continue with [Quick Start](/docs/quick-start), [SSH Workspace](/docs/ssh), or [Mobile IDE](/mobile-ide).

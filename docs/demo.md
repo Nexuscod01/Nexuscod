@@ -52,7 +52,7 @@ The demo is especially relevant for developers, DevOps engineers and on-call res
   <p><strong>Try the mobile development workspace on your next focused remote task.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=demo_page" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=demo&utm_medium=website&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=demo&utm_medium=website&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/docs/quick-start?utm_source=demo&utm_medium=website&utm_campaign=quick_start" class="home-page-btn secondary">Read Quick Start</a>
   </p>
 </div>

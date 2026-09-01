@@ -11,15 +11,15 @@ No. NimoteCode can open a local project or an SSH workspace, and brings Explorer
 
 ## Can I use it without Pro?
 
-Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search include a usage allowance. Pro unlocks the advanced workflows described on [Pro](/pro).
+Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the three-day, per-device trial and with Pro. See [Pro](/pro) for the gated workflows.
 
 ## Which AI providers can I configure?
 
-The app provides templates for several providers and supports compatible custom endpoints. Provider availability, model access and cost are determined by your own provider account and settings. See [Configuration](/docs/configuration).
+The app includes 14 built-in provider templates and supports compatible custom endpoints. Provider availability, model access and cost are determined by your own provider account and settings. See [Configuration](/docs/configuration).
 
 ## What does Source Control support?
 
-With Pro, use it to review diffs, stage and commit changes, work with branches and stashes, and pull, push or fetch when the repository and remote permissions allow it. Read [Source Control](/docs/source-control).
+Source Control lets every user inspect repository status, diffs and history. Pro is required for gated Git write workflows such as commits, pushes and stash actions. Read [Source Control](/docs/source-control).
 
 ## Are Tasks local or remote?
 

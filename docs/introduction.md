@@ -1,17 +1,17 @@
 ---
 title: About NimoteCode | Mobile AI Development Workspace
-description: "NimoteCode is a mobile AI development workspace for local and SSH projects: Editor, Explorer, Terminal, Git, AI Agent, diagnostics and repeatable tasks in one focused workflow."
+description: "NimoteCode is a Mobile AI Development Workspace for local and SSH projects: Editor, Explorer, Terminal, Git, AI Chat and Agent, diagnostics and repeatable tasks in one focused workflow."
 ---
 
 # About NimoteCode
 
-NimoteCode is a **Mobile AI Development Workspace** for the moments when development cannot wait for a laptop. It combines Editor, Explorer, SSH, Terminal, Git and AI Agent in one focused workspace for phones and tablets.
+NimoteCode is a **Mobile AI Development Workspace** for the moments when development cannot wait for a laptop. It combines Editor, Explorer, SSH, Terminal, Git, AI Chat and Agent in one focused workspace for phones and tablets.
 
 <div class="product-card-grid">
   <div class="product-card"><strong>Open the real project</strong><span>Work locally or connect to an SSH host and stay inside a clear project root.</span></div>
   <div class="product-card"><strong>Make and verify a change</strong><span>Edit files, run commands, inspect output and review the resulting Git diff without changing apps.</span></div>
   <div class="product-card"><strong>Ask for useful help</strong><span>Use AI Chat for explanations and AI Agent for controlled, multi-step assistance.</span></div>
-  <div class="product-card"><strong>Go deeper when needed</strong><span>Pro workflows add unlimited AI Agent and remote search, Git writes, multi-terminal, LSP, debugging, advanced Tasks and sync/cache.</span></div>
+  <div class="product-card"><strong>Go deeper when needed</strong><span>Pro workflows add AI Agent and remote search after the trial, Git writes, multi-terminal, LSP, debugging and sync/cache.</span></div>
 </div>
 
 ## Built for a focused mobile workflow

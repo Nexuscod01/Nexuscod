@@ -2,8 +2,8 @@
   "en": {
     "features": {
       "eyebrow": "Mobile development system",
-      "title": "Free gives you the foundation. Pro unlocks the full mobile IDE.",
-      "summary": "NimoteCode keeps the free plan useful for real development, then makes the Pro upgrade obvious by grouping the advanced systems independent developers need most.",
+      "title": "Free gives you the foundation. Pro unlocks gated mobile workflows.",
+      "summary": "NimoteCode keeps the free plan useful for real development, then groups the gated systems independent developers need most in Pro.",
       "groups": [
         {
           "name": "Foundation",
@@ -13,26 +13,25 @@
             "File editing and project management",
             "Terminal access",
             "AI Chat support",
-            "Bring your own AI providers: OpenAI, Claude, Gemini",
-            "Limited AI Agent usage",
-            "Limited remote code search",
-            "Basic task execution"
+            "14 built-in provider templates and compatible custom endpoints",
+            "Create and run terminal-backed Tasks"
           ]
         },
         {
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "Unlimited AI Agent executions",
-            "Multi-step autonomous tasks",
-            "AI fix suggestions"
+            "AI Agent after the 3-day trial",
+            "Controlled multi-step tasks",
+            "Remote content search"
           ]
         },
         {
           "name": "Git",
           "badge": "Pro",
           "items": [
-            "Full Git workflow: commit, push, branch, stash, diff",
+            "Gated Git writes: commit, push, and stash",
+            "Free status, diff, and history review",
             "AI Git assistant",
             "Safer review before shipping"
           ]
@@ -52,7 +51,7 @@
           "items": [
             "LSP diagnostics",
             "Code actions",
-            "Navigation and refactoring"
+            "Completion and navigation"
           ]
         },
         {
@@ -66,11 +65,11 @@
         },
         {
           "name": "Tasks",
-          "badge": "Pro",
+          "badge": "Free",
           "items": [
-            "Sequential and parallel execution",
-            "Workflow automation",
-            "Advanced task runs"
+            "Create repeatable SSH command routines",
+            "Run tasks in the active workspace",
+            "Review terminal-backed output"
           ]
         },
         {
@@ -101,29 +100,25 @@
             "Local + SSH workspaces",
             "File editing and project management",
             "Terminal access",
-            "AI Chat with BYO providers",
-            "Limited AI Agent usage",
-            "Limited remote code search"
+            "AI Chat with 14 provider templates or a compatible endpoint",
+            "Create and run terminal-backed Tasks"
           ]
         },
         {
           "name": "Pro",
           "badge": "Best Value",
-          "price": "$3.99",
-          "period": "per month",
-          "yearlyPrice": "$39.99",
-          "yearlyPeriod": "per year",
+          "price": "Store price",
+          "period": "shown in the app",
           "summary": "Unlock the complete mobile IDE system for serious delivery.",
           "cta": "Upgrade to Pro",
           "link": "/pro",
           "highlight": true,
           "features": [
-            "Unlimited AI Agent executions",
-            "Full Git workflow and AI Git assistant",
+            "AI Agent and remote search after the trial",
+            "Gated Git write workflows and AI Git assistant",
             "Multiple concurrent terminal sessions",
-            "LSP diagnostics, navigation, and refactoring",
+            "LSP diagnostics, completion, navigation, and code actions",
             "Debugger with breakpoints, stack, variables, and watches",
-            "Advanced task automation",
             "Secure Sync & Cache"
           ]
         }
@@ -133,8 +128,8 @@
   "zh": {
     "features": {
       "eyebrow": "移动开发系统",
-      "title": "免费版提供完整基础，Pro 解锁完整移动 IDE。",
-      "summary": "NimoteCode 让免费版真正可用于开发，并通过结构化能力分组，让独立开发者一眼看清 Pro 的升级价值。",
+      "title": "免费版提供完整基础，Pro 解锁受限移动工作流。",
+      "summary": "NimoteCode 让免费版真正可用于开发，并将独立开发者常用的受限系统清晰归入 Pro。",
       "groups": [
         {
           "name": "基础能力",
@@ -144,26 +139,25 @@
             "文件编辑和项目管理",
             "终端访问",
             "AI Chat 支持",
-            "自带 AI 提供商：OpenAI、Claude、Gemini",
-            "有限 AI Agent 使用量",
-            "有限远程代码搜索",
-            "基础任务执行"
+            "14 个内置 Provider 模板和兼容自定义端点",
+            "创建和运行基于终端的 Tasks"
           ]
         },
         {
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "无限 AI Agent 执行",
-            "多步骤自主任务",
-            "AI 修复建议"
+            "3 天试用后使用 AI Agent",
+            "受控多步骤任务",
+            "远程内容搜索"
           ]
         },
         {
           "name": "Git",
           "badge": "Pro",
           "items": [
-            "完整 Git 工作流：commit、push、branch、stash、diff",
+            "受限 Git 写入：commit、push 与 stash",
+            "免费查看状态、diff 与历史",
             "AI Git 助手",
             "发布前更安全的审查"
           ]
@@ -183,7 +177,7 @@
           "items": [
             "LSP 诊断",
             "代码操作",
-            "导航和重构"
+            "补全与导航"
           ]
         },
         {
@@ -197,11 +191,11 @@
         },
         {
           "name": "任务",
-          "badge": "Pro",
+          "badge": "免费",
           "items": [
-            "顺序和并行执行",
-            "工作流自动化",
-            "高级任务运行"
+            "创建可复用 SSH 命令流程",
+            "在当前工作区运行任务",
+            "查看基于终端的输出"
           ]
         },
         {
@@ -232,29 +226,25 @@
             "本地 + SSH 工作区",
             "文件编辑和项目管理",
             "终端访问",
-            "AI Chat 与自带提供商",
-            "有限 AI Agent 使用量",
-            "有限远程代码搜索"
+            "AI Chat 与 14 个 Provider 模板或兼容端点",
+            "创建和运行基于终端的 Tasks"
           ]
         },
         {
           "name": "Pro",
           "badge": "最佳价值",
-          "price": "$3.99",
-          "period": "每月",
-          "yearlyPrice": "$39.99",
-          "yearlyPeriod": "每年",
+          "price": "商店当前价格",
+          "period": "以应用内显示为准",
           "summary": "解锁用于严肃交付的完整移动 IDE 系统。",
           "cta": "升级到 Pro",
-          "link": "/pro",
+          "link": "/zh/pro",
           "highlight": true,
           "features": [
-            "无限 AI Agent 执行",
-            "完整 Git 工作流和 AI Git 助手",
+            "试用结束后使用 AI Agent 与远程搜索",
+            "受限 Git 写入工作流和 AI Git 助手",
             "多个并发终端会话",
-            "LSP 诊断、导航和重构",
+            "LSP 诊断、补全、导航与代码动作",
             "带断点、调用栈、变量和 Watch 的调试器",
-            "高级任务自动化",
             "安全 Sync & Cache"
           ]
         }
@@ -276,25 +266,25 @@
             "ターミナルアクセス",
             "AI Chat サポート",
             "持ち込み AI プロバイダ：OpenAI、Claude、Gemini",
-            "制限付き AI Agent 利用",
-            "制限付きリモートコード検索",
-            "基本タスク実行"
+            "14 の組み込みプロバイダーテンプレートと互換エンドポイント",
+            "ターミナルベースのタスクを作成・実行"
           ]
         },
         {
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "AI Agent の無制限実行",
-            "複数ステップの自律タスク",
-            "AI 修正提案"
+            "3 日間の試用後に AI Agent を利用",
+            "制御された複数ステップのタスク",
+            "リモートコンテンツ検索"
           ]
         },
         {
           "name": "Git",
           "badge": "Pro",
           "items": [
-            "完全な Git ワークフロー：commit、push、branch、stash、diff",
+            "制限付き Git 書き込み：commit、push、stash",
+            "無料のステータス、diff、履歴レビュー",
             "AI Git アシスタント",
             "配信前の安全なレビュー"
           ]
@@ -314,7 +304,7 @@
           "items": [
             "LSP 診断",
             "コードアクション",
-            "ナビゲーションとリファクタリング"
+            "補完とナビゲーション"
           ]
         },
         {
@@ -328,11 +318,11 @@
         },
         {
           "name": "タスク",
-          "badge": "Pro",
+          "badge": "無料",
           "items": [
-            "順次実行と並列実行",
-            "ワークフロー自動化",
-            "高度なタスク実行"
+            "再利用可能な SSH コマンド手順を作成",
+            "アクティブなワークスペースでタスクを実行",
+            "ターミナル出力を確認"
           ]
         },
         {
@@ -363,29 +353,25 @@
             "ローカル + SSH ワークスペース",
             "ファイル編集とプロジェクト管理",
             "ターミナルアクセス",
-            "AI Chat と持ち込みプロバイダ",
-            "制限付き AI Agent 利用",
-            "制限付きリモートコード検索"
+            "AI Chat と 14 のプロバイダーテンプレートまたは互換エンドポイント",
+            "ターミナルベースのタスクを作成・実行"
           ]
         },
         {
           "name": "Pro",
           "badge": "最もお得",
-          "price": "$3.99",
-          "period": "月額",
-          "yearlyPrice": "$39.99",
-          "yearlyPeriod": "年額",
+          "price": "ストア価格",
+          "period": "アプリ内に表示",
           "summary": "本格的な配信のための完全なモバイル IDE システムを解放。",
           "cta": "Pro にアップグレード",
           "link": "/pro",
           "highlight": true,
           "features": [
-            "AI Agent の無制限実行",
-            "完全な Git ワークフローと AI Git アシスタント",
+            "試用後の AI Agent とリモート検索",
+            "制限付き Git 書き込みと AI Git アシスタント",
             "複数の同時ターミナルセッション",
-            "LSP 診断、ナビゲーション、リファクタリング",
+            "LSP 診断、補完、ナビゲーション、コードアクション",
             "ブレークポイント、スタック、変数、Watch 付きデバッガ",
-            "高度なタスク自動化",
             "安全な Sync & Cache"
           ]
         }
@@ -407,25 +393,25 @@
             "터미널 접근",
             "AI Chat 지원",
             "직접 연결하는 AI 제공자: OpenAI, Claude, Gemini",
-            "제한된 AI Agent 사용",
-            "제한된 원격 코드 검색",
-            "기본 작업 실행"
+            "14개의 내장 AI 제공자 템플릿 및 호환 엔드포인트 연결",
+            "터미널 기반 작업 생성 및 실행"
           ]
         },
         {
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "AI Agent 무제한 실행",
-            "다단계 자율 작업",
-            "AI 수정 제안"
+            "3일 체험 후 AI Agent 사용",
+            "제어된 다단계 작업",
+            "원격 콘텐츠 검색"
           ]
         },
         {
           "name": "Git",
           "badge": "Pro",
           "items": [
-            "전체 Git 워크플로: commit, push, branch, stash, diff",
+            "제한된 Git 쓰기: commit, push, stash",
+            "무료 상태, diff, 히스토리 검토",
             "AI Git 어시스턴트",
             "배포 전 더 안전한 리뷰"
           ]
@@ -445,7 +431,7 @@
           "items": [
             "LSP 진단",
             "코드 액션",
-            "탐색과 리팩터링"
+            "완성 및 탐색"
           ]
         },
         {
@@ -459,11 +445,11 @@
         },
         {
           "name": "작업",
-          "badge": "Pro",
+          "badge": "무료",
           "items": [
-            "순차 및 병렬 실행",
-            "워크플로 자동화",
-            "고급 작업 실행"
+            "재사용 가능한 SSH 명령 루틴 생성",
+            "활성 워크스페이스에서 작업 실행",
+            "터미널 기반 출력 검토"
           ]
         },
         {
@@ -494,29 +480,25 @@
             "로컬 + SSH 워크스페이스",
             "파일 편집과 프로젝트 관리",
             "터미널 접근",
-            "AI Chat과 직접 연결 제공자",
-            "제한된 AI Agent 사용",
-            "제한된 원격 코드 검색"
+            "AI Chat과 14개 제공자 템플릿 또는 호환 엔드포인트",
+            "터미널 기반 작업 생성 및 실행"
           ]
         },
         {
           "name": "Pro",
           "badge": "최고 가치",
-          "price": "$3.99",
-          "period": "월",
-          "yearlyPrice": "$39.99",
-          "yearlyPeriod": "년",
+          "price": "스토어 가격",
+          "period": "앱에 표시",
           "summary": "진지한 배포를 위한 완전한 모바일 IDE 시스템을 엽니다.",
           "cta": "Pro로 업그레이드",
           "link": "/pro",
           "highlight": true,
           "features": [
-            "AI Agent 무제한 실행",
-            "전체 Git 워크플로와 AI Git 어시스턴트",
+            "체험 후 AI Agent 및 원격 검색",
+            "제한된 Git 쓰기와 AI Git 어시스턴트",
             "여러 동시 터미널 세션",
-            "LSP 진단, 탐색, 리팩터링",
+            "LSP 진단, 완성, 탐색 및 코드 작업",
             "중단점, 스택, 변수, Watch가 있는 디버거",
-            "고급 작업 자동화",
             "안전한 Sync & Cache"
           ]
         }

@@ -25,6 +25,6 @@ description: 使用 NimoteCode 移动代码编辑器的标签页、剪贴板、�
 1. 在 Explorer 中定位文件。
 2. 完成最小可行的修改并保存。
 3. 在 [终端](/zh/docs/terminal) 运行验证命令。
-4. 有 Pro 时，在 [Source Control](/zh/docs/source-control) 查看产生的 diff。
+4. 在 [Source Control](/zh/docs/source-control) 查看产生的 diff；交付需要受限 Git 写入操作时再使用 Pro。
 
 长时间探索性开发仍可能更适合桌面设备；编辑器的重点是让眼前这项明确任务可以被认真完成。

@@ -1,6 +1,6 @@
 ---
 title: 远程 Tasks | NimoteCode
-description: 在 NimoteCode Tasks 中保存、分组和运行可复用的 SSH 终端命令；Pro 支持进阶筛选和并行任务执行。
+description: 在 NimoteCode Tasks 中保存、分组和运行可复用的 SSH 终端命令。
 ---
 
 # 远程 Tasks
@@ -16,6 +16,6 @@ Tasks 将已经验证过的远程命令流程保存为可命名、可复用的�
 
 ## 安全使用 Tasks
 
-Tasks 运行在 SSH 工作流中，因此应在任务名称和命令里清晰体现环境。先从只读或低风险流程开始，记录前置条件，不要用模糊名称隐藏破坏性操作。免费版可创建和运行基础任务；Pro 提供进阶筛选和并行执行。
+Tasks 运行在 SSH 工作流中，因此应在任务名称和命令里清晰体现环境。先从只读或低风险流程开始，记录前置条件，不要用模糊名称隐藏破坏性操作。创建和运行任务不区分单独的 Pro 档位。
 
 相关：[SSH 工作区](/zh/docs/ssh) · [终端](/zh/docs/terminal) · [配置指南](/zh/docs/configuration)

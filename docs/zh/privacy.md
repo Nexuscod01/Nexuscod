@@ -71,7 +71,7 @@ AI API 凭据存储说明：
 我们将数据用于：
 
 - 用户认证与账户安全
-- 提供应用核心功能（工作区、编辑器、终端、Source Control、AI、Tasks、Timeline）
+- 提供应用核心功能（工作区、编辑器、终端、Source Control、AI 与 Tasks）
 - 校验订阅与试用资格
 - 保障服务稳定性、安全性与支持服务
 

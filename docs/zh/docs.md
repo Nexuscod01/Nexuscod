@@ -19,7 +19,7 @@ description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手
 | 目标 | 先看 | 再继续 |
 | --- | --- | --- |
 | 打开项目并验证一次修改 | [快速开始](/zh/docs/quick-start) | [编辑器](/zh/docs/editor) · [终端](/zh/docs/terminal) |
-| 操作远程主机上的项目 | [SSH 工作区](/zh/docs/ssh) | [Tasks](/zh/docs/tasks) |
+| 操作远程主机上的项目 | [SSH 工作区](/zh/docs/ssh) | [搜索](/zh/docs/search) · [Tasks](/zh/docs/tasks) |
 | 完成一次聚焦改动 | [编辑器](/zh/docs/editor) | [Source Control](/zh/docs/source-control) |
 | 在项目上下文中使用 AI | [AI Chat 与 Agent](/zh/docs/ai) | [配置指南](/zh/docs/configuration) |
 | 诊断一个问题 | [LSP](/zh/docs/lsp) | [调试](/zh/docs/debug) · [终端](/zh/docs/terminal) |

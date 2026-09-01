@@ -1,6 +1,6 @@
 ---
 title: NimoteCode Documentation | Mobile IDE Guides
-description: Practical NimoteCode guides for SSH workspaces, mobile code editing, terminal, Git, AI assistant, LSP, debugging, tasks and sync/cache.
+description: Practical NimoteCode guides for SSH workspaces, mobile code editing, terminal, Git, AI Chat and Agent, LSP, debugging, tasks and sync/cache.
 ---
 
 # NimoteCode Documentation

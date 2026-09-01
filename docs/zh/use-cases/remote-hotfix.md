@@ -1,6 +1,6 @@
 ---
 title: 手机远程热修 | NimoteCode
-description: 使用 NimoteCode 完成一次聚焦的手机远程热修：SSH 连接、项目检查、代码编辑、终端验证，并通过 Pro 审查 Git diff。
+description: 使用 NimoteCode 完成一次聚焦的手机远程热修：SSH 连接、项目检查、代码编辑、终端验证，并在受限 Git 写入前审查 diff。
 ---
 
 # 手机远程热修
@@ -19,6 +19,6 @@ description: 使用 NimoteCode 完成一次聚焦的手机远程热修：SSH 连
 3. 打开受影响最小范围的文件，完成聚焦修改。
 4. 运行对应的测试、构建或健康检查。
 5. 需要上下文时，可让 [AI Chat 与 Agent](/zh/docs/ai) 解释问题或规划补丁，但不把它当作未经审查的发布机制。
-6. 有 Pro 时，打开 [Source Control](/zh/docs/source-control) 阅读 diff，并仅按仓库既有流程提交或同步。
+6. 打开 [Source Control](/zh/docs/source-control) 阅读 diff；仅在交付需要提交或推送等受限 Git 写入操作时使用 Pro，并遵循仓库既有流程。
 
 如果环境、影响范围或验证路径仍不明确，应停止并升级处理。移动端让紧急任务成为可能，但不应降低安全变更的标准。

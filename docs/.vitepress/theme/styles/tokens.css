@@ -41,6 +41,9 @@
   --nimote-space-16: 64px;
   --nimote-space-20: 80px;
   --nimote-page-gutter: clamp(16px, 2.4vw, 24px);
+  /* Symmetric inline gutter for the home page's shared container track.
+     The center axis must never depend on this value changing per breakpoint. */
+  --nimote-home-gutter: clamp(16px, 2.5vw, 32px);
   --nimote-section-space: 96px;
   --nimote-section-space-compact: 64px;
 

@@ -41,7 +41,7 @@ For AI provider setup inside NimoteCode itself, see [AI Chat and Agent](/docs/ai
   <p><strong>Bring your SSH project, terminal and review workflow to the phone.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=claude_code_from_phone" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=claude_code_from_phone&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=claude_code_from_phone&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/demo?utm_source=claude_code_from_phone&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

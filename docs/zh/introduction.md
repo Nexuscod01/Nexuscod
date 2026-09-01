@@ -1,17 +1,17 @@
 ---
 title: 关于 NimoteCode | 移动 AI 开发工作台
-description: NimoteCode 是面向本地与 SSH 项目的移动 AI 开发工作台：将编辑器、资源管理器、终端、Git、AI Agent、诊断与任务整合进一个专注的工作流。
+description: NimoteCode 是面向本地与 SSH 项目的移动 AI 开发工作台：将编辑器、资源管理器、终端、Git、AI Chat 与 Agent、诊断与任务整合进一个专注的工作流。
 ---
 
 # 关于 NimoteCode
 
-NimoteCode 是一套 **移动 AI 开发工作台**，服务于“电脑不在身边，但开发任务不能等”的时刻。它把 Editor、Explorer、SSH、Terminal、Git 与 AI Agent 组织在同一个手机或平板工作区中。
+NimoteCode 是一套 **移动 AI 开发工作台**，服务于“电脑不在身边，但开发任务不能等”的时刻。它把 Editor、Explorer、SSH、Terminal、Git、AI Chat 与 Agent 组织在同一个手机或平板工作区中。
 
 <div class="product-card-grid">
   <div class="product-card"><strong>打开真实项目</strong><span>可打开设备上的本地项目，或通过 SSH 连接远程主机，并保持清晰的项目根目录。</span></div>
   <div class="product-card"><strong>修改并验证</strong><span>编辑文件、运行命令、查看输出，再审查最终 Git diff，无需在多个应用之间跳转。</span></div>
   <div class="product-card"><strong>获得有上下文的帮助</strong><span>AI Chat 适合解释与决策；AI Agent 适合受控的多步骤协助。</span></div>
-  <div class="product-card"><strong>按需深入</strong><span>Pro 提供 Git 写入、多终端、LSP、调试、高级 Tasks 与 Sync/Cache 等进阶流程。</span></div>
+  <div class="product-card"><strong>按需深入</strong><span>Pro 提供 Git 写入、多终端、AI Agent、远程搜索、LSP、调试与 Sync/Cache 等进阶流程。</span></div>
 </div>
 
 ## 为专注的移动工作而设计

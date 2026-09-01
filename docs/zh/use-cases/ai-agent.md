@@ -13,7 +13,7 @@ description: 使用 NimoteCode AI Chat 解决直接的代码问题，使用 AI A
 
 ## 适合用 AI Agent 的时刻
 
-当任务需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，使用 Agent 更合适。免费版含有使用额度；Pro 可无限使用 Agent。
+当任务需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，使用 Agent 更合适。它可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用；并非按量提供的免费额度。
 
 ## 保持流程可审查
 
@@ -21,6 +21,6 @@ description: 使用 NimoteCode AI Chat 解决直接的代码问题，使用 AI A
 2. 在写入或执行命令前阅读计划。
 3. 查看实际终端输出和发生变化的文件。
 4. 运行与项目相符的验证命令。
-5. 有 Pro 时，在交付前检查 Git diff。
+5. 在交付前检查 Git diff；交付需要受限 Git 写入操作时再使用 Pro。
 
 NimoteCode 围绕工具调用提供校验与锁定机制，但生产环境的操作责任仍在执行者。请继续阅读 [AI Chat 与 Agent](/zh/docs/ai) 与 [配置指南](/zh/docs/configuration)。

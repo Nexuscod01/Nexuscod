@@ -27,7 +27,7 @@ description: 在 NimoteCode 打开本地或 SSH 工作区，编辑文件、运�
 ## 4. 选择下一步
 
 <div class="product-card-grid">
-  <div class="product-card"><strong>审查改动 · Pro</strong><span>进入 <a href="/zh/docs/source-control">Source Control</a> 查看 diff、暂存并按需提交。</span></div>
+  <div class="product-card"><strong>审查改动</strong><span>进入 <a href="/zh/docs/source-control">Source Control</a> 查看 diff 并暂存；提交或推送需要 Pro 权益。</span></div>
   <div class="product-card"><strong>寻求 AI 协助</strong><span>使用 <a href="/zh/docs/ai">AI Chat 或 Agent</a> 解释代码、规划改动或辅助多步骤工作。</span></div>
   <div class="product-card"><strong>深入诊断 · Pro</strong><span>在准备好的环境中使用 <a href="/zh/docs/lsp">LSP</a>、<a href="/zh/docs/debug">调试</a> 与 <a href="/zh/docs/terminal">终端</a>。</span></div>
   <div class="product-card"><strong>复用命令</strong><span>把已验证的远程流程保存到 <a href="/zh/docs/tasks">Tasks</a>。</span></div>

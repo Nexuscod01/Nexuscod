@@ -7,7 +7,7 @@ description: "Use Codex from your phone in a practical remote development workfl
 
 Coding agents are most useful when they are close to the repository, terminal and test environment they need. If Codex is set up on a remote development host, an SSH-based mobile workspace lets you continue that work from your phone without reducing the task to copied snippets.
 
-NimoteCode combines an Editor, Explorer, SSH Terminal, Git and AI Agent so you can work around a remote Codex session with the same project context: open the source, run the command, inspect the output and review the actual diff.
+NimoteCode combines an Editor, Explorer, SSH Terminal, Git, AI Chat and Agent so you can work around a remote Codex session with the same project context: open the source, run the command, inspect the output and review the actual diff.
 
 <ImagePlaceholder image-key="codexFromPhone" alt="Codex from phone remote workflow">
   <strong>Image placeholder — Remote Codex workflow</strong>
@@ -37,7 +37,7 @@ On a phone, speed comes from reducing context switching, not from skipping safeg
   <p><strong>Keep the project, command output and Git review with you when you use Codex remotely.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=codex_from_phone" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=codex_from_phone&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=codex_from_phone&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/demo?utm_source=codex_from_phone&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

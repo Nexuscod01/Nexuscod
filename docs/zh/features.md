@@ -20,12 +20,12 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 | 编辑器 | 标签页编辑、保存、剪贴板、撤销/重做、光标定位，以及可用时的结构化上下文。 | 免费 |
 | Terminal | 在当前工作区执行命令、搜索输出、使用快捷命令，并在远程重连后继续工作。 | 免费 |
 | AI Chat | 基于当前文件解释代码、分析错误输出、规划下一步。 | 免费 |
-| AI Agent | 在文件、终端、Git 工具之间协助完成受控多步骤任务。 | 免费额度 · Pro 无限 |
+| AI Agent | 在文件、终端、Git 工具之间协助完成受控多步骤任务。 | 3 天试用 · Pro |
 
 ## 交付、诊断与自动化
 
 <div class="product-card-grid">
-  <div class="product-card"><strong>Source Control · Pro</strong><span>查看 diff、暂存、提交、拉取、推送、分支与 stash；Git AI 可辅助解释或审查改动。</span></div>
+  <div class="product-card"><strong>Source Control</strong><span>免费查看仓库状态、diff 与历史；Pro 解锁提交、推送和 stash 等 Git 写入工作流。</span></div>
   <div class="product-card"><strong>多终端 · Pro</strong><span>为日志、测试、服务与部署保留并行上下文，不必离开当前工作区。</span></div>
   <div class="product-card"><strong>LSP + Debug · Pro</strong><span>在远程主机完成语言服务和调试适配器配置后，使用诊断、代码动作、断点和运行时检查。</span></div>
   <div class="product-card"><strong>Tasks</strong><span>保存重复的远程命令，按分组组织，并跟踪其基于终端的执行过程。</span></div>
@@ -38,7 +38,7 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 2. 在 [编辑器](/zh/docs/editor) 中定位并修改文件。
 3. 在 [终端](/zh/docs/terminal) 中验证；需要时搜索输出或远程内容。
 4. 让 [AI Chat 与 Agent](/zh/docs/ai) 协助理解错误或规划改动。
-5. 使用 Pro 的 [Source Control](/zh/docs/source-control) 审查并交付结果。
+5. 使用 [Source Control](/zh/docs/source-control) 审查结果；交付需要受限 Git 写入操作时再使用 Pro。
 
 > 功能会遵循权限与环境前置条件。例如 LSP、Debug 需要远程主机配置相应语言服务或调试适配器；面对敏感系统时，仍应审查每个 AI 结果与执行动作。
 

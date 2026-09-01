@@ -1,13 +1,13 @@
 ---
 title: "Mobile IDE for SSH, Git and AI Coding | NimoteCode"
-description: "NimoteCode is a mobile IDE for SSH, Git and AI Coding on iPhone, Android and iPad. Work in one mobile development workspace with editor, explorer, terminal and AI Agent."
+description: "NimoteCode is a Mobile AI Development Workspace for Android, with SSH, Git and AI-assisted coding in one environment for editor, explorer and terminal work."
 ---
 
 # Mobile IDE for SSH, Git and AI Coding
 
 Most mobile coding tools solve one part of the job: open a file, connect to a server, or run a command. A **mobile IDE** should keep the whole development loop together: explore the project, understand the code, make a change, verify it, and review what will ship.
 
-NimoteCode is a **Mobile AI Development Workspace** for that loop. It brings an Editor, Explorer, SSH, Terminal, Git, and AI Agent into one workspace for iPhone, Android and iPad workflows.
+NimoteCode is a **Mobile AI Development Workspace** for that loop. The Android release brings an Editor, Explorer, SSH, Terminal, Git, AI Chat and Agent into one workspace; the public iOS release is still being prepared.
 
 <ImagePlaceholder image-key="mobileIde" alt="NimoteCode mobile IDE">
   <strong>Image placeholder — Mobile IDE overview</strong>
@@ -42,7 +42,7 @@ For feature details, see [Features](/features). For a concrete production scenar
 
 ### Is NimoteCode just an SSH client?
 
-No. NimoteCode combines Editor, Explorer, SSH, Terminal, Git and AI Agent in one mobile development workspace.
+No. NimoteCode combines Editor, Explorer, SSH, Terminal, Git, AI Chat and Agent in one mobile development workspace.
 
 ### Can I work on a remote project from a phone or tablet?
 
@@ -56,7 +56,7 @@ NimoteCode is currently available for Android. The public iOS App Store release 
   <p><strong>Carry the real workflow, not just a terminal.</strong> See the mobile IDE in action or choose your platform.</p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=mobile_ide" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=mobile_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=mobile_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/demo?utm_source=mobile_ide&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

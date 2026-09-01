@@ -13,7 +13,7 @@ Ask for a code explanation, an interpretation of terminal output, a refactor out
 
 ## Use AI Agent when the work has several steps
 
-An Agent workflow may inspect files, propose a plan, make an edit, run a check and report the result. Free includes a metered allowance; Pro provides unlimited Agent use.
+An Agent workflow may inspect files, propose a plan, make an edit, run a check and report the result. It is available during the three-day, per-device trial and with Pro; it does not use a free usage quota.
 
 ## Keep the workflow reviewable
 
@@ -21,6 +21,6 @@ An Agent workflow may inspect files, propose a plan, make an edit, run a check a
 2. Inspect the plan before a write or command action.
 3. Read the actual command output and changed files.
 4. Run a project-appropriate verification command.
-5. With Pro, inspect the Git diff before delivery.
+5. Inspect the Git diff before delivery; use Pro if delivery needs a gated Git write action.
 
 NimoteCode uses validation and locking mechanisms around tool use, but production responsibility remains with the person running the workflow. Read [Security and Safety](/docs/security) and [AI Chat and Agent](/docs/ai) for setup details.

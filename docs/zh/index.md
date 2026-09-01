@@ -2,7 +2,7 @@
 layout: home
 title: NimoteCode | 移动 AI 开发工作台
 titleTemplate: false
-description: NimoteCode 是面向 iPhone、Android 与 iPad 的移动 IDE，整合编辑器、资源管理器、SSH、终端、Git 与 AI Agent。
+description: NimoteCode 是面向 Android 的移动 AI 开发工作台，整合编辑器、资源管理器、SSH、终端、Git 与 AI Chat 和 Agent。
 
 hero:
   name: ""
@@ -17,7 +17,7 @@ hero:
       <p class="home-page-badge">移动 AI 开发工作台</p>
       <div class="home-page-logo-lockup"><img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async"><span class="home-page-brand">NimoteCode</span></div>
       <h1 class="home-page-title">把真实的开发工作区，<br><em>带到任何地方。</em></h1>
-      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Agent，为 Android、iPhone 与 iPad 上聚焦的开发工作而设计。</p>
+      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Chat 与 Agent，为 Android 上聚焦的开发工作而设计。</p>
       <div class="home-page-actions home-page-actions-hero"><a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a><a href="/demo?utm_source=zh_homepage&utm_medium=website&utm_campaign=hero_demo" class="home-page-btn secondary">观看演示</a></div>
       <a class="home-page-availability-link" href="/zh/download?utm_source=zh_homepage&utm_medium=website&utm_campaign=ios_availability">了解 iOS 可用性 <span aria-hidden="true">→</span></a>
     </div>

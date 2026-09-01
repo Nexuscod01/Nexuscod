@@ -1,8 +1,8 @@
 ---
 layout: home
-title: NimoteCode – Mobile IDE for SSH, Git & AI Development
+title: NimoteCode – Mobile AI Development Workspace for Android
 titleTemplate: false
-description: NimoteCode is a mobile IDE for SSH, Git and AI development on Android, iPhone and iPad. Code editor, remote workspace, terminal and AI Agent in one mobile development workspace.
+description: "NimoteCode is a Mobile AI Development Workspace for Android: code editor, remote workspace, terminal, Git and AI Chat and Agent in one focused development environment."
 
 hero:
   name: ""
@@ -17,7 +17,7 @@ hero:
       <p class="home-page-badge">Mobile AI Development Workspace</p>
       <div class="home-page-logo-lockup"><img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async"><span class="home-page-brand">NimoteCode</span></div>
       <h1 class="home-page-title">A real development workspace,<br><em>wherever you are.</em></h1>
-      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Agent—built for focused development work from Android, iPhone and iPad.</p>
+      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Chat and Agent—built for focused development work on Android.</p>
       <div class="home-page-actions home-page-actions-hero">
         <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
         <a href="/demo?utm_source=homepage&utm_medium=website&utm_campaign=hero_demo" class="home-page-btn secondary">Watch Demo</a>

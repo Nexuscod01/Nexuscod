@@ -1,6 +1,6 @@
 ---
 title: Remote Hotfix from Mobile | NimoteCode
-description: "Use NimoteCode for a focused mobile hotfix: connect by SSH, inspect and edit a project, run verification commands, then review the Git diff with Pro."
+description: "Use NimoteCode for a focused mobile hotfix: connect by SSH, inspect and edit a project, run verification commands, then review the Git diff before a gated write workflow."
 ---
 
 # Remote Hotfix from Mobile
@@ -19,6 +19,6 @@ A production-adjacent fix should remain a controlled development workflow, even 
 3. Open the smallest affected file and make a focused edit.
 4. Run the relevant test, build or health check.
 5. Use [AI Chat and Agent](/docs/ai) for an explanation or plan when it adds context—not as an unreviewed deployment mechanism.
-6. With Pro, open [Source Control](/docs/source-control), read the diff, commit and sync only according to the repository’s normal policy.
+6. Open [Source Control](/docs/source-control), read the diff, then use Pro only if the delivery needs a gated Git write action such as commit or push.
 
 If the environment, impact or verification path is unclear, stop and escalate. Mobile access makes an urgent task possible; it should not lower the standard for a safe change.

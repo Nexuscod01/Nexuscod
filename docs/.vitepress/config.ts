@@ -41,7 +41,7 @@ function pageDescription(context: TransformContext, title: string): string {
     return asContent(context.siteConfig.site.description, 'NimoteCode mobile developer workspace.')
   }
 
-  return `${normalizedTitle} page on NimoteCode, the mobile-first developer workspace for SSH, terminal, Git, AI, debugging, tasks, and sync/cache workflows.`
+  return `${normalizedTitle} page on NimoteCode, the Mobile AI Development Workspace for SSH, terminal, Git, AI Chat and Agent, debugging, tasks, and sync/cache workflows.`
 }
 
 function stripLocalePrefix(path: string): string {
@@ -127,7 +127,7 @@ function pageSchemas(context: TransformContext): object[] {
       '@type': 'SoftwareApplication',
       name: 'NimoteCode',
       applicationCategory: 'DeveloperApplication',
-      operatingSystem: 'iOS, iPadOS, Android',
+      operatingSystem: 'Android',
       url: siteUrl,
       image: socialImage,
       description: 'Mobile AI development workspace with code editor, SSH terminal, Git, AI Chat and Agent, LSP, debugger, tasks and sync/cache.',
@@ -280,46 +280,54 @@ function faqSchema(context: TransformContext): object | null {
   const faqEntries: Record<string, Array<{ question: string, answer: string }>> = {
     '/docs/faq': [
       {
-        question: 'Is NimoteCode only for remote development?',
-        answer: 'No. You can work in Local Explorer mode or Remote Explorer (SSH) mode.'
+        question: 'Is NimoteCode only an SSH client?',
+        answer: 'No. NimoteCode can open a local project or an SSH workspace, and brings Explorer, Editor, Terminal, Git workflows, AI assistance and diagnostic panels into the same project context.'
       },
       {
-        question: 'Which AI providers are supported?',
-        answer: 'Built-in templates include OpenAI, Anthropic, Gemini, Grok, DeepSeek, Zhipu, Moonshot, Ollama, and custom OpenAI-compatible endpoints.'
+        question: 'Can I use it without Pro?',
+        answer: 'Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the three-day, per-device trial and with Pro.'
       },
       {
-        question: 'What can I do in Source Control?',
-        answer: 'You can stage, unstage, discard, commit, push, pull, fetch, manage branches and stashes, view history, and use Git AI analysis tools.'
+        question: 'Which AI providers can I configure?',
+        answer: 'The app includes 14 built-in provider templates and supports compatible custom endpoints. Provider availability, model access and cost are determined by your own provider account and settings.'
       },
       {
-        question: 'Can I run project tasks?',
-        answer: 'Yes. Use the Tasks panel to create and run tasks, then inspect output in terminal.'
+        question: 'What does Source Control support?',
+        answer: 'All users can inspect repository status, diffs and history. Pro is required for gated Git write workflows such as commits, pushes and stash actions.'
       },
       {
-        question: 'Why is a feature locked?',
-        answer: 'Some capabilities are Pro-gated. Subscription status is verified by the app premium access flow.'
+        question: 'Are Tasks local or remote?',
+        answer: 'Tasks are designed for repeatable command workflows in an SSH workspace. Make the host, project root and risk of each command clear before running it.'
+      },
+      {
+        question: 'Do LSP and Debug work for every project?',
+        answer: 'They depend on a compatible language server or debug adapter being configured on the remote host and on the project setup. They are Pro workflows.'
       }
     ],
     '/zh/docs/faq': [
       {
-        question: 'NimoteCode 只能远程开发吗？',
-        answer: '不是。支持 Local Explorer（本地）与 Remote Explorer（SSH）两种模式。'
+        question: 'NimoteCode 只是 SSH Client 吗？',
+        answer: '不是。NimoteCode 可打开本地项目或 SSH 工作区，并将 Explorer、编辑器、Terminal、Git 工作流、AI 协助与诊断面板放到同一项目上下文中。'
       },
       {
-        question: '支持哪些 AI 提供商？',
-        answer: '内置模板包括 OpenAI、Anthropic、Gemini、Grok、DeepSeek、Zhipu、Moonshot、Ollama 以及自定义 OpenAI 兼容端点。'
+        question: '不购买 Pro 能使用吗？',
+        answer: '可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用。'
       },
       {
-        question: 'Source Control 能做什么？',
-        answer: '支持暂存、取消暂存、丢弃、提交、推拉取、分支与 stash 管理、历史与 Git AI 分析。'
+        question: '可配置哪些 AI Provider？',
+        answer: '应用提供 14 个内置 Provider 模板，也支持兼容的自定义端点。具体模型访问与费用由你的 Provider 账户和配置决定。'
       },
       {
-        question: '可以运行项目任务吗？',
-        answer: '可以。使用 Tasks 面板创建并运行任务，输出可在终端查看。'
+        question: 'Source Control 支持什么？',
+        answer: '所有用户都可查看仓库状态、diff 与历史。提交、推送和 stash 等受限 Git 写入工作流需要 Pro。'
       },
       {
-        question: '为什么有些功能不可用？',
-        answer: '部分能力受 Pro 门控，需通过订阅状态校验。'
+        question: 'Tasks 是本地还是远程运行？',
+        answer: 'Tasks 面向 SSH 工作区中的可复用命令流程。运行前请在任务名称中明确主机、项目根目录和风险等级。'
+      },
+      {
+        question: 'LSP 和 Debug 所有项目都能用吗？',
+        answer: '这取决于远程主机是否已配置兼容的语言服务或调试适配器，以及项目本身的启动设置。两者均属于 Pro 功能。'
       }
     ],
     '/mobile-ide': [
@@ -423,9 +431,9 @@ function pageLocaleKey(path: string): string {
 
 function websiteDescription(inLanguage: string): string {
   if (inLanguage === 'zh-CN') {
-    return 'NimoteCode 是面向移动场景的 AI 开发工作区：集代码编辑器、SSH 终端、Git、AI Agent、LSP、调试器、任务与同步/缓存于一体。'
+    return 'NimoteCode 是面向移动场景的 AI 开发工作区：集代码编辑器、SSH 终端、Git、AI Chat 与 Agent、LSP、调试器、任务与同步/缓存于一体。'
   }
-  return 'NimoteCode is a mobile AI development workspace for developers on the move: code editor, SSH terminal, Git, AI Agent, LSP, debugger, tasks and sync/cache.'
+  return 'NimoteCode is a Mobile AI Development Workspace for Android: code editor, SSH terminal, Git, AI Chat and Agent, LSP, debugger, tasks and sync/cache.'
 }
 
 export default defineConfig({
@@ -651,13 +659,13 @@ export default defineConfig({
               text: '构建日志',
               collapsed: false,
               items: [
-                { text: '为什么我选择做移动 IDE', link: '/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app' },
-                { text: 'SSH + 移动编程仍然破碎', link: '/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide' },
-                { text: 'Flutter 编辑器为何崩坏', link: '/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide' },
-                { text: '本地重型编译会消失吗', link: '/blog/is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides' },
-                { text: '约 90% AI 代码仍花 6 个月', link: '/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months' },
-                { text: 'Agent 设计是有界优化', link: '/blog/agent-design-is-bounded-optimization-not-intelligence' },
-                { text: 'AI Agent 能在手机编程吗', link: '/blog/can-an-ai-agent-really-code-from-a-phone' }
+                { text: '为什么我选择做移动 IDE', link: '/zh/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app' },
+                { text: 'SSH + 移动编程仍然破碎', link: '/zh/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide' },
+                { text: 'Flutter 编辑器为何崩坏', link: '/zh/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide' },
+                { text: '本地重型编译会消失吗', link: '/zh/blog/is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides' },
+                { text: '约 90% AI 代码仍花 6 个月', link: '/zh/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months' },
+                { text: 'Agent 设计是有界优化', link: '/zh/blog/agent-design-is-bounded-optimization-not-intelligence' },
+                { text: 'AI Agent 能在手机编程吗', link: '/zh/blog/can-an-ai-agent-really-code-from-a-phone' }
               ]
             }
           ],

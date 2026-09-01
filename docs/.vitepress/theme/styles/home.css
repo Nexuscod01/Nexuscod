@@ -12,26 +12,49 @@
   display: none;
 }
 
+/* VitePress wraps home Markdown in a narrow reading container. The home page
+   carries no prose, so drop that cap and let the wrapper become one full-width
+   track that every section below centres itself within. */
 .VPHome .vp-doc.container {
+  max-width: none;
+  width: 100%;
   padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Shared home container contract -------------------------------------------------
+   All primary home sections ride the same fluid track. width:100% + max-width +
+   margin-inline:auto pins one center axis for every breakpoint; desktop,
+   tablet and mobile only adjust inline padding, never the center. */
+.home-page-section,
+.home-page-signal-band,
+.home-page-hero-shell.home-page-hero-shell-product {
+  width: 100%;
+  max-width: var(--vp-layout-max-width);
+  margin-inline: auto;
+}
+
+/* A bordered strip reads better with the gutter outside its frame, so it stays
+   on the same shared track but narrower by the symmetric gutters. */
+.home-page-signal-band {
+  max-width: calc(var(--vp-layout-max-width) - 2 * var(--nimote-home-gutter));
 }
 
 .home-page-section {
-  max-width: var(--nimote-container);
-  margin: 0 auto;
-  padding-left: var(--nimote-page-gutter);
-  padding-right: var(--nimote-page-gutter);
   position: relative;
+  padding-left: var(--nimote-home-gutter);
+  padding-right: var(--nimote-home-gutter);
 }
 
-/* Hero — product-led, with a restrained ambient grid behind the supplied art. */
+/* Hero — product-led, with a restrained ambient grid behind the supplied art.
+   It is a true full-bleed band: the wrapper above is full-width, so width:100%
+   spans edge to edge with no vw math and no negative margins. */
 .home-page-hero {
   position: relative;
-  width: 100vw;
+  width: 100%;
   max-width: none;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   isolation: isolate;
   overflow: hidden;
@@ -920,8 +943,6 @@ html:not(.dark) .home-page-btn.tertiary {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
-  max-width: var(--nimote-container);
-  margin: 0 auto;
   border: 1px solid var(--nimote-border);
   border-radius: 18px;
   overflow: hidden;
@@ -1026,7 +1047,7 @@ html:not(.dark) .home-page-btn.tertiary {
   .home-page-preview-body { grid-template-columns: 40px 108px 1fr; min-height: 218px; }
   .home-page-preview-tree { padding: 14px 8px; }
   .home-page-preview-editor { padding: 14px; }
-  .home-page-signal-band { grid-template-columns: 1fr; margin: 0 18px; border-radius: 15px; }
+  .home-page-signal-band { grid-template-columns: 1fr; width: auto; margin: 0 18px; border-radius: 15px; }
   .home-page-module-grid,
   .home-page-use-case-grid { grid-template-columns: 1fr; margin-top: 28px; }
   .home-page-module-card,
@@ -1039,50 +1060,27 @@ html:not(.dark) .home-page-btn.tertiary {
    displays, constrain its rendering independently from the copy so it reads
    as a deliberate right-hand visual rather than an oversized page backdrop. */
 @media (min-width: 1025px) {
-  .VPHome {
-    --nimote-home-content-width: min(1440px, calc(100vw - 64px));
-  }
-
-  /* The Hero, signal band and page sections share one visible content track.
-     VPHomeContent wraps Markdown in a narrower reading container, so sections
-     need this offset to align with the full-bleed Hero at desktop widths. */
-  .home-page-signal-band,
-  .home-page-hero-shell.home-page-hero-shell-product,
-  .home-page-section {
-    width: var(--nimote-home-content-width);
-    max-width: none;
-  }
-
+  /* The shared container contract is defined once at the top of this file.
+     Desktop only tunes the product shell's inner padding and the copy width;
+     the center axis is unaffected. */
   .home-page-hero-shell.home-page-hero-shell-product {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
     gap: 0;
-    padding: 82px 0 74px;
+    padding: 82px var(--nimote-home-gutter) 74px;
   }
 
   .home-page-hero-copy {
     max-width: 640px;
   }
 
-  .home-page-signal-band {
-    /* The Markdown wrapper's center is stable even though its width is capped.
-       Use it to align these elements with the full-bleed Hero shell. */
-    margin-right: 0;
-    margin-left: calc(50% - min(720px, calc(50vw - 32px)));
-  }
-
-  .home-page-section {
-    margin-right: 0;
-    margin-left: calc(50% - min(720px, calc(50vw - 32px)));
-    padding-right: 0;
-    padding-left: 0;
-  }
-
   /* At 1920px this renders the product layer at 1728px instead of 1920px
      (10% smaller), then leaves a quiet edge on the right instead of pushing
      the iPad to the viewport boundary. */
   .home-page-hero::before {
-    background-size: 42px 42px, 42px 42px, 90% auto;
-    background-position: center, center, left -12px center;
+    /* Fill the full-bleed Hero edge to edge — no exposed page background on
+       either side. cover crops the JPG and centre keeps it balanced. */
+    background-size: 42px 42px, 42px 42px, cover;
+    background-position: center, center, center;
     /* The supplied product image is intentionally larger than its visible
        device artwork. Intersected masks keep the centre crisp, then dissolve
        the image before its own rectangular bounds can become perceptible. */

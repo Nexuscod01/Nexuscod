@@ -66,7 +66,7 @@ Choose an SSH IDE when the task includes locating files, editing code, running v
   <p><strong>Turn SSH access into a development workflow.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=ssh_ide" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=ssh_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=ssh_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/demo?utm_source=ssh_ide&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

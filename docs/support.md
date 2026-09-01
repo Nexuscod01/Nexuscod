@@ -16,18 +16,30 @@ Get in touch with our team for support, feedback, or questions.
   <VPFeature
     title="Email Support"
     details="Reach out to us directly at nimotecode@gmail.com for personalized assistance."
+    link="mailto:nimotecode@gmail.com"
+    linkText="Email support"
   />
   <VPFeature
     title="GitHub Issues"
     details="Report bugs, request features, or track existing issues on our GitHub repository."
+    link="https://github.com/nimotecode/nimote_issues/issues"
+    linkText="Open GitHub Issues"
+    target="_blank"
+    rel="noreferrer"
   />
   <VPFeature
     title="Documentation"
     details="Check our comprehensive guides and tutorials for self-service troubleshooting."
+    link="/docs/quick-start"
+    linkText="Read the docs"
   />
   <VPFeature
-    title="Community"
-    details="Join our community to connect with other NimoteCode users and share knowledge."
+    title="Community feedback"
+    details="Share an idea, a workflow detail, or a reproducible issue with the NimoteCode community on GitHub."
+    link="https://github.com/nimotecode/nimote_issues/issues"
+    linkText="Join the conversation"
+    target="_blank"
+    rel="noreferrer"
   />
 </VPFeatures>
 </div>
@@ -76,7 +88,7 @@ Get in touch with our team for support, feedback, or questions.
 - Output is buffered for searchability
 - ANSI escape codes are supported for colors and formatting
 
-### AI Assistant Issues
+### AI Chat and Agent Issues
 
 **Problem:** AI not responding or configuration errors
 
@@ -104,7 +116,8 @@ Get in touch with our team for support, feedback, or questions.
 5. Check network access to Git remote (if pushing/pulling)
 
 **Technical Details:**
-- Source Control requires Pro subscription
+- Repository status, diffs and history are available without Pro
+- Gated Git write actions such as commit, push and stash require Pro
 - Git identity is pulled from repository config
 - Operations are atomic and can be retried
 
@@ -120,9 +133,9 @@ Get in touch with our team for support, feedback, or questions.
 5. Verify your subscription is active and not expired
 
 **Technical Details:**
-- Pro gating: `sourceControl`, `lsp`, `debug`, `syncCache`
+- Pro gating: `aiAgentUnlimited`, `gitWrite`, `lsp`, `multiTerminal`, `remoteSearch`, `sync`, `debug`
 - Subscription status is cached and periodically refreshed
-- Trial mode is available for new users
+- New users receive a three-day, per-device Pro trial
 
 ### Debug Panel Issues
 
@@ -133,7 +146,7 @@ Get in touch with our team for support, feedback, or questions.
 2. Verify debug adapter is properly configured
 3. Check launch configuration in `.nimote/launch.json`
 4. Ensure your program is compiled with debug symbols
-5. Check debugger logs in Timeline panel
+5. Check the available debugger logs and adapter output
 
 **Technical Details:**
 - Debug panel is Pro-only and SSH-only
@@ -147,7 +160,7 @@ For privacy, account, or data deletion requests, contact us through the channels
 | Information | Why We Need It |
 |-------------|-----------------|
 | **Account Email** | To locate your account (if registered) |
-| **Platform** | iOS or Android, for appropriate handling |
+| **Platform** | Android, or an iOS availability inquiry, for appropriate handling |
 | **Request Type** | Access, correction, or deletion request |
 | **Additional Details** | Any specific context to help process your request |
 
@@ -161,7 +174,7 @@ Your security is important to us. Here's how we protect your data:
 
 | Credential Type | Storage Method |
 |-----------------|----------------|
-| **SSH Passwords** | Session-only, never persisted in saved profiles |
+| **SSH Passwords** | Platform secure storage (iOS Keychain / Android Keystore) when saved in a connection profile |
 | **AI API Keys** | Platform secure storage (iOS Keychain / Android Keystore) |
 | **SSH Private Keys** | Encrypted storage with user protection |
 | **Account Auth** | Secure token-based authentication |

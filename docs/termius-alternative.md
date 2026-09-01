@@ -1,13 +1,13 @@
 ---
 title: "Termius Alternative for Mobile Development Workflows | NimoteCode"
-description: "Looking for a Termius alternative for coding work? NimoteCode pairs SSH and terminal access with remote Explorer, editor, Git and AI Agent in one mobile development workspace."
+description: "Looking for a Termius alternative for coding work? NimoteCode pairs SSH and terminal access with remote Explorer, editor, Git, AI Chat and Agent in one mobile development workspace."
 ---
 
 # A Termius Alternative for Developers Who Need to Change Code
 
 People looking for a **Termius alternative** often want reliable SSH access from a phone or tablet. That is a good starting point. But if your remote session regularly turns into a code change, a terminal-only workflow leaves the rest of the task scattered across apps.
 
-NimoteCode is a mobile development workspace for that broader job. Alongside SSH and Terminal, it provides Explorer, Editor, Git and AI Agent so you can work through a repository rather than only interact with a shell.
+NimoteCode is a mobile development workspace for that broader job. Alongside SSH and Terminal, it provides Explorer, Editor, Git, AI Chat and Agent so you can work through a repository rather than only interact with a shell.
 
 <ImagePlaceholder image-key="termiusAlternative" alt="Terminal versus mobile workspace comparison">
   <strong>Image placeholder — Terminal versus workspace</strong>
@@ -40,7 +40,7 @@ Termius is a trademark of its respective owner. This page is a workflow comparis
   <p><strong>When your SSH task becomes a coding task, keep the whole workflow together.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=termius_alternative" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=termius_alternative&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=termius_alternative&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/demo?utm_source=termius_alternative&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

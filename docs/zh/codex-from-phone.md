@@ -7,7 +7,7 @@ description: 在一个实用的远程开发工作流中用手机使用 Codex：S
 
 编码代理在靠近它们需要的仓库、终端与测试环境时最有用。如果 Codex 配置在远程开发主机上，基于 SSH 的移动工作区可以让你在手机上延续这份工作，而不是把它退化成一堆贴来贴去的片段。
 
-NimoteCode 结合了 Editor、Explorer、SSH 终端、Git 与 AI Agent，让你在相同的项目上下文中围绕远程 Codex 会话工作：打开源码、运行命令、检查输出并审查真实 diff。
+NimoteCode 结合了 Editor、Explorer、SSH 终端、Git、AI Chat 与 Agent，让你在相同的项目上下文中围绕远程 Codex 会话工作：打开源码、运行命令、检查输出并审查真实 diff。
 
 <ImagePlaceholder image-key="codexFromPhone" alt="通过手机远程使用 Codex 的工作流">
   <strong>图片占位 —— 远程 Codex 工作流</strong>

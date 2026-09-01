@@ -11,15 +11,15 @@ description: 快速了解 NimoteCode 的本地与 SSH 工作区、AI Provider、
 
 ## 不购买 Pro 能使用吗？
 
-可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 和远程内容搜索有免费额度；Pro 解锁进阶工作流，详见 [Pro](/zh/pro)。
+可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用；详见 [Pro](/zh/pro)。
 
 ## 可配置哪些 AI Provider？
 
-应用提供多个 Provider 的模板，也支持兼容的自定义端点。具体模型访问与费用由你的 Provider 账户和配置决定，建议参考 [配置指南](/zh/docs/configuration)。
+应用提供 14 个内置 Provider 模板，也支持兼容的自定义端点。具体模型访问与费用由你的 Provider 账户和配置决定，建议参考 [配置指南](/zh/docs/configuration)。
 
 ## Source Control 支持什么？
 
-Pro 中可以查看 diff、暂存和提交改动、管理分支与 stash，并在仓库与远程权限允许时拉取、推送或获取。详见 [Source Control](/zh/docs/source-control)。
+所有用户都可在 Source Control 查看仓库状态、diff 与历史。提交、推送和 stash 等受限 Git 写入工作流需要 Pro；详见 [Source Control](/zh/docs/source-control)。
 
 ## Tasks 是本地还是远程运行？
 

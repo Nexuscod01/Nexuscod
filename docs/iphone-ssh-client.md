@@ -7,7 +7,7 @@ description: "Looking for an iPhone SSH client that supports real coding workflo
 
 An iPhone SSH client is essential when you need to reach a remote host away from your desk. For developers, the important question is what happens after the connection opens: can you inspect the project, edit the right file, verify the result and understand the change you made?
 
-NimoteCode is built around that wider workflow: **Explorer + SSH + Terminal + Git + AI Agent**, with a code editor at the centre. It is designed to make mobile access useful for actual engineering work, not only server administration.
+NimoteCode currently delivers that wider workflow on Android: **Explorer + SSH + Terminal + Git + AI Chat and Agent**, with a code editor at the centre. The public iOS release is still being prepared.
 
 <ImagePlaceholder image-key="iphoneSshClient" alt="iPhone SSH workflow">
   <strong>Image placeholder — iPhone SSH workflow</strong>
@@ -28,14 +28,14 @@ These pieces let you follow a compact but responsible loop: connect, inspect, ed
 
 ## iPhone and iPad product availability
 
-NimoteCode is designed for iPhone and iPad workflows, including touch-first panels and tablet-friendly working space. The iOS release is currently being prepared for public App Store availability. This page is intentionally clear about that status: do not rely on an unverified App Store listing.
+The public iOS release is currently being prepared for App Store availability. This page describes the workflow to evaluate once it is released; do not rely on an unverified App Store listing.
 
 If you use Android today, you can install the current release from Google Play. If your goal is to evaluate the workflow for iPhone or iPad, watch the product demo and use the documentation to see how SSH workspaces, Git and AI fit together.
 
 <div class="seo-cta">
   <p><strong>Evaluate the mobile workspace now, and check iOS availability before planning a deployment.</strong></p>
   <p class="seo-cta-actions">
-    <a href="/download?utm_source=iphone_ssh_client&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">Download for iOS</a>
+    <a href="/download?utm_source=iphone_ssh_client&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">Check iOS availability</a>
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=iphone_ssh_client" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Download for Android</a>
     <a href="/demo?utm_source=iphone_ssh_client&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>

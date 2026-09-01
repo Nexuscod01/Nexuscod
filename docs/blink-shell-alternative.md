@@ -1,13 +1,13 @@
 ---
 title: "Blink Shell Alternative for Mobile Coding Workflows | NimoteCode"
-description: "Looking for a Blink Shell alternative for mobile development? NimoteCode brings SSH terminal, remote Explorer, editor, Git and AI Agent into a single mobile development workspace."
+description: "Looking for a Blink Shell alternative for mobile development? NimoteCode brings SSH terminal, remote Explorer, editor, Git, AI Chat and Agent into a single mobile development workspace."
 ---
 
 # A Blink Shell Alternative for Mobile Coding Workflows
 
 Shell access is a powerful way to work from a mobile device. When the job involves a repository, however, the command line is only one part of the loop. You need to inspect the tree, make an edit, check the output and review the result before it becomes a change someone else depends on.
 
-NimoteCode is an alternative to consider when you want that work to happen in one mobile development workspace: **Editor + Explorer + SSH + Terminal + Git + AI Agent**.
+NimoteCode is an alternative to consider when you want that work to happen in one mobile development workspace: **Editor + Explorer + SSH + Terminal + Git + AI Chat and Agent**.
 
 <ImagePlaceholder image-key="blinkShellAlternative" alt="Terminal-first versus workspace-first workflow">
   <strong>Image placeholder — Workspace-first workflow</strong>
@@ -36,7 +36,7 @@ Blink Shell is a trademark of its respective owner. This page is not affiliated 
   <p><strong>Keep the terminal, project and Git review together when the task cannot wait for a laptop.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=blink_shell_alternative" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=blink_shell_alternative&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Download for iOS</a>
+    <a href="/download?utm_source=blink_shell_alternative&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
     <a href="/demo?utm_source=blink_shell_alternative&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

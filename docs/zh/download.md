@@ -16,7 +16,7 @@ NimoteCode 将本地或 SSH 项目的文件编辑、终端命令和 AI 协助收
 
 <p class="seo-cta-actions">
   <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=zh_download_page" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a>
-  <a href="/zh/support?utm_source=zh_download&utm_medium=website&utm_campaign=ios_availability" class="home-page-btn tertiary">了解 iOS 可用性</a>
+  <a href="/zh/support?utm_source=zh_download&utm_medium=website&utm_campaign=ios_availability" class="home-page-btn tertiary">联系支持团队了解 iOS 可用性</a>
   <a href="/demo?utm_source=zh_download&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
 </p>
 
@@ -28,6 +28,6 @@ NimoteCode 将本地或 SSH 项目的文件编辑、终端命令和 AI 协助收
 4. 运行 `pwd`、`ls` 或项目测试命令完成验证。
 5. 只有计划使用 AI Chat 或 AI Agent 时，再配置 AI Provider。
 
-免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索带有免费额度；Pro 提供 Git 写入、多终端、无限 Agent 与搜索、LSP、Debug、高级 Tasks 与 Sync / Cache。
+免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和 Tasks。AI Agent 与远程内容搜索可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用。Pro 还提供 Git 写入、多终端、LSP、Debug 与 Sync / Cache。
 
 安装后建议继续阅读 [快速开始](/zh/docs/quick-start)、[SSH 工作区](/zh/docs/ssh) 或 [功能特性](/zh/features)。

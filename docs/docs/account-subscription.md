@@ -1,21 +1,21 @@
 ---
 title: Account and Subscription | NimoteCode
-description: Understand NimoteCode account sign-in, Pro access verification, purchase restoration, Free usage allowances and the advanced workflows unlocked by Pro.
+description: Understand NimoteCode account sign-in, Pro access verification, purchase restoration, the three-day trial and the workflows unlocked by Pro.
 ---
 
 # Account and Subscription
 
-NimoteCode uses account and subscription state to verify **Pro** access and to manage usage-based capabilities such as AI Agent. The exact purchase and restore options depend on the platform store and current release channel.
+NimoteCode uses account and subscription state to verify **Pro** access. New users can evaluate gated workflows through a three-day, per-device trial. The exact purchase and restore options depend on the platform store and current release channel.
 
 ## What sign-in is used for
 
 - Associate verified Pro access with an account.
 - Restore an eligible purchase through the supported store flow.
-- Track the Free allowance for AI Agent where applicable.
+- Verify access to trial and Pro-gated workflows.
 
 ## What Pro unlocks
 
-Pro enables Git write workflows, advanced multi-terminal, unlimited AI Agent and remote search, LSP, Debug, advanced Task execution and Sync / Cache. The capability is checked at the point of use, so the workspace remains clear about which action needs access.
+Pro enables Git write workflows, advanced multi-terminal, AI Agent, remote search, LSP, Debug and Sync / Cache. The capability is checked at the point of use, so the workspace remains clear about which action needs access.
 
 ## If access looks wrong
 

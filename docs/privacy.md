@@ -71,7 +71,7 @@ Diagnostics minimization:
 We use data to:
 
 - Authenticate users and secure accounts
-- Provide app functionality (workspace, editor, terminal, source control, AI, tasks, timeline)
+- Provide app functionality (workspace, editor, terminal, source control, AI, and tasks)
 - Verify subscription and trial eligibility
 - Maintain service reliability, security, and support operations
 

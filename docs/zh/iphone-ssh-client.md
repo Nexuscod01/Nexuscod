@@ -7,7 +7,7 @@ description: 需要一个支持真实编程工作流的 iPhone SSH 客户端？�
 
 当离开工位需要连接远程主机时，iPhone SSH 客户端很关键。对开发者而言，更重要的是连接打开之后的事情：能否检查项目、编辑正确的文件、验证结果并理解你做出的改动？
 
-NimoteCode 正是以这条更宽的流程为核心理念构建：**Explorer + SSH + Terminal + Git + AI Agent**，以代码编辑器为中心。它让移动端访问真正服务于工程工作，而不只是服务器运维。
+NimoteCode 当前在 Android 上提供这条更宽的流程：**Explorer + SSH + Terminal + Git + AI Chat 与 Agent**，以代码编辑器为中心。iOS 公版仍在准备中。
 
 <ImagePlaceholder image-key="iphoneSshClient" alt="iPhone SSH 工作流">
   <strong>图片占位 —— iPhone SSH 工作流</strong>
@@ -28,14 +28,14 @@ NimoteCode 正是以这条更宽的流程为核心理念构建：**Explorer + SS
 
 ## iPhone 与 iPad 产品可用性
 
-NimoteCode 面向 iPhone 与 iPad 工作流设计，包括触控优先的面板和适配平板的操作空间。iOS 版目前正在筹备公版 App Store 上线。本页对此状态保持明确：不要依赖未经核实的 App Store 列表。
+iOS 版目前正在筹备公版 App Store 上线。本页用于说明发布后可评估的工作流；不要依赖未经核实的 App Store 列表。
 
 如果你现在用 Android，可以直接从 Google Play 安装当前版本。如果你想评估 iPhone 或 iPad 的工作流，请看产品演示并参考文档，了解 SSH 工作区、Git 与 AI 如何组合在一起。
 
 <div class="seo-cta">
   <p><strong>现在就评估移动工作区，并在规划部署前确认 iOS 可用性。</strong></p>
   <p class="seo-cta-actions">
-    <a href="/zh/download?utm_source=iphone_ssh_client&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">下载 iOS 版</a>
+    <a href="/zh/download?utm_source=iphone_ssh_client&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">了解 iOS 可用性</a>
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=iphone_ssh_client" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 Android 版</a>
     <a href="/zh/demo?utm_source=iphone_ssh_client&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
   </p>

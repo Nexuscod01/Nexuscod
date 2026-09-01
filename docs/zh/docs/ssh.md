@@ -23,7 +23,8 @@ SSH 工作区把手机或平板变成专注的远程项目环境。Explorer、�
 
 - 在远程项目中浏览文件并用 [编辑器](/zh/docs/editor) 打开。
 - 在对应项目中使用 [终端](/zh/docs/terminal) 执行命令。
-- 在 Pro 中使用 [Source Control](/zh/docs/source-control) 审查聚焦补丁。
+- 使用[远程代码搜索](/zh/docs/search)定位配置、报错或函数引用。
+- 在 [Source Control](/zh/docs/source-control) 中审查聚焦补丁；交付需要受限 Git 写入操作时再使用 Pro。
 
 ## 更稳妥的远程习惯
 

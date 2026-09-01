@@ -1,6 +1,6 @@
 ---
 title: Remote Tasks | NimoteCode
-description: Save, group and run repeatable SSH terminal commands in NimoteCode Tasks, with advanced filtered and parallel task execution available in Pro.
+description: Save, group and run repeatable SSH terminal commands in NimoteCode Tasks.
 ---
 
 # Remote Tasks
@@ -16,6 +16,6 @@ Tasks turns a known remote command procedure into a named, reusable action. It i
 
 ## Use tasks safely
 
-Tasks run through SSH workflows, so make the active environment clear in the task name and command. Start with read-only or low-risk routines, document any prerequisite, and avoid hiding destructive actions behind vague labels. Basic task creation and execution are available in Free; Pro adds advanced filtered and parallel execution.
+Tasks run through SSH workflows, so make the active environment clear in the task name and command. Start with read-only or low-risk routines, document any prerequisite, and avoid hiding destructive actions behind vague labels. Task creation and execution are available without a separate Pro tier.
 
 Related: [SSH Workspace](/docs/ssh) · [Terminal](/docs/terminal) · [Configuration](/docs/configuration)

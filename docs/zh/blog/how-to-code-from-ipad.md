@@ -37,6 +37,6 @@ author: "NimoteCode 团队"
 
 把 AI 用于解释、调试计划或提出一处小改动，而不是当作验证闭环的替代品。在 [NimoteCode](/zh/ipad-coding) 中，AI Chat 与 Agent 紧挨着仓库、终端与 Git 视图，让你能对照真实工作区检查建议。
 
-<div class="seo-cta"><p><strong>探索这套适合 iPad 的移动开发工作区。</strong></p><p class="seo-cta-actions"><a href="/zh/demo?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a><a href="/zh/download?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">下载 iOS 版</a></p></div>
+<div class="seo-cta"><p><strong>探索这套适合 iPad 的移动开发工作区。</strong></p><p class="seo-cta-actions"><a href="/zh/demo?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a><a href="/zh/download?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">了解 iOS 可用性</a></p></div>
 
 相关：[iPad 编程](/zh/ipad-coding) · [移动 IDE](/zh/mobile-ide) · [移动端远程热修](/zh/use-cases/remote-hotfix)

@@ -25,6 +25,6 @@ The editor is where a workspace becomes a change. Open files from a local projec
 1. Locate a file in Explorer or [Search](/docs/search).
 2. Make the smallest useful edit and save it.
 3. Run a verification command in [Terminal](/docs/terminal).
-4. With Pro, inspect the resulting diff in [Source Control](/docs/source-control).
+4. Inspect the resulting diff in [Source Control](/docs/source-control); use Pro if the delivery needs a gated Git write action.
 
 For long, exploratory work a desktop may still be the better tool. The editor is optimized for the focused task that needs to happen now.

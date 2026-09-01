@@ -301,12 +301,10 @@
 
 .vp-doc .seo-media-placeholder.has-image {
   display: block;
-  overflow: hidden;
   padding: 0;
-  border-style: solid;
-  border-color: var(--nimote-border);
-  background: var(--nimote-bg-subtle);
-  box-shadow: var(--nimote-shadow-xs);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .vp-doc .seo-media-placeholder__image {
@@ -316,21 +314,14 @@
   max-width: 100%;
 }
 
-.vp-doc .seo-media-placeholder--wide.has-image {
-  border: 0;
-  background: transparent;
-  box-shadow: none;
-}
-
 .vp-doc .seo-media-placeholder--wide .seo-media-placeholder__image {
-  border-radius: var(--nimote-radius-lg);
-  box-shadow: var(--nimote-shadow-xs);
+  border: 1px solid var(--nimote-border);
+  border-radius: 18px;
+  box-shadow: var(--nimote-shadow-sm);
 }
 
 .vp-doc .seo-media-placeholder--device-pair.has-image {
   min-height: 0;
-  border-radius: 28px;
-  box-shadow: var(--nimote-shadow-md);
 }
 
 .vp-doc .seo-media-placeholder__device-pair {
@@ -340,7 +331,6 @@
   gap: clamp(12px, 3vw, 28px);
   max-width: 760px;
   margin: 0 auto;
-  padding: clamp(14px, 3vw, 26px);
 }
 
 .vp-doc .seo-media-placeholder__device {
@@ -367,7 +357,7 @@
   object-fit: contain;
   border: 1px solid var(--nimote-border);
   border-radius: 18px;
-  box-shadow: var(--nimote-shadow-xs);
+  box-shadow: var(--nimote-shadow-sm);
 }
 
 .vp-doc .seo-media-placeholder__device--phone .seo-media-placeholder__image {
@@ -390,6 +380,35 @@
 
 .vp-doc .seo-media-placeholder--device-pair.has-single-device-image .seo-media-placeholder__image {
   max-height: min(620px, 72vh);
+}
+
+/* Landscape iPad screenshots (16:10) are wider than tall. A lone phone shot
+   fits the 320px single-device column, but a landscape tablet shot needs the
+   full content width to stay legible. */
+.vp-doc .seo-media-placeholder--device-pair.has-single-device-image.has-landscape-ipad .seo-media-placeholder__device-pair {
+  max-width: min(760px, 100%);
+}
+
+/* Pair a portrait phone with a landscape iPad: the tablet stays the dominant
+   device and both render at comparable heights instead of the phone towering
+   over a shrunken tablet. */
+.vp-doc .seo-media-placeholder--device-pair.has-landscape-ipad:not(.has-single-device-image) .seo-media-placeholder__device-pair {
+  grid-template-columns: minmax(0, 0.34fr) minmax(0, 1fr);
+  max-width: 760px;
+}
+
+.vp-doc .seo-media-placeholder--device-pair.has-landscape-ipad:not(.has-single-device-image) .seo-media-placeholder__device--phone .seo-media-placeholder__image {
+  max-height: min(340px, 50vh);
+}
+
+@media (max-width: 560px) {
+  .vp-doc .seo-media-placeholder--device-pair.has-landscape-ipad .seo-media-placeholder__device-pair {
+    max-width: min(480px, 100%);
+  }
+
+  .vp-doc .seo-media-placeholder--device-pair.has-landscape-ipad:not(.has-single-device-image) .seo-media-placeholder__device--phone .seo-media-placeholder__image {
+    max-height: min(420px, 60vh);
+  }
 }
 
 /* Compact product-documentation primitives. They keep long-form pages useful

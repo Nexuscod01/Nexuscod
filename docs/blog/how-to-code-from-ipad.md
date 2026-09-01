@@ -37,6 +37,6 @@ A keyboard is helpful for terminal-heavy work, but it is not required for a shor
 
 Use AI for explanation, a debugging plan or a proposed small change—not as a replacement for the verification loop. In [NimoteCode](/ipad-coding), AI Chat and Agent sit next to the repository, terminal and Git views, so you can check a suggestion against the real workspace.
 
-<div class="seo-cta"><p><strong>Explore the iPad-ready mobile development workspace.</strong></p><p class="seo-cta-actions"><a href="/demo?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a><a href="/download?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">Download for iOS</a></p></div>
+<div class="seo-cta"><p><strong>Explore the iPad-ready mobile development workspace.</strong></p><p class="seo-cta-actions"><a href="/demo?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a><a href="/download?utm_source=how_to_code_from_ipad&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">Check iOS availability</a></p></div>
 
 Related: [iPad Coding](/ipad-coding) · [Mobile IDE](/mobile-ide) · [Remote Hotfix from Mobile](/use-cases/remote-hotfix)

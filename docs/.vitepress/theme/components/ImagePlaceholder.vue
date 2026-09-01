@@ -20,6 +20,12 @@ const hasSingleDeviceImage = computed(
   () => !hasWideImage.value &&
     Boolean(image.value.phone?.src) !== Boolean(image.value.ipad?.src)
 )
+const hasLandscapeIpad = computed(() => {
+  const ipad = image.value.ipad
+  return Boolean(
+    ipad?.src && ipad.width && ipad.height && ipad.width / ipad.height > 1
+  )
+})
 </script>
 
 <template>
@@ -29,7 +35,8 @@ const hasSingleDeviceImage = computed(
       `seo-media-placeholder--${image.layout ?? 'device-pair'}`,
       {
         'has-image': hasImages,
-        'has-single-device-image': hasSingleDeviceImage
+        'has-single-device-image': hasSingleDeviceImage,
+        'has-landscape-ipad': hasLandscapeIpad
       }
     ]"
     :role="hasImages ? undefined : 'img'"

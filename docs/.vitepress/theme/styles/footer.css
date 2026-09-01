@@ -35,7 +35,9 @@
 }
 
 .nimote-site-footer-content {
-  padding: 52px max(24px, calc((100vw - var(--nimote-container)) / 2)) 24px;
+  /* 100% (not 100vw) so the symmetric gutter tracks the visible width even
+     when a vertical scrollbar is present — the inner block keeps centering. */
+  padding: 52px max(24px, calc((100% - var(--nimote-container)) / 2)) 24px;
 }
 
 .nimote-site-footer-inner {

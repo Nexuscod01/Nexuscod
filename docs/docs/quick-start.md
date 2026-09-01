@@ -27,7 +27,7 @@ Open [Terminal](/docs/terminal) in the same workspace and run a harmless command
 ## 4. Choose the next step
 
 <div class="product-card-grid">
-  <div class="product-card"><strong>Review a change · Pro</strong><span>Open <a href="/docs/source-control">Source Control</a> to inspect the diff, stage and commit when appropriate.</span></div>
+  <div class="product-card"><strong>Review a change</strong><span>Open <a href="/docs/source-control">Source Control</a> to inspect the diff and stage it; committing or pushing needs Pro access.</span></div>
   <div class="product-card"><strong>Ask for help</strong><span>Use <a href="/docs/ai">AI Chat or Agent</a> to explain code, plan a change or assist controlled multi-step work.</span></div>
   <div class="product-card"><strong>Diagnose more deeply · Pro</strong><span>Use configured <a href="/docs/lsp">LSP</a>, <a href="/docs/debug">Debug</a> and <a href="/docs/terminal">Terminal</a> workflows.</span></div>
   <div class="product-card"><strong>Reuse a command</strong><span>Save an established remote procedure in <a href="/docs/tasks">Tasks</a>.</span></div>

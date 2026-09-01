@@ -20,12 +20,12 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
 | Editor | Work in tabs, save changes, use clipboard and undo/redo, follow cursor position and open structural context when available. | Free |
 | Terminal | Run commands in the active workspace, search output, use shortcuts and recover after a remote reconnect. | Free |
 | AI Chat | Explain code, inspect error output and plan the next change with current-file context. | Free |
-| AI Agent | Assist a controlled multi-step workflow involving files, terminal and Git tools. | Metered Free · unlimited Pro |
+| AI Agent | Assist a controlled multi-step workflow involving files, terminal and Git tools. | 3-day trial · Pro |
 
 ## Deliver, diagnose and automate
 
 <div class="product-card-grid">
-  <div class="product-card"><strong>Source Control · Pro</strong><span>Review diffs, stage, commit, pull, push, branch and stash. Git AI can help describe or review a change.</span></div>
+  <div class="product-card"><strong>Source Control</strong><span>Review repository status, diffs and history for free. Pro unlocks Git write workflows such as commit, push and stash actions.</span></div>
   <div class="product-card"><strong>Multi-terminal · Pro</strong><span>Keep parallel contexts for logs, tests, services and deployment work without leaving the workspace.</span></div>
   <div class="product-card"><strong>LSP + Debug · Pro</strong><span>Use configured remote language-server and debug-adapter workflows for diagnostics, code actions, breakpoints and runtime inspection.</span></div>
   <div class="product-card"><strong>Tasks</strong><span>Save repeated remote commands, organize them by group and follow their terminal-backed execution.</span></div>
@@ -38,7 +38,7 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
 2. Locate and edit the file in [Editor](/docs/editor).
 3. Verify it in [Terminal](/docs/terminal); search output or remote content when needed.
 4. Ask [AI Chat and Agent](/docs/ai) to explain an error or plan a change.
-5. With Pro, use [Source Control](/docs/source-control) to review and deliver the result.
+5. Use [Source Control](/docs/source-control) to review the result; Pro is required when the delivery step needs a gated Git write action.
 
 > Features are deliberately permission- and environment-aware. For example, LSP and Debug depend on the language server or debug adapter being set up on the remote host, and AI output should be reviewed before use on sensitive systems.
 

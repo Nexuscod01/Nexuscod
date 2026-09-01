@@ -339,12 +339,12 @@
   .VPNavBar:not(.has-sidebar) .container,
   .home-page-section,
   .VPFooter .container {
-    padding-left: max(14px, env(safe-area-inset-left));
-    padding-right: max(14px, env(safe-area-inset-right));
+    padding-left: max(var(--nimote-home-gutter), env(safe-area-inset-left));
+    padding-right: max(var(--nimote-home-gutter), env(safe-area-inset-right));
   }
   .home-page-hero-shell {
-    padding-left: max(14px, env(safe-area-inset-left));
-    padding-right: max(14px, env(safe-area-inset-right));
+    padding-left: max(var(--nimote-home-gutter), env(safe-area-inset-left));
+    padding-right: max(var(--nimote-home-gutter), env(safe-area-inset-right));
   }
 }
 

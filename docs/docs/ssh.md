@@ -24,7 +24,7 @@ SSH Workspace turns a mobile device into a focused remote project environment. I
 - Browse the remote project and open files in [Editor](/docs/editor).
 - Run shell commands in [Terminal](/docs/terminal) for that workspace.
 - Search remote file content with [Search](/docs/search).
-- Review a focused patch in [Source Control](/docs/source-control) with Pro access.
+- Review a focused patch in [Source Control](/docs/source-control); use Pro only if the delivery needs a gated Git write action.
 
 ## Safer remote habits
 
