@@ -7,7 +7,14 @@
  *
  *   phone: { src: '/images/placeholders/ssh-workspace-phone.webp' },
  *   ipad: { src: '/images/placeholders/ssh-workspace-ipad.webp' }
+ *
+ * A single composite image that already includes both devices can use:
+ *
+ *   layout: 'wide',
+ *   wide: { src: '/images/placeholders/quick-start.webp' }
  */
+export type PlaceholderImageLayout = 'device-pair' | 'wide'
+
 export interface DeviceScreenshot {
   src: string | null
   width?: number
@@ -15,26 +22,57 @@ export interface DeviceScreenshot {
 }
 
 export interface PlaceholderImage {
-  phone: DeviceScreenshot
-  ipad: DeviceScreenshot
+  layout?: PlaceholderImageLayout
+  wide?: DeviceScreenshot
+  phone?: DeviceScreenshot
+  ipad?: DeviceScreenshot
 }
 
 export const placeholderImages = {
   homeWorkflow: { phone: { src: null }, ipad: { src: null } },
+  quickStart: {
+    layout: 'wide',
+    wide: {
+      src: '/images/placeholders/QuickStart.png',
+      width: 1024,
+      height: 500
+    }
+  },
   workspaceOverview: { phone: { src: null }, ipad: { src: null } },
   featureOverview: { phone: { src: null }, ipad: { src: null } },
-  sshWorkspace: { phone: { src: null }, ipad: { src: null } },
-  editor: { phone: { src: null }, ipad: { src: null } },
+  sshWorkspace: {
+      phone: {
+      src: '/images/placeholders/SSH_Workspace_Phone.PNG',
+      width: 1320,
+      height: 2868
+    },
+    ipad: { src: null }
+  },
+  editor: { 
+    phone: {
+      src: '/images/placeholders/Editor_Phone.PNG',
+      width: 1320,
+      height: 2868
+    },
+    ipad: { src: null }
+  },
   terminal: {
     phone: {
-      src: '/images/Terminal.png',
+      src: '/images/placeholders/Terminal_Phone.PNG',
       width: 1320,
       height: 2868
     },
     ipad: { src: null }
   },
   aiAssistant: { phone: { src: null }, ipad: { src: null } },
-  sourceControl: { phone: { src: null }, ipad: { src: null } },
+  sourceControl: {
+    phone: {
+      src: '/images/placeholders/GitPanel_Phone.PNG',
+      width: 1320,
+      height: 2868
+    },
+    ipad: { src: null }
+  },
   lsp: { phone: { src: null }, ipad: { src: null } },
   debugging: { phone: { src: null }, ipad: { src: null } },
   syncCache: { phone: { src: null }, ipad: { src: null } },

@@ -316,6 +316,17 @@
   max-width: 100%;
 }
 
+.vp-doc .seo-media-placeholder--wide.has-image {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.vp-doc .seo-media-placeholder--wide .seo-media-placeholder__image {
+  border-radius: var(--nimote-radius-lg);
+  box-shadow: var(--nimote-shadow-xs);
+}
+
 .vp-doc .seo-media-placeholder--device-pair.has-image {
   min-height: 0;
   border-radius: 28px;

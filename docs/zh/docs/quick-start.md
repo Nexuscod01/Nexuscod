@@ -7,6 +7,11 @@ description: 在 NimoteCode 打开本地或 SSH 工作区，编辑文件、运�
 
 先跑通核心流程：打开一个项目、完成一处小修改，再通过终端验证。无论项目在设备上还是通过 SSH 连接到远程主机，都适用。
 
+<ImagePlaceholder image-key="quickStart" alt="NimoteCode 快速开始工作流的手机与 iPad 截图">
+  <strong>图片占位符 —— 跑通第一条移动开发流程</strong>
+  <span>请替换为同主题的手机与 iPad 截图，展示打开工作区、完成聚焦编辑并在终端验证的过程。</span>
+</ImagePlaceholder>
+
 ## 1. 打开工作区
 
 项目位于设备时，选择 **Local Explorer**；项目位于远程主机时，选择 **Remote Explorer**。SSH 模式下填写主机、端口和用户名，再选择密码、私钥文件或粘贴私钥认证。开始前务必确认项目根路径。

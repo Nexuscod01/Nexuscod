@@ -12,9 +12,13 @@ const props = defineProps<{
 }>()
 
 const image = computed<PlaceholderImage>(() => placeholderImages[props.imageKey])
-const hasImages = computed(() => Boolean(image.value.phone.src || image.value.ipad.src))
+const hasWideImage = computed(() => Boolean(image.value.wide?.src))
+const hasImages = computed(() => Boolean(
+  image.value.wide?.src || image.value.phone?.src || image.value.ipad?.src
+))
 const hasSingleDeviceImage = computed(
-  () => Boolean(image.value.phone.src) !== Boolean(image.value.ipad.src)
+  () => !hasWideImage.value &&
+    Boolean(image.value.phone?.src) !== Boolean(image.value.ipad?.src)
 )
 </script>
 
@@ -22,7 +26,7 @@ const hasSingleDeviceImage = computed(
   <div
     class="seo-media-placeholder"
     :class="[
-      'seo-media-placeholder--device-pair',
+      `seo-media-placeholder--${image.layout ?? 'device-pair'}`,
       {
         'has-image': hasImages,
         'has-single-device-image': hasSingleDeviceImage
@@ -31,8 +35,18 @@ const hasSingleDeviceImage = computed(
     :role="hasImages ? undefined : 'img'"
     :aria-label="hasImages ? undefined : alt"
   >
-    <div v-if="hasImages" class="seo-media-placeholder__device-pair">
-      <figure v-if="image.phone.src" class="seo-media-placeholder__device seo-media-placeholder__device--phone">
+    <img
+      v-if="image.wide?.src"
+      class="seo-media-placeholder__image seo-media-placeholder__image--wide"
+      :src="image.wide.src"
+      :alt="alt"
+      :width="image.wide.width"
+      :height="image.wide.height"
+      loading="lazy"
+      decoding="async"
+    >
+    <div v-else-if="hasImages" class="seo-media-placeholder__device-pair">
+      <figure v-if="image.phone?.src" class="seo-media-placeholder__device seo-media-placeholder__device--phone">
         <img
           class="seo-media-placeholder__image"
           :src="image.phone.src"
@@ -43,7 +57,7 @@ const hasSingleDeviceImage = computed(
           decoding="async"
         >
       </figure>
-      <figure v-if="image.ipad.src" class="seo-media-placeholder__device seo-media-placeholder__device--ipad">
+      <figure v-if="image.ipad?.src" class="seo-media-placeholder__device seo-media-placeholder__device--ipad">
         <img
           class="seo-media-placeholder__image"
           :src="image.ipad.src"

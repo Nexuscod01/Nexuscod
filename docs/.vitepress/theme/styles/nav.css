@@ -170,7 +170,7 @@
     display: block;
     grid-column: 2;
     box-sizing: border-box;
-    padding: 0 32px 0 0 !important;
+    padding: 0 var(--sidebar-content-padding) 0 0 !important;
     min-width: 0;
   }
 
@@ -269,7 +269,7 @@
 @media (min-width: 1440px) {
   .Layout {
     --sidebar-width: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
-    --sidebar-content-padding: max(32px, calc((100vw - var(--vp-layout-max-width)) / 2));
+    --sidebar-content-padding: max(32px, calc((100vw - var(--vp-layout-max-width)) / 2 + 32px));
   }
 
   .VPNavBar.has-sidebar .container > .title {
