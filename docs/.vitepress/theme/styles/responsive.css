@@ -332,7 +332,11 @@
 
 /* iOS safe area — only apply to in-page sections, hero is full-bleed */
 @supports (padding: env(safe-area-inset-left)) {
-  .VPNavBar .container,
+  /* The documentation header owns a full-width two-column grid. Giving its
+     container safe-area padding shifts the first grid track, while the fixed
+     sidebar remains at x=0. Keep this padding for the marketing header only;
+     mobile docs retain VitePress's own responsive chrome spacing. */
+  .VPNavBar:not(.has-sidebar) .container,
   .home-page-section,
   .VPFooter .container {
     padding-left: max(14px, env(safe-area-inset-left));

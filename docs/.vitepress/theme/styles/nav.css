@@ -1,242 +1,573 @@
 /* ==========================================================================
-   Navigation
-   - Top bar (.VPNav / .VPNavBar)
-   - Logo & brand title
-   - Menu links & social links
-   - Search button
-   - Sidebar (.VPSidebar)
-   - Local nav + doc outline
+   Application chrome
+   The header and docs navigation share one quiet, product-grade system:
+   clear hierarchy, generous rhythm, and a deliberate active state.
    ========================================================================== */
 
-/* Top bar — dense instrument-panel chrome */
-.VPNav,
-.VPNavBar,
-.VPNavBar.has-sidebar {
-  position: relative;
-  z-index: calc(var(--vp-z-index-layout-top) + 20);
+/* Header ---------------------------------------------------------------- */
+.VPNavBar {
+  border-bottom: 1px solid var(--nimote-border);
   background: var(--nimote-nav-bg) !important;
+  box-shadow: none;
   backdrop-filter: saturate(140%) blur(18px);
   -webkit-backdrop-filter: saturate(140%) blur(18px);
-  border-bottom: 1px solid var(--nimote-border);
-  box-shadow: var(--nimote-panel-shadow);
-  transition: background-color 0.18s var(--nimote-ease), border-color 0.18s var(--nimote-ease);
+  transition: background-color 0.22s var(--nimote-ease), box-shadow 0.22s var(--nimote-ease);
 }
 
-.VPNav.scrolled {
-  box-shadow: var(--nimote-shadow-sm);
+.VPNavBar:not(.top) {
   background: var(--nimote-nav-bg-scrolled) !important;
+  box-shadow: 0 1px 0 rgba(8, 9, 10, 0.03), 0 10px 30px rgba(8, 9, 10, 0.035);
 }
 
+.dark .VPNavBar:not(.top) {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.025), 0 12px 32px rgba(0, 0, 0, 0.16);
+}
+
+.VPNavBar .wrapper,
 .VPNavBar .container,
 .VPNavBar .content,
-.VPNavBar .content-body,
-.VPNavBar .divider,
-.VPNavBar .curtain {
-  position: relative;
-  z-index: 1;
+.VPNavBar .content-body {
   background: transparent !important;
 }
 
 .VPNavBar .content-body {
-  border-bottom: none;
-  min-height: var(--nimote-nav-height);
+  gap: 4px;
+  border: 0;
+}
+
+.VPNavBar .divider {
+  display: none !important;
 }
 
 .VPNavBar .title,
 .VPNavBarTitle .title {
-  font-weight: 700;
-  font-size: 1.02rem;
-  letter-spacing: -0.01em;
   color: var(--nimote-text-primary);
-}
-
-.VPNavBarTitle {
-  gap: 10px;
-}
-
-.VPNavBarTitle .logo {
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
-  box-shadow: var(--nimote-panel-shadow);
-  transition: transform 0.3s var(--nimote-ease);
-}
-.VPNavBarTitle:hover .logo {
-  transform: rotate(-6deg) scale(1.04);
+  font-size: 1rem;
+  font-weight: 680;
+  letter-spacing: -0.025em;
 }
 
 .VPNavBarTitle .title {
-  display: inline-flex;
-  align-items: center;
-  min-height: 30px;
+  gap: 10px;
+  border-bottom: 0 !important;
 }
 
-/* Nav links */
-.VPNavBarMenuLink,
-.VPNavBarMenuGroup .button {
-  font-weight: 500;
-  font-size: 0.92rem;
+.VPNavBarTitle .logo {
+  margin-right: 0 !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  box-shadow: 0 6px 18px rgba(var(--nimote-accent-rgb), 0.2);
+  transition: transform 0.24s var(--nimote-ease), box-shadow 0.24s var(--nimote-ease);
+}
+
+.VPNavBarTitle:hover .logo {
+  box-shadow: 0 9px 22px rgba(var(--nimote-accent-rgb), 0.3);
+  transform: translateY(-1px) rotate(-3deg);
+}
+
+@media (min-width: 960px) {
+  /* The custom Layout places Sidebar and Content in `main`, with Footer after
+     it. This keeps the sticky containing block strictly above Footer. */
+  .Layout {
+    --sidebar-width: var(--vp-sidebar-width);
+    --sidebar-content-padding: 32px;
+    --sidebar-item-inset: 8px;
+    --sidebar-shell-padding: calc(var(--sidebar-content-padding) - var(--sidebar-item-inset));
+  }
+
+  .nimote-main-layout.has-sidebar {
+    display: grid !important;
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  /* This rail owns the full left column's background and seam. The nested
+     navigation can remain sticky without leaving a gap before Footer. */
+  .nimote-sidebar-rail {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: stretch;
+    min-width: 0;
+    background: var(--nimote-bg-elevated);
+    border-right: 1px solid var(--nimote-border);
+    box-shadow: inset -1px 0 0 var(--nimote-inset-highlight);
+  }
+
+  /* Box-model guard for the only elements that form the chrome seam. */
+  .VPNavBar.has-sidebar,
+  .VPNavBar.has-sidebar::before,
+  .VPNavBar.has-sidebar::after,
+  .VPNavBar.has-sidebar .container,
+  .VPNavBar.has-sidebar .container > .title,
+  .VPNavBar.has-sidebar .content,
+  .VPNavBar.has-sidebar .content-body,
+  .VPSidebar,
+  .VPSidebar::before,
+  .VPSidebar::after,
+  .VPContent.has-sidebar {
+    box-sizing: border-box !important;
+  }
+
+  .VPNavBar.has-sidebar {
+    /* The separator belongs to the full-width header, above both grid cells. */
+    border-bottom: 1px solid var(--nimote-border);
+    box-shadow: none !important;
+  }
+
+  .VPNavBar.has-sidebar .wrapper {
+    padding: 0 !important;
+    /* Reserve the final physical pixel for the parent Header border. This
+       prevents the opaque logo grid cell from covering that outer border. */
+    height: calc(var(--vp-nav-height) - 1px);
+  }
+
+  .VPNavBar.has-sidebar .container {
+    display: grid !important;
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+    align-items: stretch;
+    margin: 0 !important;
+    max-width: none !important;
+    width: 100%;
+    height: calc(var(--vp-nav-height) - 1px) !important;
+  }
+
+  /* The direct child is the left grid cell. Do not use `.title` broadly:
+     VPNavBarTitle contains a second, nested `.title` for the logo link. */
+  .VPNavBar.has-sidebar .container > .title {
+    position: static !important;
+    display: flex;
+    grid-column: 1;
+    box-sizing: border-box;
+    padding: 0 32px 0 var(--sidebar-content-padding);
+    margin: 0 !important;
+    width: auto !important;
+    height: calc(var(--vp-nav-height) - 1px) !important;
+    /* Keep the header's bottom rule uninterrupted. The sidebar boundary begins
+       below the header, so a header-only vertical segment would look detached. */
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    background: var(--nimote-bg-elevated) !important;
+  }
+
+  .VPNavBar.has-sidebar .container > .title .VPNavBarTitle,
+  .VPNavBar.has-sidebar .container > .title .VPNavBarTitle > .title {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 !important;
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .VPNavBar.has-sidebar .container > .title .VPNavBarTitle > .title {
+    position: static !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  .VPNavBar.has-sidebar .content {
+    display: block;
+    grid-column: 2;
+    box-sizing: border-box;
+    padding: 0 32px 0 0 !important;
+    min-width: 0;
+  }
+
+  .VPNavBar.has-sidebar .content-body {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(var(--vp-nav-height) - 1px);
+    min-width: 0;
+  }
+
+  .VPNavBar.has-sidebar .content-body > * {
+    min-width: 0;
+  }
+
+  .VPSidebar {
+    box-sizing: border-box;
+    /* The navigation sits inside the full-height rail, never as a viewport
+       overlay. It sticks below Header and stops with the Main container. */
+    position: sticky !important;
+    top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px)) !important;
+    bottom: auto !important;
+    align-self: start;
+    height: auto !important;
+    max-height: calc(100vh - var(--vp-nav-height) - var(--vp-layout-top-height, 0px));
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    padding: 20px 20px 48px var(--sidebar-shell-padding) !important;
+    margin: 0 !important;
+    width: var(--sidebar-width) !important;
+    border-right: 0 !important;
+    box-shadow: none !important;
+    z-index: 1 !important;
+  }
+
+  .VPSidebar .curtain {
+    display: none !important;
+  }
+
+  .VPContent.has-sidebar {
+    grid-column: 2;
+    grid-row: 1;
+    box-sizing: border-box;
+    /* The second Grid column is the remaining viewport width. */
+    margin: 0 !important;
+    width: auto !important;
+    min-width: 0;
+    padding-top: var(--vp-nav-height) !important;
+    padding-left: 0 !important;
+  }
+
+  .nimote-site-footer {
+    width: 100%;
+    margin-top: 0;
+    z-index: 2;
+  }
+
+  .VPContent.has-sidebar .VPDoc,
+  .VPContent.has-sidebar .VPDoc .container,
+  .VPContent.has-sidebar .VPDoc .content,
+  .VPContent.has-sidebar .VPDoc .content-container,
+  .VPContent.has-sidebar .VPDoc .main,
+  .VPContent.has-sidebar .vp-doc {
+    box-sizing: border-box;
+    min-width: 0 !important;
+    max-width: 100%;
+  }
+
+  .VPContent.has-sidebar .VPDoc .content {
+    flex: 1 1 auto;
+    width: auto;
+  }
+
+  .VPContent.has-sidebar .VPDoc .aside {
+    flex: 0 1 256px;
+    min-width: 0;
+  }
+
+  .VPContent.has-sidebar .vp-doc {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .VPLocalNav.has-sidebar {
+    box-sizing: border-box;
+    padding-left: var(--sidebar-width) !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .Layout {
+    --sidebar-width: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
+    --sidebar-content-padding: max(32px, calc((100vw - var(--vp-layout-max-width)) / 2));
+  }
+
+  .VPNavBar.has-sidebar .container > .title {
+    padding-left: var(--sidebar-content-padding);
+  }
+}
+
+/* Main navigation ------------------------------------------------------- */
+.VPNavBarMenu {
+  align-items: center;
+  gap: 2px;
+}
+
+.VPNavBar .VPNavBarMenuLink,
+.VPNavBar .VPNavBarMenuGroup .button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 11px;
+  border-radius: 9px;
   color: var(--nimote-text-secondary);
-  padding: 8px 12px;
-  border-radius: var(--nimote-radius-sm);
-  transition: color 0.2s var(--nimote-ease), background-color 0.2s var(--nimote-ease);
+  font-size: 0.875rem;
+  font-weight: 560;
+  line-height: 1;
+  transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), transform 0.18s var(--nimote-ease);
 }
-.VPNavBarMenuLink:hover,
-.VPNavBarMenuGroup .button:hover {
+
+.VPNavBar .VPNavBarMenuLink:hover,
+.VPNavBar .VPNavBarMenuGroup .button:hover {
+  background: rgba(var(--nimote-accent-rgb), 0.075);
   color: var(--nimote-text-primary);
-  background: rgba(var(--nimote-bg-rgb), 0.42);
 }
-.VPNavBarMenuLink.active {
+
+.VPNavBar .VPNavBarMenuLink.active {
+  background: rgba(var(--nimote-accent-rgb), 0.095);
   color: var(--nimote-accent);
-  font-weight: 510;
+}
+
+/* Download is intentionally last in both locale navs. */
+.VPNavBarMenu .VPNavBarMenuLink:last-child {
+  margin-left: 6px;
+  padding: 0 15px;
+  border: 1px solid var(--nimote-border-accent);
+  background: var(--nimote-accent);
+  box-shadow: 0 6px 16px rgba(var(--nimote-accent-rgb), 0.2);
+  color: #fff;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink:last-child:hover {
+  background: var(--nimote-accent-dark);
+  box-shadow: 0 9px 22px rgba(var(--nimote-accent-rgb), 0.28);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* Search and utility controls ------------------------------------------ */
+.VPNavBar .VPNavBarSearch {
+  padding-left: 20px;
+}
+
+.VPNavBarSearch .DocSearch-Button {
+  height: 38px;
+  max-width: 220px;
+  border: 1px solid var(--nimote-border);
+  border-radius: 10px;
+  background: rgba(var(--nimote-bg-rgb), 0.56);
+  box-shadow: none;
+  color: var(--nimote-text-muted);
+  transition: border-color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), box-shadow 0.18s var(--nimote-ease);
+}
+
+.VPNavBarSearch .DocSearch-Button:hover {
+  border-color: var(--nimote-border-accent);
+  background: var(--nimote-bg-elevated);
+  box-shadow: 0 4px 14px rgba(8, 9, 10, 0.05);
+}
+
+.VPNavBarSearch .DocSearch-Button-Key {
+  border-color: var(--nimote-border);
+  color: var(--nimote-text-muted);
+}
+
+.VPNavBarSocialLinks .VPSocialLink,
+.VPNavBarAppearance .VPSwitch,
+.VPNavBarTranslations .button {
+  border-radius: 9px;
+  transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease);
+}
+
+.VPNavBarSocialLinks .VPSocialLink:hover,
+.VPNavBarTranslations .button:hover {
+  background: rgba(var(--nimote-accent-rgb), 0.075);
 }
 
 .VPNavBarMenuLink:focus-visible,
 .VPNavBarMenuGroup .button:focus-visible,
 .VPNavBarSearch .DocSearch-Button:focus-visible,
 .VPNavBarSocialLinks .VPSocialLink:focus-visible,
+.VPSidebarItem .item:focus-visible,
 .VPSidebarItem .item .link:focus-visible,
 .VPDocAside .outline-link:focus-visible {
   outline: 2px solid var(--nimote-accent-2);
   outline-offset: 2px;
 }
 
-/* Search */
-.VPNavBarSearch {
-  border-radius: var(--nimote-radius-md);
-  position: relative;
-  z-index: 2;
-}
-.VPNavBarSearch .DocSearch-Button {
-  background: var(--nimote-input-bg);
-  border: 1px solid transparent;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
-  border-radius: var(--nimote-radius-md);
-  height: 38px;
-  padding: 0 12px;
-  font-size: 0.86rem;
-  color: var(--nimote-text-muted);
-  transition: all 0.2s var(--nimote-ease);
-}
-.VPNavBarSearch .DocSearch-Button:hover {
-  border-color: var(--nimote-border-accent);
-  background: var(--nimote-bg-elevated);
-}
-
-/* Social links */
-.VPNavBarSocialLinks .VPSocialLink {
-  border-radius: var(--nimote-radius-sm);
-  transition: transform 0.2s var(--nimote-ease), background-color 0.2s var(--nimote-ease);
-}
-.VPNavBarSocialLinks .VPSocialLink:hover {
-  background: rgba(var(--nimote-bg-rgb), 0.34);
-  transform: translateY(-1px);
-}
-
-/* Sidebar */
+/* Documentation sidebar ------------------------------------------------ */
 .VPSidebar {
-  background: var(--nimote-bg-elevated);
   border-right: 1px solid var(--nimote-border);
+  background: var(--nimote-bg-elevated) !important;
   box-shadow: inset -1px 0 0 var(--nimote-inset-highlight);
-  padding-top: 8px;
 }
 
-.VPSidebarGroup {
-  padding: 0 12px 12px;
+.VPSidebar .group {
+  width: 100% !important;
+  padding-top: 0 !important;
 }
 
-.VPSidebarGroup .title {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--nimote-text-muted);
-  margin: 16px 12px 8px;
+.VPSidebar .group + .group {
+  margin-top: 16px;
+  padding-top: 16px !important;
+  border-top: 1px solid var(--nimote-border);
+}
+
+.VPSidebar .VPSidebarItem.level-0 {
+  padding-bottom: 0 !important;
+}
+
+.VPSidebar .VPSidebarItem.level-0 > .item {
+  min-height: 30px;
+  padding: 0 var(--sidebar-item-inset, 8px);
+  border-radius: 7px;
+}
+
+.VPSidebar .VPSidebarItem.level-0 > .item > .text,
+.VPSidebar .VPSidebarItem.level-0 > .item > .link > .text {
   padding: 0;
+  color: var(--nimote-text-muted);
+  font-size: 0.675rem;
+  font-weight: 720;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
-.VPSidebarItem {
-  position: relative;
-}
-
-.VPSidebarItem .item .link,
-.VPSidebarItem .item .text {
+.VPSidebar .VPSidebarItem.level-0 > .item > .link:hover > .text,
+.VPSidebar .VPSidebarItem.level-0 > .item:hover > .text {
   color: var(--nimote-text-secondary);
-  font-weight: 500;
-  font-size: 0.92rem;
-  border-radius: var(--nimote-radius-sm);
-  padding: 8px 12px;
-  margin: 1px 0;
-  line-height: 1.4;
-  transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease);
 }
 
-.VPSidebarItem .item .link:hover,
-.VPSidebarItem .item .link:hover .text {
+.VPSidebar .VPSidebarItem.level-0 > .items {
+  margin-top: 5px;
+}
+
+.VPSidebarItem.level-1 > .item > .link {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 var(--sidebar-item-inset, 8px);
+  border: 1px solid transparent;
+  border-radius: 9px;
+  color: var(--nimote-text-secondary);
+  transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), border-color 0.18s var(--nimote-ease), transform 0.18s var(--nimote-ease);
+}
+
+.VPSidebarItem.level-1 > .item > .link > .text {
+  padding: 0;
+  color: inherit;
+  font-size: 0.86rem;
+  font-weight: 510;
+  line-height: 1.35;
+}
+
+.VPSidebarItem.level-1 > .item > .link:hover {
+  border-color: rgba(var(--nimote-accent-rgb), 0.1);
+  background: rgba(var(--nimote-accent-rgb), 0.06);
   color: var(--nimote-text-primary);
-  background: rgba(var(--nimote-bg-rgb), 0.34);
 }
 
-.VPSidebarItem.is-active > .item > .link {
-  background: linear-gradient(90deg, rgba(var(--nimote-accent-rgb), 0.11), transparent);
-  position: relative;
-}
-.VPSidebarItem.is-active > .item > .link::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 8px;
-  bottom: 8px;
-  width: 3px;
-  border-radius: 0 3px 3px 0;
-  background: var(--nimote-accent);
-}
-.VPSidebarItem.is-active > .item > .link > .text {
+.VPSidebarItem.level-1.is-active > .item > .link {
+  border-color: rgba(var(--nimote-accent-rgb), 0.16);
+  background: linear-gradient(90deg, rgba(var(--nimote-accent-rgb), 0.14), rgba(var(--nimote-accent-rgb), 0.045));
+  box-shadow: inset 2px 0 0 var(--nimote-accent);
   color: var(--nimote-accent);
-  font-weight: 600;
 }
 
-/* Local nav (in-page outline on top) */
+.VPSidebarItem.level-1.is-active > .item > .link > .text {
+  color: inherit;
+  font-weight: 650;
+}
+
+.VPSidebarItem.level-0 .caret {
+  margin-right: -3px;
+  width: 28px;
+  height: 30px;
+  color: var(--nimote-text-muted);
+}
+
+.VPSidebarItem.level-0 .caret-icon {
+  font-size: 14px;
+}
+
+.VPSidebarItem.level-0 > .item:hover .caret {
+  color: var(--nimote-text-primary);
+}
+
+/* Nested lists are rare today, but remain readable for future docs. */
+.VPSidebarItem.level-1 .items,
+.VPSidebarItem.level-2 .items,
+.VPSidebarItem.level-3 .items,
+.VPSidebarItem.level-4 .items,
+.VPSidebarItem.level-5 .items {
+  margin: 4px 0 4px 10px;
+  padding-left: 10px;
+  border-left-color: var(--nimote-border);
+}
+
+/* Local navigation and in-page outline --------------------------------- */
 .VPLocalNav {
-  background: rgba(var(--nimote-bg-rgb), 0.8);
-  backdrop-filter: saturate(160%) blur(18px);
-  -webkit-backdrop-filter: saturate(160%) blur(18px);
   border-bottom: 1px solid var(--nimote-border);
+  background: rgba(var(--nimote-bg-rgb), 0.88);
+  backdrop-filter: saturate(140%) blur(16px);
+  -webkit-backdrop-filter: saturate(140%) blur(16px);
 }
 
 .VPDocAsideOutline {
   border-left: 1px solid var(--nimote-border);
-  padding-left: 4px;
+  padding-left: 8px;
 }
 
 .VPDocAside .outline-link {
-  color: var(--nimote-text-secondary);
-  font-weight: 500;
-  font-size: 0.86rem;
-  padding: 6px 12px;
-  border-radius: var(--nimote-radius-sm);
-  transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease);
-  line-height: 1.45;
+  margin-left: -9px;
+  padding: 6px 10px;
   border-left: 2px solid transparent;
-  margin-left: -2px;
-}
-.VPDocAside .outline-link:hover {
-  color: var(--nimote-text-primary);
-  background: rgba(var(--nimote-bg-rgb), 0.3);
-}
-.VPDocAside .outline-link.active {
-  color: var(--nimote-accent);
-  font-weight: 600;
-  background: rgba(var(--nimote-bg-rgb), 0.3);
-  border-left-color: var(--nimote-accent);
+  border-radius: 0 7px 7px 0;
+  color: var(--nimote-text-secondary);
+  font-size: 0.84rem;
+  font-weight: 500;
+  line-height: 1.42;
+  transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), border-color 0.18s var(--nimote-ease);
 }
 
-.VPNavBarHamburger,
-.VPNavBarTranslations,
-.VPNavBarAppearance,
-.VPNavBarExtra,
-.VPNavBarSocialLinks {
-  position: relative;
-  z-index: 2;
-  pointer-events: auto;
+.VPDocAside .outline-link:hover {
+  background: rgba(var(--nimote-accent-rgb), 0.055);
+  color: var(--nimote-text-primary);
+}
+
+.VPDocAside .outline-link.active {
+  border-left-color: var(--nimote-accent);
+  background: rgba(var(--nimote-accent-rgb), 0.08);
+  color: var(--nimote-accent);
+  font-weight: 620;
+}
+
+/* Mobile chrome --------------------------------------------------------- */
+@media (max-width: 959px) {
+  .VPSidebar {
+    border-right: 1px solid var(--nimote-border);
+    box-shadow: 18px 0 48px rgba(8, 9, 10, 0.16);
+  }
+}
+
+@media (max-width: 768px) {
+  .VPNavBar .wrapper {
+    padding: 0 12px 0 16px;
+  }
+
+  .VPNavBar .content-body {
+    gap: 0;
+  }
+
+  .VPNavBarTitle .title {
+    gap: 8px;
+    font-size: 0.96rem;
+  }
+
+  .VPNavBarTitle .logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+  }
+
+  .VPNavBarHamburger {
+    width: 44px;
+    height: var(--vp-nav-height);
+    border-radius: 10px;
+  }
+
+  .VPNavBarHamburger:hover {
+    background: rgba(var(--nimote-accent-rgb), 0.075);
+  }
+
+  .VPNavScreen {
+    padding: 0 20px;
+    background: var(--nimote-bg-elevated);
+  }
+
+  .VPNavScreen .container {
+    max-width: none;
+    padding-top: 22px;
+  }
+
+  .VPNavScreenMenuLink {
+    padding: 14px 4px;
+    border-color: var(--nimote-border);
+    color: var(--nimote-text-primary);
+    font-size: 0.96rem;
+  }
 }
