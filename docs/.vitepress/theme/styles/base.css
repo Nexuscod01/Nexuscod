@@ -33,7 +33,7 @@ body {
   font-feature-settings: "cv01" on, "ss03" on;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: var(--nimote-gradient-bg);
+  background-image: var(--nimote-gradient-bg), var(--body-ambient);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100vh;

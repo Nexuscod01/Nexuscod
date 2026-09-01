@@ -61,6 +61,22 @@
   --nimote-gold: #d946ef;
   --nimote-gold-rgb: 217, 70, 239;
 
+  /* Unified brand/accent surface tokens (single purple family) */
+  --accent: #d946ef;
+  --accent-hover: #c026d3;
+  --accent-soft: rgba(217, 70, 239, 0.14);
+  --border-subtle: rgba(35, 37, 42, 0.08);
+  --surface-1: #ffffff;
+  --surface-2: #f7f8f8;
+  --text-muted: #8a8f98;
+
+  /* Ambient Hero + body glow (very restrained, violet family) */
+  --hero-ambient:
+    radial-gradient(ellipse 46% 52% at 74% 32%, rgba(124, 58, 237, 0.13), transparent 62%),
+    radial-gradient(ellipse 58% 58% at 88% 64%, rgba(217, 70, 239, 0.09), transparent 66%);
+  --body-ambient:
+    radial-gradient(ellipse 60% 42% at 18% -6%, rgba(124, 58, 237, 0.05), transparent 64%);
+
   /* Surfaces — Light */
   --nimote-bg: #f7f8f8;
   --nimote-bg-rgb: 247, 248, 248;
@@ -106,7 +122,7 @@
   --nimote-inset-highlight: rgba(255, 255, 255, 0.8);
   --nimote-panel-shadow: 0 2px 4px rgba(8, 9, 10, 0.08);
   --nimote-panel-shadow-hover: 0 12px 28px rgba(8, 9, 10, 0.12);
-  --nimote-hero-image-filter: saturate(0.92) contrast(1.02) brightness(0.92);
+  --nimote-hero-image-filter: saturate(0.98) contrast(1.02) brightness(0.98);
   --nimote-hero-overlay:
     linear-gradient(90deg, rgba(247, 248, 248, 0.94) 0%, rgba(247, 248, 248, 0.78) 34%, rgba(247, 248, 248, 0.42) 58%, rgba(247, 248, 248, 0.16) 100%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(247, 248, 248, 0.1) 34%, rgba(247, 248, 248, 0.42) 100%),
@@ -142,6 +158,21 @@
   --nimote-accent-2-rgb: 94, 106, 210;
   --nimote-gold: #d946ef;
   --nimote-gold-rgb: 217, 70, 239;
+
+  /* Unified brand/accent surface tokens (single purple family) */
+  --accent: #d946ef;
+  --accent-hover: #e879f9;
+  --accent-soft: rgba(217, 70, 239, 0.16);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --surface-1: #0f1011;
+  --surface-2: #161718;
+  --text-muted: #8a8f98;
+
+  --hero-ambient:
+    radial-gradient(ellipse 46% 52% at 74% 32%, rgba(139, 92, 246, 0.2), transparent 62%),
+    radial-gradient(ellipse 58% 58% at 88% 64%, rgba(217, 70, 239, 0.14), transparent 66%);
+  --body-ambient:
+    radial-gradient(ellipse 60% 42% at 18% -6%, rgba(124, 58, 237, 0.09), transparent 64%);
 
   --nimote-bg: #08090a;
   --nimote-bg-rgb: 8, 9, 10;
@@ -182,7 +213,7 @@
   --nimote-inset-highlight: rgba(255, 255, 255, 0.035);
   --nimote-panel-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   --nimote-panel-shadow-hover: 0 8px 18px rgba(0, 0, 0, 0.48);
-  --nimote-hero-image-filter: saturate(0.72) contrast(1.08) brightness(0.56);
+  --nimote-hero-image-filter: saturate(0.84) contrast(1.06) brightness(0.66);
   --nimote-hero-overlay:
     linear-gradient(90deg, rgba(8, 9, 10, 0.94) 0%, rgba(8, 9, 10, 0.76) 34%, rgba(8, 9, 10, 0.44) 58%, rgba(8, 9, 10, 0.18) 100%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.025) 0%, rgba(15, 16, 17, 0.1) 34%, rgba(8, 9, 10, 0.46) 100%),

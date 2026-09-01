@@ -6,12 +6,20 @@
 
 /* Header ---------------------------------------------------------------- */
 .VPNavBar {
-  border-bottom: 1px solid var(--nimote-border);
+  border-bottom: 1px solid var(--border-subtle);
   background: var(--nimote-nav-bg) !important;
   box-shadow: none;
-  backdrop-filter: saturate(140%) blur(18px);
-  -webkit-backdrop-filter: saturate(140%) blur(18px);
+  backdrop-filter: saturate(150%) blur(18px);
+  -webkit-backdrop-filter: saturate(150%) blur(18px);
   transition: background-color 0.22s var(--nimote-ease), box-shadow 0.22s var(--nimote-ease);
+}
+
+/* At the very top of a marketing page the header opens up: let the Hero's
+   ambient light bleed through so the chrome never reads as a floating bar. */
+.VPNavBar.top {
+  background: var(--nimote-nav-bg) !important; /* fallback */
+  background: color-mix(in srgb, var(--nimote-bg) 66%, transparent) !important;
+  border-bottom-color: transparent;
 }
 
 .VPNavBar:not(.top) {
@@ -299,12 +307,12 @@
 
 .VPNavBar .VPNavBarMenuLink:hover,
 .VPNavBar .VPNavBarMenuGroup .button:hover {
-  background: rgba(var(--nimote-accent-rgb), 0.075);
+  background: var(--accent-soft);
   color: var(--nimote-text-primary);
 }
 
 .VPNavBar .VPNavBarMenuLink.active {
-  background: rgba(var(--nimote-accent-rgb), 0.095);
+  background: var(--accent-soft);
   color: var(--nimote-accent);
 }
 
