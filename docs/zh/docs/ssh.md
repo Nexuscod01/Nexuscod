@@ -7,10 +7,10 @@ description: 使用 NimoteCode SSH 配置档、密码或私钥认证、明确的
 
 SSH 工作区把手机或平板变成专注的远程项目环境。Explorer、编辑器和终端都会指向同一台主机与项目根路径，让任务从检查到验证始终可理解。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode SSH 工作区配置图片占位符">
+<ImagePlaceholder image-key="sshWorkspace" alt="NimoteCode SSH 工作区配置">
   <strong>图片占位符 —— SSH 工作区配置</strong>
   <span>请替换为已保存的 SSH 配置档及 Remote Explorer 打开项目根目录的截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 四步连接
 

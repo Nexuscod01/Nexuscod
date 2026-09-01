@@ -7,10 +7,10 @@ description: 在已配置的远程调试适配器工作流中，使用 NimoteCod
 
 调试面板为移动工作区提供结构化的运行时可见性：控制一个已配置会话、检查暂停位置，并让证据回到代码与终端上下文中。Debug 属于 **Pro** 工作流。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 远程调试图片占位符">
+<ImagePlaceholder image-key="debugging" alt="NimoteCode 远程调试">
   <strong>图片占位符 —— 检查暂停的调试会话</strong>
   <span>请替换为展示断点、调用栈、变量与对应源码行的截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 已配置会话可以提供
 

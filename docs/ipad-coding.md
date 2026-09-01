@@ -9,10 +9,10 @@ An iPad gives you more screen space than a phone, but coding from iPad still wor
 
 NimoteCode brings those tools together as a **Mobile AI Development Workspace**: Editor + Explorer + SSH + Terminal + Git + AI Agent. It is a practical fit for reviewing a pull request-sized change, investigating an incident, editing a remote project or continuing a task while you are away from a laptop.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for an iPad coding workspace screenshot">
+<ImagePlaceholder image-key="ipadCoding" alt="iPad coding workspace">
   <strong>Image placeholder — iPad workspace</strong>
   <span>Replace with a landscape iPad screenshot that shows the project tree, source file and terminal panel.</span>
-</div>
+</ImagePlaceholder>
 
 ## A productive iPad coding loop
 

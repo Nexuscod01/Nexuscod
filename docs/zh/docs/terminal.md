@@ -7,10 +7,10 @@ description: 在 NimoteCode 工作区中执行命令、搜索终端输出、使�
 
 Terminal 是 NimoteCode 工作区的验证层。在正在编辑的项目中执行命令、搜索输出，并让结果继续服务于下一次决策。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动终端图片占位符">
+<ImagePlaceholder image-key="terminal" alt="NimoteCode 移动终端">
   <strong>图片占位符 —— 当前工作区中的 Terminal</strong>
   <span>请替换为真实 SSH 项目的终端输出、搜索及相邻编辑器标签截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 核心终端流程
 

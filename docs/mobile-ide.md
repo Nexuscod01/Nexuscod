@@ -9,10 +9,10 @@ Most mobile coding tools solve one part of the job: open a file, connect to a se
 
 NimoteCode is a **Mobile AI Development Workspace** for that loop. It brings an Editor, Explorer, SSH, Terminal, Git, and AI Agent into one workspace for iPhone, Android and iPad workflows.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for the all-in-one NimoteCode mobile IDE screenshot">
+<ImagePlaceholder image-key="mobileIde" alt="NimoteCode mobile IDE">
   <strong>Image placeholder — Mobile IDE overview</strong>
   <span>Replace with a polished product screenshot showing Explorer, editor, Terminal, Git and AI Agent in the same workspace.</span>
-</div>
+</ImagePlaceholder>
 
 ## What makes a mobile IDE useful for real work?
 

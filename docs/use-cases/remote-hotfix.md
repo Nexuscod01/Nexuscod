@@ -7,10 +7,10 @@ description: "Use NimoteCode for a focused mobile hotfix: connect by SSH, inspec
 
 A production-adjacent fix should remain a controlled development workflow, even when it starts on a phone. NimoteCode keeps the project, terminal evidence and optional Git review in the same mobile workspace.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode remote hotfix workflow">
+<ImagePlaceholder image-key="remoteHotfix" alt="NimoteCode remote hotfix workflow">
   <strong>Image placeholder — from SSH connection to reviewed patch</strong>
   <span>Replace with a concise visual sequence: Remote Explorer, focused edit, terminal verification and Git diff review.</span>
-</div>
+</ImagePlaceholder>
 
 ## A deliberate hotfix loop
 

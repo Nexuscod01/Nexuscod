@@ -7,10 +7,10 @@ description: Use configured remote debug-adapter workflows in NimoteCode Pro for
 
 The Debug panel gives a mobile workspace structured runtime visibility: start or control a configured session, inspect a pause point, and connect the evidence back to the code and terminal. Debug is a **Pro** workflow.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode debugging workspace">
+<ImagePlaceholder image-key="debugging" alt="NimoteCode debugging workspace">
   <strong>Image placeholder — inspect a paused debug session</strong>
   <span>Replace with a screenshot showing a breakpoint, call stack, variables and the corresponding source line.</span>
-</div>
+</ImagePlaceholder>
 
 ## What a configured session can expose
 

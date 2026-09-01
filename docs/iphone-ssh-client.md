@@ -9,10 +9,10 @@ An iPhone SSH client is essential when you need to reach a remote host away from
 
 NimoteCode is built around that wider workflow: **Explorer + SSH + Terminal + Git + AI Agent**, with a code editor at the centre. It is designed to make mobile access useful for actual engineering work, not only server administration.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for an iPhone SSH client workflow mockup">
+<ImagePlaceholder image-key="iphoneSshClient" alt="iPhone SSH workflow">
   <strong>Image placeholder — iPhone SSH workflow</strong>
   <span>Replace with an approved iPhone product mockup after the public iOS release is available.</span>
-</div>
+</ImagePlaceholder>
 
 ## What to expect from a developer-focused SSH client
 

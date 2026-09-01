@@ -12,10 +12,10 @@ author: "NimoteCode Team"
 
 Comparing Termius, Blink Shell and NimoteCode only by a checklist misses the useful distinction: each can serve a different kind of mobile work. The right choice begins with what you need to complete after you open an SSH connection.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a terminal-first versus workspace-first comparison graphic">
+<ImagePlaceholder image-key="terminalVsWorkspace" alt="Terminal-first versus workspace-first comparison">
   <strong>Image placeholder — Workflow comparison</strong>
   <span>Replace with an original comparison diagram: terminal-only access versus a complete mobile development workspace.</span>
-</div>
+</ImagePlaceholder>
 
 ## The three workflow shapes
 

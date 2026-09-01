@@ -7,10 +7,10 @@ description: "Explore NimoteCode’s mobile development capabilities: local and 
 
 NimoteCode keeps the essential development loop in one mobile workspace: **Explorer → Editor → Terminal → Git → AI**. Choose only the tools a task needs, while keeping the project context intact.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a NimoteCode feature overview screenshot">
+<ImagePlaceholder image-key="featureOverview" alt="NimoteCode feature overview">
   <strong>Image placeholder — core workspace modules</strong>
   <span>Replace with a product screenshot that clearly shows Explorer, code editor, Terminal, Source Control and AI in the NimoteCode interface.</span>
-</div>
+</ImagePlaceholder>
 
 ## Core workspace
 

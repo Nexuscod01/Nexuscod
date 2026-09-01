@@ -1010,6 +1010,19 @@ html:not(.dark) .home-page-btn.tertiary {
 .home-page-workflow-media strong { color: var(--nimote-text-primary); font-size: 1rem; }
 .home-page-workflow-media span { max-width: 340px; font-size: 0.86rem; line-height: 1.65; }
 
+.home-page-workflow-media.has-image {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+}
+
+.home-page-workflow-media .seo-media-placeholder__image {
+  display: block;
+  width: 100%;
+  min-height: 430px;
+  object-fit: cover;
+}
+
 .home-page-workflow-list { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
 .home-page-workflow-list li { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--nimote-border); }
 .home-page-workflow-list li > span { color: var(--nimote-accent); font-family: var(--vp-font-family-mono); font-size: 0.75rem; font-weight: 700; }
@@ -1064,6 +1077,7 @@ html:not(.dark) .home-page-btn.tertiary {
   .home-page-hero-shell.home-page-hero-shell-product { min-height: 0; padding-top: 60px; }
   .home-page-product-preview { max-width: 680px; width: 100%; margin: 0 auto; transform: none; }
   .home-page-workflow-media { min-height: 330px; }
+  .home-page-workflow-media .seo-media-placeholder__image { min-height: 330px; }
 }
 
 @media (max-width: 700px) {
@@ -1095,6 +1109,7 @@ html:not(.dark) .home-page-btn.tertiary {
   .home-page-use-case-section { padding-top: 74px; }
   .home-page-workflow-layout { margin-top: 30px; }
   .home-page-workflow-media { min-height: 250px; }
+  .home-page-workflow-media .seo-media-placeholder__image { min-height: 250px; }
   .home-page-module-grid,
   .home-page-use-case-grid { grid-template-columns: 1fr; margin-top: 28px; }
   .home-page-module-card,

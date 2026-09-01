@@ -2,6 +2,7 @@
 
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
+import ImagePlaceholder from './components/ImagePlaceholder.vue'
 import { type Theme } from 'vitepress'
 import './custom.css'
 // @ts-ignore - The package does not ship TypeScript types.
@@ -11,7 +12,9 @@ const theme: Theme = {
   extends: DefaultTheme,
   Layout,
 
-  enhanceApp() {
+  enhanceApp({ app }) {
+    app.component('ImagePlaceholder', ImagePlaceholder)
+
     if (import.meta.env.PROD) {
       googleAnalytics({
         id: 'G-JML9VGDMXJ'

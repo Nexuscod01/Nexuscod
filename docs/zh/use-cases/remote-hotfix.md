@@ -7,10 +7,10 @@ description: 使用 NimoteCode 完成一次聚焦的手机远程热修：SSH 连
 
 即使补丁从手机上开始，生产相关的修复也应保持受控的开发流程。NimoteCode 让项目、终端证据和可选 Git 审查始终处在同一个移动工作区内。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 手机远程热修图片占位符">
+<ImagePlaceholder image-key="remoteHotfix" alt="NimoteCode 手机远程热修">
   <strong>图片占位符 —— 从 SSH 连接到审查补丁</strong>
   <span>请替换为一条简洁的流程图或截图序列：Remote Explorer、聚焦编辑、终端验证和 Git diff 审查。</span>
-</div>
+</ImagePlaceholder>
 
 ## 一条审慎的热修路径
 

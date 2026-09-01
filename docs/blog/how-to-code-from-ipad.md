@@ -12,10 +12,10 @@ author: "NimoteCode Team"
 
 Coding from iPad works best when the task has a clear boundary and the tool keeps your project context together. Instead of trying to mimic a full desktop, use the iPad for the work that benefits from mobility: review, diagnosis, focused edits and follow-up changes on a remote project.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for an iPad coding workspace screenshot">
+<ImagePlaceholder image-key="ipadCoding" alt="iPad coding workspace">
   <strong>Image placeholder — iPad coding workspace</strong>
   <span>Replace with a landscape iPad screenshot showing project navigation, source and terminal output.</span>
-</div>
+</ImagePlaceholder>
 
 ## Set up the workspace around a real project
 

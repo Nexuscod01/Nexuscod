@@ -299,6 +299,19 @@
   font-size: 0.95rem;
 }
 
+.vp-doc .seo-media-placeholder.has-image {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+}
+
+.vp-doc .seo-media-placeholder__image {
+  display: block;
+  width: 100%;
+  min-height: 240px;
+  object-fit: cover;
+}
+
 /* Compact product-documentation primitives. They keep long-form pages useful
    without turning the documentation into a wall of tables. */
 .vp-doc .product-kicker {
@@ -404,6 +417,10 @@
   .vp-doc .seo-media-placeholder {
     min-height: 180px;
     padding: 22px;
+  }
+
+  .vp-doc .seo-media-placeholder__image {
+    min-height: 180px;
   }
 
   .vp-doc .product-card-grid {

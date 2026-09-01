@@ -12,10 +12,10 @@ author: "NimoteCode Team"
 
 The best mobile IDE depends less on how much it resembles a desktop editor and more on whether it can complete your actual workflow. For a developer working away from a laptop, that usually means moving from a question or alert to a verified, reviewable change.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a mobile IDE workflow screenshot">
+<ImagePlaceholder image-key="bestMobileIdes" alt="Mobile IDE workflow">
   <strong>Image placeholder — Mobile IDE workflow</strong>
   <span>Replace with a product screenshot showing Explorer, editor, Terminal and Git in a single workspace.</span>
-</div>
+</ImagePlaceholder>
 
 ## Start with the job, not the feature list
 

@@ -7,10 +7,10 @@ description: Run workspace commands in NimoteCode, search terminal output, use q
 
 Terminal is the verification layer of a NimoteCode workspace. Run commands where you are editing, search the output, and keep the result connected to the files and the next decision.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode mobile terminal">
+<ImagePlaceholder image-key="terminal" alt="NimoteCode mobile terminal">
   <strong>Image placeholder — Terminal in the active workspace</strong>
   <span>Replace with a screenshot of terminal output, search and a nearby editor tab in a real SSH project.</span>
-</div>
+</ImagePlaceholder>
 
 ## Core terminal workflow
 

@@ -20,10 +20,10 @@ NimoteCode 不是远程桌面替代品，也不只是 SSH Client 或代码编辑
 
 项目在设备上时使用 Local Explorer；项目在远程主机时使用 Remote Explorer。之后的编辑器、终端和辅助面板会共享同一份项目上下文。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动开发工作台图片占位符">
+<ImagePlaceholder image-key="workspaceOverview" alt="NimoteCode 移动开发工作台">
   <strong>图片占位符 —— 一个完整的移动开发工作台</strong>
   <span>请替换为展示 Explorer、编辑器标签、Terminal 与 AI 面板同屏协作的高质量产品截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 选择下一条工作流
 

@@ -7,10 +7,10 @@ description: Use NimoteCode’s mobile code editor with tabs, clipboard operatio
 
 The editor is where a workspace becomes a change. Open files from a local project, an SSH workspace or a search result; then keep the file connected to Terminal, AI and Source Control rather than moving between separate apps.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for the NimoteCode mobile code editor">
+<ImagePlaceholder image-key="editor" alt="NimoteCode mobile code editor">
   <strong>Image placeholder — editing a remote project</strong>
   <span>Replace with a clean phone or tablet screenshot showing code tabs, the active file and a docked Terminal or AI panel.</span>
-</div>
+</ImagePlaceholder>
 
 ## Designed for focused edits
 

@@ -7,10 +7,10 @@ description: A measured mobile incident workflow with NimoteCode SSH, terminal o
 
 When you are away from a computer, a good investigation is still methodical: connect to the right host, collect evidence, narrow the question and verify any change. NimoteCode keeps those steps close together in one SSH workspace.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode mobile on-call diagnostics">
+<ImagePlaceholder image-key="onCallDiagnostics" alt="NimoteCode mobile on-call diagnostics">
   <strong>Image placeholder — an on-call investigation on mobile</strong>
   <span>Replace with a screenshot sequence showing SSH context, terminal output search and a diagnostic panel for a real incident workflow.</span>
-</div>
+</ImagePlaceholder>
 
 ## Investigation sequence
 

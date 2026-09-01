@@ -9,10 +9,10 @@ People looking for a **Termius alternative** often want reliable SSH access from
 
 NimoteCode is a mobile development workspace for that broader job. Alongside SSH and Terminal, it provides Explorer, Editor, Git and AI Agent so you can work through a repository rather than only interact with a shell.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a terminal versus mobile workspace comparison diagram">
+<ImagePlaceholder image-key="termiusAlternative" alt="Terminal versus mobile workspace comparison">
   <strong>Image placeholder — Terminal versus workspace</strong>
   <span>Replace with an original diagram that compares command-only SSH access with the connect, edit, verify and review workflow.</span>
-</div>
+</ImagePlaceholder>
 
 ## The question to ask before you switch
 

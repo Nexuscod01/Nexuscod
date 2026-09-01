@@ -7,10 +7,10 @@ description: 使用 NimoteCode Pro 的 Sync 与 Cache 在本地和远程工作�
 
 Sync / Cache 是用于在本地与远程工作区之间主动移动项目内容的 **Pro** 工作流。它会明确传输方向，并将目标路径限制在当前工作区边界内。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode Sync 与 Cache 图片占位符">
+<ImagePlaceholder image-key="syncCache" alt="NimoteCode Sync 与 Cache">
   <strong>图片占位符 —— 选择安全的传输方向</strong>
   <span>请替换为展示 Sync 或 Cache 方向、工作区路径和传输历史的截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 两个清晰方向
 

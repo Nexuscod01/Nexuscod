@@ -7,10 +7,10 @@ description: 使用 NimoteCode SSH、终端输出搜索、远程项目定位、�
 
 离开电脑后，排障也应保持方法：连接正确主机、收集证据、缩小问题，再验证每个改动。NimoteCode 将这些步骤放在同一个 SSH 工作区内。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动值班诊断图片占位符">
+<ImagePlaceholder image-key="onCallDiagnostics" alt="NimoteCode 移动值班诊断">
   <strong>图片占位符 —— 手机上的值班排查</strong>
   <span>请替换为一组真实流程截图：SSH 项目上下文、终端输出搜索与诊断面板。</span>
-</div>
+</ImagePlaceholder>
 
 ## 排查顺序
 

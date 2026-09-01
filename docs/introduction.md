@@ -20,10 +20,10 @@ NimoteCode is not a remote desktop replacement, a standalone SSH client, or a si
 
 Start with Local Explorer when a project is on your device, or use Remote Explorer to connect to an SSH workspace. The editor, terminal and supporting panels then share the same project context.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for the NimoteCode workspace overview">
+<ImagePlaceholder image-key="workspaceOverview" alt="NimoteCode workspace overview">
   <strong>Image placeholder — one mobile development workspace</strong>
   <span>Replace with a polished screenshot showing Explorer, an editor tab, Terminal and the AI panel in one focused mobile layout.</span>
-</div>
+</ImagePlaceholder>
 
 ## Choose the next workflow
 

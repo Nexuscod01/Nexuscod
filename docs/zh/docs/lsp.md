@@ -7,10 +7,10 @@ description: 在远程工作区配置语言服务后，使用 NimoteCode Pro 查
 
 LSP 面板为活跃的远程工作区提供语言感知反馈。远程主机配置好兼容的语言服务后，你可以从诊断项跳转到源码位置，并应用可用的代码动作。LSP 属于 **Pro** 工作流。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode LSP 诊断图片占位符">
+<ImagePlaceholder image-key="lsp" alt="NimoteCode LSP 诊断">
   <strong>图片占位符 —— 使用 LSP 诊断并定位源码</strong>
   <span>请替换为诊断列表、选中的源码行与可用代码动作同屏的截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 一条实用 LSP 路径
 

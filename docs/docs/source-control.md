@@ -7,10 +7,10 @@ description: "Use NimoteCode Pro for mobile Git review and write workflows: diff
 
 Source Control brings the reviewable part of Git into the workspace where you edited and verified the change. It is a **Pro** workflow for focused mobile delivery—not a substitute for your team’s review and branch policies.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode mobile Git source control">
+<ImagePlaceholder image-key="sourceControl" alt="NimoteCode mobile Git source control">
   <strong>Image placeholder — review a Git diff on mobile</strong>
   <span>Replace with a screenshot showing changed files, a readable diff and commit controls in the Source Control panel.</span>
-</div>
+</ImagePlaceholder>
 
 ## What you can do
 

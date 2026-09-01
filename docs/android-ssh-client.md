@@ -9,10 +9,10 @@ When you search for an **Android SSH client**, you may only need to restart a se
 
 NimoteCode is an Android SSH client built for the full developer workflow. It combines remote Explorer, code editor, SSH terminal, Git and AI assistance in one mobile workspace.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for an Android SSH client screenshot">
+<ImagePlaceholder image-key="androidSshClient" alt="Android SSH workspace">
   <strong>Image placeholder — Android SSH workspace</strong>
   <span>Replace with an Android device screenshot showing a remote project file and terminal session.</span>
-</div>
+</ImagePlaceholder>
 
 ## What you can do from an Android phone or tablet
 

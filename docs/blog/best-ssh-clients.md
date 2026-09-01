@@ -12,10 +12,10 @@ author: "NimoteCode Team"
 
 There is no single best SSH client for every developer. A fast, dependable terminal is perfect for a command-only task. Once the task includes a repository, a code edit, a test and a Git review, the better choice may be a mobile workspace built around SSH.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for an SSH development workflow screenshot">
+<ImagePlaceholder image-key="bestSshClients" alt="SSH development workflow">
   <strong>Image placeholder — SSH workflow</strong>
   <span>Replace with a screenshot of a remote project, terminal command and resulting Git diff.</span>
-</div>
+</ImagePlaceholder>
 
 ## Three kinds of SSH work
 

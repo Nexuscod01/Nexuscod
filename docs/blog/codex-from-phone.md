@@ -12,10 +12,10 @@ author: "NimoteCode Team"
 
 Using Codex from a phone starts with the same principle as any remote coding-agent workflow: the agent should run where the repository and tools live, while you retain a way to inspect what it changes. An SSH-connected mobile workspace gives you that path without splitting the task across a terminal app, an editor and a separate Git client.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a Codex remote development workflow screenshot">
+<ImagePlaceholder image-key="codexFromPhone" alt="Codex remote development workflow">
   <strong>Image placeholder — Codex remote workflow</strong>
   <span>Replace with a redacted terminal session, source file and validation result from the same project.</span>
-</div>
+</ImagePlaceholder>
 
 ## A focused remote setup
 

@@ -7,10 +7,10 @@ description: 使用 NimoteCode AI Chat 理解代码与错误，使用 AI Agent �
 
 NimoteCode 将直接的 AI 问答与 AI 辅助执行分开。**AI Chat** 适合在上下文中得到答案；**AI Agent** 适合跨文件、终端或 Git 工具的明确步骤。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode AI 面板图片占位符">
+<ImagePlaceholder image-key="aiAssistant" alt="NimoteCode AI 面板">
   <strong>图片占位符 —— 带工作区上下文的 AI 协助</strong>
   <span>请替换为 AI 面板解释当前文件或规划小范围可审查改动的截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 用 AI Chat 做下一步决策
 

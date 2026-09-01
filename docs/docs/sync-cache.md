@@ -7,10 +7,10 @@ description: Move project content between local and remote NimoteCode workspaces
 
 Sync / Cache is a **Pro** workflow for deliberately moving project content between a local and remote workspace. It gives the transfer a visible direction and keeps the target inside the active workspace boundaries.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode Sync and Cache">
+<ImagePlaceholder image-key="syncCache" alt="NimoteCode Sync and Cache">
   <strong>Image placeholder — choose a safe transfer direction</strong>
   <span>Replace with a screenshot showing Sync or Cache direction, selected workspace path and transfer history.</span>
-</div>
+</ImagePlaceholder>
 
 ## Two clear directions
 

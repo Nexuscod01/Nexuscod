@@ -7,10 +7,10 @@ description: Configure language-server support on a remote workspace, view diagn
 
 The LSP panel adds language-aware feedback to an active remote workspace. With a compatible language server configured on the host, you can move from a diagnostic to the relevant source line and apply available code actions. LSP is a **Pro** workflow.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode LSP diagnostics">
+<ImagePlaceholder image-key="lsp" alt="NimoteCode LSP diagnostics">
   <strong>Image placeholder — diagnose and navigate with LSP</strong>
   <span>Replace with a screenshot of the diagnostics list, a selected source line and an available code action.</span>
-</div>
+</ImagePlaceholder>
 
 ## A practical LSP loop
 

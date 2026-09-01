@@ -7,10 +7,10 @@ description: Use NimoteCode AI Chat for code and error explanations, and AI Agen
 
 NimoteCode separates direct AI help from AI-assisted execution. **AI Chat** is for a fast answer in context; **AI Agent** is for work that needs several deliberate steps across files, terminal or Git tools.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for the NimoteCode AI panel">
+<ImagePlaceholder image-key="aiAssistant" alt="NimoteCode AI panel">
   <strong>Image placeholder — AI assistance with workspace context</strong>
   <span>Replace with a screenshot of the AI panel explaining an active file or planning a small, reviewable change.</span>
-</div>
+</ImagePlaceholder>
 
 ## Use AI Chat for the next decision
 

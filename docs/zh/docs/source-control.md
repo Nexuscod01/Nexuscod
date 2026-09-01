@@ -7,10 +7,10 @@ description: 使用 NimoteCode Pro 完成移动 Git 审查与写入：diff、暂
 
 Source Control 将 Git 中最需要审查的部分带回刚刚编辑和验证过的工作区。它是 **Pro** 功能，适合完成一次聚焦的移动交付，但不替代团队的分支与评审规范。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动 Git 审查图片占位符">
+<ImagePlaceholder image-key="sourceControl" alt="NimoteCode 移动 Git 审查">
   <strong>图片占位符 —— 在移动端审查 Git diff</strong>
   <span>请替换为展示改动文件、可读 diff 与提交操作的 Source Control 面板截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 可以完成的操作
 

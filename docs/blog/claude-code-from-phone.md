@@ -12,10 +12,10 @@ author: "NimoteCode Team"
 
 Using Claude Code from a phone is feasible when it runs on a development host you can reach securely. The CLI is only part of the job. To make the work trustworthy, you still need the repository, command output and Git diff within reach.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a remote coding agent workflow screenshot">
+<ImagePlaceholder image-key="claudeCodeFromPhone" alt="Remote coding agent workflow">
   <strong>Image placeholder — Remote coding agent workflow</strong>
   <span>Replace with a redacted SSH terminal session next to the changed source file and Git review.</span>
-</div>
+</ImagePlaceholder>
 
 ## Use the remote host as the execution environment
 

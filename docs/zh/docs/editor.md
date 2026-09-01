@@ -7,10 +7,10 @@ description: 使用 NimoteCode 移动代码编辑器的标签页、剪贴板、�
 
 编辑器让工作区真正进入修改阶段。文件可以来自本地项目、SSH 工作区或搜索结果，并且始终与 Terminal、AI 和 Source Control 保持连接，而不是被拆散到不同应用里。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动代码编辑器图片占位符">
+<ImagePlaceholder image-key="editor" alt="NimoteCode 移动代码编辑器">
   <strong>图片占位符 —— 编辑远程项目</strong>
   <span>请替换为展示代码标签页、当前文件与停靠 Terminal 或 AI 面板的手机或平板截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 为聚焦修改而准备
 

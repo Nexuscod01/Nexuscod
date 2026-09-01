@@ -7,10 +7,10 @@ description: 浏览 NimoteCode 的移动开发能力：本地与 SSH 工作区�
 
 NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → Editor → Terminal → Git → AI**。任务需要什么，就打开什么，同时保留项目上下文。
 
-<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 核心工作区功能图片占位符">
+<ImagePlaceholder image-key="featureOverview" alt="NimoteCode 核心工作区功能">
   <strong>图片占位符 —— 核心工作区模块</strong>
   <span>请替换为能清晰展示 Explorer、代码编辑器、Terminal、Source Control 与 AI 面板的产品截图。</span>
-</div>
+</ImagePlaceholder>
 
 ## 核心工作区
 

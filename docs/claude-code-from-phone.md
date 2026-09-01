@@ -9,10 +9,10 @@ If your development machine already has Claude Code installed, you can use your 
 
 NimoteCode gives you a mobile workspace around that remote session: Explorer for the repository, Editor for the files, SSH Terminal for commands, Git for review and its own AI assistance for code questions and controlled tasks.
 
-<div class="seo-media-placeholder" role="img" aria-label="Placeholder for a Claude Code from phone remote workflow screenshot">
+<ImagePlaceholder image-key="claudeCodeFromPhone" alt="Claude Code from phone remote workflow">
   <strong>Image placeholder — Remote Claude Code workflow</strong>
   <span>Replace with a redacted remote CLI session, changed file and Git diff. Do not use Claude branding without approval.</span>
-</div>
+</ImagePlaceholder>
 
 ## A practical remote-host setup
 
