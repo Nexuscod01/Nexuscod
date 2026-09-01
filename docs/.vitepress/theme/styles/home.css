@@ -1109,9 +1109,12 @@ html:not(.dark) .home-page-btn.tertiary {
     --nimote-home-content-width: min(1440px, calc(100vw - 64px));
   }
 
-  /* The Hero and its three product signals share one visible content track. */
+  /* The Hero, signal band and page sections share one visible content track.
+     VPHomeContent wraps Markdown in a narrower reading container, so sections
+     need this offset to align with the full-bleed Hero at desktop widths. */
   .home-page-signal-band,
-  .home-page-hero-shell.home-page-hero-shell-product {
+  .home-page-hero-shell.home-page-hero-shell-product,
+  .home-page-section {
     width: var(--nimote-home-content-width);
     max-width: none;
   }
@@ -1127,11 +1130,17 @@ html:not(.dark) .home-page-btn.tertiary {
   }
 
   .home-page-signal-band {
-    /* VPHome's Markdown wrapper is narrower than the visual content track.
-       Calculate from that wrapper's center so this band lands on exactly the
-       same page coordinate as the full-bleed Hero shell, without overflow. */
+    /* The Markdown wrapper's center is stable even though its width is capped.
+       Use it to align these elements with the full-bleed Hero shell. */
     margin-right: 0;
     margin-left: calc(50% - min(720px, calc(50vw - 32px)));
+  }
+
+  .home-page-section {
+    margin-right: 0;
+    margin-left: calc(50% - min(720px, calc(50vw - 32px)));
+    padding-right: 0;
+    padding-left: 0;
   }
 
   /* At 1920px this renders the product layer at 1728px instead of 1920px
