@@ -1,5 +1,6 @@
 ---
 title: 隐私政策 | NimoteCode
+description: 了解 NimoteCode 如何处理账户数据、订阅、工作区设置、AI 配置、诊断信息与第三方集成的隐私说明。
 ---
 
 # 隐私政策

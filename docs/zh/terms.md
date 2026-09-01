@@ -1,5 +1,6 @@
 ---
 title: 服务条款 | NimoteCode
+description: 查看 NimoteCode 服务条款，涵盖订阅、AI 功能、远程系统、用户责任、隐私与服务使用约定。
 ---
 
 # 服务条款

@@ -35,4 +35,4 @@ description: 在 NimoteCode 打开本地或 SSH 工作区，编辑文件、运�
 
 > 面对远程生产环境，建议先只读检查，并在应用前审查每条命令、每项 AI 建议和每处 Git 改动。
 
-接下来阅读 [SSH 工作区](/zh/docs/ssh)、[编辑器](/zh/docs/editor)，或[观看演示](/demo?utm_source=zh_quick_start&utm_medium=website&utm_campaign=watch_demo)。
+接下来阅读 [SSH 工作区](/zh/docs/ssh)、[编辑器](/zh/docs/editor)，或[观看演示](/zh/demo?utm_source=zh_quick_start&utm_medium=website&utm_campaign=watch_demo)。

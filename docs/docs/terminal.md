@@ -17,7 +17,7 @@ Terminal is the verification layer of a NimoteCode workspace. Run commands where
 - Run commands in the active local or SSH workspace.
 - Inspect streaming output and search long logs for an error or warning.
 - Use quick or custom commands for known routines.
-- Send relevant output to [AI Assistant](/docs/ai) when interpretation would help.
+- Send relevant output to [AI Chat and Agent](/docs/ai) when interpretation would help.
 - Resume remote work after reconnection, then verify host and directory before continuing.
 
 ## When more than one shell matters

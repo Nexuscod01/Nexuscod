@@ -1,9 +1,9 @@
 ---
-title: AI 助手与 Agent | NimoteCode
+title: AI Chat 与 Agent | NimoteCode
 description: 使用 NimoteCode AI Chat 理解代码与错误，使用 AI Agent 在 Provider 配置和工作区上下文中完成受控的多步骤工作。
 ---
 
-# AI 助手与 Agent
+# AI Chat 与 Agent
 
 NimoteCode 将直接的 AI 问答与 AI 辅助执行分开。**AI Chat** 适合在上下文中得到答案；**AI Agent** 适合跨文件、终端或 Git 工具的明确步骤。
 
@@ -22,8 +22,8 @@ NimoteCode 将直接的 AI 问答与 AI 辅助执行分开。**AI Chat** 适合�
 
 ## 谨慎配置 Provider
 
-Provider 配置档包含端点、API 凭据、模型、流式和上下文行为等设置。保留一个稳定主配置与一个已测试的备选配置。实用设置方法见 [配置指南](/zh/docs/configuration)。
+Provider 配置档包含端点、API 凭据、模型、流式和上下文行为等设置。你需要连接自己的 AI 提供商与 API key；NimoteCode 不捆绑模型访问或额度。保留一个稳定主配置与一个已测试的备选配置。实用设置方法见 [配置指南](/zh/docs/configuration)。
 
 > 面对远程或生产相关工作区，应在应用前审查每条命令和每处文件修改。应用内的校验与锁定机制用于让流程更可控，而不是取代使用者的责任。
 
-继续了解：[AI Agent 工作流](/zh/use-cases/ai-agent) · [手机 AI 编程](/mobile-ai-coding)
+继续了解：[AI Agent 工作流](/zh/use-cases/ai-agent) · [手机 AI 编程](/zh/mobile-ai-coding)

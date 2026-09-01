@@ -21,7 +21,7 @@ Short, task-oriented guides for working in a local or SSH project from a mobile 
 | Open a project and make a verified edit | [Quick Start](/docs/quick-start) | [Editor](/docs/editor) · [Terminal](/docs/terminal) |
 | Work on a remote host | [SSH Workspace](/docs/ssh) | [Search](/docs/search) · [Tasks](/docs/tasks) |
 | Prepare a focused change | [Editor](/docs/editor) | [Source Control](/docs/source-control) |
-| Get AI help in context | [AI Assistant](/docs/ai) | [Configuration](/docs/configuration) |
+| Get AI help in context | [AI Chat and Agent](/docs/ai) | [Configuration](/docs/configuration) |
 | Diagnose a problem | [LSP](/docs/lsp) | [Debug](/docs/debug) · [Terminal](/docs/terminal) |
 | Move project content deliberately | [Sync / Cache](/docs/sync-cache) | [SSH Workspace](/docs/ssh) |
 

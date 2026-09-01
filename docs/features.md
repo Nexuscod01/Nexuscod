@@ -37,7 +37,7 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
 1. Connect through [SSH Workspace](/docs/ssh), or open a local project.
 2. Locate and edit the file in [Editor](/docs/editor).
 3. Verify it in [Terminal](/docs/terminal); search output or remote content when needed.
-4. Ask [AI Assistant](/docs/ai) to explain an error or plan a change.
+4. Ask [AI Chat and Agent](/docs/ai) to explain an error or plan a change.
 5. With Pro, use [Source Control](/docs/source-control) to review and deliver the result.
 
 > Features are deliberately permission- and environment-aware. For example, LSP and Debug depend on the language server or debug adapter being set up on the remote host, and AI output should be reviewed before use on sensitive systems.

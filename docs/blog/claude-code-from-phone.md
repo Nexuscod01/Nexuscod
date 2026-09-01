@@ -35,7 +35,7 @@ This pattern is useful for a small fix, a code explanation or an on-call investi
 
 ## Use in-app AI thoughtfully
 
-NimoteCode also offers its own configurable AI Chat and Agent workflows. Use them for workspace-aware questions or controlled tasks when they are the better fit, and keep review enabled for any remote or production-adjacent action. See [AI Assistant](/docs/ai) for configuration details.
+NimoteCode also offers its own configurable AI Chat and Agent workflows. Use them for workspace-aware questions or controlled tasks when they are the better fit, and keep review enabled for any remote or production-adjacent action. See [AI Chat and Agent](/docs/ai) for configuration details.
 
 <div class="seo-cta"><p><strong>Keep the remote agent session, repository and Git review in one mobile workspace.</strong></p><p class="seo-cta-actions"><a href="/demo?utm_source=claude_code_blog&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a><a href="/download?utm_source=claude_code_blog&utm_medium=organic&utm_campaign=download" class="home-page-btn primary">Download NimoteCode</a></p></div>
 

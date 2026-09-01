@@ -18,7 +18,7 @@ The editor is where a workspace becomes a change. Open files from a local projec
 - Use copy, cut, paste, select all, undo and redo from the mobile editor.
 - Track the current line and column while working through an error or review comment.
 - Use an outline when symbol information is available.
-- Keep the active file available as context for [AI Assistant](/docs/ai).
+- Keep the active file available as context for [AI Chat and Agent](/docs/ai).
 
 ## A good mobile editing loop
 

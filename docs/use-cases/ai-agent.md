@@ -23,4 +23,4 @@ An Agent workflow may inspect files, propose a plan, make an edit, run a check a
 4. Run a project-appropriate verification command.
 5. With Pro, inspect the Git diff before delivery.
 
-NimoteCode uses validation and locking mechanisms around tool use, but production responsibility remains with the person running the workflow. Read [Security and Safety](/docs/security) and [AI Assistant](/docs/ai) for setup details.
+NimoteCode uses validation and locking mechanisms around tool use, but production responsibility remains with the person running the workflow. Read [Security and Safety](/docs/security) and [AI Chat and Agent](/docs/ai) for setup details.

@@ -27,4 +27,4 @@ Create clear tasks for build/test, format/lint, health checks and log inspection
 4. One well-understood task runs successfully.
 5. If you use Pro Git workflows, Source Control can read the repository state before you write anything.
 
-Continue with [Settings](/docs/settings) · [AI Assistant](/docs/ai) · [Security and Safety](/docs/security)
+Continue with [Settings](/docs/settings) · [AI Chat and Agent](/docs/ai) · [Security and Safety](/docs/security)

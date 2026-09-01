@@ -23,4 +23,4 @@ description: 使用 NimoteCode AI Chat 解决直接的代码问题，使用 AI A
 4. 运行与项目相符的验证命令。
 5. 有 Pro 时，在交付前检查 Git diff。
 
-NimoteCode 围绕工具调用提供校验与锁定机制，但生产环境的操作责任仍在执行者。请继续阅读 [AI 助手](/zh/docs/ai) 与 [配置指南](/zh/docs/configuration)。
+NimoteCode 围绕工具调用提供校验与锁定机制，但生产环境的操作责任仍在执行者。请继续阅读 [AI Chat 与 Agent](/zh/docs/ai) 与 [配置指南](/zh/docs/configuration)。

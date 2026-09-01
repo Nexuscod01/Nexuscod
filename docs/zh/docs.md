@@ -1,6 +1,6 @@
 ---
 title: NimoteCode 中文文档 | 移动 IDE 使用指南
-description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手机代码编辑、终端、Git、AI 助手、LSP、调试、Tasks 与 Sync/Cache。
+description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手机代码编辑、终端、Git、AI Chat、LSP、调试、Tasks 与 Sync/Cache。
 ---
 
 # NimoteCode 中文文档
@@ -21,7 +21,7 @@ description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手
 | 打开项目并验证一次修改 | [快速开始](/zh/docs/quick-start) | [编辑器](/zh/docs/editor) · [终端](/zh/docs/terminal) |
 | 操作远程主机上的项目 | [SSH 工作区](/zh/docs/ssh) | [Tasks](/zh/docs/tasks) |
 | 完成一次聚焦改动 | [编辑器](/zh/docs/editor) | [Source Control](/zh/docs/source-control) |
-| 在项目上下文中使用 AI | [AI 助手](/zh/docs/ai) | [配置指南](/zh/docs/configuration) |
+| 在项目上下文中使用 AI | [AI Chat 与 Agent](/zh/docs/ai) | [配置指南](/zh/docs/configuration) |
 | 诊断一个问题 | [LSP](/zh/docs/lsp) | [调试](/zh/docs/debug) · [终端](/zh/docs/terminal) |
 | 在本地与远程间移动内容 | [Sync / Cache](/zh/docs/sync-cache) | [SSH 工作区](/zh/docs/ssh) |
 
@@ -33,12 +33,12 @@ description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手
 
 ## 场景指南
 
-还在评估产品时，可先阅读 [移动 IDE](/mobile-ide)、[SSH IDE](/ssh-ide) 或 [手机 AI 编程](/mobile-ai-coding)。希望看到真实流程，可进入 [手机远程热修](/zh/use-cases/remote-hotfix)、[移动值班诊断](/zh/use-cases/on-call-diagnostics) 与 [AI Agent 工作流](/zh/use-cases/ai-agent)。
+还在评估产品时，可先阅读 [移动 IDE](/zh/mobile-ide)、[SSH IDE](/zh/ssh-ide) 或 [手机 AI 编程](/zh/mobile-ai-coding)。希望看到真实流程，可进入 [手机远程热修](/zh/use-cases/remote-hotfix)、[移动值班诊断](/zh/use-cases/on-call-diagnostics) 与 [AI Agent 工作流](/zh/use-cases/ai-agent)。
 
 <div class="seo-cta">
   <p><strong>想先看可视化流程？</strong> 演示页面会从 SSH 连接一直讲到 AI 辅助与可审查的改动。</p>
   <p class="seo-cta-actions">
-    <a href="/demo?utm_source=zh_docs_hub&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
+    <a href="/zh/demo?utm_source=zh_docs_hub&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
     <a href="/zh/download?utm_source=zh_docs_hub&utm_medium=website&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
   </p>
 </div>

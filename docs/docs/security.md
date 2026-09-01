@@ -26,4 +26,4 @@ AI Agent separates tool execution from a plain chat response and applies validat
 4. Make the smallest necessary change.
 5. Test it and review the Git diff before delivery.
 
-Related: [SSH Workspace](/docs/ssh) · [AI Assistant](/docs/ai) · [Configuration](/docs/configuration)
+Related: [SSH Workspace](/docs/ssh) · [AI Chat and Agent](/docs/ai) · [Configuration](/docs/configuration)

@@ -30,7 +30,7 @@ NimoteCode is most compelling in the last three cases. It is not trying to make 
 
 ## One mobile workspace for the full loop
 
-Connect to the remote project with [SSH Workspace](/docs/ssh), inspect the relevant files in the editor, run commands in [Terminal](/docs/terminal), and use [Source Control](/docs/source-control) to review the exact change. If you need help reading unfamiliar code or planning a narrow fix, [AI Assistant](/docs/ai) stays in that same workspace.
+Connect to the remote project with [SSH Workspace](/docs/ssh), inspect the relevant files in the editor, run commands in [Terminal](/docs/terminal), and use [Source Control](/docs/source-control) to review the exact change. If you need help reading unfamiliar code or planning a narrow fix, [AI Chat and Agent](/docs/ai) stays in that same workspace.
 
 This layout makes a difference during a hotfix or on-call task: you can preserve the thread from log line to source file to verification command to diff.
 

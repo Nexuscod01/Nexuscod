@@ -32,7 +32,7 @@ The product is positioned as a Mobile AI Development Workspace: Editor + Explore
 - [Terminal](https://nimotecode.com/docs/terminal): Terminal sessions and command execution.
 - [Search](https://nimotecode.com/docs/search): Project and output search guidance.
 - [Source Control](https://nimotecode.com/docs/source-control): Git review and write workflows.
-- [AI Assistant](https://nimotecode.com/docs/ai): AI chat and agent usage.
+- [AI Chat and Agent](https://nimotecode.com/docs/ai): AI chat and agent usage.
 - [LSP](https://nimotecode.com/docs/lsp): Language server diagnostics and code actions.
 - [Debug](https://nimotecode.com/docs/debug): Breakpoints, call stacks, variables, and watch views.
 - [Tasks](https://nimotecode.com/docs/tasks): Task creation and execution.

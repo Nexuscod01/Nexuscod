@@ -37,14 +37,14 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 1. 使用 [SSH 工作区](/zh/docs/ssh) 连接远程项目，或打开本地项目。
 2. 在 [编辑器](/zh/docs/editor) 中定位并修改文件。
 3. 在 [终端](/zh/docs/terminal) 中验证；需要时搜索输出或远程内容。
-4. 让 [AI 助手](/zh/docs/ai) 协助理解错误或规划改动。
+4. 让 [AI Chat 与 Agent](/zh/docs/ai) 协助理解错误或规划改动。
 5. 使用 Pro 的 [Source Control](/zh/docs/source-control) 审查并交付结果。
 
 > 功能会遵循权限与环境前置条件。例如 LSP、Debug 需要远程主机配置相应语言服务或调试适配器；面对敏感系统时，仍应审查每个 AI 结果与执行动作。
 
 ## 按目标继续了解
 
-- [移动 IDE](/mobile-ide) —— 一体化开发工作流
-- [SSH IDE](/ssh-ide) —— 在移动端操作远程项目
-- [手机 AI 编程](/mobile-ai-coding) —— 带工作区上下文的 AI 协助
+- [移动 IDE](/zh/mobile-ide) —— 一体化开发工作流
+- [SSH IDE](/zh/ssh-ide) —— 在移动端操作远程项目
+- [手机 AI 编程](/zh/mobile-ai-coding) —— 带工作区上下文的 AI 协助
 - [移动值班诊断](/zh/use-cases/on-call-diagnostics) —— 聚焦故障排查

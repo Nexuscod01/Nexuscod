@@ -5,7 +5,7 @@ description: Practical NimoteCode workflows for mobile remote hotfixes, on-call 
 
 # Mobile Developer Use Cases
 
-People rarely start by searching for a product name. They search for a way to fix an incident, understand a remote project or use an AI coding workflow from a phone. These guides describe the real moments NimoteCode is designed to support.
+These scenes cover the moments when a laptop isn't available: fixing a focused production issue from your phone, diagnosing an incident away from your desk, and keeping AI-assisted work inside a reviewable mobile workflow. Each one shows how NimoteCode keeps SSH, project files, terminal and Git together.
 
 <div class="product-card-grid">
   <div class="product-card"><strong><a href="/use-cases/remote-hotfix">Remote hotfix</a></strong><span>Connect, inspect, edit, verify and review a focused patch without leaving the workspace.</span></div>

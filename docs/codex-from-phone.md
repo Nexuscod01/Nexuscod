@@ -27,7 +27,7 @@ NimoteCode is not presented as a replacement for Codex or its official setup. It
 
 ## Use OpenAI-compatible AI in the workspace
 
-NimoteCode also supports AI provider configuration for its in-app AI Chat and Agent workflows. That can be useful when you want workspace-aware explanation, planning or controlled automation alongside your SSH session. See [AI Assistant](/docs/ai) for provider configuration and [Security and Safety](/docs/security) for execution controls.
+NimoteCode also supports AI provider configuration for its in-app AI Chat and Agent workflows. That can be useful when you want workspace-aware explanation, planning or controlled automation alongside your SSH session. See [AI Chat and Agent](/docs/ai) for provider configuration and [Security and Safety](/docs/security) for execution controls.
 
 ## Keep the task narrow and observable
 

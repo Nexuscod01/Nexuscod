@@ -22,7 +22,7 @@ Use AI Chat when you want to stay in control of the steps: explain an error, cla
 
 AI Agent is for tasks that naturally span several actions: inspect relevant files, propose edits, run a check and summarize the outcome. It is not a reason to skip review. NimoteCode is built with controlled execution and confirmation-oriented workflows so you can inspect commands and changes—especially in remote SSH workspaces.
 
-For feature availability and provider configuration, see [AI Assistant](/docs/ai) and [Security and Safety](/docs/security).
+For feature availability and provider configuration, see [AI Chat and Agent](/docs/ai) and [Security and Safety](/docs/security).
 
 ## Why the surrounding workspace matters
 

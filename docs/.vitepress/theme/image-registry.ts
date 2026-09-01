@@ -29,7 +29,6 @@ export interface PlaceholderImage {
 }
 
 export const placeholderImages = {
-  homeWorkflow: { phone: { src: null }, ipad: { src: null } },
   quickStart: {
     layout: 'wide',
     wide: {

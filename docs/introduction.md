@@ -29,7 +29,7 @@ Start with Local Explorer when a project is on your device, or use Remote Explor
 
 - Need to connect and work remotely? Read [SSH Workspace](/docs/ssh).
 - Need to make a safe, reviewable patch? See [Remote Hotfix from Mobile](/use-cases/remote-hotfix).
-- Need help understanding code or error output? Open [AI Assistant](/docs/ai).
+- Need help understanding code or error output? Open [AI Chat and Agent](/docs/ai).
 - Need the full capability breakdown? Explore [Features](/features) or [Pro](/pro).
 
 <div class="seo-cta">

@@ -28,10 +28,11 @@ const copy = computed(() => isChinese.value ? {
   deletion: '账号删除',
   note: '为开发者的移动时刻而构建。',
   exploreLinks: [
-    { text: '功能特性', href: '/features' },
-    { text: '使用场景', href: '/use-cases/' },
-    { text: '产品简介', href: '/introduction' },
-    { text: '文档', href: '/docs/quick-start' }
+    { text: '移动 IDE', href: '/mobile-ide' },
+    { text: 'SSH IDE', href: '/ssh-ide' },
+    { text: '移动 AI 编程', href: '/mobile-ai-coding' },
+    { text: '使用指南', href: '/blog/' },
+    { text: '观看演示', href: '/demo?utm_source=footer&utm_medium=website&utm_campaign=demo' }
   ]
 } : {
   positioning: 'Mobile AI Development Workspace: Editor + Explorer + SSH + Terminal + Git + AI Agent.',

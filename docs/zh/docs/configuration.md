@@ -27,4 +27,4 @@ description: 使用实用的 AI Provider、SSH 工作区和远程 Tasks 配置�
 4. 至少一个熟悉的任务能成功完成。
 5. 使用 Pro Git 工作流时，先确认 Source Control 能读到正确仓库状态。
 
-继续阅读：[设置](/zh/docs/settings) · [AI 助手](/zh/docs/ai)
+继续阅读：[设置](/zh/docs/settings) · [AI Chat 与 Agent](/zh/docs/ai)

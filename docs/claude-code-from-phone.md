@@ -35,7 +35,7 @@ An agent can accelerate a narrow task, but it cannot remove the need to understa
 - You want a project explorer and Git review view next to the terminal session.
 - You need to turn an agent suggestion into a verified, reviewable change.
 
-For AI provider setup inside NimoteCode itself, see [AI Assistant](/docs/ai). For broader guidance, read [Mobile AI Coding](/mobile-ai-coding).
+For AI provider setup inside NimoteCode itself, see [AI Chat and Agent](/docs/ai). For broader guidance, read [Mobile AI Coding](/mobile-ai-coding).
 
 <div class="seo-cta">
   <p><strong>Bring your SSH project, terminal and review workflow to the phone.</strong></p>

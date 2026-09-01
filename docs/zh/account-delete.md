@@ -1,5 +1,6 @@
 ---
 title: 账号删除 | NimoteCode
+description: 了解如何在应用内或通过联系支持来删除 NimoteCode 账号及相关云端数据。
 ---
 
 # 账号删除

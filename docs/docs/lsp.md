@@ -18,6 +18,6 @@ The LSP panel adds language-aware feedback to an active remote workspace. With a
 2. Open LSP and filter diagnostics to the most important errors.
 3. Jump to the source location and apply a code action if one is offered.
 4. Re-run the relevant check in [Terminal](/docs/terminal).
-5. Use [Debug](/docs/debug) or [AI Assistant](/docs/ai) if the problem needs more context.
+5. Use [Debug](/docs/debug) or [AI Chat and Agent](/docs/ai) if the problem needs more context.
 
 Language support depends on the tools installed and configured on your remote host. An unavailable code action is normal for some diagnostics; it is not a promise that AI or LSP can automatically fix every issue.

@@ -18,7 +18,7 @@ A production-adjacent fix should remain a controlled development workflow, even 
 2. Inspect the symptom with [Terminal](/docs/terminal) before changing a file.
 3. Open the smallest affected file and make a focused edit.
 4. Run the relevant test, build or health check.
-5. Use [AI Assistant](/docs/ai) for an explanation or plan when it adds context—not as an unreviewed deployment mechanism.
+5. Use [AI Chat and Agent](/docs/ai) for an explanation or plan when it adds context—not as an unreviewed deployment mechanism.
 6. With Pro, open [Source Control](/docs/source-control), read the diff, commit and sync only according to the repository’s normal policy.
 
 If the environment, impact or verification path is unclear, stop and escalate. Mobile access makes an urgent task possible; it should not lower the standard for a safe change.

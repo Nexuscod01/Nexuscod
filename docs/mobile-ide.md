@@ -30,7 +30,7 @@ The goal is not to replace a desktop for every long coding session. It is to mak
 
 Start in Local Explorer when the project is on your device, or connect through [SSH Workspace](/docs/ssh) to a remote development machine or server. From there, open files in the editor, run tests or inspection commands in [Terminal](/docs/terminal), and use [Source Control](/docs/source-control) to inspect the resulting diff.
 
-When a task needs more context, [AI Assistant](/docs/ai) can explain code or plan a change. AI Agent is designed for controlled multi-step work; you can inspect what it proposes and keep the final decision in your hands.
+When a task needs more context, [AI Chat and Agent](/docs/ai) can explain code or plan a change. AI Agent is designed for controlled multi-step work; you can inspect what it proposes and keep the final decision in your hands.
 
 ## Built for mobile constraints
 

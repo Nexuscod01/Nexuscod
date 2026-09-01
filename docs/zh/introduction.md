@@ -29,7 +29,7 @@ NimoteCode 不是远程桌面替代品，也不只是 SSH Client 或代码编辑
 
 - 需要连接并操作远程项目：阅读 [SSH 工作区](/zh/docs/ssh)。
 - 需要完成一次可审查的补丁：查看 [手机远程热修](/zh/use-cases/remote-hotfix)。
-- 需要理解代码或错误输出：打开 [AI 助手](/zh/docs/ai)。
+- 需要理解代码或错误输出：打开 [AI Chat 与 Agent](/zh/docs/ai)。
 - 需要查看完整能力边界：浏览 [功能特性](/zh/features)。
 
 <div class="seo-cta">

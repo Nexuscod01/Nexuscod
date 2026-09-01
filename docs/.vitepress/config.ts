@@ -111,8 +111,8 @@ function pageSchemas(context: TransformContext): object[] {
       '@type': 'WebSite',
       name: 'NimoteCode',
       url: siteUrl,
-      description: 'NimoteCode is a mobile AI development workspace for developers on the move: code editor, SSH terminal, Git, AI Agent, LSP, debugger, tasks and sync/cache.',
-      inLanguage: 'en-US'
+      description: websiteDescription(inLanguage),
+      inLanguage
     },
     {
       '@context': 'https://schema.org',
@@ -130,7 +130,7 @@ function pageSchemas(context: TransformContext): object[] {
       operatingSystem: 'iOS, iPadOS, Android',
       url: siteUrl,
       image: socialImage,
-      description: 'Mobile AI development workspace with code editor, SSH terminal, Git, AI Assistant and Agent, LSP, debugger, tasks and sync/cache.',
+      description: 'Mobile AI development workspace with code editor, SSH terminal, Git, AI Chat and Agent, LSP, debugger, tasks and sync/cache.',
       offers: {
         '@type': 'Offer',
         price: '0',
@@ -417,6 +417,13 @@ function pageLocaleKey(path: string): string {
   return suffixToLocaleKey(normalized)
 }
 
+function websiteDescription(inLanguage: string): string {
+  if (inLanguage === 'zh-CN') {
+    return 'NimoteCode 是面向移动场景的 AI 开发工作区：集代码编辑器、SSH 终端、Git、AI Agent、LSP、调试器、任务与同步/缓存于一体。'
+  }
+  return 'NimoteCode is a mobile AI development workspace for developers on the move: code editor, SSH terminal, Git, AI Agent, LSP, debugger, tasks and sync/cache.'
+}
+
 export default defineConfig({
   title: 'NimoteCode',
   titleTemplate: false,
@@ -432,6 +439,10 @@ export default defineConfig({
     const title = asContent(context.pageData.frontmatter.title, asContent(context.pageData.title, 'NimoteCode'))
     const description = pageDescription(context, title)
     const image = asContent(context.pageData.frontmatter.image, socialImage)
+    const isPageNotFound = normalizePath(context.pageData.relativePath) === '/404'
+    const robotsContent = isPageNotFound
+      ? 'noindex, follow'
+      : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
 
     return [
       ['link', { rel: 'canonical', href: url }],
@@ -447,7 +458,7 @@ export default defineConfig({
       ['meta', { name: 'twitter:description', content: description }],
       ['meta', { name: 'twitter:image', content: image }],
       ['meta', { name: 'twitter:site', content: '@nimotecode' }],
-      ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
+      ['meta', { name: 'robots', content: robotsContent }],
       ['meta', { name: 'author', content: 'NimoteCode' }],
       ['meta', { name: 'apple-mobile-web-app-title', content: 'NimoteCode' }],
       ['script', { type: 'application/ld+json' }, JSON.stringify(pageSchemas(context))],
@@ -549,7 +560,7 @@ export default defineConfig({
               text: 'AI and Diagnostics',
               collapsed: true,
               items: [
-                { text: 'AI Assistant', link: '/docs/ai' },
+                { text: 'AI Chat and Agent', link: '/docs/ai' },
                 { text: 'LSP', link: '/docs/lsp' },
                 { text: 'Debug', link: '/docs/debug' },
                 { text: 'Sync / Cache', link: '/docs/sync-cache' }
@@ -610,6 +621,19 @@ export default defineConfig({
               ]
             },
             {
+              text: '使用指南',
+              collapsed: true,
+              items: [
+                { text: '全部指南', link: '/zh/blog/' },
+                { text: '最佳移动 IDE', link: '/zh/blog/best-mobile-ides' },
+                { text: '最佳 SSH 客户端', link: '/zh/blog/best-ssh-clients' },
+                { text: '如何用 iPad 编程', link: '/zh/blog/how-to-code-from-ipad' },
+                { text: '用手机使用 Claude Code', link: '/zh/blog/claude-code-from-phone' },
+                { text: '用手机使用 Codex', link: '/zh/blog/codex-from-phone' },
+                { text: 'Termius 对比 Blink 与 NimoteCode', link: '/zh/blog/termius-vs-blink-vs-nimotecode' }
+              ]
+            },
+            {
               text: '日常开发',
               collapsed: true,
               items: [
@@ -625,7 +649,7 @@ export default defineConfig({
               text: 'AI 与诊断',
               collapsed: true,
               items: [
-                { text: 'AI 助手', link: '/zh/docs/ai' },
+                { text: 'AI Chat 与 Agent', link: '/zh/docs/ai' },
                 { text: 'LSP 面板', link: '/zh/docs/lsp' },
                 { text: '调试面板', link: '/zh/docs/debug' },
                 { text: 'Sync / Cache 面板', link: '/zh/docs/sync-cache' }

@@ -1,5 +1,6 @@
 ---
 title: 支持 | NimoteCode
+description: 通过邮件、GitHub Issues、官方文档与故障排查指南获取 NimoteCode 支持。
 ---
 
 # 支持
