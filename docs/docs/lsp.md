@@ -1,36 +1,23 @@
-# LSP Panel
+---
+title: LSP Diagnostics and Code Actions | NimoteCode Pro
+description: Configure language-server support on a remote workspace, view diagnostics, jump to source locations and apply available code actions in NimoteCode Pro.
+---
 
-The LSP panel helps you catch issues earlier and apply fixes faster while working in remote projects.
+# LSP Diagnostics and Code Actions
 
-## Core Value
+The LSP panel adds language-aware feedback to an active remote workspace. With a compatible language server configured on the host, you can move from a diagnostic to the relevant source line and apply available code actions. LSP is a **Pro** workflow.
 
-- Surface diagnostics in one place
-- Jump directly from issues to source lines
-- Apply code actions with fewer manual steps
-- Install and verify language server support through guided flow
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode LSP diagnostics">
+  <strong>Image placeholder — diagnose and navigate with LSP</strong>
+  <span>Replace with a screenshot of the diagnostics list, a selected source line and an available code action.</span>
+</div>
 
-## What You Can Do
+## A practical LSP loop
 
-- View and filter errors and warnings
-- Open issue location instantly in editor
-- Refresh and apply available code actions
-- Use installer guidance for supported language servers
-- Fall back to AI fix flows when automatic actions are unavailable
+1. Set up and verify the language server for the remote project.
+2. Open LSP and filter diagnostics to the most important errors.
+3. Jump to the source location and apply a code action if one is offered.
+4. Re-run the relevant check in [Terminal](/docs/terminal).
+5. Use [Debug](/docs/debug) or [AI Assistant](/docs/ai) if the problem needs more context.
 
-## Best Usage Pattern
-
-1. Run code and open LSP panel.
-2. Filter to errors first.
-3. Apply quick fixes where available.
-4. Recheck diagnostics and repeat.
-5. Hand off complex cases to Debug or AI.
-
-## Pro Notes
-
-LSP is provided as a Pro workflow and is optimized for active SSH remote workspace usage.
-
-## Related Pages
-
-- [Debug Panel](/docs/debug)
-- [AI Assistant](/docs/ai)
-- [Timeline Panel](/docs/timeline)
+Language support depends on the tools installed and configured on your remote host. An unavailable code action is normal for some diagnostics; it is not a promise that AI or LSP can automatically fix every issue.

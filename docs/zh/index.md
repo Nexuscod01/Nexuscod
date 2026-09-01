@@ -1,8 +1,8 @@
 ---
 layout: home
-title: NimoteCode - iPhone 和 Android 上的移动 IDE
+title: 移动 IDE：SSH、Git 与 AI 编程 | NimoteCode
 titleTemplate: false
-description: NimoteCode 是移动优先的开发工作区，包含代码编辑器、SSH 终端、Git、AI 编程助手和工作区同步。
+description: NimoteCode 是面向 iPhone、Android 与 iPad 的移动 IDE，整合编辑器、资源管理器、SSH、终端、Git 与 AI Agent。
 
 hero:
   name: ""
@@ -12,137 +12,26 @@ hero:
 ---
 
 <section class="home-page-hero">
-  <div class="home-page-hero-shell">
+  <div class="home-page-hero-shell home-page-hero-shell-product">
     <div class="home-page-hero-copy">
-      <p class="home-page-badge">支持 iPhone 和 Android</p>
-      <div class="home-page-logo-lockup">
-        <img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async">
-        <span class="home-page-brand">NimoteCode</span>
-      </div>
-      <h1 class="home-page-title">不是代码编辑器。<br>而是真实开发工作区。</h1>
-      <p class="home-page-subtitle">把 SSH 工作流、生产代码编辑、Git 审查和 AI 协作放进同一个移动优先 IDE。</p>
-      <div class="home-page-actions home-page-actions-hero">
-        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary" target="_blank" rel="noreferrer">Google Play 下载</a>
-        <span class="home-page-btn tertiary" aria-disabled="true">App Store 即将上线</span>
-        <a href="/zh/docs/quick-start" class="home-page-btn secondary">查看快速入门</a>
-      </div>
-    </div>
-    <div class="home-page-store-showcase" aria-hidden="true">
-      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-google" width="320" height="96" loading="eager" decoding="async">
-      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="home-page-store-showcase-badge home-page-store-showcase-badge-apple" width="135" height="40" loading="eager" decoding="async">
-    </div>
-    <a href="#product-demo" class="home-page-scroll-hint">下滑查看演示</a>
-  </div>
-</section>
-
-<section id="product-demo" class="home-page-section home-page-video-section">
-  <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">产品演示</p>
-    <h2 class="home-page-section-title">看一遍真实的移动热修流程。</h2>
-    <p class="home-page-section-copy">SSH 接入、代码修改、终端验证、Git 审查和 AI 辅助，全部收敛在同一个工作区里。</p>
-  </div>
-  <div class="home-page-video">
-    <a
-      class="home-page-video-shell home-page-video-link"
-      href="https://www.youtube.com/watch?v=cTpxPqJwo_s"
-      target="_blank"
-      rel="noreferrer"
-      aria-label="在 YouTube 上观看 NimoteCode 产品演示"
-    >
-      <img
-        class="home-page-video-poster"
-        src="/screenshots/NimoteCode_Promotion.jpg"
-        alt="NimoteCode 产品演示预览"
-        width="4096"
-        height="2304"
-        loading="lazy"
-        decoding="async"
-      >
-      <span class="home-page-video-overlay">
-        <span class="home-page-video-play">在 YouTube 上观看演示</span>
-        <span class="home-page-video-meta">会打开轻量级外部播放器</span>
-      </span>
-    </a>
-  </div>
-</section>
-
-<section class="home-page-section">
-  <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">核心工作流</p>
-    <h2 class="home-page-section-title">为真实生产工作而设计的移动开发环境。</h2>
-    <p class="home-page-section-copy">核心闭环保持简洁：连接、检查、修改、验证、交付。</p>
-  </div>
-
-  <div class="home-page-feature-grid home-page-feature-grid-priority">
-    <article class="home-page-feature-card home-page-feature-card-ai">
-      <p class="home-page-feature-label">AI Assistant</p>
-      <h3>让 AI 在完整工作区上下文里参与改动。</h3>
-      <p>解释代码、排查问题、推进多步骤修复，全程不离开应用。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Terminal</p>
-      <h3>直接工作在真实环境</h3>
-      <p>SSH 连接服务器或开发机，运行真正有价值的命令。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Git</p>
-      <h3>清晰审查并提交变更</h3>
-      <p>把 diff、暂存和版本控制放在代码旁边完成。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Workspace Sync</p>
-      <h3>随时接续上一次工作</h3>
-      <p>让项目状态和当前上下文跟着你的移动场景一起走。</p>
-    </article>
-  </div>
-</section>
-
-<section class="home-page-section">
-  <div class="home-page-positioning">
-    <p>不是代码编辑器。</p>
-    <p>而是真实开发工作区。</p>
-  </div>
-</section>
-
-<section class="home-page-section">
-  <div class="home-page-section-head home-page-section-head-centered">
-    <p class="home-page-eyebrow">使用场景</p>
-    <h2 class="home-page-section-title">围绕高频、紧急、实战型工作流构建。</h2>
-    <p class="home-page-section-copy">当你需要立刻动手，而不是只看一眼代码时，这个产品会非常直观。</p>
-  </div>
-
-  <div class="home-page-scenario-grid">
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Hotfix</p>
-      <h3><a href="/zh/use-cases/remote-hotfix">在手机上完成生产热修</a></h3>
-      <p>SSH 进入环境，修改代码，验证结果，然后直接提交。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">On-call</p>
-      <h3><a href="/zh/use-cases/on-call-diagnostics">离开工位也能处理故障</a></h3>
-      <p>查看日志并继续推进诊断闭环，不被地点限制。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">AI Workflow</p>
-      <h3><a href="/zh/use-cases/ai-agent">把 AI 放进真实开发流程</a></h3>
-      <p>组合 AI Chat、AI Agent、终端工具和安全控制。</p>
-    </article>
-    <article class="home-page-feature-card">
-      <p class="home-page-feature-label">Docs</p>
-      <h3><a href="/zh/docs">需要细节时直接进入文档</a></h3>
-      <p>查看 SSH、编辑器、Git、AI、调试、Tasks 和同步指南。</p>
-    </article>
-  </div>
-</section>
-
-<section class="home-page-section">
-  <div class="home-page-cta">
-    <p class="home-page-eyebrow">开始使用</p>
-    <h2 class="home-page-cta-title">把真实开发工作区随身带走。</h2>
-    <p class="home-page-cta-text">面向开发者和运维工程师，帮助你在移动端完成检查、修复和交付。</p>
-    <div class="home-page-actions">
-      <a href="/zh/download" class="home-page-btn primary">下载 NimoteCode</a>
-      <a href="/zh/docs/quick-start" class="home-page-btn secondary">阅读文档</a>
+      <p class="home-page-badge">移动 AI 开发工作台</p>
+      <div class="home-page-logo-lockup"><img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async"><span class="home-page-brand">NimoteCode</span></div>
+      <h1 class="home-page-title">把真实开发工作区，<br><em>带到每一个移动时刻。</em></h1>
+      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Agent，为 Android、iPhone 与 iPad 上边界明确的开发任务而设计。</p>
+      <div class="home-page-actions home-page-actions-hero"><a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a><a href="/demo?utm_source=zh_homepage&utm_medium=website&utm_campaign=hero_demo" class="home-page-btn secondary">观看演示</a></div>
+      <a class="home-page-availability-link" href="/zh/download?utm_source=zh_homepage&utm_medium=website&utm_campaign=ios_availability">了解 iOS 可用性 <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
+
+<section class="home-page-signal-band" aria-label="NimoteCode 产品信号"><div><span>一个工作区</span><strong>项目上下文始终连接。</strong></div><div><span>真实环境</span><strong>SSH、文件与终端在同一流程中。</strong></div><div><span>受控 AI</span><strong>协助工作，但始终审查改动。</strong></div></section>
+
+<section class="home-page-section home-page-workflow-section"><div class="home-page-section-head"><p class="home-page-eyebrow">核心工作流</p><h2 class="home-page-section-title">从远程连接，到可审查的改动。</h2><p class="home-page-section-copy">NimoteCode 保留真实开发闭环，同时让它足够适合在移动端完成。</p></div><div class="home-page-workflow-layout"><div class="home-page-workflow-media" role="img" aria-label="NimoteCode 移动工作流截图占位符"><strong>工作流截图占位符</strong><span>请替换为展示 SSH 连接、编辑与验证的手机或平板真实项目截图。</span></div><ol class="home-page-workflow-list"><li><span>01</span><div><strong>连接</strong><p>打开本地项目，或以清晰项目根路径连接 SSH 工作区。</p></div></li><li><span>02</span><div><strong>检查</strong><p>浏览文件、搜索上下文并查看终端输出，无需切换工具。</p></div></li><li><span>03</span><div><strong>修改</strong><p>在编辑器中完成聚焦改动；需要时让 AI 提供上下文帮助。</p></div></li><li><span>04</span><div><strong>验证</strong><p>在同一工作区运行对应命令、测试或健康检查。</p></div></li><li><span>05</span><div><strong>审查</strong><p>使用 Pro Git 工作流查看 diff，再决定提交或同步。</p></div></li></ol></div></section>
+
+<section class="home-page-section home-page-product-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">专注于真正的工作</p><h2 class="home-page-section-title">移动任务需要的一切，没有多余干扰。</h2></div><div class="home-page-module-grid"><article class="home-page-module-card"><span class="home-page-module-index">01</span><h3>远程工作区</h3><p>通过 Explorer、编辑器和终端，在同一上下文中打开真实 SSH 项目。</p><a href="/zh/docs/ssh">了解 SSH 工作区 <span>→</span></a></article><article class="home-page-module-card"><span class="home-page-module-index">02</span><h3>在上下文中验证</h3><p>运行命令、检查长输出，并让产出它的代码始终近在手边。</p><a href="/zh/docs/terminal">了解终端 <span>→</span></a></article><article class="home-page-module-card"><span class="home-page-module-index">03</span><h3>带护栏的 AI</h3><p>用 Chat 进行判断，用 Agent 协助受控多步骤任务，再审查结果。</p><a href="/zh/docs/ai">了解 AI 助手 <span>→</span></a></article></div></section>
+
+<section id="product-demo" class="home-page-section home-page-video-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">产品演示</p><h2 class="home-page-section-title">看一遍移动开发流程如何跑通。</h2><p class="home-page-section-copy">SSH 接入、代码修改、终端验证、Git 审查与 AI 辅助的简洁演示。</p></div><div class="home-page-video"><a class="home-page-video-shell home-page-video-link" href="/demo?utm_source=zh_homepage&utm_medium=website&utm_campaign=product_demo" aria-label="阅读 NimoteCode 产品演示说明"><img class="home-page-video-poster" src="/screenshots/NimoteCode_Promotion.jpg" alt="NimoteCode 产品演示预览" width="4096" height="2304" loading="lazy" decoding="async"><span class="home-page-video-overlay"><span class="home-page-video-play">观看演示</span><span class="home-page-video-meta">视频演示与文字流程说明</span></span></a></div></section>
+
+<section class="home-page-section home-page-use-case-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">为关键时刻而设计</p><h2 class="home-page-section-title">没有电脑，也不必放弃完整流程。</h2></div><div class="home-page-use-case-grid"><a href="/zh/use-cases/remote-hotfix" class="home-page-use-case-card"><span>远程热修</span><h3>在手机上处理一处聚焦问题。</h3><p>连接、检查、修改、验证，再审查 diff。</p></a><a href="/zh/use-cases/on-call-diagnostics" class="home-page-use-case-card"><span>值班排障</span><h3>离开工位，继续调查故障。</h3><p>将终端证据、诊断工具与上下文保留在同一个位置。</p></a><a href="/zh/use-cases/ai-agent" class="home-page-use-case-card"><span>AI 工作流</span><h3>让 AI 进入真实项目循环。</h3><p>使用工作区上下文、受控工具与可审查的结果。</p></a></div></section>
+
+<section class="home-page-section"><div class="home-page-cta home-page-cta-premium"><p class="home-page-eyebrow">开始使用</p><h2 class="home-page-cta-title">把完整开发闭环随身带走。</h2><p class="home-page-cta-text">先使用核心工作区；当任务需要可审查地完成时，再使用 Pro。</p><div class="home-page-actions"><a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_final_cta" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a><a href="/zh/docs/quick-start?utm_source=zh_homepage&utm_medium=website&utm_campaign=final_docs" class="home-page-btn secondary">阅读快速入门</a></div></div></section>

@@ -1,49 +1,25 @@
 ---
 title: 移动开发使用场景 | NimoteCode
-description: 了解 NimoteCode 在远程热修、值班诊断、AI Agent 工作流、移动 SSH 开发与手机编码场景中的实际价值。
+description: NimoteCode 的真实移动开发场景：手机远程热修、值班诊断，以及在本地或 SSH 项目中的 AI 辅助工作流。
 ---
 
 # 移动开发使用场景
 
-NimoteCode 是面向真实开发任务的移动 IDE 和开发工作区，不只是功能清单。这个页面把产品能力和用户真实会搜索的问题连接起来，帮助中文用户、搜索引擎和大模型更快理解它适合解决什么问题。
+开发者通常不会先搜索产品名，而是寻找“如何在手机上修复问题”“如何查看远程项目”“如何让 AI 帮我推进代码任务”的答案。这些场景页对应的正是 NimoteCode 擅长支持的时刻。
 
-## 为什么要看场景
+<div class="product-card-grid">
+  <div class="product-card"><strong><a href="/zh/use-cases/remote-hotfix">手机远程热修</a></strong><span>连接、检查、编辑、验证，再审查一次聚焦补丁，不必切换应用。</span></div>
+  <div class="product-card"><strong><a href="/zh/use-cases/on-call-diagnostics">移动值班诊断</a></strong><span>先用终端收集证据，再按需使用已配置的诊断工具与 AI 上下文。</span></div>
+  <div class="product-card"><strong><a href="/zh/use-cases/ai-agent">AI Agent 工作流</a></strong><span>直接问题用 Chat；需要多个明确步骤时再使用受控 Agent 协助。</span></div>
+  <div class="product-card"><strong><a href="/mobile-ide">移动 IDE 概览</a></strong><span>理解 Editor + Explorer + SSH + Terminal + Git + AI 为什么应在同一工作流中。</span></div>
+</div>
 
-很多开发者不会先搜产品名，而是先搜问题：
+每个场景都以明确的项目边界开始，以验证结果结束。这正是“可用的移动工程能力”和“未经审查地在手机上执行一条命令”之间的区别。
 
-- 移动 SSH IDE
-- 手机上的代码编辑器
-- 手机终端和 Git
-- 远程热修工作流
-- 值班排障
-- 带终端能力的 AI 编程助手
-
-NimoteCode 把这些场景放进同一个产品里，通过 SSH 工作区、代码编辑、终端执行、Git 审查、AI 辅助、调试和任务流把完整开发闭环串起来。
-
-## 核心场景
-
-### [手机远程热修](/zh/use-cases/remote-hotfix)
-
-通过 SSH 打开远程工作区，修改文件、运行验证命令、检查 Git diff，并在手机或平板上完成一次真实补丁流程。
-
-### [移动值班诊断](/zh/use-cases/on-call-diagnostics)
-
-离开电脑时，仍然可以使用终端、输出搜索、Timeline 诊断、LSP 上下文和调试工具完成问题调查。
-
-### [AI Agent 工作流](/zh/use-cases/ai-agent)
-
-结合 NimoteCode AI Chat 与 AI Agent，在真实工作区上下文中完成代码理解、变更规划和受控多步骤执行。
-
-## 相关产品页面
-
-- [功能特性](/zh/features)
-- [文档总览](/zh/docs)
-- [SSH 工作区](/zh/docs/ssh)
-- [终端](/zh/docs/terminal)
-- [Source Control](/zh/docs/source-control)
-- [AI 助手](/zh/docs/ai)
-- [调试面板](/zh/docs/debug)
-
-## 下一步
-
-如果你希望最快理解 NimoteCode，先阅读 [快速入门](/zh/docs/quick-start)，再进入最符合你工作方式的场景页。
+<div class="seo-cta">
+  <p><strong>在下一次紧急任务前，先看看完整工作流。</strong></p>
+  <p class="seo-cta-actions">
+    <a href="/demo?utm_source=zh_use_cases&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
+    <a href="/zh/download?utm_source=zh_use_cases&utm_medium=website&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
+  </p>
+</div>

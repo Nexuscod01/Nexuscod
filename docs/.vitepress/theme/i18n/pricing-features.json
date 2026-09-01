@@ -16,8 +16,7 @@
             "Bring your own AI providers: OpenAI, Claude, Gemini",
             "Limited AI Agent usage",
             "Limited remote code search",
-            "Basic task execution",
-            "Development timeline viewer"
+            "Basic task execution"
           ]
         },
         {
@@ -26,7 +25,6 @@
           "items": [
             "Unlimited AI Agent executions",
             "Multi-step autonomous tasks",
-            "AI Timeline root cause analysis",
             "AI fix suggestions"
           ]
         },
@@ -105,8 +103,7 @@
             "Terminal access",
             "AI Chat with BYO providers",
             "Limited AI Agent usage",
-            "Limited remote code search",
-            "Basic tasks and timeline viewer"
+            "Limited remote code search"
           ]
         },
         {
@@ -126,7 +123,6 @@
             "Multiple concurrent terminal sessions",
             "LSP diagnostics, navigation, and refactoring",
             "Debugger with breakpoints, stack, variables, and watches",
-            "AI Timeline root cause analysis and fix suggestions",
             "Advanced task automation",
             "Secure Sync & Cache"
           ]
@@ -151,8 +147,7 @@
             "自带 AI 提供商：OpenAI、Claude、Gemini",
             "有限 AI Agent 使用量",
             "有限远程代码搜索",
-            "基础任务执行",
-            "开发 Timeline 查看器"
+            "基础任务执行"
           ]
         },
         {
@@ -161,7 +156,6 @@
           "items": [
             "无限 AI Agent 执行",
             "多步骤自主任务",
-            "AI Timeline 根因分析",
             "AI 修复建议"
           ]
         },
@@ -240,8 +234,7 @@
             "终端访问",
             "AI Chat 与自带提供商",
             "有限 AI Agent 使用量",
-            "有限远程代码搜索",
-            "基础任务和 Timeline 查看器"
+            "有限远程代码搜索"
           ]
         },
         {
@@ -261,7 +254,6 @@
             "多个并发终端会话",
             "LSP 诊断、导航和重构",
             "带断点、调用栈、变量和 Watch 的调试器",
-            "AI Timeline 根因分析和修复建议",
             "高级任务自动化",
             "安全 Sync & Cache"
           ]
@@ -286,8 +278,7 @@
             "持ち込み AI プロバイダ：OpenAI、Claude、Gemini",
             "制限付き AI Agent 利用",
             "制限付きリモートコード検索",
-            "基本タスク実行",
-            "開発 Timeline ビューア"
+            "基本タスク実行"
           ]
         },
         {
@@ -296,7 +287,6 @@
           "items": [
             "AI Agent の無制限実行",
             "複数ステップの自律タスク",
-            "AI Timeline による根本原因分析",
             "AI 修正提案"
           ]
         },
@@ -375,8 +365,7 @@
             "ターミナルアクセス",
             "AI Chat と持ち込みプロバイダ",
             "制限付き AI Agent 利用",
-            "制限付きリモートコード検索",
-            "基本タスクと Timeline ビューア"
+            "制限付きリモートコード検索"
           ]
         },
         {
@@ -396,7 +385,6 @@
             "複数の同時ターミナルセッション",
             "LSP 診断、ナビゲーション、リファクタリング",
             "ブレークポイント、スタック、変数、Watch 付きデバッガ",
-            "AI Timeline の根本原因分析と修正提案",
             "高度なタスク自動化",
             "安全な Sync & Cache"
           ]
@@ -421,8 +409,7 @@
             "직접 연결하는 AI 제공자: OpenAI, Claude, Gemini",
             "제한된 AI Agent 사용",
             "제한된 원격 코드 검색",
-            "기본 작업 실행",
-            "개발 Timeline 뷰어"
+            "기본 작업 실행"
           ]
         },
         {
@@ -431,7 +418,6 @@
           "items": [
             "AI Agent 무제한 실행",
             "다단계 자율 작업",
-            "AI Timeline 근본 원인 분석",
             "AI 수정 제안"
           ]
         },
@@ -510,8 +496,7 @@
             "터미널 접근",
             "AI Chat과 직접 연결 제공자",
             "제한된 AI Agent 사용",
-            "제한된 원격 코드 검색",
-            "기본 작업과 Timeline 뷰어"
+            "제한된 원격 코드 검색"
           ]
         },
         {
@@ -531,7 +516,6 @@
             "여러 동시 터미널 세션",
             "LSP 진단, 탐색, 리팩터링",
             "중단점, 스택, 변수, Watch가 있는 디버거",
-            "AI Timeline 근본 원인 분석과 수정 제안",
             "고급 작업 자동화",
             "안전한 Sync & Cache"
           ]

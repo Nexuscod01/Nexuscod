@@ -1,46 +1,24 @@
 ---
-title: Account and Subscription
-description: Understand NimoteCode sign-in, Pro verification, restore purchases, trials, and gated feature access.
+title: Account and Subscription | NimoteCode
+description: Understand NimoteCode account sign-in, Pro access verification, purchase restoration, Free usage allowances and the advanced workflows unlocked by Pro.
 ---
 
 # Account and Subscription
 
-NimoteCode uses account state and subscription verification to unlock Pro workflows.
+NimoteCode uses account and subscription state to verify **Pro** access and to manage usage-based capabilities such as AI Agent. The exact purchase and restore options depend on the platform store and current release channel.
 
-## Why sign in
+## What sign-in is used for
 
-Sign-in is used to:
+- Associate verified Pro access with an account.
+- Restore an eligible purchase through the supported store flow.
+- Track the Free allowance for AI Agent where applicable.
 
-- Verify Pro access.
-- Associate subscription state with your account.
-- Track metered AI Agent usage.
-- Restore purchases when supported by your platform store.
+## What Pro unlocks
 
-## Pro verification
+Pro enables Git write workflows, advanced multi-terminal, unlimited AI Agent and remote search, LSP, Debug, advanced Task execution and Sync / Cache. The capability is checked at the point of use, so the workspace remains clear about which action needs access.
 
-The app checks premium access through server-side verification and subscription state. If a recent verification is available, short offline grace behavior can prevent immediate interruption during temporary network issues.
+## If access looks wrong
 
-## Restore purchases
+Confirm the signed-in account, refresh the subscription status in the app and use the available restore-purchase action if you have previously purchased on the same supported platform. A recently verified entitlement can remain usable briefly during temporary network interruptions.
 
-If you previously purchased Pro on a supported platform, use restore purchase from the app settings/account area.
-
-## Gated capabilities
-
-Pro gates are applied at action time. Depending on current configuration and subscription state, the app can gate:
-
-- Unlimited AI Agent runs.
-- Git write operations.
-- Multi-terminal actions.
-- Remote search beyond free usage.
-- LSP diagnostics and code actions.
-- Debugger access.
-- Timeline AI analysis and fix suggestions.
-- Advanced task execution.
-- Sync/cache workflows.
-
-## Related pages
-
-- [Pro](/pro)
-- [AI Assistant](/docs/ai)
-- [Source Control](/docs/source-control)
-- [Sync / Cache](/docs/sync-cache)
+For the full comparison, see [NimoteCode Pro](/pro). For help with an account-specific issue, use the support route available in the app or site footer.

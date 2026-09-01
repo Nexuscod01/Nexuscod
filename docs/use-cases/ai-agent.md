@@ -1,41 +1,26 @@
 ---
-title: AI Agent Workflows
-description: Use NimoteCode AI Chat and AI Agent for mobile coding assistance, planning, and controlled multi-step automation.
+title: AI Agent Workflow from Mobile | NimoteCode
+description: Use NimoteCode AI Chat for direct coding help and AI Agent for controlled, multi-step mobile workflows with files, terminal and Git context.
 ---
 
-# AI Agent Workflows
+# AI Agent Workflow from Mobile
 
-NimoteCode includes AI Chat for direct assistance and AI Agent for multi-step workflows that can use tools under safety controls.
+Choose the AI mode based on the shape of the work. **AI Chat** helps you understand and decide; **AI Agent** can assist a sequence that spans project files, terminal checks and a final summary.
 
-## When to use AI Chat
+## Use AI Chat when the answer is the next step
 
-Use AI Chat when you need:
+Ask for a code explanation, an interpretation of terminal output, a refactor outline or a review checklist. Keep the relevant file active so the assistant has the right context.
 
-- Code explanation.
-- Error interpretation.
-- Refactor planning.
-- Review guidance before committing.
-- Help understanding the active file.
+## Use AI Agent when the work has several steps
 
-## When to use AI Agent
+An Agent workflow may inspect files, propose a plan, make an edit, run a check and report the result. Free includes a metered allowance; Pro provides unlimited Agent use.
 
-Use AI Agent when work needs multiple steps:
+## Keep the workflow reviewable
 
-- Inspect project files.
-- Plan a change.
-- Apply edits.
-- Run checks.
-- Summarize outcomes.
+1. Define the outcome and the workspace boundary.
+2. Inspect the plan before a write or command action.
+3. Read the actual command output and changed files.
+4. Run a project-appropriate verification command.
+5. With Pro, inspect the Git diff before delivery.
 
-Free users have metered Agent usage. Pro unlocks unlimited Agent runs.
-
-## Safety model
-
-Agent workflows are designed around controlled tool execution, validation layers, write locks, and sensitive-action handling. For production systems, review commands and changes before applying them.
-
-## Related docs
-
-- [AI Assistant](/docs/ai)
-- [Security and Safety](/docs/security)
-- [Configuration](/docs/configuration)
-- [Pro](/pro)
+NimoteCode uses validation and locking mechanisms around tool use, but production responsibility remains with the person running the workflow. Read [Security and Safety](/docs/security) and [AI Assistant](/docs/ai) for setup details.

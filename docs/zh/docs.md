@@ -1,57 +1,44 @@
 ---
-title: 文档 | NimoteCode
-description: 浏览 NimoteCode 中文文档，了解移动 IDE、SSH 远程开发、终端、Git、AI 助手、LSP、调试、Tasks、Timeline 与 Sync/Cache 工作流。
+title: NimoteCode 中文文档 | 移动 IDE 使用指南
+description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手机代码编辑、终端、Git、AI 助手、LSP、调试、Tasks 与 Sync/Cache。
 ---
 
-# 文档
+# NimoteCode 中文文档
 
-NimoteCode 中文文档围绕真实开发流程组织：移动 SSH 接入、代码编辑、终端执行、Git 审查、AI 辅助编程、调试分析，以及可复用任务自动化，帮助搜索引擎和大模型更准确理解产品能力。
+这里的文档按任务组织，帮助你在手机或平板上操作本地或 SSH 项目。先进入当前需要的流程，而不是从冗长的功能手册开始。
 
-## 建议从这里开始
+<div class="product-card-grid">
+  <div class="product-card"><strong>首次打开工作区</strong><span><a href="/zh/docs/quick-start">快速开始</a> 带你完成连接、编辑与验证。</span></div>
+  <div class="product-card"><strong>远程开发</strong><span>先配置 <a href="/zh/docs/ssh">SSH 工作区</a>，再在同一项目中使用 <a href="/zh/docs/terminal">终端</a>。</span></div>
+  <div class="product-card"><strong>安全交付</strong><span>通过 <a href="/zh/docs/source-control">Source Control</a> 审查变更，再根据团队流程提交或同步。</span></div>
+  <div class="product-card"><strong>AI 辅助</strong><span>在开始多步骤任务前，先理解 <a href="/zh/docs/ai">AI Chat 与 Agent</a> 的使用边界。</span></div>
+</div>
 
-| 页面 | 你将获得 | 链接 |
+## 核心工作流指南
+
+| 目标 | 先看 | 再继续 |
 | --- | --- | --- |
-| 快速开始 | 几分钟跑通第一条完整工作流 | [打开](/zh/docs/quick-start) |
-| 简介 | 产品定位与核心价值 | [打开](/zh/introduction) |
-| 功能特性 | 全量能力地图 | [打开](/zh/features) |
-| 下载 | 安装入口与平台信息 | [打开](/zh/download) |
+| 打开项目并验证一次修改 | [快速开始](/zh/docs/quick-start) | [编辑器](/zh/docs/editor) · [终端](/zh/docs/terminal) |
+| 操作远程主机上的项目 | [SSH 工作区](/zh/docs/ssh) | [Tasks](/zh/docs/tasks) |
+| 完成一次聚焦改动 | [编辑器](/zh/docs/editor) | [Source Control](/zh/docs/source-control) |
+| 在项目上下文中使用 AI | [AI 助手](/zh/docs/ai) | [配置指南](/zh/docs/configuration) |
+| 诊断一个问题 | [LSP](/zh/docs/lsp) | [调试](/zh/docs/debug) · [终端](/zh/docs/terminal) |
+| 在本地与远程间移动内容 | [Sync / Cache](/zh/docs/sync-cache) | [SSH 工作区](/zh/docs/ssh) |
 
-## 核心产品模块
+## 配置一次，稳定使用
 
-| 模块 | 价值 | 链接 |
-| --- | --- | --- |
-| SSH 工作区 | 在移动端连接并操作远程项目 | [打开](/zh/docs/ssh) |
-| 终端 | 多会话命令执行与输出搜索 | [打开](/zh/docs/terminal) |
-| Source Control | 完整应用内 Git 工作流与 AI 辅助 | [打开](/zh/docs/source-control) |
-| AI 助手 | AI Chat 与 AI Agent 提速开发 | [打开](/zh/docs/ai) |
-| LSP 面板 | 诊断、代码动作、安装引导 | [打开](/zh/docs/lsp) |
-| 调试面板 | 断点、运行控制、变量检查 | [打开](/zh/docs/debug) |
-| Tasks 面板 | 可复用的远程命令任务编排 | [打开](/zh/docs/tasks) |
-| Timeline 面板 | 根因分析与修复建议 | [打开](/zh/docs/timeline) |
-| Sync / Cache 面板 | Pro 本地远程传输流程 | [打开](/zh/docs/sync-cache) |
-| 设置 | 账户订阅、语言主题、编辑器与键盘 | [打开](/zh/docs/settings) |
-| 配置指南 | AI/SSH/任务推荐配置方法 | [打开](/zh/docs/configuration) |
+- [设置](/zh/docs/settings) —— 主题、语言、编辑器和移动键盘。
+- [配置指南](/zh/docs/configuration) —— AI、SSH 与任务的实用清单。
+- [常见问题](/zh/docs/faq) —— 产品能力与 Pro 的简短说明。
 
-## 检索意图对应入口
+## 场景指南
 
-下面这些页面更适合承接用户按问题或场景搜索时的入口流量，而不是只承接品牌词。
+还在评估产品时，可先阅读 [移动 IDE](/mobile-ide)、[SSH IDE](/ssh-ide) 或 [手机 AI 编程](/mobile-ai-coding)。希望看到真实流程，可进入 [手机远程热修](/zh/use-cases/remote-hotfix)、[移动值班诊断](/zh/use-cases/on-call-diagnostics) 与 [AI Agent 工作流](/zh/use-cases/ai-agent)。
 
-| 搜索意图 | 最佳入口页 | 对应价值 |
-| --- | --- | --- |
-| 移动 SSH IDE | [SSH 工作区](/zh/docs/ssh) | 说明 NimoteCode 如何连接并操作真实远程项目 |
-| 手机上写代码 | [编辑器](/zh/docs/editor) | 展示移动端代码编辑、标签、导航与项目上下文 |
-| 手机终端 / Android 终端开发 | [终端](/zh/docs/terminal) | 说明命令执行、输出搜索与持久会话 |
-| 手机上 Git 工作流 | [Source Control](/zh/docs/source-control) | 覆盖 diff、提交、分支与 Git AI |
-| 带工作区上下文的 AI 编程助手 | [AI 助手](/zh/docs/ai) | 解释 Chat、Agent、provider 配置与受控执行 |
-| 手机远程热修 | [手机远程热修](/zh/use-cases/remote-hotfix) | 连接 SSH、编辑器、终端与 Git 的完整补丁流程 |
-| 值班排障 / 手机诊断 | [移动值班诊断](/zh/use-cases/on-call-diagnostics) | 展示终端、Timeline 与调试如何配合 |
-
-## 帮助与政策
-
-| 主题 | 链接 |
-| --- | --- |
-| FAQ | [打开](/zh/docs/faq) |
-| 支持 | [打开](/zh/support) |
-| 账号删除 | [打开](/zh/account-delete) |
-| 隐私政策 | [打开](/zh/privacy) |
-| 服务条款 | [打开](/zh/terms) |
+<div class="seo-cta">
+  <p><strong>想先看可视化流程？</strong> 演示页面会从 SSH 连接一直讲到 AI 辅助与可审查的改动。</p>
+  <p class="seo-cta-actions">
+    <a href="/demo?utm_source=zh_docs_hub&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
+    <a href="/zh/download?utm_source=zh_docs_hub&utm_medium=website&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
+  </p>
+</div>

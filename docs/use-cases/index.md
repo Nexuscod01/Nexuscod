@@ -1,50 +1,25 @@
 ---
 title: Mobile Developer Use Cases | NimoteCode
-description: Explore NimoteCode use cases for remote hotfixes, on-call diagnostics, AI agent workflows, mobile SSH development, and practical coding from iPhone and Android.
+description: Practical NimoteCode workflows for mobile remote hotfixes, on-call diagnostics and AI-assisted work in local or SSH projects.
 ---
 
 # Mobile Developer Use Cases
 
-NimoteCode is a mobile IDE and developer workspace built around real operational scenarios, not abstract feature lists. These use cases connect the product to the search intents developers actually have when they need to work away from a laptop.
+People rarely start by searching for a product name. They search for a way to fix an incident, understand a remote project or use an AI coding workflow from a phone. These guides describe the real moments NimoteCode is designed to support.
 
-## Why these use cases matter
+<div class="product-card-grid">
+  <div class="product-card"><strong><a href="/use-cases/remote-hotfix">Remote hotfix</a></strong><span>Connect, inspect, edit, verify and review a focused patch without leaving the workspace.</span></div>
+  <div class="product-card"><strong><a href="/use-cases/on-call-diagnostics">On-call diagnostics</a></strong><span>Use terminal evidence first, then bring in configured diagnostics and AI context as needed.</span></div>
+  <div class="product-card"><strong><a href="/use-cases/ai-agent">AI Agent workflow</a></strong><span>Choose Chat for a direct answer or Agent for deliberate multi-step assistance.</span></div>
+  <div class="product-card"><strong><a href="/mobile-ide">Mobile IDE overview</a></strong><span>See why Editor + Explorer + SSH + Terminal + Git + AI belong in one workflow.</span></div>
+</div>
 
-Developers rarely search for a product name first. They search for outcomes:
+Each scenario begins with a project boundary and ends with verification. That is the distinction between useful mobile engineering work and a quick, unreviewed command from a phone.
 
-- mobile SSH IDE
-- code editor for iPhone or Android
-- terminal and Git from phone
-- remote hotfix workflow
-- on-call debugging from mobile
-- AI coding assistant with terminal access
-
-NimoteCode brings those workflows into one product by combining SSH workspace access, code editing, terminal execution, Git review, AI assistance, debugging, and repeatable task flows.
-
-## Core NimoteCode scenarios
-
-### [Remote Hotfix from Mobile](/use-cases/remote-hotfix)
-
-Patch a live issue from your phone or tablet by opening an SSH workspace, editing files, running validation commands, and reviewing the Git diff before you ship.
-
-### [On-call Diagnostics from Mobile](/use-cases/on-call-diagnostics)
-
-Handle production-adjacent investigation loops with terminal access, output search, timeline diagnostics, LSP context, and debugging tools.
-
-### [AI Agent Workflows](/use-cases/ai-agent)
-
-Use NimoteCode AI Chat and AI Agent to reason about code, plan changes, and execute controlled multi-step coding workflows with workspace context.
-
-## Related product pages
-
-- [Features](/features)
-- [Pro](/pro)
-- [Documentation Hub](/docs)
-- [SSH Workspace](/docs/ssh)
-- [Terminal](/docs/terminal)
-- [Source Control](/docs/source-control)
-- [AI Assistant](/docs/ai)
-- [Debug](/docs/debug)
-
-## Best next step
-
-If you want the fastest path to evaluating NimoteCode, start with [Quick Start](/docs/quick-start), then move to the use case that matches your workflow.
+<div class="seo-cta">
+  <p><strong>See the workflow before your next urgent task.</strong></p>
+  <p class="seo-cta-actions">
+    <a href="/demo?utm_source=use_cases&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
+    <a href="/download?utm_source=use_cases&utm_medium=website&utm_campaign=download" class="home-page-btn primary">Download NimoteCode</a>
+  </p>
+</div>

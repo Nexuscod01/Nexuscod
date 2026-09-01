@@ -1,35 +1,19 @@
 ---
-title: Search
-description: Search remote workspace file contents in NimoteCode with keyword, case-sensitive, and regex options.
+title: Remote Code Search | NimoteCode
+description: Search remote workspace file contents in NimoteCode by keyword or regex, narrow matches with case sensitivity and open results at the matching line.
 ---
 
-# Search
+# Remote Code Search
 
-Search helps you locate content in a remote workspace and open matching files directly in the editor.
+Search helps you answer a focused question in an SSH project: where is this configuration value, error string or function used? It searches remote workspace content and opens matches directly in the editor.
 
-## What search supports
+## Find the right line quickly
 
-- Remote workspace content search.
-- Debounced keyword input.
-- Case-sensitive matching.
-- Regex matching.
-- Opening a result at the matching line.
+1. Connect to an [SSH Workspace](/docs/ssh).
+2. Enter a keyword, or enable regex for a deliberate pattern.
+3. Narrow results with case-sensitive matching when needed.
+4. Open the matching result and continue in [Editor](/docs/editor).
 
-## Free and Pro behavior
+Remote content search includes a Free usage allowance. Pro removes that usage meter. Keep patterns specific on large repositories to make a mobile investigation easier to scan.
 
-Remote search has metered free usage. Pro unlocks unrestricted remote content search.
-
-## Typical workflow
-
-1. Connect to an SSH workspace.
-2. Open Search.
-3. Enter a keyword or regex.
-4. Toggle case sensitivity or regex if needed.
-5. Open a matching file result.
-6. Continue in editor, AI, Source Control, or terminal.
-
-## Related pages
-
-- [SSH Workspace](/docs/ssh)
-- [Editor](/docs/editor)
-- [Pro](/pro)
+Related: [Editor](/docs/editor) · [Terminal](/docs/terminal) · [Pro](/pro)

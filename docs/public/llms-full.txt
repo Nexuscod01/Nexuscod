@@ -1,6 +1,6 @@
 # NimoteCode Full Context
 
-> NimoteCode is a mobile-first IDE and developer workspace for iPhone, iPad, and Android. It is built for real development work on mobile: SSH access, code editing, terminal sessions, Git review and write workflows, AI assistance, debugging, task execution, timeline diagnostics, and sync/cache movement between environments.
+> NimoteCode is a mobile-first IDE and developer workspace for iPhone, iPad, and Android. It is built for real development work on mobile: SSH access, code editing, terminal sessions, Git review and write workflows, AI assistance, debugging, task execution, and sync/cache movement between environments.
 
 NimoteCode is not a code viewer or note-taking app. It is designed for practical workflows such as remote hotfixes, on-call diagnostics, AI-assisted coding, and mobile-first project inspection and delivery.
 
@@ -22,7 +22,6 @@ NimoteCode is not a code viewer or note-taking app. It is designed for practical
 - [LSP](https://nimotecode.com/docs/lsp): Language server diagnostics and code actions.
 - [Debug](https://nimotecode.com/docs/debug): Breakpoints, stack inspection, variables, and watch views.
 - [Tasks](https://nimotecode.com/docs/tasks): Task creation and execution.
-- [Timeline](https://nimotecode.com/docs/timeline): Event inspection and causal troubleshooting.
 - [Sync / Cache](https://nimotecode.com/docs/sync-cache): Workspace movement and cache flows.
 - [Account and Subscription](https://nimotecode.com/docs/account-subscription): Account and premium verification behavior.
 - [Security](https://nimotecode.com/docs/security): Safety and review-related settings.
@@ -44,10 +43,6 @@ NimoteCode is not a code viewer or note-taking app. It is designed for practical
 ## Locales
 - [English](https://nimotecode.com/): Default locale.
 - [Chinese](https://nimotecode.com/zh/): Simplified Chinese locale.
-- [Japanese](https://nimotecode.com/ja/): Japanese locale.
-- [Korean](https://nimotecode.com/ko/): Korean locale.
-- [Russian](https://nimotecode.com/ru/): Russian locale.
-- [Spanish](https://nimotecode.com/es/): Spanish locale.
 
 ## Notes
 - The site is VitePress-generated and primarily serves markdown documentation, product pages, and policy pages.

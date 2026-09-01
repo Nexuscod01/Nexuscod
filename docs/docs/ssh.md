@@ -1,31 +1,33 @@
+---
+title: SSH Workspace | NimoteCode Mobile IDE
+description: Connect NimoteCode to a remote project with SSH profiles, password or private-key authentication, a clear workspace root and reconnect-aware terminal work.
+---
+
 # SSH Workspace
 
-SSH Workspace turns NimoteCode into a practical remote development cockpit on mobile.
+SSH Workspace turns a mobile device into a focused remote project environment. It connects Explorer, Editor and Terminal to the same host and project root, so a task remains understandable from first inspection through verification.
 
-## What You Can Do
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode SSH workspace setup">
+  <strong>Image placeholder — SSH workspace setup</strong>
+  <span>Replace with a screenshot of the saved SSH profile form and Remote Explorer opened at a project root.</span>
+</div>
 
-- Save server connection profiles
-- Connect via password or key authentication
-- Open and operate inside remote project directories
-- Browse, edit, create, rename, and delete files remotely
-- Keep terminal and editor in one shared workspace context
+## Connect in four steps
 
-## Typical Remote Session
+1. Create or select an SSH profile.
+2. Enter the host, port and username.
+3. Authenticate with a password, private-key file or pasted private key.
+4. Confirm the remote project root, then open it in Remote Explorer.
 
-1. Select an SSH profile.
-2. Connect and open workspace root.
-3. Edit files and run terminal commands.
-4. Validate changes with Source Control and optional Debug/LSP tools.
+## What stays in context
 
-## Best-Practice Recommendations
+- Browse the remote project and open files in [Editor](/docs/editor).
+- Run shell commands in [Terminal](/docs/terminal) for that workspace.
+- Search remote file content with [Search](/docs/search).
+- Review a focused patch in [Source Control](/docs/source-control) with Pro access.
 
-- Use dedicated profiles per environment
-- Prefer key-based auth for critical servers
-- Keep clear workspace roots to avoid accidental scope errors
+## Safer remote habits
 
-## Related Pages
+Use a separate profile for each environment, prefer a least-privilege account and key-based authentication for sensitive hosts, and choose a deliberate project root. Reconnect-aware behavior helps resume work after a connection interruption, but you should always verify the active host and directory before running a write command.
 
-- [Terminal](/docs/terminal)
-- [Source Control](/docs/source-control)
-- [LSP Panel](/docs/lsp)
-- [Debug Panel](/docs/debug)
+Next: [Terminal](/docs/terminal) · [Remote Hotfix from Mobile](/use-cases/remote-hotfix) · [Security and Safety](/docs/security)

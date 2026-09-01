@@ -1,84 +1,33 @@
-# 快速开始（3 分钟）
+---
+title: 快速开始 | NimoteCode 移动 IDE
+description: 在 NimoteCode 打开本地或 SSH 工作区，编辑文件、运行验证命令，并选择下一条移动开发工作流。
+---
 
-本指南以“第一次就跑通”为目标。
+# 快速开始
 
-## 目标
+先跑通核心流程：打开一个项目、完成一处小修改，再通过终端验证。无论项目在设备上还是通过 SSH 连接到远程主机，都适用。
 
-3 分钟内完成：
+## 1. 打开工作区
 
-1. 打开工作区
-2. 跑通一条命令
-3. 编辑并保存一个文件
-4. 使用一个高价值面板（Source Control / AI / Debug）
+项目位于设备时，选择 **Local Explorer**；项目位于远程主机时，选择 **Remote Explorer**。SSH 模式下填写主机、端口和用户名，再选择密码、私钥文件或粘贴私钥认证。开始前务必确认项目根路径。
 
-## 第一步：打开工作区（30 秒）
+## 2. 打开、编辑并保存文件
 
-选择一种模式：
+在 Explorer 中选择文件。它会在标签式编辑器中打开。完成小范围修改并保存；计划向 AI 提问时，保持目标文件处于激活状态。
 
-- Local Explorer：打开本地项目目录
-- Remote Explorer：通过 SSH 连接远程工作区
+## 3. 在终端验证
 
-若使用远程模式：
+在同一工作区打开 [终端](/zh/docs/terminal)，运行 `pwd`、`ls` 或项目自己的测试命令。输出较长时使用终端搜索。
 
-1. 新建 SSH 配置（`host`、`port`、`username`）
-2. 选择认证方式（密码或私钥）
-3. 连接并确认工作区根路径
+## 4. 选择下一步
 
-## 第二步：终端执行命令（30 秒）
+<div class="product-card-grid">
+  <div class="product-card"><strong>审查改动 · Pro</strong><span>进入 <a href="/zh/docs/source-control">Source Control</a> 查看 diff、暂存并按需提交。</span></div>
+  <div class="product-card"><strong>寻求 AI 协助</strong><span>使用 <a href="/zh/docs/ai">AI Chat 或 Agent</a> 解释代码、规划改动或辅助多步骤工作。</span></div>
+  <div class="product-card"><strong>深入诊断 · Pro</strong><span>在准备好的环境中使用 <a href="/zh/docs/lsp">LSP</a>、<a href="/zh/docs/debug">调试</a> 与 <a href="/zh/docs/terminal">终端</a>。</span></div>
+  <div class="product-card"><strong>复用命令</strong><span>把已验证的远程流程保存到 <a href="/zh/docs/tasks">Tasks</a>。</span></div>
+</div>
 
-1. 打开终端面板
-2. 执行验证命令（如 `pwd`、`ls` 或你的 build/test 命令）
-3. 输出过长时使用终端搜索
+> 面对远程生产环境，建议先只读检查，并在应用前审查每条命令、每项 AI 建议和每处 Git 改动。
 
-## 第三步：编辑并保存（45 秒）
-
-1. 从文件树打开源码文件
-2. 修改一行代码
-3. 保存文件
-4. 需要时使用符号导航或查找替换
-
-## 第四步：选择一个结果路径（75 秒）
-
-### 路径 A：提交改动
-
-打开 Source Control：
-
-- 查看改动文件
-- 暂存变更
-- 提交（已配置可继续 push）
-
-参考：[/zh/docs/source-control](/zh/docs/source-control)
-
-### 路径 B：用 AI 提速
-
-打开 AI 面板：
-
-- 选择 provider 配置
-- 发起解释/重构/修复建议
-- 需要时使用 AI Agent 执行自动化流程
-
-参考：[/zh/docs/ai](/zh/docs/ai)
-
-### 路径 C：快速定位问题（Pro）
-
-打开 LSP/Debug：
-
-- 查看诊断
-- 应用代码动作
-- 启动调试并检查变量/Watch
-
-参考：[/zh/docs/lsp](/zh/docs/lsp)、[/zh/docs/debug](/zh/docs/debug)
-
-## 高价值使用场景
-
-1. 远程环境热修复：`/zh/docs/ssh` + `/zh/docs/terminal` + `/zh/docs/source-control`
-2. 快速 bug 诊断：`/zh/docs/lsp` + `/zh/docs/debug` + `/zh/docs/timeline`
-3. 重复任务自动化：`/zh/docs/tasks` + `/zh/docs/ai`
-4. 稳定日常配置：`/zh/docs/settings` + `/zh/docs/configuration`
-
-## 下一步最佳动作
-
-首次跑通后，建议立即配置：
-
-- AI provider 配置：[/zh/docs/configuration](/zh/docs/configuration)
-- 编辑器与键盘偏好：[/zh/docs/settings](/zh/docs/settings)
+接下来阅读 [SSH 工作区](/zh/docs/ssh)、[编辑器](/zh/docs/editor)，或[观看演示](/demo?utm_source=zh_quick_start&utm_medium=website&utm_campaign=watch_demo)。

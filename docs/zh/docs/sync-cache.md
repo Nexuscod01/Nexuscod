@@ -1,32 +1,22 @@
-# Sync / Cache 面板
+---
+title: Sync 与 Cache | NimoteCode Pro
+description: 使用 NimoteCode Pro 的 Sync 与 Cache 在本地和远程工作区之间移动项目内容，并明确传输方向、工作区路径检查与操作历史。
+---
 
-Sync / Cache 是 Pro 面板，用于在本地与远程工作区之间进行可控传输。
+# Sync 与 Cache
 
-## 两种传输模式
+Sync / Cache 是用于在本地与远程工作区之间主动移动项目内容的 **Pro** 工作流。它会明确传输方向，并将目标路径限制在当前工作区边界内。
 
-- Sync：本地项目推送到远程
-- Cache：远程项目拉取到本地
+<div class="seo-media-placeholder" role="img" aria-label="NimoteCode Sync 与 Cache 图片占位符">
+  <strong>图片占位符 —— 选择安全的传输方向</strong>
+  <span>请替换为展示 Sync 或 Cache 方向、工作区路径和传输历史的截图。</span>
+</div>
 
-## 你将获得
+## 两个清晰方向
 
-- 随工作区模式自动切换主操作
-- 受工作区边界约束的目标路径选择
-- 带状态与路径的传输历史记录
-- 传输前后清晰的状态反馈
+- **Sync**：从本地项目向远程工作区传输。
+- **Cache**：将远程项目内容带回本地工作区。
 
-## 典型使用场景
+传输前请阅读方向和目标路径、明确哪一份内容是权威版本，并在结束后检查记录结果。Sync / Cache 适合受控交接或离线检查，不应替代仓库正常的 Git 审查与备份策略。
 
-- 将本地改动同步到远程运行环境
-- 把远程项目状态拉回本地离线分析
-- 保持服务器侧更新的本地缓存副本
-
-## 核心价值
-
-- 缩短环境切换成本
-- 提升本地与远程一致性
-- 通过方向和路径显式控制降低风险
-
-## 相关页面
-
-- [SSH 工作区](/zh/docs/ssh)
-- [Tasks 面板](/zh/docs/tasks)
+相关：[SSH 工作区](/zh/docs/ssh) · [Source Control](/zh/docs/source-control)

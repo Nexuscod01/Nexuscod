@@ -1,30 +1,30 @@
 ---
-title: FAQ | NimoteCode
-description: Find answers to common NimoteCode questions about remote development, AI providers, Source Control, Tasks, Timeline, and Pro access.
+title: NimoteCode FAQ | Mobile IDE Questions
+description: Concise answers about NimoteCode local and SSH workspaces, AI provider profiles, Git Source Control, remote Tasks and Pro access.
 ---
 
 # NimoteCode FAQ
 
-## Is NimoteCode only for remote development?
+## Is NimoteCode only an SSH client?
 
-No. You can work in Local Explorer mode or Remote Explorer (SSH) mode.
+No. NimoteCode can open a local project or an SSH workspace, and brings Explorer, Editor, Terminal, Git workflows, AI assistance and diagnostic panels into the same project context.
 
-## Which AI providers are supported?
+## Can I use it without Pro?
 
-Built-in templates include OpenAI, Anthropic, Gemini, Grok, DeepSeek, Zhipu, Moonshot, Ollama, and custom OpenAI-compatible endpoints.
+Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search include a usage allowance. Pro unlocks the advanced workflows described on [Pro](/pro).
 
-## What can I do in Source Control?
+## Which AI providers can I configure?
 
-You can stage/unstage/discard, commit, push/pull/fetch, manage branches/stashes, view history, and use Git AI analysis tools.
+The app provides templates for several providers and supports compatible custom endpoints. Provider availability, model access and cost are determined by your own provider account and settings. See [Configuration](/docs/configuration).
 
-## Can I run project tasks?
+## What does Source Control support?
 
-Yes. Use the Tasks panel to create and run tasks, then inspect output in terminal.
+With Pro, use it to review diffs, stage and commit changes, work with branches and stashes, and pull, push or fetch when the repository and remote permissions allow it. Read [Source Control](/docs/source-control).
 
-## What is Timeline used for?
+## Are Tasks local or remote?
 
-Timeline helps you inspect events and traces, including causal analysis flow for troubleshooting.
+Tasks are designed for repeatable command workflows in an SSH workspace. Make the host, project root and risk of each command clear before running it.
 
-## Why is a feature locked?
+## Do LSP and Debug work for every project?
 
-Some capabilities are Pro-gated. Subscription status is verified by the app's premium access flow.
+They depend on a compatible language server or debug adapter being configured on the remote host and on the project’s setup. They are Pro workflows; see [LSP](/docs/lsp) and [Debug](/docs/debug).

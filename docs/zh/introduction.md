@@ -1,64 +1,41 @@
 ---
-title: 简介 | NimoteCode
+title: 关于 NimoteCode | 移动 AI 开发工作台
+description: NimoteCode 是面向本地与 SSH 项目的移动 AI 开发工作台：将编辑器、资源管理器、终端、Git、AI Agent、诊断与任务整合进一个专注的工作流。
 ---
 
-# NimoteCode
+# 关于 NimoteCode
 
-**AI-Powered Mobile SSH IDE for Real Development Workflows**
+NimoteCode 是一套 **移动 AI 开发工作台**，服务于“电脑不在身边，但开发任务不能等”的时刻。它把 Editor、Explorer、SSH、Terminal、Git 与 AI Agent 组织在同一个手机或平板工作区中。
 
-NimoteCode 是一款面向开发者与运维工程师的 **移动端 SSH IDE**，让你在手机或平板上也能完成接近桌面级的开发、调试与交付。
+<div class="product-card-grid">
+  <div class="product-card"><strong>打开真实项目</strong><span>可打开设备上的本地项目，或通过 SSH 连接远程主机，并保持清晰的项目根目录。</span></div>
+  <div class="product-card"><strong>修改并验证</strong><span>编辑文件、运行命令、查看输出，再审查最终 Git diff，无需在多个应用之间跳转。</span></div>
+  <div class="product-card"><strong>获得有上下文的帮助</strong><span>AI Chat 适合解释与决策；AI Agent 适合受控的多步骤协助。</span></div>
+  <div class="product-card"><strong>按需深入</strong><span>Pro 提供 Git 写入、多终端、LSP、调试、高级 Tasks 与 Sync/Cache 等进阶流程。</span></div>
+</div>
 
-它不是编辑器，而是一个完整的 **远程开发 + AI 驱动工程工作台**。
+## 为专注的移动工作而设计
 
----
+NimoteCode 不是远程桌面替代品，也不只是 SSH Client 或代码编辑器。它适合边界明确、价值较高的工程任务：排查告警、复查变更、修正配置、运行测试，或跟进一项 AI 辅助的改动。
 
-## ⚡ 为什么选择 NimoteCode
+项目在设备上时使用 Local Explorer；项目在远程主机时使用 Remote Explorer。之后的编辑器、终端和辅助面板会共享同一份项目上下文。
 
-- 一个统一工作区，集成 **Code Editor / Terminal / Git / AI / Debug**
-- 原生支持真实 **SSH 远程开发工作流（生产级环境）**
-- 深度集成 **LSP、Debug、Tasks、Timeline**，快速定位复杂问题
-- 内置 AI Copilot + Agent：解释代码、重构系统、执行任务、自动修复
-- 为移动端重构开发体验：多面板协同、键盘优化、平板分屏支持
+<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动开发工作台图片占位符">
+  <strong>图片占位符 —— 一个完整的移动开发工作台</strong>
+  <span>请替换为展示 Explorer、编辑器标签、Terminal 与 AI 面板同屏协作的高质量产品截图。</span>
+</div>
 
----
+## 选择下一条工作流
 
-## 🧠 AI 驱动开发体验
+- 需要连接并操作远程项目：阅读 [SSH 工作区](/zh/docs/ssh)。
+- 需要完成一次可审查的补丁：查看 [手机远程热修](/zh/use-cases/remote-hotfix)。
+- 需要理解代码或错误输出：打开 [AI 助手](/zh/docs/ai)。
+- 需要查看完整能力边界：浏览 [功能特性](/zh/features)。
 
-- AI Code Explain：快速理解复杂代码逻辑
-- AI Refactor：自动优化与重构代码结构
-- AI Fix (LSP)：基于诊断信息自动修复问题
-- AI Terminal：理解并生成 Shell 命令
-- AI Timeline Analysis：分析代码变更与问题来源
-- AI Agent：跨文件执行开发与运维任务
-
----
-
-## 🛠 你可以用 NimoteCode 做什么
-
-- SSH 连接远程服务器 / 本地工作区并直接开发
-- 在多标签 Terminal 中执行 build / test / deploy
-- 使用 Git 完成提交、分支管理、代码审查与同步
-- 在移动端完成日常开发与紧急修复（Hotfix）
-- 通过 AI 自动化重复工程操作与排障流程
-
----
-
-## 🌍 面向真实生产场景
-
-NimoteCode 专为真实工程环境设计，而不是学习或玩具工具：
-
-- 🔥 线上故障紧急修复（Incident / Hotfix）
-- 📡 On-call 值班快速排障
-- 📱 移动端远程开发与代码提交
-- ⚙️ 自动化运维与脚本执行
-- 🧩 分布式系统问题定位与调试
-
----
-
-## 下一步阅读
-
-- [功能特性](/zh/features)
-- [快速开始](/zh/docs/quick-start)
-- [SSH 工作区](/zh/docs/ssh)
-- [Source Control](/zh/docs/source-control)
-- [AI 助手](/zh/docs/ai)
+<div class="seo-cta">
+  <p><strong>先了解各模块如何协同，再开始安装。</strong></p>
+  <p class="seo-cta-actions">
+    <a href="/demo?utm_source=zh_introduction&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
+    <a href="/zh/download?utm_source=zh_introduction&utm_medium=website&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
+  </p>
+</div>

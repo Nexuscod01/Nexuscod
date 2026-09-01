@@ -1,35 +1,24 @@
 ---
-title: Remote Hotfix from Mobile
-description: Use NimoteCode to connect over SSH, edit a remote project, run verification commands, and commit changes from mobile.
+title: Remote Hotfix from Mobile | NimoteCode
+description: "Use NimoteCode for a focused mobile hotfix: connect by SSH, inspect and edit a project, run verification commands, then review the Git diff with Pro."
 ---
 
 # Remote Hotfix from Mobile
 
-When a production-adjacent fix cannot wait for a laptop, NimoteCode keeps the core workflow in one mobile workspace.
+A production-adjacent fix should remain a controlled development workflow, even when it starts on a phone. NimoteCode keeps the project, terminal evidence and optional Git review in the same mobile workspace.
 
-## Workflow
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode remote hotfix workflow">
+  <strong>Image placeholder — from SSH connection to reviewed patch</strong>
+  <span>Replace with a concise visual sequence: Remote Explorer, focused edit, terminal verification and Git diff review.</span>
+</div>
 
-1. Connect to the server or development host with Remote Explorer.
-2. Confirm the project root path.
-3. Open the affected file in the editor.
-4. Use terminal to inspect state, run tests, or reproduce the issue.
-5. Ask AI Chat for explanation or patch planning if needed.
-6. Save the change.
-7. Use Source Control to review diffs and commit when Pro access is available.
-8. Push or sync from the same Git workflow when appropriate.
+## A deliberate hotfix loop
 
-## Useful features
+1. Connect with [SSH Workspace](/docs/ssh), then confirm the environment, branch and project root.
+2. Inspect the symptom with [Terminal](/docs/terminal) before changing a file.
+3. Open the smallest affected file and make a focused edit.
+4. Run the relevant test, build or health check.
+5. Use [AI Assistant](/docs/ai) for an explanation or plan when it adds context—not as an unreviewed deployment mechanism.
+6. With Pro, open [Source Control](/docs/source-control), read the diff, commit and sync only according to the repository’s normal policy.
 
-- SSH profiles and key/password authentication.
-- Tabbed editor.
-- Terminal output search.
-- Remote content search.
-- Source Control and Git AI with Pro.
-- Sync/cache if the project needs local/remote movement with Pro.
-
-## Related docs
-
-- [SSH Workspace](/docs/ssh)
-- [Editor](/docs/editor)
-- [Terminal](/docs/terminal)
-- [Source Control](/docs/source-control)
+If the environment, impact or verification path is unclear, stop and escalate. Mobile access makes an urgent task possible; it should not lower the standard for a safe change.

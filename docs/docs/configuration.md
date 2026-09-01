@@ -1,63 +1,30 @@
-# Configuration
+---
+title: Configuration Guide | NimoteCode
+description: Configure NimoteCode for reliable mobile work with practical AI provider, SSH workspace and remote task setup checklists.
+---
 
-This page helps you set up NimoteCode for stable daily use, with a focus on AI, SSH, and task workflows.
+# Configuration Guide
 
-## AI Configuration Strategy
+Set up NimoteCode around the work you actually do. A small, tested configuration is safer and more useful than a large catalog of profiles you do not recognize under pressure.
 
-Create at least two profiles:
+## AI: keep a primary and a backup profile
 
-- Primary profile for daily coding
-- Backup profile for failover or cost control
+Add the provider endpoint, credential and model you plan to use; then verify it in AI Chat before relying on Agent. A primary profile and a tested fallback help balance reliability and cost. Choose lower randomness for precise code tasks, use streaming when it improves responsiveness, and set context behavior deliberately.
 
-Tune each profile for your usage style:
+## SSH: name the environment, then set the boundary
 
-- Lower randomness for precise code tasks
-- Higher context for large project reasoning
-- Streaming enabled for faster perceived response
+Create one profile per environment, with a recognizable name, host, port, user and authentication method. Confirm the workspace root after connecting. Prefer key-based access and least-privilege accounts for sensitive hosts; never assume a familiar profile still points to a safe environment.
 
-## AI Provider Setup Checklist
+## Tasks: record known procedures, not guesses
 
-- Add provider, API key, endpoint, and model
-- Verify responses in AI Chat
-- Confirm AI Agent can execute with your selected profile
-- Keep prompts and limits aligned with cost/performance goals
-- API keys are stored via platform secure storage (for example iOS Keychain / Android Keystore-backed storage)
+Create clear tasks for build/test, format/lint, health checks and log inspection. Group them by purpose and make any restart, deployment or data-changing command unmistakable. Tasks run through an SSH workflow, so validate access and current directory before execution.
 
-## SSH Configuration Strategy
+## Ready-to-work checklist
 
-For each server environment, keep a dedicated profile:
+1. AI Chat returns a response from the intended profile.
+2. The SSH profile reaches the intended host and project root.
+3. One low-risk terminal command works in the workspace.
+4. One well-understood task runs successfully.
+5. If you use Pro Git workflows, Source Control can read the repository state before you write anything.
 
-- Environment name (for example: Staging, Production)
-- Host, port, user, and authentication method
-- Stable workspace root path for predictable navigation
-
-Recommended:
-
-- Use key-based auth for production servers
-- Separate high-risk and low-risk environments
-- Validate access rights before running tasks
-- If password auth is used, treat it as session-only: password is used in-memory and not persisted in local SSH profile storage
-
-## Tasks Configuration Strategy
-
-Design tasks around recurring outcomes:
-
-- Build and test
-- Lint and format
-- Service restart and health checks
-- Log inspection shortcuts
-
-Tips:
-
-- Use clear task names by team convention
-- Group related tasks for quick filtering
-- Keep high-risk commands clearly labeled
-
-## Launch-Ready Baseline
-
-Before daily usage, confirm:
-
-1. AI profile works in Chat and Agent
-2. SSH profile can connect and open workspace
-3. At least one build/test task runs successfully
-4. Source Control can complete commit and sync
+Continue with [Settings](/docs/settings) · [AI Assistant](/docs/ai) · [Security and Safety](/docs/security)

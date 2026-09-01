@@ -50,7 +50,7 @@
   max-width: 300px;
   margin: 16px 0 0;
   color: var(--nimote-text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   line-height: 1.65;
 }
 
@@ -59,7 +59,7 @@
   align-items: center;
   gap: 10px;
   color: var(--nimote-text-primary);
-  font-size: 1.05rem;
+  font-size: 1.125rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -79,15 +79,15 @@
 .nimote-site-footer h2 {
   margin: 3px 0 4px;
   color: var(--nimote-text-primary);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
 .nimote-site-footer nav a {
   color: var(--nimote-text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   text-decoration: none;
 }
 
@@ -113,7 +113,7 @@
   padding-top: 18px;
   border-top: 1px solid var(--nimote-border);
   color: var(--nimote-text-muted);
-  font-size: 0.78rem;
+  font-size: 0.8125rem;
 }
 
 @media (max-width: 760px) {

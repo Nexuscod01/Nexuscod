@@ -1,41 +1,26 @@
 ---
-title: AI Agent 工作流 | NimoteCode
-description: 了解 NimoteCode 如何通过 AI Chat 与 AI Agent 在移动端提供代码辅助、变更规划与受控多步骤自动化。
+title: 手机上的 AI Agent 工作流 | NimoteCode
+description: 使用 NimoteCode AI Chat 解决直接的代码问题，使用 AI Agent 在文件、终端和 Git 上下文中完成受控的多步骤移动开发任务。
 ---
 
-# AI Agent 工作流
+# 手机上的 AI Agent 工作流
 
-NimoteCode 同时提供 AI Chat 和 AI Agent。前者用于直接协助，后者用于需要多步骤推进的任务，并可在安全控制下调用工具。
+根据任务形态选择 AI 模式。**AI Chat** 用于理解和决策；**AI Agent** 用于跨项目文件、终端检查与最终汇总的多步骤协助。
 
-## 什么时候用 AI Chat
+## 适合用 AI Chat 的时刻
 
-当你需要以下能力时，优先使用 AI Chat：
+需要解释一段代码、理解终端输出、规划一次重构，或在修改前列出审查点时，优先使用 Chat。保持目标文件激活，能让对话获得更合适的上下文。
 
-- 解释代码。
-- 理解报错。
-- 规划重构。
-- 在提交前做审查建议。
-- 理解当前激活文件。
+## 适合用 AI Agent 的时刻
 
-## 什么时候用 AI Agent
+当任务需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，使用 Agent 更合适。免费版含有使用额度；Pro 可无限使用 Agent。
 
-当一项工作需要多个步骤时，更适合使用 AI Agent：
+## 保持流程可审查
 
-- 检查项目文件。
-- 规划修改方案。
-- 执行编辑。
-- 运行检查。
-- 汇总结果。
+1. 明确目标与工作区边界。
+2. 在写入或执行命令前阅读计划。
+3. 查看实际终端输出和发生变化的文件。
+4. 运行与项目相符的验证命令。
+5. 有 Pro 时，在交付前检查 Git diff。
 
-免费用户可在额度内使用 Agent，Pro 可解锁无限次 Agent 执行。
-
-## 安全模型
-
-Agent 工作流围绕受控工具执行、校验层、写入限制和敏感操作处理来设计。面对生产系统时，仍然建议在应用变更前审查命令和修改内容。
-
-## 相关文档
-
-- [AI 助手](/zh/docs/ai)
-- [安全与防护](/docs/security)
-- [配置指南](/zh/docs/configuration)
-- [NimoteCode Pro](/pro)
+NimoteCode 围绕工具调用提供校验与锁定机制，但生产环境的操作责任仍在执行者。请继续阅读 [AI 助手](/zh/docs/ai) 与 [配置指南](/zh/docs/configuration)。

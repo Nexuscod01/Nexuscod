@@ -1,30 +1,30 @@
 ---
-title: 常见问题 | NimoteCode
-description: 查看 NimoteCode 的常见问题，包括远程开发、AI 提供商、Source Control、Tasks、Timeline 和 Pro 功能。
+title: NimoteCode 常见问题 | 移动 IDE
+description: 快速了解 NimoteCode 的本地与 SSH 工作区、AI Provider、Git Source Control、远程 Tasks 和 Pro 功能。
 ---
 
-# FAQ
+# 常见问题
 
-## NimoteCode 只能远程开发吗？
+## NimoteCode 只是 SSH Client 吗？
 
-不是。支持 Local Explorer（本地）与 Remote Explorer（SSH）两种模式。
+不是。NimoteCode 可打开本地项目或 SSH 工作区，并将 Explorer、编辑器、Terminal、Git 工作流、AI 协助与诊断面板放到同一项目上下文中。
 
-## 支持哪些 AI 提供商？
+## 不购买 Pro 能使用吗？
 
-内置模板包括 OpenAI、Anthropic、Gemini、Grok、DeepSeek、Zhipu、Moonshot、Ollama 以及自定义 OpenAI 兼容端点。
+可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 和远程内容搜索有免费额度；Pro 解锁进阶工作流，详见 [Pro](/zh/pro)。
 
-## Source Control 能做什么？
+## 可配置哪些 AI Provider？
 
-支持暂存/取消暂存/丢弃、提交、推拉取、分支与 stash 管理、历史与 Git AI 分析。
+应用提供多个 Provider 的模板，也支持兼容的自定义端点。具体模型访问与费用由你的 Provider 账户和配置决定，建议参考 [配置指南](/zh/docs/configuration)。
 
-## 可以运行项目任务吗？
+## Source Control 支持什么？
 
-可以。使用 Tasks 面板创建并运行任务，输出可在终端查看。
+Pro 中可以查看 diff、暂存和提交改动、管理分支与 stash，并在仓库与远程权限允许时拉取、推送或获取。详见 [Source Control](/zh/docs/source-control)。
 
-## Timeline 有什么用？
+## Tasks 是本地还是远程运行？
 
-用于查看事件与 Trace，帮助定位问题与复盘执行链路。
+Tasks 面向 SSH 工作区中的可复用命令流程。运行前请在任务名称中明确主机、项目根目录和风险等级。
 
-## 为什么有些功能不可用？
+## LSP 和 Debug 所有项目都能用吗？
 
-部分能力受 Pro 门控，需通过订阅状态校验。
+这取决于远程主机是否已配置兼容的语言服务或调试适配器，以及项目本身的启动设置。两者均属于 Pro 功能，可查看 [LSP](/zh/docs/lsp) 与 [调试](/zh/docs/debug)。

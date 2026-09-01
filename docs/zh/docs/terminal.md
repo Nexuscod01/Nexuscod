@@ -1,31 +1,27 @@
-# 终端
+---
+title: 移动终端 | NimoteCode SSH 工作区
+description: 在 NimoteCode 工作区中执行命令、搜索终端输出、使用快捷命令，并通过 Pro 保持进阶多终端上下文。
+---
 
-终端是 NimoteCode 中的命令中心，用于构建、测试、部署与故障处理。
+# 移动终端
 
-## 核心能力
+Terminal 是 NimoteCode 工作区的验证层。在正在编辑的项目中执行命令、搜索输出，并让结果继续服务于下一次决策。
 
-- 多标签终端会话
-- 实时命令输出
-- 输出搜索与日志快速定位
-- 快捷命令加速重复操作
-- 将关键输出发送 AI 分析
-- 标签重命名与会话管理
+<div class="seo-media-placeholder" role="img" aria-label="NimoteCode 移动终端图片占位符">
+  <strong>图片占位符 —— 当前工作区中的 Terminal</strong>
+  <span>请替换为真实 SSH 项目的终端输出、搜索及相邻编辑器标签截图。</span>
+</div>
 
-## 典型命令路径
+## 核心终端流程
 
-1. 在当前工作区打开终端。
-2. 执行 build/test/deploy 命令。
-3. 搜索输出定位错误与警告。
-4. 复杂日志交给 AI 或 Timeline 进一步分析。
+- 在当前本地或 SSH 工作区执行命令。
+- 查看实时输出，并在长日志中搜索错误和警告。
+- 用快捷或自定义命令复用已知流程。
+- 将关键输出交给 [AI 助手](/zh/docs/ai) 协助理解。
+- 远程重连后继续工作，但先确认主机和目录。
 
-## 核心价值
+## 多个 Shell 同时重要时
 
-- 提升移动端命令执行效率
-- 强化远程故障处理可视性
-- 与编辑器、Source Control、AI 面板保持连续协作
+Pro 提供进阶多终端工作流，适合并行保留日志、测试、服务与部署等上下文。高风险命令应保持清晰可见；已恢复的终端会话并不代表远程状态没有变化。
 
-## 相关页面
-
-- [SSH 工作区](/zh/docs/ssh)
-- [AI 助手](/zh/docs/ai)
-- [Timeline 面板](/zh/docs/timeline)
+下一步：[SSH 工作区](/zh/docs/ssh) · [Tasks](/zh/docs/tasks) · [移动值班诊断](/zh/use-cases/on-call-diagnostics)

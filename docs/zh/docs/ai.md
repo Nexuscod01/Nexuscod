@@ -1,56 +1,29 @@
-# AI 助手
+---
+title: AI 助手与 Agent | NimoteCode
+description: 使用 NimoteCode AI Chat 理解代码与错误，使用 AI Agent 在 Provider 配置和工作区上下文中完成受控的多步骤工作。
+---
 
-NimoteCode 提供两类 AI 能力：AI Chat 用于即时辅助，AI Agent 用于多步骤执行。
+# AI 助手与 Agent
 
-## AI Chat
+NimoteCode 将直接的 AI 问答与 AI 辅助执行分开。**AI Chat** 适合在上下文中得到答案；**AI Agent** 适合跨文件、终端或 Git 工具的明确步骤。
 
-适合高频开发问答场景：
+<div class="seo-media-placeholder" role="img" aria-label="NimoteCode AI 面板图片占位符">
+  <strong>图片占位符 —— 带工作区上下文的 AI 协助</strong>
+  <span>请替换为 AI 面板解释当前文件或规划小范围可审查改动的截图。</span>
+</div>
 
-- 解释陌生代码
-- 分析终端报错
-- 给出重构建议
-- 在提交前提供更稳妥的改动建议
+## 用 AI Chat 做下一步决策
 
-## AI Agent
+可让 Chat 解释陌生代码、分析终端输出、列出重构方案，或在修改前提供审查清单。保持相关文件激活，能让对话使用合适的工作区上下文。
 
-适合需要连续动作的复杂任务：
+## 用 AI Agent 推进受控步骤
 
-- 分步骤执行流程
-- 运行进度与状态可视化
-- 高风险操作前提示确认
-- 支持自动模式与确认模式
+当工作需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，Agent 更适合。免费版含有使用额度；Pro 可无限使用 Agent。
 
-## 多提供商支持
+## 谨慎配置 Provider
 
-可按团队偏好选择：
+Provider 配置档包含端点、API 凭据、模型、流式和上下文行为等设置。保留一个稳定主配置与一个已测试的备选配置。实用设置方法见 [配置指南](/zh/docs/configuration)。
 
-- OpenAI
-- Anthropic
-- Gemini
-- Grok
-- DeepSeek
-- Zhipu
-- Moonshot
-- Ollama
-- 自定义 OpenAI 兼容端点
+> 面对远程或生产相关工作区，应在应用前审查每条命令和每处文件修改。应用内的校验与锁定机制用于让流程更可控，而不是取代使用者的责任。
 
-## 可配置能力
-
-- 模型与服务端点
-- 采样参数与输出规模
-- 流式响应模式
-- 系统提示词与上下文窗口
-- 文件上下文开关（代码库感知）
-
-## 推荐配置方式
-
-1. 保留一个主力模型与一个备用模型。
-2. 代码任务优先低随机性。
-3. 项目级分析开启文件上下文。
-4. 生产使用前对 AI 结果做人工校验。
-
-## 相关页面
-
-- [配置指南](/zh/docs/configuration)
-- [Source Control](/zh/docs/source-control)
-- [Timeline 面板](/zh/docs/timeline)
+继续了解：[AI Agent 工作流](/zh/use-cases/ai-agent) · [手机 AI 编程](/mobile-ai-coding)

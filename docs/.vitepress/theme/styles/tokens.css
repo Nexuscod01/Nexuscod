@@ -18,14 +18,14 @@
   --vp-c-brand-soft: rgba(217, 70, 239, 0.12);
 
   /* Fluid type scale */
-  --nimote-fs-xs: 0.72rem;
-  --nimote-fs-sm: 0.82rem;
-  --nimote-fs-md: 0.92rem;
-  --nimote-fs-lg: 1rem;
-  --nimote-fs-xl: 1.18rem;
-  --nimote-fs-2xl: clamp(1.45rem, 1.2rem + 0.8vw, 1.75rem);
-  --nimote-fs-3xl: clamp(1.85rem, 1.35rem + 1.5vw, 2.6rem);
-  --nimote-fs-4xl: clamp(2.2rem, 1.5rem + 2.4vw, 3.4rem);
+  --nimote-fs-xs: 0.75rem;
+  --nimote-fs-sm: 0.875rem;
+  --nimote-fs-md: 1rem;
+  --nimote-fs-lg: 1.125rem;
+  --nimote-fs-xl: 1.25rem;
+  --nimote-fs-2xl: clamp(1.5rem, 1.3rem + 0.7vw, 1.875rem);
+  --nimote-fs-3xl: clamp(1.9rem, 1.55rem + 1.15vw, 2.5rem);
+  --nimote-fs-4xl: clamp(2.25rem, 1.9rem + 1.2vw, 3rem);
   --nimote-fs-5xl: clamp(2.8rem, 1.7rem + 4vw, 4.5rem);
 
   /* Spacing scale (4px base) */

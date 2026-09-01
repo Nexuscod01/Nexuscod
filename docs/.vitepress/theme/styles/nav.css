@@ -89,9 +89,9 @@
     grid-row: 1;
     align-self: stretch;
     min-width: 0;
-    background: var(--nimote-bg-elevated);
-    border-right: 1px solid var(--nimote-border);
-    box-shadow: inset -1px 0 0 var(--nimote-inset-highlight);
+    background: var(--nimote-bg);
+    border-right: 0;
+    box-shadow: none;
   }
 
   /* Box-model guard for the only elements that form the chrome seam. */
@@ -203,6 +203,13 @@
     border-right: 0 !important;
     box-shadow: none !important;
     z-index: 1 !important;
+    background: var(--nimote-bg) !important;
+  }
+
+  /* This selector intentionally outranks the global drawer surface below.
+     On desktop, navigation and document content share one canvas. */
+  .nimote-main-layout.has-sidebar .VPSidebar {
+    background: var(--nimote-bg) !important;
   }
 
   .VPSidebar .curtain {
@@ -284,8 +291,8 @@
   padding: 0 11px;
   border-radius: 9px;
   color: var(--nimote-text-secondary);
-  font-size: 0.875rem;
-  font-weight: 560;
+  font-size: 0.9rem;
+  font-weight: 580;
   line-height: 1;
   transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), transform 0.18s var(--nimote-ease);
 }
@@ -391,7 +398,7 @@
 }
 
 .VPSidebar .VPSidebarItem.level-0 > .item {
-  min-height: 30px;
+  min-height: 36px;
   padding: 0 var(--sidebar-item-inset, 8px);
   border-radius: 7px;
 }
@@ -399,12 +406,12 @@
 .VPSidebar .VPSidebarItem.level-0 > .item > .text,
 .VPSidebar .VPSidebarItem.level-0 > .item > .link > .text {
   padding: 0;
-  color: var(--nimote-text-muted);
-  font-size: 0.675rem;
-  font-weight: 720;
-  letter-spacing: 0.1em;
-  line-height: 30px;
-  text-transform: uppercase;
+  color: var(--nimote-text-secondary);
+  font-size: 0.925rem;
+  font-weight: 650;
+  letter-spacing: -0.005em;
+  line-height: 36px;
+  text-transform: none;
 }
 
 .VPSidebar .VPSidebarItem.level-0 > .item > .link:hover > .text,
@@ -430,9 +437,9 @@
 .VPSidebarItem.level-1 > .item > .link > .text {
   padding: 0;
   color: inherit;
-  font-size: 0.86rem;
-  font-weight: 510;
-  line-height: 1.35;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.45;
 }
 
 .VPSidebarItem.level-1 > .item > .link:hover {
@@ -456,7 +463,7 @@
 .VPSidebarItem.level-0 .caret {
   margin-right: -3px;
   width: 28px;
-  height: 30px;
+  height: 36px;
   color: var(--nimote-text-muted);
 }
 
@@ -498,7 +505,7 @@
   border-left: 2px solid transparent;
   border-radius: 0 7px 7px 0;
   color: var(--nimote-text-secondary);
-  font-size: 0.84rem;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.42;
   transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), border-color 0.18s var(--nimote-ease);

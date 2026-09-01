@@ -1,45 +1,29 @@
 ---
-title: AI Assistant
-description: Use NimoteCode AI Chat and AI Agent with provider configuration, file context, metered free agent runs, and Pro unlimited usage.
+title: AI Assistant and Agent | NimoteCode
+description: Use NimoteCode AI Chat for code and error explanations, and AI Agent for controlled multi-step work with provider profiles and workspace context.
 ---
 
-# AI Assistant
+# AI Assistant and Agent
 
-NimoteCode includes two AI experiences: AI Chat for direct help and AI Agent for controlled multi-step execution.
+NimoteCode separates direct AI help from AI-assisted execution. **AI Chat** is for a fast answer in context; **AI Agent** is for work that needs several deliberate steps across files, terminal or Git tools.
 
-## AI Chat
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for the NimoteCode AI panel">
+  <strong>Image placeholder — AI assistance with workspace context</strong>
+  <span>Replace with a screenshot of the AI panel explaining an active file or planning a small, reviewable change.</span>
+</div>
 
-Use AI Chat when you want fast help while coding:
+## Use AI Chat for the next decision
 
-- Explain unfamiliar code.
-- Analyze terminal errors.
-- Plan refactors or fixes.
-- Review a change before committing.
-- Work with current-file context.
+Ask Chat to explain unfamiliar code, interpret terminal output, outline a refactor, or review an idea before you change a file. Keeping the relevant file active gives the conversation useful workspace context.
 
-## AI Agent
+## Use AI Agent for a controlled sequence
 
-Use AI Agent when work requires multiple actions:
+Agent is appropriate when a task needs to inspect files, propose a plan, make an edit, run a check and summarize the result. Free includes a metered allowance; Pro enables unlimited Agent use.
 
-- Inspect files.
-- Plan implementation steps.
-- Apply changes.
-- Run commands or checks.
-- Summarize results.
+## Configure providers deliberately
 
-Free users have metered AI Agent usage. Pro unlocks unlimited Agent runs.
+Provider profiles hold connection and model settings such as endpoint, API credential, model, streaming and context behavior. Keep a working primary profile and a tested backup profile. See [Configuration](/docs/configuration) for a practical checklist.
 
-## Provider flexibility
+> Review commands and file changes before applying them, particularly in a remote or production-adjacent workspace. The app’s validation and locking layers support controlled work; they do not transfer operational responsibility away from the user.
 
-NimoteCode can be configured with provider profiles and model settings. Use the configuration panel to manage endpoint, model, API credentials, output behavior, streaming, and context options.
-
-## Safety expectations
-
-AI Agent workflows can use tools, so review commands and file changes before applying them to sensitive systems. The app includes validation and locking layers, but user review is still important for production work.
-
-## Related pages
-
-- [AI Agent Workflows](/use-cases/ai-agent)
-- [Configuration](/docs/configuration)
-- [Security and Safety](/docs/security)
-- [Pro](/pro)
+Continue with [AI Agent Workflows](/use-cases/ai-agent) · [Security and Safety](/docs/security) · [Mobile AI Coding](/mobile-ai-coding)

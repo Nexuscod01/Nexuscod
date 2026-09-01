@@ -1,32 +1,22 @@
-# Sync / Cache Panel
+---
+title: Sync and Cache | NimoteCode Pro
+description: Move project content between local and remote NimoteCode workspaces with Pro Sync and Cache workflows, explicit direction, workspace path checks and transfer history.
+---
 
-Sync / Cache is a Pro panel for moving project content between local and remote workspaces with clear direction control.
+# Sync and Cache
 
-## Two Transfer Modes
+Sync / Cache is a **Pro** workflow for deliberately moving project content between a local and remote workspace. It gives the transfer a visible direction and keeps the target inside the active workspace boundaries.
 
-- Sync: local project to remote workspace
-- Cache: remote workspace to local project
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode Sync and Cache">
+  <strong>Image placeholder — choose a safe transfer direction</strong>
+  <span>Replace with a screenshot showing Sync or Cache direction, selected workspace path and transfer history.</span>
+</div>
 
-## What You Get
+## Two clear directions
 
-- Mode-aware primary action based on workspace context
-- Target path selection constrained to active workspace boundaries
-- Transfer history with status and path records
-- Clear state visibility before and during execution
+- **Sync** moves a local project toward a remote workspace.
+- **Cache** brings remote project content back to a local workspace.
 
-## Typical Use Cases
+Before a transfer, read the direction and target path, check which version is authoritative, and review the recorded result afterward. Sync / Cache is useful for a controlled handoff or offline inspection; it should not replace a repository’s normal Git review and backup practices.
 
-- Push local edits to remote runtime environment
-- Pull remote project state for offline review
-- Keep a portable cache of server-side updates
-
-## Why It Matters
-
-- Faster environment handoff
-- Better consistency between local and remote copies
-- Safer transfer workflow with explicit direction and path control
-
-## Related Pages
-
-- [SSH Workspace](/docs/ssh)
-- [Tasks Panel](/docs/tasks)
+Related: [SSH Workspace](/docs/ssh) · [Source Control](/docs/source-control) · [Pro](/pro)

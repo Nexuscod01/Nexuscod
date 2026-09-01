@@ -1,50 +1,35 @@
 ---
-title: Download | NimoteCode
-description: Download NimoteCode and start with a mobile SSH workspace, code editor, terminal, AI Chat, and Pro upgrade paths.
+title: Download NimoteCode | Mobile IDE for Android and iOS
+description: Download NimoteCode, the mobile AI development workspace for local and SSH projects. Android is available now; check the current iOS release status before installing.
 ---
 
 # Download NimoteCode
 
-Download NimoteCode to open a local or SSH workspace, edit files, run commands, and use AI assistance from a mobile device.
+NimoteCode lets you open a local or SSH project, edit files, run terminal commands and use AI assistance from one mobile workspace. It is currently available for Android; public iOS App Store availability is being prepared.
 
-## Store links
+## Choose your platform
 
-Use the links below when the store listing is available in your region. If a listing is not available yet, check back from this page or contact support.
+<div class="product-card-grid">
+  <div class="product-card"><strong>Android · Available now</strong><span>Get NimoteCode from Google Play, subject to regional store availability.</span></div>
+  <div class="product-card"><strong>iPhone and iPad · Preparing public release</strong><span>Use the availability link for the current iOS status; do not rely on an unofficial listing.</span></div>
+</div>
 
-### iOS App Store
+<p class="seo-cta-actions">
+  <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=download_page" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
+  <a href="/support?utm_source=download&utm_medium=website&utm_campaign=ios_availability" class="home-page-btn tertiary">Check iOS availability</a>
+  <a href="/demo?utm_source=download&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
+</p>
 
-<a href="https://apps.apple.com/app/nimotecode" class="home-page-btn primary">Open App Store listing</a>
+## Your first five minutes
 
-### Google Play
+1. Open **Local Explorer**, or add a **Remote Explorer** SSH profile.
+2. For SSH, confirm the host, authentication method and project root.
+3. Open a file, make a small edit and save it.
+4. Run a harmless verification command such as `pwd`, `ls`, or your project test command.
+5. Configure an AI provider only if you plan to use AI Chat or AI Agent.
 
-<a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode" class="home-page-btn primary">Open Google Play listing</a>
+## What comes with the app
 
-## What to do after install
+Free includes local and SSH workspaces, editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote content search include a Free allowance. Pro adds Git write workflows, multi-terminal, unlimited Agent and search, LSP, Debug, advanced Tasks and Sync / Cache.
 
-1. Open NimoteCode.
-2. Choose Local Explorer or Remote Explorer.
-3. For SSH, enter host, port, username, authentication method, and workspace root path.
-4. Open a file and make a small edit.
-5. Run a verification command in terminal.
-6. Configure AI provider settings if you want AI Chat or Agent workflows.
-
-## Included capabilities
-
-| Capability | Availability |
-|------------|--------------|
-| Local and SSH workspaces | Free |
-| Editor and baseline terminal | Free |
-| AI Chat | Free |
-| AI Agent | Metered free; unlimited Pro |
-| Remote content search | Metered free; unlimited Pro |
-| Git write workflows and Git AI | Pro |
-| LSP and Debug | Pro |
-| Sync / Cache | Pro |
-| Timeline AI and advanced task execution | Pro |
-
-## Need help?
-
-- Start with [Quick Start](/docs/quick-start).
-- Learn SSH setup in [SSH Workspace](/docs/ssh).
-- Compare paid capabilities in [Pro](/pro).
-- Contact support from [Support](/support).
+After installation, continue with [Quick Start](/docs/quick-start), [SSH Workspace](/docs/ssh), or [Mobile IDE](/mobile-ide).

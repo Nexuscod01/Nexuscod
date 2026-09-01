@@ -1,34 +1,24 @@
 ---
-title: On-call Diagnostics from Mobile
-description: Use NimoteCode terminal, search, LSP, debugger, timeline, and AI features to diagnose issues from a mobile device.
+title: On-call Diagnostics from Mobile | NimoteCode
+description: A measured mobile incident workflow with NimoteCode SSH, terminal output search, remote code search, configured LSP and Debug, and AI assistance.
 ---
 
 # On-call Diagnostics from Mobile
 
-NimoteCode is designed for mobile investigation loops: connect, inspect, run commands, search output, and escalate to structured diagnostics.
+When you are away from a computer, a good investigation is still methodical: connect to the right host, collect evidence, narrow the question and verify any change. NimoteCode keeps those steps close together in one SSH workspace.
 
-## Workflow
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for NimoteCode mobile on-call diagnostics">
+  <strong>Image placeholder — an on-call investigation on mobile</strong>
+  <span>Replace with a screenshot sequence showing SSH context, terminal output search and a diagnostic panel for a real incident workflow.</span>
+</div>
 
-1. Connect to the workspace over SSH.
-2. Open terminal and run the relevant health, log, build, or test commands.
-3. Search terminal output or remote file contents for error signatures.
-4. Open affected files in the editor.
-5. Use LSP diagnostics and code actions when Pro access is available.
-6. Use Debug for breakpoints, call stack, variables, and watch expressions when configured.
-7. Use Timeline to review captured context; run Timeline AI root-cause or fix suggestions with Pro.
+## Investigation sequence
 
-## Useful features
+1. Connect through [SSH Workspace](/docs/ssh) and verify the host and project root.
+2. Use [Terminal](/docs/terminal) for health checks, logs, tests or service state.
+3. Search terminal output and remote content for the error signature.
+4. Open the relevant source file in the editor.
+5. With Pro and a prepared host, use [LSP](/docs/lsp) or [Debug](/docs/debug) for structured evidence.
+6. Use AI Chat to summarize the observed context and form the next hypothesis.
 
-- Terminal sessions with reconnect-aware behavior.
-- Remote content search with metered free usage and Pro unlimited access.
-- LSP diagnostics and Debug with Pro.
-- Timeline context and Timeline AI with Pro.
-- AI Chat for interpreting errors and planning next steps.
-
-## Related docs
-
-- [Terminal](/docs/terminal)
-- [Search](/docs/search)
-- [LSP](/docs/lsp)
-- [Debug](/docs/debug)
-- [Timeline](/docs/timeline)
+Configured diagnostics complement, rather than replace, terminal evidence. Never assume an alert, restored session or AI suggestion represents the current production state—check it directly.

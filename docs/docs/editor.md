@@ -1,39 +1,30 @@
 ---
-title: Editor
-description: Use NimoteCode's mobile code editor with tabs, cursor tracking, clipboard operations, undo/redo, outline access, and terminal/AI panels.
+title: Mobile Code Editor | NimoteCode
+description: Use NimoteCode’s mobile code editor with tabs, clipboard operations, undo/redo, cursor tracking, outline navigation and linked Terminal and AI panels.
 ---
 
-# Editor
+# Mobile Code Editor
 
-The editor is the center of a NimoteCode workspace. It works with files opened from local projects or SSH remote workspaces.
+The editor is where a workspace becomes a change. Open files from a local project, an SSH workspace or a search result; then keep the file connected to Terminal, AI and Source Control rather than moving between separate apps.
 
-## Core editor workflow
+<div class="seo-media-placeholder" role="img" aria-label="Placeholder for the NimoteCode mobile code editor">
+  <strong>Image placeholder — editing a remote project</strong>
+  <span>Replace with a clean phone or tablet screenshot showing code tabs, the active file and a docked Terminal or AI panel.</span>
+</div>
 
-1. Open a workspace from Local Explorer or Remote Explorer.
-2. Select a file from the explorer or search results.
-3. Edit content in the tabbed editor.
-4. Save the file.
-5. Use terminal, Git, AI, LSP, or debug panels for the next step.
+## Designed for focused edits
 
-## Capabilities
+- Keep several files open in tabs while following a small change.
+- Use copy, cut, paste, select all, undo and redo from the mobile editor.
+- Track the current line and column while working through an error or review comment.
+- Use an outline when symbol information is available.
+- Keep the active file available as context for [AI Assistant](/docs/ai).
 
-- Multiple open editor tabs.
-- Cursor line and column tracking.
-- Copy, cut, paste, select all, undo, and redo.
-- Current-file context for AI Chat.
-- Outline panel for code structure navigation when symbol data is available.
-- Mobile programming keyboard controls.
-- Docked editor panels for AI, outline, and terminal workflows.
+## A good mobile editing loop
 
-## Practical tips
+1. Locate a file in Explorer or [Search](/docs/search).
+2. Make the smallest useful edit and save it.
+3. Run a verification command in [Terminal](/docs/terminal).
+4. With Pro, inspect the resulting diff in [Source Control](/docs/source-control).
 
-- Keep the active file open before asking AI questions so the assistant can use file context.
-- Use Search to jump into remote files by matching content.
-- Use Source Control after saving to review changes before committing.
-
-## Related pages
-
-- [Quick Start](/docs/quick-start)
-- [SSH Workspace](/docs/ssh)
-- [Search](/docs/search)
-- [AI Assistant](/docs/ai)
+For long, exploratory work a desktop may still be the better tool. The editor is optimized for the focused task that needs to happen now.

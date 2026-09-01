@@ -1,8 +1,10 @@
 # NimoteCode
 
-> NimoteCode is a mobile-first IDE and developer workspace for iPhone, iPad, and Android. It combines SSH workspaces, code editing, terminals, Git workflows, AI assistance, debugging, tasks, timeline diagnostics, sync/cache, and product support in one app.
+> NimoteCode is a mobile-first IDE and developer workspace for iPhone, iPad, and Android. It combines SSH workspaces, code editing, terminals, Git workflows, AI assistance, debugging, tasks, sync/cache, and product support in one app.
 
 NimoteCode is organized around a few primary journeys: learn the product, compare Free and Pro, install the app, and move into the documentation for day-to-day workflows.
+
+The product is positioned as a Mobile AI Development Workspace: Editor + Explorer + SSH + Terminal + Git + AI Agent. It is not only an SSH client or a standalone code editor.
 
 ## Product
 - [Home](https://nimotecode.com/): Main product overview and demo-led landing page.
@@ -10,6 +12,18 @@ NimoteCode is organized around a few primary journeys: learn the product, compar
 - [Pro](https://nimotecode.com/pro): Free vs Pro comparison and upgrade value.
 - [Download](https://nimotecode.com/download): Store links and installation steps.
 - [Use Cases](https://nimotecode.com/use-cases/): Scenario overview for urgent mobile development work.
+- [Mobile IDE](https://nimotecode.com/mobile-ide): Mobile IDE overview for SSH, Git, and AI coding.
+- [SSH IDE](https://nimotecode.com/ssh-ide): Remote development workflow for SSH projects.
+- [Mobile AI Coding](https://nimotecode.com/mobile-ai-coding): AI Chat and Agent alongside editor, terminal, and Git context.
+- [Demo](https://nimotecode.com/demo): Product video and written workflow walkthrough.
+
+## Guides
+- [Mobile Development Guides](https://nimotecode.com/blog/): Decision and setup guides for phone and tablet development.
+- [Best Mobile IDEs](https://nimotecode.com/blog/best-mobile-ides): What to look for in a mobile development workspace.
+- [Best SSH Clients](https://nimotecode.com/blog/best-ssh-clients): Choosing a terminal-first or workspace-first SSH workflow.
+- [How to Code From iPad](https://nimotecode.com/blog/how-to-code-from-ipad): Practical iPad, SSH, Git, and AI workflow guidance.
+- [Claude Code From Phone](https://nimotecode.com/blog/claude-code-from-phone): Reviewable remote coding-agent workflow guidance.
+- [Codex From Phone](https://nimotecode.com/blog/codex-from-phone): SSH, project context, validation, and Git review guidance.
 
 ## Documentation
 - [Quick Start](https://nimotecode.com/docs/quick-start): First-run setup and workspace basics.
@@ -22,7 +36,6 @@ NimoteCode is organized around a few primary journeys: learn the product, compar
 - [LSP](https://nimotecode.com/docs/lsp): Language server diagnostics and code actions.
 - [Debug](https://nimotecode.com/docs/debug): Breakpoints, call stacks, variables, and watch views.
 - [Tasks](https://nimotecode.com/docs/tasks): Task creation and execution.
-- [Timeline](https://nimotecode.com/docs/timeline): Event inspection and root-cause workflows.
 - [Sync / Cache](https://nimotecode.com/docs/sync-cache): Workspace movement and cache flows.
 
 ## Use Cases
@@ -39,7 +52,3 @@ NimoteCode is organized around a few primary journeys: learn the product, compar
 ## Locales
 - [English](https://nimotecode.com/): Default site locale.
 - [Chinese](https://nimotecode.com/zh/): Simplified Chinese locale.
-- [Japanese](https://nimotecode.com/ja/): Japanese locale.
-- [Korean](https://nimotecode.com/ko/): Korean locale.
-- [Russian](https://nimotecode.com/ru/): Russian locale.
-- [Spanish](https://nimotecode.com/es/): Spanish locale.

@@ -1,40 +1,29 @@
 ---
-title: Security and Safety
-description: How NimoteCode handles SSH credentials, AI provider keys, Pro verification, and controlled agent workflows.
+title: Security and Safety | NimoteCode
+description: Practical security guidance for NimoteCode SSH workspaces, provider credentials, AI Agent review, terminal commands, Git changes and subscription verification.
 ---
 
 # Security and Safety
 
-NimoteCode handles sensitive workflows: SSH access, AI provider keys, terminal commands, file writes, Git operations, and subscription verification.
+NimoteCode can work with SSH access, provider credentials, terminal commands and file changes. The app provides secure-storage and controlled-workflow mechanisms, but safe remote development still depends on the choices you make for each host and action.
 
-## Credentials
+## Credentials and access
 
-- SSH passwords can be remembered through secure credential storage when the user chooses to save them.
-- AI provider credentials are stored through secure app storage.
-- Subscription verification uses account state and server-side checks.
+- Use separate, least-privilege SSH accounts for sensitive environments.
+- Prefer private-key authentication for critical hosts and confirm the host and project root on every session.
+- Treat AI provider credentials as sensitive; configure them in the app’s protected storage flow and rotate them with the provider when necessary.
+- Keep subscription verification tied to your intended account and platform-store identity.
 
-## AI Agent control
+## AI Agent and write actions
 
-AI Agent workflows include safety-oriented design:
+AI Agent separates tool execution from a plain chat response and applies validation and locking layers around file and command work. Still, review every proposed command and change, especially when the workspace has production access. Use [Source Control](/docs/source-control) diff review before committing or pushing.
 
-- Tool execution is separated from chat responses.
-- File and command tools use validation layers.
-- Write locks and concurrent lock managers reduce conflicting operations.
-- Sensitive actions can require confirmation depending on runtime safety settings.
-- App review safety settings can restrict background or automatic execution.
+## A safer remote routine
 
-## Remote workspaces
+1. Verify the SSH host, user and workspace root.
+2. Start with inspection or a low-risk command.
+3. Read the terminal output and AI proposal in context.
+4. Make the smallest necessary change.
+5. Test it and review the Git diff before delivery.
 
-When using SSH:
-
-- Confirm host, path, and authentication method carefully.
-- Prefer least-privilege server accounts.
-- Review generated commands before running them on production systems.
-- Use Source Control review before committing or pushing changes.
-
-## Related pages
-
-- [SSH Workspace](/docs/ssh)
-- [AI Assistant](/docs/ai)
-- [Source Control](/docs/source-control)
-- [Account and Subscription](/docs/account-subscription)
+Related: [SSH Workspace](/docs/ssh) · [AI Assistant](/docs/ai) · [Configuration](/docs/configuration)

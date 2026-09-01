@@ -1,44 +1,24 @@
+---
+title: Settings | NimoteCode Mobile IDE
+description: Personalize NimoteCode with account, subscription, theme, language, editor and mobile keyboard settings for a comfortable development workspace.
+---
+
 # Settings
 
-Settings lets you shape NimoteCode into a stable, long-session mobile development environment.
+Settings helps the workspace feel predictable on the device you actually use. Start with readability and input, then verify account and subscription status when you need Pro features.
 
-## Account and Subscription
+<div class="product-card-grid">
+  <div class="product-card"><strong>Appearance</strong><span>Choose the app and IDE theme, then switch the interface language where needed.</span></div>
+  <div class="product-card"><strong>Editor</strong><span>Adjust font family, size and line height for the amount of code you read on your screen.</span></div>
+  <div class="product-card"><strong>Keyboard</strong><span>Configure soft-keyboard behavior, feedback, number/function rows, gestures and function-key mappings.</span></div>
+  <div class="product-card"><strong>Account</strong><span>Review sign-in, subscription state, purchase management and restore-purchase options.</span></div>
+</div>
 
-- Sign in and account identity management
-- Subscription status and trial visibility
-- Subscription management and restore purchase entry
+## Recommended first setup
 
-## Appearance and Language
+1. Choose a theme and type size that keeps code readable without constant zooming.
+2. Enable only the keyboard controls that help your normal language and shell workflow.
+3. Confirm the account and subscription status before a time-sensitive Pro workflow.
+4. Add AI and SSH connection details from [Configuration](/docs/configuration), not in a hurry during an incident.
 
-- Theme mode control
-- IDE theme selection
-- Multi-language switching
-
-## Editor Experience
-
-- Font size and line-height tuning
-- Font family preferences
-- Persistent editor style across sessions
-
-## Keyboard and Input
-
-- Soft keyboard enable/disable
-- Haptic and sound feedback options
-- Number row and function row toggles
-- Gesture support and function key mappings
-- Keyboard theme and reset options
-
-## Policy Access
-
-Settings includes direct entries to:
-
-- [Account Deletion](/account-delete)
-- [Privacy Policy](/privacy)
-- [Terms of Service](/terms)
-
-## Recommended First Setup
-
-1. Set language and theme.
-2. Tune editor typography.
-3. Configure keyboard behavior for your device.
-4. Confirm subscription and account state.
+For policy and account-request links, use the entries provided inside the app or the site footer.
