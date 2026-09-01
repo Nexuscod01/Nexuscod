@@ -43,7 +43,7 @@
 .VPNavBarTitle .title {
   color: var(--nimote-text-primary);
   font-size: 1rem;
-  font-weight: 680;
+  font-weight: 700;
   letter-spacing: -0.025em;
 }
 
@@ -292,7 +292,7 @@
   border-radius: 9px;
   color: var(--nimote-text-secondary);
   font-size: 0.9rem;
-  font-weight: 580;
+  font-weight: 600;
   line-height: 1;
   transition: color 0.18s var(--nimote-ease), background-color 0.18s var(--nimote-ease), transform 0.18s var(--nimote-ease);
 }
@@ -408,7 +408,7 @@
   padding: 0;
   color: var(--nimote-text-secondary);
   font-size: 0.925rem;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: -0.005em;
   line-height: 36px;
   text-transform: none;
@@ -457,7 +457,7 @@
 
 .VPSidebarItem.level-1.is-active > .item > .link > .text {
   color: inherit;
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .VPSidebarItem.level-0 .caret {
@@ -520,7 +520,7 @@
   border-left-color: var(--nimote-accent);
   background: rgba(var(--nimote-accent-rgb), 0.08);
   color: var(--nimote-accent);
-  font-weight: 620;
+  font-weight: 600;
 }
 
 /* Mobile chrome --------------------------------------------------------- */

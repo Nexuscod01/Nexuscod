@@ -26,7 +26,13 @@ const copy = computed(() => isChinese.value ? {
   privacy: '隐私政策',
   terms: '服务条款',
   deletion: '账号删除',
-  note: '为开发者的移动时刻而构建。'
+  note: '为开发者的移动时刻而构建。',
+  exploreLinks: [
+    { text: '功能特性', href: '/features' },
+    { text: '使用场景', href: '/use-cases/' },
+    { text: '产品简介', href: '/introduction' },
+    { text: '文档', href: '/docs/quick-start' }
+  ]
 } : {
   positioning: 'Mobile AI Development Workspace: Editor + Explorer + SSH + Terminal + Git + AI Agent.',
   product: 'Product',
@@ -42,7 +48,14 @@ const copy = computed(() => isChinese.value ? {
   privacy: 'Privacy',
   terms: 'Terms',
   deletion: 'Account deletion',
-  note: 'Built for developers on the move.'
+  note: 'Built for developers on the move.',
+  exploreLinks: [
+    { text: 'Mobile IDE', href: '/mobile-ide' },
+    { text: 'SSH IDE', href: '/ssh-ide' },
+    { text: 'Mobile AI Coding', href: '/mobile-ai-coding' },
+    { text: 'Guides', href: '/blog/' },
+    { text: 'Watch demo', href: '/demo?utm_source=footer&utm_medium=website&utm_campaign=demo' }
+  ]
 })
 
 function localized(path: string) {
@@ -72,11 +85,7 @@ function localized(path: string) {
 
         <nav :aria-label="copy.explore">
           <h2>{{ copy.explore }}</h2>
-          <a href="/mobile-ide">Mobile IDE</a>
-          <a href="/ssh-ide">SSH IDE</a>
-          <a href="/mobile-ai-coding">Mobile AI Coding</a>
-          <a href="/blog/">{{ copy.guides }}</a>
-          <a href="/demo?utm_source=footer&utm_medium=website&utm_campaign=demo">{{ copy.demo }}</a>
+          <a v-for="link in copy.exploreLinks" :key="link.href" :href="localized(link.href)">{{ link.text }}</a>
         </nav>
 
         <nav :aria-label="copy.company">

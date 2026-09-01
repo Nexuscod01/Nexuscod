@@ -43,7 +43,7 @@
 .pf-card-head h3 {
   margin: 0;
   font-size: 1.05rem;
-  font-weight: 510;
+  font-weight: 500;
   color: var(--nimote-text-primary);
   letter-spacing: -0.01em;
 }
@@ -79,7 +79,7 @@
   top: 0;
   color: var(--nimote-accent);
   font-size: 0.8rem;
-  font-weight: 510;
+  font-weight: 500;
 }
 
 .pf-pricing-grid {
@@ -127,7 +127,7 @@
 .pf-plan-topline h3 {
   margin: 0;
   font-size: 1.25rem;
-  font-weight: 510;
+  font-weight: 500;
   color: var(--nimote-text-primary);
   letter-spacing: -0.015em;
 }
@@ -138,7 +138,7 @@
   background: var(--nimote-accent);
   color: var(--nimote-text-inverse);
   font-size: 0.72rem;
-  font-weight: 510;
+  font-weight: 500;
   letter-spacing: 0.04em;
 }
 
@@ -150,7 +150,7 @@
 }
 .pf-price-row strong {
   font-size: 2.6rem;
-  font-weight: 590;
+  font-weight: 600;
   letter-spacing: -0.03em;
   color: var(--nimote-text-primary);
   line-height: 1;

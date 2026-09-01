@@ -136,7 +136,7 @@
   background: rgba(255, 255, 255, 0.04);
   color: var(--nimote-text-muted);
   font-size: 0.72rem;
-  font-weight: 510;
+  font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   padding: 8px 14px;
@@ -171,7 +171,7 @@
   position: relative;
   top: -1px;
   font-size: clamp(1.2rem, 1vw + 0.7rem, 1.5rem);
-  font-weight: 590;
+  font-weight: 600;
   letter-spacing: -0.025em;
   color: var(--nimote-text-primary);
 }
@@ -181,7 +181,7 @@
   font-size: var(--nimote-fs-5xl);
   line-height: 1.05;
   letter-spacing: -0.04em;
-  font-weight: 590;
+  font-weight: 600;
   color: var(--nimote-text-primary);
   text-wrap: balance;
   overflow-wrap: anywhere;
@@ -353,7 +353,7 @@
   color: var(--nimote-text-primary);
   letter-spacing: -0.01em;
   font-size: 1.08rem;
-  font-weight: 510;
+  font-weight: 500;
   line-height: 1.4;
 }
 
@@ -373,7 +373,7 @@
   padding: 0.85rem 1.5rem;
   border-radius: var(--nimote-radius-sm);
   border: 1px solid transparent;
-  font-weight: 510;
+  font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: -0.01em;
   text-decoration: none;
@@ -449,7 +449,7 @@
   margin: 0;
   color: var(--nimote-text-primary);
   font-size: var(--nimote-fs-3xl);
-  font-weight: 590;
+  font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 1.1;
   text-wrap: balance;
@@ -563,7 +563,7 @@
 .home-page-video-play {
   color: #ffffff;
   font-size: 1.08rem;
-  font-weight: 510;
+  font-weight: 500;
   letter-spacing: -0.01em;
 }
 
@@ -587,7 +587,7 @@
   font-size: clamp(2.1rem, 1.5rem + 2.4vw, 3.6rem);
   line-height: 1.04;
   letter-spacing: -0.045em;
-  font-weight: 590;
+  font-weight: 600;
   text-wrap: balance;
 }
 
@@ -634,7 +634,7 @@
   font-size: var(--nimote-fs-3xl);
   line-height: 1.1;
   letter-spacing: -0.03em;
-  font-weight: 590;
+  font-weight: 600;
   color: var(--nimote-text-primary);
   overflow-wrap: anywhere;
   text-wrap: balance;
@@ -1077,7 +1077,7 @@ html:not(.dark) .home-page-btn.tertiary {
 .home-page-use-case-card h3 { margin: 48px 0 10px; color: var(--nimote-text-primary); font-size: 1.16rem; letter-spacing: -0.02em; }
 .home-page-module-card p,
 .home-page-use-case-card p { margin: 0; color: var(--nimote-text-secondary); font-size: 0.92rem; line-height: 1.7; }
-.home-page-module-card a { position: absolute; left: 28px; bottom: 26px; color: var(--nimote-accent); font-size: 0.88rem; font-weight: 650; text-decoration: none; }
+.home-page-module-card a { position: absolute; left: 28px; bottom: 26px; color: var(--nimote-accent); font-size: 0.88rem; font-weight: 600; text-decoration: none; }
 .home-page-module-card a span { margin-left: 5px; }
 
 .home-page-use-case-section { padding-top: 108px; }

@@ -95,7 +95,7 @@
 .vp-doc a {
   color: var(--nimote-accent);
   text-decoration: none;
-  font-weight: 510;
+  font-weight: 500;
   border-bottom: 1px solid transparent;
   transition: color 0.18s var(--nimote-ease), border-color 0.18s var(--nimote-ease);
 }
