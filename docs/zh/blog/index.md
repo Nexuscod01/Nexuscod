@@ -24,6 +24,18 @@ description: 关于如何选择移动 IDE 或 SSH 客户端，以及如何在 iP
 - 需要贴近真实文件与命令的 AI 辅助？看[移动 AI 编程](/zh/mobile-ai-coding)。
 - 需要按平台开始的入口？看 [Android SSH 客户端](/zh/android-ssh-client)、[iPhone SSH 客户端](/zh/iphone-ssh-client) 或 [iPad 编程](/zh/ipad-coding)。
 
+## 构建日志
+
+构建 NimoteCode 过程中的个人记录与对 2026 年移动软件开发的思考（英文）：
+
+- [Why I Decided to Build a Mobile IDE Instead of Another AI App](/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app)
+- [SSH + Mobile Coding Is Still Broken](/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide)
+- [Why Existing Flutter Code Editors Broke Down](/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide)
+- [Is Local Heavy Compilation Dead?](/blog/is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides)
+- [I Built a Mobile IDE With ~90% AI-Generated Code](/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months)
+- [Agent Design is Bounded Optimization, Not Intelligence](/blog/agent-design-is-bounded-optimization-not-intelligence)
+- [Can an AI Agent Really Code From a Phone?](/blog/can-an-ai-agent-really-code-from-a-phone)
+
 <div class="seo-cta">
   <p><strong>看看这些指南背后的工作区。</strong></p>
   <p class="seo-cta-actions">

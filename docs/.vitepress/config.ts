@@ -180,6 +180,10 @@ function pageSchemas(context: TransformContext): object[] {
     schemas.push(article)
   }
 
+  if (context.pageData.frontmatter.noindex === true) {
+    return schemas
+  }
+
   const breadcrumb = breadcrumbSchema(context)
   if (breadcrumb) {
     schemas.push(breadcrumb)
@@ -440,7 +444,8 @@ export default defineConfig({
     const description = pageDescription(context, title)
     const image = asContent(context.pageData.frontmatter.image, socialImage)
     const isPageNotFound = normalizePath(context.pageData.relativePath) === '/404'
-    const robotsContent = isPageNotFound
+    const noIndex = isPageNotFound || context.pageData.frontmatter.noindex === true
+    const robotsContent = noIndex
       ? 'noindex, follow'
       : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
 
@@ -505,9 +510,38 @@ export default defineConfig({
           { text: 'Product', link: '/features' },
           { text: 'Workflows', link: '/use-cases/' },
           { text: 'Docs', link: '/docs/quick-start' },
+          { text: 'Blog', link: '/blog/' },
           { text: 'Download', link: '/download?utm_source=navigation&utm_medium=website&utm_campaign=primary_nav' }
         ],
         sidebar: {
+          '/blog/': [
+            {
+              text: 'Guides',
+              collapsed: false,
+              items: [
+                { text: 'All Guides', link: '/blog/' },
+                { text: 'Best Mobile IDEs', link: '/blog/best-mobile-ides' },
+                { text: 'Best SSH Clients', link: '/blog/best-ssh-clients' },
+                { text: 'How to Code From iPad', link: '/blog/how-to-code-from-ipad' },
+                { text: 'Claude Code From Phone', link: '/blog/claude-code-from-phone' },
+                { text: 'Codex From Phone', link: '/blog/codex-from-phone' },
+                { text: 'Termius vs Blink vs NimoteCode', link: '/blog/termius-vs-blink-vs-nimotecode' }
+              ]
+            },
+            {
+              text: 'Build Log',
+              collapsed: false,
+              items: [
+                { text: 'Why I Built a Mobile IDE', link: '/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app' },
+                { text: 'SSH + Mobile Coding Is Still Broken', link: '/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide' },
+                { text: 'Flutter Code Editors Broke Down', link: '/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide' },
+                { text: 'Is Local Heavy Compilation Dead?', link: '/blog/is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides' },
+                { text: '~90% AI-Generated Code, 6 Months', link: '/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months' },
+                { text: 'Agent Design Is Bounded Optimization', link: '/blog/agent-design-is-bounded-optimization-not-intelligence' },
+                { text: 'Can an AI Agent Code From a Phone?', link: '/blog/can-an-ai-agent-really-code-from-a-phone' }
+              ]
+            }
+          ],
           '/': [
             {
               text: 'Start',
@@ -595,9 +629,38 @@ export default defineConfig({
           { text: '产品', link: '/zh/features' },
           { text: '场景', link: '/zh/use-cases/' },
           { text: '文档', link: '/zh/docs/quick-start' },
+          { text: '博客', link: '/zh/blog/' },
           { text: '下载', link: '/zh/download?utm_source=navigation&utm_medium=website&utm_campaign=primary_nav' }
         ],
         sidebar: {
+          '/zh/blog/': [
+            {
+              text: '指南',
+              collapsed: false,
+              items: [
+                { text: '全部指南', link: '/zh/blog/' },
+                { text: '最佳移动 IDE', link: '/zh/blog/best-mobile-ides' },
+                { text: '最佳 SSH 客户端', link: '/zh/blog/best-ssh-clients' },
+                { text: '如何用 iPad 编程', link: '/zh/blog/how-to-code-from-ipad' },
+                { text: '用手机使用 Claude Code', link: '/zh/blog/claude-code-from-phone' },
+                { text: '用手机使用 Codex', link: '/zh/blog/codex-from-phone' },
+                { text: 'Termius 对比 Blink 与 NimoteCode', link: '/zh/blog/termius-vs-blink-vs-nimotecode' }
+              ]
+            },
+            {
+              text: '构建日志',
+              collapsed: false,
+              items: [
+                { text: '为什么我选择做移动 IDE', link: '/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app' },
+                { text: 'SSH + 移动编程仍然破碎', link: '/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide' },
+                { text: 'Flutter 编辑器为何崩坏', link: '/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide' },
+                { text: '本地重型编译会消失吗', link: '/blog/is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides' },
+                { text: '约 90% AI 代码仍花 6 个月', link: '/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months' },
+                { text: 'Agent 设计是有界优化', link: '/blog/agent-design-is-bounded-optimization-not-intelligence' },
+                { text: 'AI Agent 能在手机编程吗', link: '/blog/can-an-ai-agent-really-code-from-a-phone' }
+              ]
+            }
+          ],
           '/zh/': [
             {
               text: '开始使用',
