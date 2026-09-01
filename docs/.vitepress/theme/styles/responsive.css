@@ -55,6 +55,8 @@
 @media (max-width: 768px) {
   :root {
     --nimote-nav-height: 56px;
+    --nimote-section-space: 64px;
+    --nimote-section-space-compact: 48px;
   }
 
   .VPNav,
@@ -78,8 +80,8 @@
   }
   .home-page-hero::after {
     background:
-      linear-gradient(180deg, rgba(2, 6, 23, 0.32) 0%, rgba(2, 6, 23, 0.18) 18%, rgba(2, 6, 23, 0.58) 52%, rgba(2, 6, 23, 0.9) 100%),
-      linear-gradient(90deg, rgba(2, 6, 23, 0.3) 0%, rgba(2, 6, 23, 0.08) 28%, rgba(2, 6, 23, 0.08) 72%, rgba(2, 6, 23, 0.34) 100%);
+      linear-gradient(180deg, rgba(var(--nimote-bg-rgb), 0.32) 0%, rgba(var(--nimote-bg-rgb), 0.18) 18%, rgba(var(--nimote-bg-rgb), 0.58) 52%, rgba(var(--nimote-bg-rgb), 0.9) 100%),
+      linear-gradient(90deg, rgba(var(--nimote-bg-rgb), 0.3) 0%, rgba(var(--nimote-bg-rgb), 0.08) 28%, rgba(var(--nimote-bg-rgb), 0.08) 72%, rgba(var(--nimote-bg-rgb), 0.34) 100%);
   }
   .home-page-hero-shell {
     padding: 26px 16px 132px;
@@ -131,16 +133,14 @@
   .home-page-section {
     padding-left: 18px;
     padding-right: 18px;
-    padding-top: 64px;
-    padding-bottom: 64px;
   }
   .home-page-section.dense {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: var(--nimote-section-space-compact);
+    padding-bottom: var(--nimote-section-space-compact);
   }
   .home-page-video-section {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: var(--nimote-section-space-compact);
+    padding-bottom: var(--nimote-section-space-compact);
   }
 
   .home-page-section-title {
@@ -256,6 +256,10 @@
 }
 
 @media (max-width: 560px) {
+  :root {
+    --nimote-section-space: 56px;
+  }
+
   .home-page-hero {
     padding: 0 0 18px;
   }
@@ -285,10 +289,6 @@
   }
   .home-page-scroll-hint {
     bottom: 8px;
-  }
-  .home-page-section {
-    padding-top: 56px;
-    padding-bottom: 56px;
   }
   .home-page-btn {
     min-height: 46px;

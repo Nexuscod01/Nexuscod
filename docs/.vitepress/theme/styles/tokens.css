@@ -12,9 +12,9 @@
   --vp-font-family-mono: "Berkeley Mono", "JetBrains Mono", "SF Mono", "Fira Code", "Roboto Mono", ui-monospace, monospace;
 
   /* VitePress brand hooks */
-  --vp-c-brand-1: #d946ef;
-  --vp-c-brand-2: #c026d3;
-  --vp-c-brand-3: #f0abfc;
+  --vp-c-brand-1: #a21caf;
+  --vp-c-brand-2: #86198f;
+  --vp-c-brand-3: #c026d3;
   --vp-c-brand-soft: rgba(217, 70, 239, 0.12);
 
   /* Fluid type scale */
@@ -40,6 +40,9 @@
   --nimote-space-12: 48px;
   --nimote-space-16: 64px;
   --nimote-space-20: 80px;
+  --nimote-page-gutter: clamp(16px, 2.4vw, 24px);
+  --nimote-section-space: 96px;
+  --nimote-section-space-compact: 64px;
 
   /* Radii */
   --nimote-radius-sm: 6px;
@@ -54,6 +57,13 @@
   --nimote-accent-rgb: 217, 70, 239;
   --nimote-accent-light: #f0abfc;
   --nimote-accent-dark: #a21caf;
+  /* Bright magenta remains the expressive brand color. Interactive text and
+     solid actions use the deeper tones so small labels remain legible. */
+  --nimote-link: #a21caf;
+  --nimote-link-hover: #86198f;
+  --nimote-action: #a21caf;
+  --nimote-action-hover: #86198f;
+  --nimote-on-action: #ffffff;
   --nimote-accent-2: #5e6ad2;
   --nimote-accent-2-rgb: 94, 106, 210;
   --nimote-accent-3: #27a644;
@@ -68,7 +78,7 @@
   --border-subtle: rgba(35, 37, 42, 0.08);
   --surface-1: #ffffff;
   --surface-2: #f7f8f8;
-  --text-muted: #8a8f98;
+  --text-muted: #6d727a;
 
   /* Ambient Hero + body glow (very restrained, violet family) */
   --hero-ambient:
@@ -92,7 +102,7 @@
   /* Text — Light */
   --nimote-text-primary: #08090a;
   --nimote-text-secondary: #62666d;
-  --nimote-text-muted: #8a8f98;
+  --nimote-text-muted: #6d727a;
   --nimote-text-inverse: #ffffff;
 
   /* Borders — Light */
@@ -145,15 +155,17 @@
 }
 
 .dark {
-  --vp-c-brand-1: #d946ef;
-  --vp-c-brand-2: #c026d3;
-  --vp-c-brand-3: #f0abfc;
+  --vp-c-brand-1: #f0abfc;
+  --vp-c-brand-2: #e879f9;
+  --vp-c-brand-3: #d946ef;
   --vp-c-brand-soft: rgba(217, 70, 239, 0.14);
 
   --nimote-accent: #d946ef;
   --nimote-accent-rgb: 217, 70, 239;
   --nimote-accent-light: #f0abfc;
   --nimote-accent-dark: #a21caf;
+  --nimote-link: #f0abfc;
+  --nimote-link-hover: #f5d0fe;
   --nimote-accent-2: #5e6ad2;
   --nimote-accent-2-rgb: 94, 106, 210;
   --nimote-gold: #d946ef;

@@ -135,8 +135,8 @@
 .pf-plan-topline span {
   padding: 0.35rem 0.85rem;
   border-radius: var(--nimote-radius-pill);
-  background: var(--nimote-accent);
-  color: var(--nimote-text-inverse);
+  background: var(--nimote-action);
+  color: var(--nimote-on-action);
   font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0.04em;

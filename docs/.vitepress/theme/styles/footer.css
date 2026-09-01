@@ -97,7 +97,7 @@
 
 .nimote-site-footer nav a:hover,
 .nimote-footer-logo:hover {
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
 }
 
 .nimote-site-footer nav a:hover {

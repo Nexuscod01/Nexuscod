@@ -93,19 +93,19 @@
 }
 
 .vp-doc a {
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
   text-decoration: none;
   font-weight: 500;
   border-bottom: 1px solid transparent;
   transition: color 0.18s var(--nimote-ease), border-color 0.18s var(--nimote-ease);
 }
 .vp-doc a:hover {
-  color: var(--nimote-accent-dark);
+  color: var(--nimote-link-hover);
   border-bottom-color: currentColor;
   text-underline-offset: 3px;
 }
 .dark .vp-doc a:hover {
-  color: var(--nimote-accent-light);
+  color: var(--nimote-link-hover);
 }
 
 .vp-doc code {
@@ -396,7 +396,7 @@
    without turning the documentation into a wall of tables. */
 .vp-doc .product-kicker {
   margin: 0 0 10px;
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;

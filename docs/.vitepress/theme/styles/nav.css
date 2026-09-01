@@ -313,7 +313,7 @@
 
 .VPNavBar .VPNavBarMenuLink.active {
   background: var(--accent-soft);
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
 }
 
 /* Download is intentionally last in both locale navs. */
@@ -321,15 +321,15 @@
   margin-left: 6px;
   padding: 0 15px;
   border: 1px solid var(--nimote-border-accent);
-  background: var(--nimote-accent);
+  background: var(--nimote-action);
   box-shadow: 0 6px 16px rgba(var(--nimote-accent-rgb), 0.2);
-  color: #fff;
+  color: var(--nimote-on-action);
 }
 
 .VPNavBarMenu .VPNavBarMenuLink:last-child:hover {
-  background: var(--nimote-accent-dark);
+  background: var(--nimote-action-hover);
   box-shadow: 0 9px 22px rgba(var(--nimote-accent-rgb), 0.28);
-  color: #fff;
+  color: var(--nimote-on-action);
   transform: translateY(-1px);
 }
 
@@ -460,7 +460,7 @@
   border-color: rgba(var(--nimote-accent-rgb), 0.16);
   background: linear-gradient(90deg, rgba(var(--nimote-accent-rgb), 0.14), rgba(var(--nimote-accent-rgb), 0.045));
   box-shadow: inset 2px 0 0 var(--nimote-accent);
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
 }
 
 .VPSidebarItem.level-1.is-active > .item > .link > .text {
@@ -527,7 +527,7 @@
 .VPDocAside .outline-link.active {
   border-left-color: var(--nimote-accent);
   background: rgba(var(--nimote-accent-rgb), 0.08);
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
   font-weight: 600;
 }
 

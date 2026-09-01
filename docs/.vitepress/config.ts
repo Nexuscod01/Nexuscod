@@ -386,8 +386,8 @@ function faqSchema(context: TransformContext): object | null {
 // Load the primary UI font asynchronously so it never blocks first paint.
 // The fallback stack in tokens.css renders immediately, and the web font
 // swaps in once the stylesheet finishes loading.
-const FONT_LATIN = 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap'
-const FONT_ZH = 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500;600;700;800&display=swap'
+const FONT_LATIN = 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap'
+const FONT_ZH = 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap'
 
 function fontByLocale(lang: string): string {
   if (lang.startsWith('zh')) return FONT_ZH

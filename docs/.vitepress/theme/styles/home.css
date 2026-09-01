@@ -16,16 +16,15 @@
   padding-top: 0;
 }
 
-.home-page-hero,
 .home-page-section {
   max-width: var(--nimote-container);
   margin: 0 auto;
-  padding-left: clamp(16px, 2.4vw, 24px);
-  padding-right: clamp(16px, 2.4vw, 24px);
+  padding-left: var(--nimote-page-gutter);
+  padding-right: var(--nimote-page-gutter);
   position: relative;
 }
 
-/* Hero — premium framed background with bottom feature rail. */
+/* Hero — product-led, with a restrained ambient grid behind the supplied art. */
 .home-page-hero {
   position: relative;
   width: 100vw;
@@ -33,27 +32,18 @@
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   margin-top: 0;
-  padding: 0 0 28px;
+  padding: 0;
   isolation: isolate;
   overflow: hidden;
-  background-color: var(--nimote-bg);
-  border-top: 1px solid var(--nimote-border);
-  border-bottom: 1px solid var(--nimote-border);
-  box-shadow:
-    inset 0 1px 0 var(--nimote-inset-highlight),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.02),
-    var(--nimote-shadow-md);
-  min-height: clamp(520px, 56vw, 820px);
+  background:
+    radial-gradient(circle at 82% 20%, rgba(var(--nimote-accent-2-rgb), 0.16), transparent 28%),
+    radial-gradient(circle at 14% 8%, rgba(var(--nimote-accent-rgb), 0.14), transparent 34%),
+    var(--hero-ambient),
+    var(--nimote-bg);
+  border: 0;
+  box-shadow: none;
+  min-height: 0;
   overflow-anchor: none;
-}
-
-.dark .home-page-hero {
-  border-top-color: rgba(255, 255, 255, 0.05);
-  border-bottom-color: rgba(255, 255, 255, 0.08);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.05),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.03),
-    0 32px 84px rgba(0, 0, 0, 0.26);
 }
 
 .home-page-hero::before {
@@ -62,12 +52,15 @@
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  background-image: url("/screenshots/homepage_bk.jpg");
-  background-position: right center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(rgba(var(--nimote-accent-rgb), 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--nimote-accent-rgb), 0.055) 1px, transparent 1px),
+    url("/screenshots/homepage_bk.jpg");
+  background-size: 42px 42px, 42px 42px, cover;
+  background-position: center, center, right center;
+  background-repeat: repeat, repeat, no-repeat;
   transform: none;
-  filter: var(--nimote-hero-image-filter);
+  filter: none;
   will-change: opacity;
 }
 
@@ -77,7 +70,10 @@
   inset: 0;
   z-index: 2;
   pointer-events: none;
-  background: var(--nimote-hero-overlay);
+  background:
+    radial-gradient(ellipse 62% 94% at 16% 50%, rgba(var(--nimote-bg-rgb), 0.97) 0%, rgba(var(--nimote-bg-rgb), 0.82) 42%, rgba(var(--nimote-bg-rgb), 0.38) 70%, transparent 100%),
+    radial-gradient(ellipse 42% 56% at 96% 50%, rgba(var(--nimote-bg-rgb), 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 72% 22% at 58% 100%, rgba(var(--nimote-bg-rgb), 0.32) 0%, transparent 78%);
   will-change: opacity;
 }
 
@@ -86,22 +82,28 @@
   z-index: 3;
   max-width: var(--nimote-container);
   margin: 0 auto;
-  padding: 56px 28px 120px;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 28px;
-  align-items: end;
-  min-height: inherit;
 }
 
-/* Hero text — white-on-image overrides */
+.home-page-hero-shell-product {
+  display: grid;
+  grid-template-columns: minmax(0, 590px);
+  align-items: center;
+  gap: 0;
+  min-height: 620px;
+  padding: 82px clamp(20px, 3vw, 42px) 74px;
+}
+
+/* Hero text stays on the same contrast scale as the rest of the page. */
 .home-page-hero .home-page-brand,
 .home-page-hero .home-page-title {
-  color: #ffffff;
+  color: var(--nimote-text-primary);
+  text-shadow: none;
 }
 
 .home-page-hero .home-page-subtitle {
-  color: rgba(255, 255, 255, 0.88);
+  color: var(--nimote-text-secondary);
+  opacity: 0.82;
+  text-shadow: none;
 }
 
 .home-page-hero .home-page-title :is(em, i) {
@@ -118,8 +120,8 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  max-width: 540px;
-  padding: 12px 0 0;
+  max-width: 590px;
+  padding: 0;
 }
 
 /* Eyebrows / labels */
@@ -178,8 +180,8 @@
 
 .home-page-title {
   margin: 0;
-  font-size: var(--nimote-fs-5xl);
-  line-height: 1.05;
+  font-size: clamp(2.7rem, 4.3vw, 4.5rem);
+  line-height: 1.04;
   letter-spacing: -0.04em;
   font-weight: 600;
   color: var(--nimote-text-primary);
@@ -390,8 +392,8 @@
 }
 
 .home-page-btn.primary {
-  background: linear-gradient(135deg, #e879f9 0%, var(--nimote-accent) 55%, #7c3aed 135%);
-  color: var(--nimote-text-inverse);
+  background: var(--nimote-action);
+  color: var(--nimote-on-action);
   border-color: rgba(255, 255, 255, 0.22);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.32),
@@ -403,7 +405,8 @@
 .home-page-btn.primary:hover {
   transform: translateY(-2px);
   border-color: rgba(255, 255, 255, 0.32);
-  filter: saturate(1.05);
+  background: var(--nimote-action-hover);
+  filter: none;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.36),
     0 1px 0 rgba(0, 0, 0, 0.12),
@@ -411,7 +414,7 @@
 }
 .home-page-btn.primary:active {
   transform: translateY(0);
-  filter: saturate(0.96);
+  filter: brightness(0.96);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.24),
     0 4px 12px rgba(var(--nimote-accent-rgb), 0.3);
@@ -447,8 +450,8 @@
 
 /* Sections */
 .home-page-section {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: var(--nimote-section-space);
+  padding-bottom: var(--nimote-section-space);
   content-visibility: auto;
   contain-intrinsic-size: 1px 900px;
 }
@@ -526,7 +529,7 @@
 }
 .home-page-feature-card h3 a:hover {
   background-size: 100% 1px;
-  color: var(--nimote-accent-light);
+  color: var(--nimote-link);
 }
 
 /* Video */
@@ -771,83 +774,18 @@ html:not(.dark) .home-page-btn.tertiary {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-/* Product-led homepage architecture. The visual system stays intentionally
-   restrained so real product screenshots can carry the page once supplied. */
-.home-page-hero {
-  min-height: 0;
-  padding: 0;
-  border: 0;
-  background:
-    radial-gradient(circle at 82% 20%, rgba(var(--nimote-accent-2-rgb), 0.16), transparent 28%),
-    radial-gradient(circle at 14% 8%, rgba(var(--nimote-accent-rgb), 0.14), transparent 34%),
-    var(--hero-ambient),
-    var(--nimote-bg);
-  box-shadow: none;
-}
-
-.home-page-hero::before {
-  background-image:
-    linear-gradient(rgba(var(--nimote-accent-rgb), 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(var(--nimote-accent-rgb), 0.055) 1px, transparent 1px),
-    url("/screenshots/homepage_bk.jpg");
-  background-size: 42px 42px, 42px 42px, cover;
-  background-position: center, center, right center;
-  background-repeat: repeat, repeat, no-repeat;
-  filter: none;
-}
-
-.home-page-hero::after {
-  background:
-    radial-gradient(ellipse 62% 94% at 16% 50%, rgba(var(--nimote-bg-rgb), 0.97) 0%, rgba(var(--nimote-bg-rgb), 0.82) 42%, rgba(var(--nimote-bg-rgb), 0.38) 70%, transparent 100%),
-    radial-gradient(ellipse 42% 56% at 96% 50%, rgba(var(--nimote-bg-rgb), 0.12) 0%, transparent 70%),
-    radial-gradient(ellipse 72% 22% at 58% 100%, rgba(var(--nimote-bg-rgb), 0.32) 0%, transparent 78%);
-}
-
-.home-page-hero-shell.home-page-hero-shell-product {
-  display: grid;
-  /* Keep the product copy on the left and leave the right side clear for the
-     existing hero background image. */
-  grid-template-columns: minmax(0, 590px);
-  align-items: center;
-  gap: 0;
-  min-height: 620px;
-  padding: 82px clamp(20px, 3vw, 42px) 74px;
-}
-
-.home-page-hero .home-page-brand,
-.home-page-hero .home-page-title {
-  color: var(--nimote-text-primary);
-  text-shadow: none;
-}
-
-.home-page-hero .home-page-subtitle {
-  color: var(--nimote-text-secondary);
-  opacity: 0.82;
-  text-shadow: none;
-}
-
-.home-page-hero-copy {
-  max-width: 590px;
-  padding: 0;
-}
-
-.home-page-title {
-  font-size: clamp(2.7rem, 4.3vw, 4.5rem);
-  line-height: 1.04;
-}
-
 .home-page-availability-link {
   display: inline-flex;
   gap: 8px;
   margin-top: 18px;
-  color: var(--nimote-text-muted);
+  color: var(--nimote-text-secondary);
   font-size: 0.88rem;
   font-weight: 600;
   text-decoration: none;
 }
 
 .home-page-availability-link:hover {
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
 }
 
 .home-page-product-preview {
@@ -999,7 +937,7 @@ html:not(.dark) .home-page-btn.tertiary {
 
 .home-page-signal-band span,
 .home-page-use-case-card > span {
-  color: var(--nimote-accent);
+  color: var(--nimote-link);
   font-size: 0.67rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -1007,7 +945,6 @@ html:not(.dark) .home-page-btn.tertiary {
 
 .home-page-signal-band strong { color: var(--nimote-text-primary); font-size: 0.93rem; font-weight: 600; }
 
-.home-page-product-section { padding-top: 108px; }
 .home-page-module-grid,
 .home-page-use-case-grid { display: grid; gap: 16px; margin-top: 42px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
@@ -1051,10 +988,9 @@ html:not(.dark) .home-page-btn.tertiary {
 .home-page-use-case-card h3 { margin: 48px 0 10px; color: var(--nimote-text-primary); font-size: 1.16rem; letter-spacing: -0.02em; }
 .home-page-module-card p,
 .home-page-use-case-card p { margin: 0; color: var(--nimote-text-secondary); font-size: 0.92rem; line-height: 1.7; }
-.home-page-module-card a { position: absolute; left: 28px; bottom: 26px; color: var(--nimote-accent); font-size: 0.88rem; font-weight: 600; text-decoration: none; }
+.home-page-module-card a { position: absolute; left: 28px; bottom: 26px; color: var(--nimote-link); font-size: 0.88rem; font-weight: 600; text-decoration: none; }
 .home-page-module-card a span { margin-left: 5px; }
 
-.home-page-use-case-section { padding-top: 108px; }
 .home-page-use-case-card { min-height: 246px; text-decoration: none; transition: transform 0.2s var(--nimote-ease), border-color 0.2s var(--nimote-ease), box-shadow 0.2s var(--nimote-ease); }
 .home-page-use-case-card h3 { margin-top: 34px; }
 .home-page-use-case-card:hover { transform: translateY(-4px); border-color: var(--nimote-border-accent); box-shadow: var(--nimote-panel-shadow-hover); }
@@ -1091,8 +1027,6 @@ html:not(.dark) .home-page-btn.tertiary {
   .home-page-preview-tree { padding: 14px 8px; }
   .home-page-preview-editor { padding: 14px; }
   .home-page-signal-band { grid-template-columns: 1fr; margin: 0 18px; border-radius: 15px; }
-  .home-page-product-section,
-  .home-page-use-case-section { padding-top: 74px; }
   .home-page-module-grid,
   .home-page-use-case-grid { grid-template-columns: 1fr; margin-top: 28px; }
   .home-page-module-card,
