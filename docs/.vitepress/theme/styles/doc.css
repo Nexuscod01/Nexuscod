@@ -303,13 +303,82 @@
   display: block;
   overflow: hidden;
   padding: 0;
+  border-style: solid;
+  border-color: var(--nimote-border);
+  background: var(--nimote-bg-subtle);
+  box-shadow: var(--nimote-shadow-xs);
 }
 
 .vp-doc .seo-media-placeholder__image {
   display: block;
   width: 100%;
-  min-height: 240px;
-  object-fit: cover;
+  height: auto;
+  max-width: 100%;
+}
+
+.vp-doc .seo-media-placeholder--device-pair.has-image {
+  min-height: 0;
+  border-radius: 28px;
+  box-shadow: var(--nimote-shadow-md);
+}
+
+.vp-doc .seo-media-placeholder__device-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 0.48fr) minmax(0, 1fr);
+  align-items: end;
+  gap: clamp(12px, 3vw, 28px);
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(14px, 3vw, 26px);
+}
+
+.vp-doc .seo-media-placeholder__device {
+  display: flex;
+  min-width: 0;
+  margin: 0;
+}
+
+.vp-doc .seo-media-placeholder__device--phone {
+  justify-content: end;
+}
+
+.vp-doc .seo-media-placeholder__device--ipad {
+  justify-content: start;
+}
+
+.vp-doc .seo-media-placeholder__device-pair .seo-media-placeholder__image {
+  min-height: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  object-fit: contain;
+  border: 1px solid var(--nimote-border);
+  border-radius: 18px;
+  box-shadow: var(--nimote-shadow-xs);
+}
+
+.vp-doc .seo-media-placeholder__device--phone .seo-media-placeholder__image {
+  width: auto;
+  max-height: min(520px, 68vh);
+}
+
+.vp-doc .seo-media-placeholder__device--ipad .seo-media-placeholder__image {
+  max-height: min(480px, 64vh);
+}
+
+.vp-doc .seo-media-placeholder--device-pair.has-single-device-image .seo-media-placeholder__device-pair {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 320px;
+}
+
+.vp-doc .seo-media-placeholder--device-pair.has-single-device-image .seo-media-placeholder__device {
+  justify-content: center;
+}
+
+.vp-doc .seo-media-placeholder--device-pair.has-single-device-image .seo-media-placeholder__image {
+  max-height: min(620px, 72vh);
 }
 
 /* Compact product-documentation primitives. They keep long-form pages useful
@@ -419,8 +488,22 @@
     padding: 22px;
   }
 
-  .vp-doc .seo-media-placeholder__image {
-    min-height: 180px;
+  .vp-doc .seo-media-placeholder__device-pair {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 360px;
+    gap: 16px;
+  }
+
+  .vp-doc .seo-media-placeholder__device {
+    justify-content: center;
+  }
+
+  .vp-doc .seo-media-placeholder__device--phone .seo-media-placeholder__image {
+    max-height: min(520px, 68vh);
+  }
+
+  .vp-doc .seo-media-placeholder__device--ipad .seo-media-placeholder__image {
+    max-height: none;
   }
 
   .vp-doc .product-card-grid {

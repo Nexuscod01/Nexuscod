@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import {
   placeholderImages,
+  type PlaceholderImage,
   type PlaceholderImageKey
 } from '../image-registry'
 
@@ -10,24 +11,50 @@ const props = defineProps<{
   alt: string
 }>()
 
-const image = computed(() => placeholderImages[props.imageKey])
+const image = computed<PlaceholderImage>(() => placeholderImages[props.imageKey])
+const hasImages = computed(() => Boolean(image.value.phone.src || image.value.ipad.src))
+const hasSingleDeviceImage = computed(
+  () => Boolean(image.value.phone.src) !== Boolean(image.value.ipad.src)
+)
 </script>
 
 <template>
   <div
     class="seo-media-placeholder"
-    :class="{ 'has-image': image.src }"
-    :role="image.src ? undefined : 'img'"
-    :aria-label="image.src ? undefined : alt"
+    :class="[
+      'seo-media-placeholder--device-pair',
+      {
+        'has-image': hasImages,
+        'has-single-device-image': hasSingleDeviceImage
+      }
+    ]"
+    :role="hasImages ? undefined : 'img'"
+    :aria-label="hasImages ? undefined : alt"
   >
-    <img
-      v-if="image.src"
-      class="seo-media-placeholder__image"
-      :src="image.src"
-      :alt="alt"
-      loading="lazy"
-      decoding="async"
-    >
+    <div v-if="hasImages" class="seo-media-placeholder__device-pair">
+      <figure v-if="image.phone.src" class="seo-media-placeholder__device seo-media-placeholder__device--phone">
+        <img
+          class="seo-media-placeholder__image"
+          :src="image.phone.src"
+          :alt="`${alt} — phone`"
+          :width="image.phone.width"
+          :height="image.phone.height"
+          loading="lazy"
+          decoding="async"
+        >
+      </figure>
+      <figure v-if="image.ipad.src" class="seo-media-placeholder__device seo-media-placeholder__device--ipad">
+        <img
+          class="seo-media-placeholder__image"
+          :src="image.ipad.src"
+          :alt="`${alt} — iPad`"
+          :width="image.ipad.width"
+          :height="image.ipad.height"
+          loading="lazy"
+          decoding="async"
+        >
+      </figure>
+    </div>
     <slot v-else />
   </div>
 </template>
