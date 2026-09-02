@@ -112,8 +112,8 @@
   grid-template-columns: minmax(0, 590px);
   align-items: center;
   gap: 0;
-  min-height: 620px;
-  padding: 82px clamp(20px, 3vw, 42px) 74px;
+  min-height: 570px;
+  padding: 70px clamp(20px, 3vw, 42px) 64px;
 }
 
 /* Hero text stays on the same contrast scale as the rest of the page. */
@@ -176,14 +176,14 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
   padding: 0;
 }
 
 .home-page-logo {
-  width: 60px;
-  height: 60px;
-  border-radius: 20px;
+  width: 54px;
+  height: 54px;
+  border-radius: 18px;
   flex-shrink: 0;
   box-shadow: var(--nimote-panel-shadow);
   transition: transform 0.4s var(--nimote-ease);
@@ -203,8 +203,8 @@
 
 .home-page-title {
   margin: 0;
-  font-size: clamp(2.7rem, 4.3vw, 4.5rem);
-  line-height: 1.04;
+  font-size: clamp(2.6rem, 4vw, 4rem);
+  line-height: 1.06;
   letter-spacing: -0.04em;
   font-weight: 600;
   color: var(--nimote-text-primary);
@@ -223,10 +223,10 @@
 
 .home-page-subtitle {
   max-width: 520px;
-  margin: 24px 0 0;
+  margin: 20px 0 0;
   color: var(--nimote-text-secondary);
   font-size: 1.05rem;
-  line-height: 1.8;
+  line-height: 1.7;
   text-wrap: balance;
   text-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
 }
@@ -236,7 +236,7 @@
   gap: 12px;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 32px;
+  margin-top: 28px;
 }
 
 .home-page-video-shell::before,
@@ -558,7 +558,7 @@
 /* Video */
 .home-page-video {
   width: 100%;
-  margin-top: 48px;
+  margin-top: 36px;
 }
 
 .home-page-video-link {
@@ -570,7 +570,7 @@
 .home-page-video-shell {
   position: relative;
   width: 100%;
-  max-width: 1040px;
+  max-width: 960px;
   margin: 0 auto;
   border-radius: 32px;
   overflow: hidden;
@@ -596,7 +596,7 @@
 .home-page-video-overlay {
   position: absolute;
   inset: auto 0 0;
-  padding: 24px 28px 28px;
+  padding: 20px 24px 24px;
   display: grid;
   gap: 8px;
   background: var(--nimote-video-overlay);
@@ -967,7 +967,7 @@ html:not(.dark) .home-page-btn.tertiary {
 .home-page-signal-band strong { color: var(--nimote-text-primary); font-size: 0.93rem; font-weight: 600; }
 
 .home-page-module-grid,
-.home-page-use-case-grid { display: grid; gap: 16px; margin-top: 42px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.home-page-use-case-grid { display: grid; gap: 16px; margin-top: 32px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 .home-page-module-card,
 .home-page-use-case-card {
@@ -1012,7 +1012,7 @@ html:not(.dark) .home-page-btn.tertiary {
 .home-page-module-card a { position: absolute; left: 28px; bottom: 26px; color: var(--nimote-link); font-size: 0.88rem; font-weight: 600; text-decoration: none; }
 .home-page-module-card a span { margin-left: 5px; }
 
-.home-page-use-case-card { min-height: 246px; text-decoration: none; transition: transform 0.2s var(--nimote-ease), border-color 0.2s var(--nimote-ease), box-shadow 0.2s var(--nimote-ease); }
+.home-page-use-case-card { min-height: 220px; padding: 24px; text-decoration: none; transition: transform 0.2s var(--nimote-ease), border-color 0.2s var(--nimote-ease), box-shadow 0.2s var(--nimote-ease); }
 .home-page-use-case-card h3 { margin-top: 34px; }
 .home-page-use-case-card:hover { transform: translateY(-4px); border-color: var(--nimote-border-accent); box-shadow: var(--nimote-panel-shadow-hover); }
 
@@ -1060,17 +1060,59 @@ html:not(.dark) .home-page-btn.tertiary {
    displays, constrain its rendering independently from the copy so it reads
    as a deliberate right-hand visual rather than an oversized page backdrop. */
 @media (min-width: 1025px) {
-  /* The shared container contract is defined once at the top of this file.
-     Desktop only tunes the product shell's inner padding and the copy width;
-     the center axis is unaffected. */
+  /* The supplied artwork carries its visual weight on the right. Reserve the
+     quieter left portion for the message so the copy and the product read as
+     one intentional composition instead of competing at the centre. */
   .home-page-hero-shell.home-page-hero-shell-product {
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-    gap: 0;
-    padding: 82px var(--nimote-home-gutter) 74px;
+    grid-template-columns: minmax(0, 510px) minmax(0, 1fr);
+    justify-items: start;
+    column-gap: clamp(32px, 4vw, 64px);
+    /* Keep sufficient vertical runway so the availability link remains
+       distinct from the Product Demo section below. */
+    min-height: 620px;
+    padding: 80px var(--nimote-home-gutter) 72px;
   }
 
   .home-page-hero-copy {
-    max-width: 640px;
+    max-width: 510px;
+    margin-inline: 0;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .home-page-hero-copy .home-page-subtitle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .home-page-hero-copy .home-page-badge {
+    margin-bottom: 20px;
+  }
+
+  .home-page-hero-copy .home-page-logo-lockup {
+    margin-bottom: 28px;
+  }
+
+  .home-page-hero-copy .home-page-subtitle {
+    margin-top: 24px;
+  }
+
+  .home-page-hero-copy .home-page-actions {
+    margin-top: 32px;
+  }
+
+  .home-page-hero-copy .home-page-availability-link {
+    margin-top: 22px;
+  }
+
+  .home-page-video-section {
+    padding-top: 76px;
+    padding-bottom: 80px;
+  }
+
+  .home-page-use-case-section {
+    padding-top: 80px;
+    padding-bottom: 88px;
   }
 
   /* At 1920px this renders the product layer at 1728px instead of 1920px

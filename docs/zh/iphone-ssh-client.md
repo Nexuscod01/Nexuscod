@@ -1,6 +1,8 @@
 ---
 title: "面向编程工作流的 iPhone SSH 客户端 | NimoteCode"
 description: 需要一个支持真实编程工作流的 iPhone SSH 客户端？看 NimoteCode 如何把远程文件、终端、Git 与 AI 编程上下文带进一个移动开发工作区。
+noindex: true
+canonical: https://nimotecode.com/zh/download
 ---
 
 # 面向编程工作流的 iPhone SSH 客户端

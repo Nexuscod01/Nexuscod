@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs'
 import { resolve } from 'node:path'
 
 // VitePress 1.6.x generates sitemap.xml from every built page, including the
@@ -13,17 +13,27 @@ if (!existsSync(sitemapPath)) {
 
 const raw = readFileSync(sitemapPath, 'utf8')
 
-// noindex stub pages (English-only articles that get a small zh "view English" page)
-// and the 404 page must never be listed as indexable URLs.
-const noindexSlugs = [
-  'can-an-ai-agent-really-code-from-a-phone',
-  'agent-design-is-bounded-optimization-not-intelligence',
-  'i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months',
-  'is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides',
-  'ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide',
-  'why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide',
-  'why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app'
-].map((s) => `/zh/blog/${s}`)
+function noindexRoutes(directory, relative = '') {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    if (entry.name === '.vitepress' || entry.name === 'public') return []
+    const child = resolve(directory, entry.name)
+    const childRelative = `${relative}/${entry.name}`
+    if (entry.isDirectory()) return noindexRoutes(child, childRelative)
+    if (!entry.name.endsWith('.md')) return []
+    const source = readFileSync(child, 'utf8')
+    if (!/^---[\s\S]*?^noindex:\s*true\s*$/m.test(source)) return []
+    const route = childRelative
+      .replace(/^\//, '')
+      .replace(/(?:^|\/)index\.md$/, '')
+      .replace(/\.md$/, '')
+    return [`/${route}` || '/']
+  })
+}
+
+// Sitemap generation occurs before frontmatter is applied. Derive exclusions
+// from source files so every noindex page stays out without a hand-maintained
+// list drifting from the content.
+const noindexSlugs = noindexRoutes(resolve(process.cwd(), 'docs'))
 
 const strip = raw.replace(/<url>[\s\S]*?<\/url>/g, (block) => {
   const loc = block.match(/<loc>([^<]*)<\/loc>/)

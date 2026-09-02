@@ -45,5 +45,5 @@ NimoteCode is not a code viewer or note-taking app. It is designed for practical
 - [Chinese](https://nimotecode.com/zh/): Simplified Chinese locale.
 
 ## Notes
-- The site is VitePress-generated and primarily serves markdown documentation, product pages, and policy pages.
+- The public site separates conversion-focused marketing, guides and product updates from task-oriented documentation under `/docs/`.
 - The public documentation is intentionally concise so LLMs can use the linked pages as focused context rather than scraping the entire site.

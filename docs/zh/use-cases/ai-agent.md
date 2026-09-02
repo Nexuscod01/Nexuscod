@@ -7,13 +7,20 @@ description: 使用 NimoteCode AI Chat 解决直接的代码问题，使用 AI A
 
 根据任务形态选择 AI 模式。**AI Chat** 用于理解和决策；**AI Agent** 用于跨项目文件、终端检查与最终汇总的多步骤协助。
 
+这个工作流仍在持续改进，但 Android 版已经在 Google Play 上可用，App Store 版本正在准备中。如果你经常远程开发或使用 SSH，欢迎用真实任务试一试，并告诉我们还缺少什么；具体反馈会直接帮助下一次迭代。
+
+<p class="seo-cta-actions">
+  <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=ai_agent_demo" class="home-page-btn primary" target="_blank" rel="noreferrer">在 Google Play 试用</a>
+  <a href="https://github.com/nimotecode/nimote_issues/issues" class="home-page-btn secondary" target="_blank" rel="noreferrer">在 GitHub 提交反馈</a>
+</p>
+
 ## 适合用 AI Chat 的时刻
 
 需要解释一段代码、理解终端输出、规划一次重构，或在修改前列出审查点时，优先使用 Chat。保持目标文件激活，能让对话获得更合适的上下文。
 
 ## 适合用 AI Agent 的时刻
 
-当任务需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，使用 Agent 更合适。它可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用；并非按量提供的免费额度。
+当任务需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，使用 Agent 更合适。它可在按设备计算的 14 天试用期间使用，也可通过 Pro 使用；并非按量提供的免费额度。
 
 ## 保持流程可审查
 

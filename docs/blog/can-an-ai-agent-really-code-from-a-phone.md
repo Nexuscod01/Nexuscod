@@ -32,5 +32,5 @@ If you want to see how a controlled agent fits into a reviewable delivery loop, 
 
 <div class="seo-cta">
   <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/nimotecode">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
-  <p class="seo-cta-actions"><a href="/download?utm_source=blog&utm_medium=organic&utm_campaign=agent_from_phone" class="home-page-btn primary">Download NimoteCode</a></p>
+  <p class="seo-cta-actions"><a href="/demo?utm_source=blog&utm_medium=organic&utm_campaign=agent_from_phone_demo" class="home-page-btn primary">Watch the Demo</a><a href="/docs/ai?utm_source=blog&utm_medium=organic&utm_campaign=agent_from_phone_guide" class="home-page-btn secondary">Read the Agent guide</a></p>
 </div>

@@ -11,7 +11,7 @@ No. NimoteCode can open a local project or an SSH workspace, and brings Explorer
 
 ## Can I use it without Pro?
 
-Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the three-day, per-device trial and with Pro. See [Pro](/pro) for the gated workflows.
+Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the 14-day, per-device trial and with Pro. See [Pro](/pro) for the gated workflows.
 
 ## Which AI providers can I configure?
 

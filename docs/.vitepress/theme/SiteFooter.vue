@@ -20,6 +20,11 @@ const copy = computed(() => isChinese.value ? {
   download: '下载',
   explore: '探索',
   guides: '使用指南',
+  changelog: '更新日志',
+  social: '关注我们',
+  youtube: 'YouTube',
+  x: 'X / Twitter',
+  github: 'GitHub',
   demo: '观看演示',
   company: '帮助与政策',
   support: '支持',
@@ -43,6 +48,11 @@ const copy = computed(() => isChinese.value ? {
   download: 'Download',
   explore: 'Explore',
   guides: 'Guides',
+  changelog: 'What’s New',
+  social: 'Follow',
+  youtube: 'YouTube',
+  x: 'X / Twitter',
+  github: 'GitHub',
   demo: 'Watch demo',
   company: 'Company',
   support: 'Support',
@@ -87,6 +97,15 @@ function localized(path: string) {
         <nav :aria-label="copy.explore">
           <h2>{{ copy.explore }}</h2>
           <a v-for="link in copy.exploreLinks" :key="link.href" :href="localized(link.href)">{{ link.text }}</a>
+        </nav>
+
+        <nav :aria-label="copy.social">
+          <h2>{{ copy.social }}</h2>
+          <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s" target="_blank" rel="noreferrer">{{ copy.youtube }}</a>
+          <a href="https://x.com/nimotecode" target="_blank" rel="noreferrer">{{ copy.x }}</a>
+          <a href="https://github.com/nimotecode" target="_blank" rel="noreferrer">{{ copy.github }}</a>
+          <a :href="localized('/blog/')">{{ copy.guides }}</a>
+          <a :href="localized('/changelog')">{{ copy.changelog }}</a>
         </nav>
 
         <nav :aria-label="copy.company">

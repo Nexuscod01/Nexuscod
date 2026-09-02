@@ -11,7 +11,7 @@ description: 快速了解 NimoteCode 的本地与 SSH 工作区、AI Provider、
 
 ## 不购买 Pro 能使用吗？
 
-可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用；详见 [Pro](/zh/pro)。
+可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在按设备计算的 14 天试用期间使用，也可通过 Pro 使用；详见 [Pro](/zh/pro)。
 
 ## 可配置哪些 AI Provider？
 

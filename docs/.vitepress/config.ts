@@ -2,6 +2,7 @@ import { defineConfig, type HeadConfig, type TransformContext } from 'vitepress'
 import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
+import { product, productCopy } from './theme/product'
 
 const siteUrl = 'https://nimotecode.com'
 const brandLogo = `${siteUrl}/app_icon.png`
@@ -25,6 +26,11 @@ function normalizePath(path: string): string {
 function canonicalUrl(path: string): string {
   const normalized = normalizePath(path)
   return normalized === '/' ? siteUrl : `${siteUrl}${normalized}`
+}
+
+function pageCanonicalUrl(context: TransformContext): string {
+  const explicit = asContent(context.pageData.frontmatter.canonical, '')
+  return explicit || canonicalUrl(context.pageData.relativePath)
 }
 
 function asContent(value: unknown, fallback: string): string {
@@ -89,7 +95,7 @@ function localeAlternates(path: string): HeadConfig[] {
 }
 
 function pageSchemas(context: TransformContext): object[] {
-  const url = canonicalUrl(context.pageData.relativePath)
+  const url = pageCanonicalUrl(context)
   const title = asContent(context.pageData.frontmatter.title, asContent(context.pageData.title, 'NimoteCode'))
   const description = pageDescription(context, title)
   const inLanguage = languageForPath(context.pageData.relativePath)
@@ -224,7 +230,7 @@ function videoSchema(context: TransformContext): object | null {
     uploadDate,
     contentUrl,
     embedUrl: asContent(video.embedUrl, contentUrl),
-    url: canonicalUrl(context.pageData.relativePath),
+    url: pageCanonicalUrl(context),
     publisher: {
       '@type': 'Organization',
       name: 'NimoteCode',
@@ -285,7 +291,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'Can I use it without Pro?',
-        answer: 'Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the three-day, per-device trial and with Pro.'
+        answer: `Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the ${productCopy.en.trial} and with Pro.`
       },
       {
         question: 'Which AI providers can I configure?',
@@ -311,7 +317,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: '不购买 Pro 能使用吗？',
-        answer: '可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用。'
+        answer: `可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在${productCopy.zh.trial}期间使用，也可通过 Pro 使用。`
       },
       {
         question: '可配置哪些 AI Provider？',
@@ -447,7 +453,7 @@ export default defineConfig({
     hostname: siteUrl
   },
   transformHead(context) {
-    const url = canonicalUrl(context.pageData.relativePath)
+    const url = pageCanonicalUrl(context)
     const title = asContent(context.pageData.frontmatter.title, asContent(context.pageData.title, 'NimoteCode'))
     const description = pageDescription(context, title)
     const image = asContent(context.pageData.frontmatter.image, socialImage)
@@ -475,7 +481,7 @@ export default defineConfig({
       ['meta', { name: 'author', content: 'NimoteCode' }],
       ['meta', { name: 'apple-mobile-web-app-title', content: 'NimoteCode' }],
       ['script', { type: 'application/ld+json' }, JSON.stringify(pageSchemas(context))],
-      ...localeAlternates(context.pageData.relativePath)
+      ...(noIndex ? [] : localeAlternates(context.pageData.relativePath))
     ]
   },
   head: [
@@ -486,7 +492,6 @@ export default defineConfig({
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'theme-color', content: '#d946ef' }],
     ['meta', { name: 'theme-color', content: '#a21caf', media: '(prefers-color-scheme: dark)' }],
-    ['meta', { name: 'generator', content: 'VitePress' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'format-detection', content: 'telephone=no' }],
@@ -550,45 +555,16 @@ export default defineConfig({
               ]
             }
           ],
-          '/': [
+          '/docs/': [
             {
               text: 'Start',
               items: [
-                { text: 'Quick Start', link: '/docs/quick-start' },
-                { text: 'Introduction', link: '/introduction' },
-                { text: 'Features', link: '/features' },
-                { text: 'Use Cases', link: '/use-cases/' },
-                { text: 'Pro', link: '/pro' },
-                { text: 'Download', link: '/download?utm_source=sidebar&utm_medium=website&utm_campaign=product_navigation' },
-                { text: 'Watch Demo', link: '/demo?utm_source=sidebar&utm_medium=website&utm_campaign=product_navigation' }
-              ]
-            },
-            {
-              text: 'Guides',
-              collapsed: true,
-              items: [
-                { text: 'All Guides', link: '/blog/' },
-                { text: 'Best Mobile IDEs', link: '/blog/best-mobile-ides' },
-                { text: 'Best SSH Clients', link: '/blog/best-ssh-clients' },
-                { text: 'How to Code From iPad', link: '/blog/how-to-code-from-ipad' },
-                { text: 'Claude Code From Phone', link: '/blog/claude-code-from-phone' },
-                { text: 'Codex From Phone', link: '/blog/codex-from-phone' },
-                { text: 'Termius vs Blink vs NimoteCode', link: '/blog/termius-vs-blink-vs-nimotecode' }
-              ]
-            },
-            {
-              text: 'Use Cases',
-              collapsed: true,
-              items: [
-                { text: 'Overview', link: '/use-cases/' },
-                { text: 'Remote Hotfix', link: '/use-cases/remote-hotfix' },
-                { text: 'On-call Diagnostics', link: '/use-cases/on-call-diagnostics' },
-                { text: 'AI Agent Workflows', link: '/use-cases/ai-agent' }
+                { text: 'Quick Start', link: '/docs/quick-start' }
               ]
             },
             {
               text: 'Daily Workflow',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'SSH Workspace', link: '/docs/ssh' },
                 { text: 'Editor', link: '/docs/editor' },
@@ -600,7 +576,7 @@ export default defineConfig({
             },
             {
               text: 'AI and Diagnostics',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'AI Chat and Agent', link: '/docs/ai' },
                 { text: 'LSP', link: '/docs/lsp' },
@@ -610,14 +586,34 @@ export default defineConfig({
             },
             {
               text: 'Reference',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Account and Subscription', link: '/docs/account-subscription' },
                 { text: 'Security and Safety', link: '/docs/security' },
                 { text: 'Settings', link: '/docs/settings' },
                 { text: 'Configuration', link: '/docs/configuration' },
-                { text: 'FAQ', link: '/docs/faq' },
-                { text: 'Support', link: '/support' }
+                { text: 'FAQ', link: '/docs/faq' }
+              ]
+            }
+          ],
+          '/use-cases/': [
+            {
+              text: 'Workflows',
+              collapsed: false,
+              items: [
+                { text: 'Overview', link: '/use-cases/' },
+                { text: 'Remote Hotfix', link: '/use-cases/remote-hotfix' },
+                { text: 'On-call Diagnostics', link: '/use-cases/on-call-diagnostics' },
+                { text: 'AI Agent Workflow', link: '/use-cases/ai-agent' }
+              ]
+            },
+            {
+              text: 'Documentation',
+              collapsed: false,
+              items: [
+                { text: 'Quick Start', link: '/docs/quick-start' },
+                { text: 'SSH Workspace', link: '/docs/ssh' },
+                { text: 'AI Chat and Agent', link: '/docs/ai' }
               ]
             }
           ]
@@ -669,44 +665,16 @@ export default defineConfig({
               ]
             }
           ],
-          '/zh/': [
+          '/zh/docs/': [
             {
               text: '开始使用',
               items: [
-                { text: '快速入门', link: '/zh/docs/quick-start' },
-                { text: '简介', link: '/zh/introduction' },
-                { text: '功能特性', link: '/zh/features' },
-                { text: '使用场景', link: '/zh/use-cases/' },
-                { text: 'Pro', link: '/zh/pro' },
-                { text: '下载', link: '/zh/download' }
-              ]
-            },
-            {
-              text: '场景',
-              collapsed: true,
-              items: [
-                { text: '总览', link: '/zh/use-cases/' },
-                { text: '远程热修', link: '/zh/use-cases/remote-hotfix' },
-                { text: '值班诊断', link: '/zh/use-cases/on-call-diagnostics' },
-                { text: 'AI Agent 工作流', link: '/zh/use-cases/ai-agent' }
-              ]
-            },
-            {
-              text: '使用指南',
-              collapsed: true,
-              items: [
-                { text: '全部指南', link: '/zh/blog/' },
-                { text: '最佳移动 IDE', link: '/zh/blog/best-mobile-ides' },
-                { text: '最佳 SSH 客户端', link: '/zh/blog/best-ssh-clients' },
-                { text: '如何用 iPad 编程', link: '/zh/blog/how-to-code-from-ipad' },
-                { text: '用手机使用 Claude Code', link: '/zh/blog/claude-code-from-phone' },
-                { text: '用手机使用 Codex', link: '/zh/blog/codex-from-phone' },
-                { text: 'Termius 对比 Blink 与 NimoteCode', link: '/zh/blog/termius-vs-blink-vs-nimotecode' }
+                { text: '快速入门', link: '/zh/docs/quick-start' }
               ]
             },
             {
               text: '日常开发',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'SSH 远程开发', link: '/zh/docs/ssh' },
                 { text: '编辑器', link: '/zh/docs/editor' },
@@ -718,7 +686,7 @@ export default defineConfig({
             },
             {
               text: 'AI 与诊断',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'AI Chat 与 Agent', link: '/zh/docs/ai' },
                 { text: 'LSP 面板', link: '/zh/docs/lsp' },
@@ -728,14 +696,34 @@ export default defineConfig({
             },
             {
               text: '参考',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: '账户与订阅', link: '/zh/docs/account-subscription' },
                 { text: '安全与防护', link: '/zh/docs/security' },
                 { text: '设置', link: '/zh/docs/settings' },
                 { text: '配置', link: '/zh/docs/configuration' },
-                { text: '常见问题', link: '/zh/docs/faq' },
-                { text: '支持', link: '/zh/support' }
+                { text: '常见问题', link: '/zh/docs/faq' }
+              ]
+            }
+          ],
+          '/zh/use-cases/': [
+            {
+              text: '工作流',
+              collapsed: false,
+              items: [
+                { text: '总览', link: '/zh/use-cases/' },
+                { text: '远程热修', link: '/zh/use-cases/remote-hotfix' },
+                { text: '值班排障', link: '/zh/use-cases/on-call-diagnostics' },
+                { text: 'AI Agent 工作流', link: '/zh/use-cases/ai-agent' }
+              ]
+            },
+            {
+              text: '文档',
+              collapsed: false,
+              items: [
+                { text: '快速开始', link: '/zh/docs/quick-start' },
+                { text: 'SSH 工作区', link: '/zh/docs/ssh' },
+                { text: 'AI Chat 与 Agent', link: '/zh/docs/ai' }
               ]
             }
           ]

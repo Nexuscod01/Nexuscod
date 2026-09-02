@@ -2,8 +2,10 @@
 
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
+import MarketingLayout from './MarketingLayout.vue'
 import ImagePlaceholder from './components/ImagePlaceholder.vue'
 import PricingFeatureSystem from './components/PricingFeatureSystem.vue'
+import SocialProof from './components/SocialProof.vue'
 import { type Theme } from 'vitepress'
 import './custom.css'
 // @ts-ignore - The package does not ship TypeScript types.
@@ -16,6 +18,8 @@ const theme: Theme = {
   enhanceApp({ app }) {
     app.component('ImagePlaceholder', ImagePlaceholder)
     app.component('PricingFeatureSystem', PricingFeatureSystem)
+    app.component('SocialProof', SocialProof)
+    app.component('MarketingLayout', MarketingLayout)
 
     if (import.meta.env.PROD) {
       googleAnalytics({

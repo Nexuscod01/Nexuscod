@@ -5,41 +5,29 @@ description: 关于如何选择移动 IDE 或 SSH 客户端，以及如何在 iP
 
 # 移动开发指南
 
-这些指南面向正在评估如何在手机或平板上工作、而不想把工作退化成孤立终端或文本编辑器的开发者。它们围绕决策与工作流展开，而非只讲产品功能。
+面向希望在手机或平板上继续处理真实开发任务的开发者。按你要解决的决策浏览，或阅读 NimoteCode 背后的构建记录。
 
-## 选择合适的移动开发方案
+## 选择工作流
 
-| 指南 | 帮助你决定什么 |
-|---|---|
-| [最佳移动 IDE](/zh/blog/best-mobile-ides) | 当移动工作包含代码、终端、Git 与 AI 时，哪些能力更重要 |
-| [最佳 SSH 客户端](/zh/blog/best-ssh-clients) | 你需要纯终端客户端，还是基于 SSH 的开发工作区 |
-| [如何用 iPad 编程](/zh/blog/how-to-code-from-ipad) | 一套实用的 iPad、SSH 项目与 Git 审查工作流 |
-| [用手机使用 Claude Code](/zh/blog/claude-code-from-phone) | 如何让基于 SSH 的 Claude Code 工作流在手机上可审查 |
-| [用手机使用 Codex](/zh/blog/codex-from-phone) | 如何在编辑器、终端与 Git 上下文旁使用远程 Codex 工作流 |
-| [Termius 对比 Blink 与 NimoteCode](/zh/blog/termius-vs-blink-vs-nimotecode) | 终端优先与工作区优先如何服务不同任务 |
-
-## 从你现在的工作流出发
-
-- 需要编辑并验证远程仓库？看 [SSH IDE](/zh/ssh-ide)。
-- 需要贴近真实文件与命令的 AI 辅助？看[移动 AI 编程](/zh/mobile-ai-coding)。
-- 需要按平台开始的入口？看 [Android SSH 客户端](/zh/android-ssh-client)、[iPhone SSH 客户端](/zh/iphone-ssh-client) 或 [iPad 编程](/zh/ipad-coding)。
+<div class="product-card-grid blog-index-cards">
+  <a class="product-card" href="/zh/blog/best-mobile-ides"><strong>最佳移动 IDE</strong><span>移动任务涉及代码、终端、Git 与 AI 时，哪些能力最重要。</span></a>
+  <a class="product-card" href="/zh/blog/best-ssh-clients"><strong>最佳 SSH 客户端</strong><span>选择纯终端客户端，还是基于 SSH 的开发工作区。</span></a>
+  <a class="product-card" href="/zh/blog/how-to-code-from-ipad"><strong>如何用 iPad 编程</strong><span>适用于 SSH 项目和 Git 审查的一套实用流程。</span></a>
+  <a class="product-card" href="/zh/blog/claude-code-from-phone"><strong>用手机使用 Claude Code</strong><span>让远程 Agent 工作流保持可观察、可审查。</span></a>
+  <a class="product-card" href="/zh/blog/codex-from-phone"><strong>用手机使用 Codex</strong><span>让代码库、终端输出和 Git 上下文始终贴近 Agent。</span></a>
+  <a class="product-card" href="/zh/blog/termius-vs-blink-vs-nimotecode"><strong>Termius、Blink 与 NimoteCode</strong><span>根据任务在终端优先和工作区优先之间选择。</span></a>
+</div>
 
 ## 构建日志
 
-构建 NimoteCode 过程中的个人记录与对 2026 年移动软件开发的思考（英文）：
-
-- [Why I Decided to Build a Mobile IDE Instead of Another AI App](/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app)
-- [SSH + Mobile Coding Is Still Broken](/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide)
-- [Why Existing Flutter Code Editors Broke Down](/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide)
-- [Is Local Heavy Compilation Dead?](/blog/is-local-heavy-compilation-dead-the-rise-of-2026-ai-agentic-mobile-ides)
-- [I Built a Mobile IDE With ~90% AI-Generated Code](/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months)
-- [Agent Design is Bounded Optimization, Not Intelligence](/blog/agent-design-is-bounded-optimization-not-intelligence)
-- [Can an AI Agent Really Code From a Phone?](/blog/can-an-ai-agent-really-code-from-a-phone)
+<div class="product-card-grid blog-index-cards">
+  <a class="product-card" href="/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app"><strong>为什么做移动 IDE？</strong><span>为什么移动开发需要完整工作流，而不只是另一个 AI 应用。</span></a>
+  <a class="product-card" href="/blog/ssh-mobile-coding-is-still-broken-so-i-built-my-own-ide"><strong>为什么 SSH 移动编程仍然破碎</strong><span>终端访问与真实开发工作区之间的缺口。</span></a>
+  <a class="product-card" href="/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide"><strong>编辑器基础设施</strong><span>把编辑器当组件而不是系统时，什么会出问题。</span></a>
+  <a class="product-card" href="/blog/i-built-a-mobile-ide-with-90-ai-generated-code-but-it-still-took-me-6-months"><strong>90% AI 生成代码，仍用六个月</strong><span>AI 加速了什么，哪些部分仍需要工程判断。</span></a>
+</div>
 
 <div class="seo-cta">
-  <p><strong>看看这些指南背后的工作区。</strong></p>
-  <p class="seo-cta-actions">
-    <a href="/zh/demo?utm_source=blog_index&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
-    <a href="/zh/download?utm_source=blog_index&utm_medium=organic&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
-  </p>
+  <p><strong>想先看流程再决定读什么？</strong></p>
+  <p class="seo-cta-actions"><a href="/zh/demo?utm_source=blog_index&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a><a href="/feed.xml" class="home-page-btn tertiary">订阅 RSS</a></p>
 </div>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import translations from '../i18n/pricing-features.json'
+import { product, productCopy } from '../product'
 
 type Locale = keyof typeof translations
 
@@ -11,6 +12,9 @@ const props = defineProps<{
 
 const copy = computed(() => translations[props.lang || 'en'] || translations.en)
 const showFeatures = computed(() => props.mode !== 'preview')
+const language = computed(() => props.lang === 'zh' ? 'zh' : 'en')
+const trial = computed(() => productCopy[language.value].trial)
+const pricing = computed(() => productCopy[language.value].pricing)
 </script>
 
 <template>
@@ -42,7 +46,7 @@ const showFeatures = computed(() => props.mode !== 'preview')
       </div>
       <div class="pf-pricing-grid">
         <article
-          v-for="plan in copy.pricing.plans"
+          v-for="(plan, index) in copy.pricing.plans"
           :key="plan.name"
           class="pf-plan-card"
           :class="{ 'is-featured': plan.highlight }"
@@ -52,12 +56,12 @@ const showFeatures = computed(() => props.mode !== 'preview')
             <span v-if="plan.badge">{{ plan.badge }}</span>
           </div>
           <div class="pf-price-row">
-            <strong>{{ plan.price }}</strong>
-            <span>{{ plan.period }}</span>
+            <strong>{{ index === 1 ? product.pricing.monthly.replace('/month', '') : plan.price }}</strong>
+            <span>{{ index === 1 ? (language === 'zh' ? '每月' : 'per month') : plan.period }}</span>
           </div>
-          <div v-if="plan.yearlyPrice" class="pf-yearly-row">
-            <strong>{{ plan.yearlyPrice }}</strong>
-            <span>{{ plan.yearlyPeriod }}</span>
+          <div v-if="index === 1" class="pf-yearly-row">
+            <strong>{{ product.pricing.yearly.replace('/year', '') }}</strong>
+            <span>{{ language === 'zh' ? '每年' : 'per year' }}</span>
           </div>
           <p class="pf-plan-summary">{{ plan.summary }}</p>
           <a :href="plan.link" class="home-page-btn" :class="plan.highlight ? 'primary' : 'secondary'">
@@ -68,7 +72,8 @@ const showFeatures = computed(() => props.mode !== 'preview')
           </ul>
         </article>
       </div>
-      <p class="pf-trust-line">{{ copy.pricing.trustLine }}</p>
+      <p class="pf-trust-line">{{ copy.pricing.trustLine }} {{ trial }}. {{ pricing }}.</p>
+      <p class="pf-trust-line">{{ productCopy[language].byok }}</p>
     </section>
   </div>
 </template>

@@ -85,5 +85,5 @@ These decisions shape how the pieces work together—see the [Editor](/docs/edit
 
 <div class="seo-cta">
   <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/nimotecode">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
-  <p class="seo-cta-actions"><a href="/download?utm_source=blog&utm_medium=organic&utm_campaign=flutter_editors" class="home-page-btn primary">Download NimoteCode</a></p>
+  <p class="seo-cta-actions"><a href="/docs/editor?utm_source=blog&utm_medium=organic&utm_campaign=flutter_editors_guide" class="home-page-btn primary">Read the Editor guide</a><a href="/changelog?utm_source=blog&utm_medium=organic&utm_campaign=flutter_editors_updates" class="home-page-btn secondary">See what’s new</a></p>
 </div>

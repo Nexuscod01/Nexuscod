@@ -20,7 +20,7 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
 | Editor | Work in tabs, save changes, use clipboard and undo/redo, follow cursor position and open structural context when available. | Free |
 | Terminal | Run commands in the active workspace, search output, use shortcuts and recover after a remote reconnect. | Free |
 | AI Chat | Explain code, inspect error output and plan the next change with current-file context. | Free |
-| AI Agent | Assist a controlled multi-step workflow involving files, terminal and Git tools. | 3-day trial · Pro |
+| AI Agent | Assist a controlled multi-step workflow involving files, terminal and Git tools. | 14-day trial · Pro |
 
 ## Deliver, diagnose and automate
 

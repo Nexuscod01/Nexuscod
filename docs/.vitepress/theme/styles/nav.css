@@ -5,6 +5,38 @@
    ========================================================================== */
 
 /* Header ---------------------------------------------------------------- */
+.nimote-marketing-layout .VPNavBar.has-sidebar,
+.nimote-marketing-layout .VPNavBar.has-sidebar .container {
+  /* Marketing routes deliberately never inherit the docs sidebar chrome. */
+  grid-template-columns: none !important;
+}
+
+.nimote-marketing-main {
+  min-height: calc(100vh - var(--vp-nav-height));
+  padding-top: var(--vp-nav-height);
+}
+
+.nimote-marketing-doc {
+  width: min(100% - 48px, 860px);
+  margin: 0 auto;
+  padding: 56px 0 96px;
+}
+
+/* Marketing pages use an 860px shell for conversion blocks, while prose is
+   intentionally capped at 760px. Centre that narrower reading column inside
+   its shell; otherwise it starts at the shell's left edge on desktop. */
+.nimote-marketing-doc .vp-doc {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .nimote-marketing-doc {
+    width: min(100% - 40px, 860px);
+    padding: 36px 0 64px;
+  }
+}
+
 .VPNavBar {
   border-bottom: 1px solid var(--border-subtle);
   background: var(--nimote-nav-bg) !important;
@@ -250,22 +282,48 @@
   .VPContent.has-sidebar .vp-doc {
     box-sizing: border-box;
     min-width: 0 !important;
-    max-width: 100%;
   }
 
-  .VPContent.has-sidebar .VPDoc .content {
-    flex: 1 1 auto;
-    width: auto;
+  /* Keep one centred reading column while the outline is hidden. The prior
+     flex: 1 rule stretched this column across every spare pixel after the
+     sidebar, which made it visibly drift left at intermediate widths. */
+  .VPContent.has-sidebar .VPDoc .container {
+    max-width: 760px;
+    margin: 0 auto;
   }
 
-  .VPContent.has-sidebar .VPDoc .aside {
-    flex: 0 1 256px;
-    min-width: 0;
-  }
-
-  .VPContent.has-sidebar .vp-doc {
+  .VPContent.has-sidebar .VPDoc .content,
+  .VPContent.has-sidebar .VPDoc .content-container,
+  .VPContent.has-sidebar .VPDoc .vp-doc {
     width: 100%;
     max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 1280px) {
+    /* On wide screens, centre the reading column and its outline as one
+       deliberate layout group instead of letting the content flex-fill. */
+    .VPContent.has-sidebar .VPDoc .container {
+      display: flex;
+      justify-content: center;
+      max-width: 1048px;
+    }
+
+    .VPContent.has-sidebar .VPDoc .content {
+      flex: 0 1 760px;
+      width: min(760px, 100%);
+      margin: 0;
+    }
+
+    .VPContent.has-sidebar .VPDoc .content-container {
+      margin: 0;
+    }
+
+    .VPContent.has-sidebar .VPDoc .aside {
+      flex: 0 0 256px;
+      min-width: 0;
+    }
   }
 
   .VPLocalNav.has-sidebar {

@@ -1,6 +1,8 @@
 ---
 title: "iPhone SSH Client for Coding Workflows | NimoteCode"
 description: "Looking for an iPhone SSH client that supports real coding workflows? See how NimoteCode brings remote files, terminal, Git and AI coding context into a mobile development workspace."
+noindex: true
+canonical: https://nimotecode.com/download
 ---
 
 # iPhone SSH Client for Coding Workflows

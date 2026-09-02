@@ -21,7 +21,7 @@
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "AI Agent after the 3-day trial",
+            "AI Agent after the 14-day trial",
             "Controlled multi-step tasks",
             "Remote content search"
           ]
@@ -107,8 +107,10 @@
         {
           "name": "Pro",
           "badge": "Best Value",
-          "price": "Store price",
-          "period": "shown in the app",
+          "price": "$3.99",
+          "period": "per month",
+          "yearlyPrice": "$39.99",
+          "yearlyPeriod": "per year",
           "summary": "Unlock the complete mobile IDE system for serious delivery.",
           "cta": "Upgrade to Pro",
           "link": "/pro",
@@ -147,7 +149,7 @@
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "3 天试用后使用 AI Agent",
+            "14 天试用后使用 AI Agent",
             "受控多步骤任务",
             "远程内容搜索"
           ]
@@ -233,8 +235,10 @@
         {
           "name": "Pro",
           "badge": "最佳价值",
-          "price": "商店当前价格",
-          "period": "以应用内显示为准",
+          "price": "$3.99",
+          "period": "每月",
+          "yearlyPrice": "$39.99",
+          "yearlyPeriod": "每年",
           "summary": "解锁用于严肃交付的完整移动 IDE 系统。",
           "cta": "升级到 Pro",
           "link": "/zh/pro",
@@ -274,7 +278,7 @@
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "3 日間の試用後に AI Agent を利用",
+            "14 日間の試用後に AI Agent を利用",
             "制御された複数ステップのタスク",
             "リモートコンテンツ検索"
           ]
@@ -401,7 +405,7 @@
           "name": "AI",
           "badge": "Pro",
           "items": [
-            "3일 체험 후 AI Agent 사용",
+            "14일 체험 후 AI Agent 사용",
             "제어된 다단계 작업",
             "원격 콘텐츠 검색"
           ]

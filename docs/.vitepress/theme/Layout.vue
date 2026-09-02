@@ -11,6 +11,7 @@ import VPSkipLink from 'vitepress/dist/client/theme-default/components/VPSkipLin
 import { useCloseSidebarOnEscape, useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar'
 import SiteAnalytics from './SiteAnalytics.vue'
 import SiteFooter from './SiteFooter.vue'
+import MarketingLayout from './MarketingLayout.vue'
 import './custom.css'
 
 const {
@@ -28,9 +29,14 @@ const { frontmatter } = useData()
 const slots = useSlots()
 const heroImageSlotExists = computed(() => !!slots['home-hero-image'])
 provide('hero-image-slot-exists', heroImageSlotExists)
+const isDocsRoute = computed(() => /^\/(?:zh\/)?docs(?:\/|$)/.test(route.path))
+const isBlogRoute = computed(() => /^\/(?:zh\/)?blog(?:\/|$)/.test(route.path))
+const isWorkflowRoute = computed(() => /^\/(?:zh\/)?use-cases(?:\/|$)/.test(route.path))
 </script>
 
 <template>
+  <MarketingLayout v-if="!isDocsRoute && !isBlogRoute && !isWorkflowRoute" />
+  <template v-else>
   <SiteAnalytics />
   <div v-if="frontmatter.layout !== false" class="Layout" :class="[frontmatter.pageClass, { 'has-sidebar': hasSidebar }]">
     <slot name="layout-top" />
@@ -88,4 +94,5 @@ provide('hero-image-slot-exists', heroImageSlotExists)
     <SiteFooter />
   </div>
   <Content v-else />
+  </template>
 </template>

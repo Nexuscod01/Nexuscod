@@ -28,6 +28,6 @@ NimoteCode 将本地或 SSH 项目的文件编辑、终端命令和 AI 协助收
 4. 运行 `pwd`、`ls` 或项目测试命令完成验证。
 5. 只有计划使用 AI Chat 或 AI Agent 时，再配置 AI Provider。
 
-免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和 Tasks。AI Agent 与远程内容搜索可在按设备计算的 3 天试用期间使用，也可通过 Pro 使用。Pro 还提供 Git 写入、多终端、LSP、Debug 与 Sync / Cache。
+免费版包含本地与 SSH 工作区、编辑器、基础终端、Git 审查、AI Chat 和 Tasks。AI Agent 与远程内容搜索可在按设备计算的 14 天 Pro 试用期间使用，也可通过 Pro 使用。Pro 每月 $3.99 或每年 $39.99，还提供 Git 写入、多终端、LSP、Debug 与 Sync / Cache。AI 采用 BYOK，模型访问和计费由你的 Provider 账户决定。
 
 安装后建议继续阅读 [快速开始](/zh/docs/quick-start)、[SSH 工作区](/zh/docs/ssh) 或 [功能特性](/zh/features)。

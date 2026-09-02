@@ -18,7 +18,7 @@ Ask Chat to explain unfamiliar code, interpret terminal output, outline a refact
 
 ## Use AI Agent for a controlled sequence
 
-Agent is appropriate when a task needs to inspect files, propose a plan, make an edit, run a check and summarize the result. It is available during the three-day, per-device trial and with Pro; it does not use a free usage quota.
+Agent is appropriate when a task needs to inspect files, propose a plan, make an edit, run a check and summarize the result. It is available during the 14-day, per-device trial and with Pro; it does not use a free usage quota.
 
 ## Configure providers deliberately
 

@@ -1,214 +1,31 @@
 ---
 title: Support | NimoteCode
-description: Get support for NimoteCode through email, GitHub issues, documentation, and troubleshooting guides.
+description: Get help with SSH connections, AI providers and API keys, Pro restoration, subscriptions, accounts and NimoteCode support.
 ---
 
-# NimoteCode Support Center
+# NimoteCode Support
 
-Need help with NimoteCode? We're here to assist you.
+Choose the problem you need to solve. Include your device, app version, a safe description of the issue and any error message; never send passwords, private keys or API keys.
 
-## Contact Us
+## Get help
 
-Get in touch with our team for support, feedback, or questions.
-
-<div class="feature-grid feature-grid-primary">
-<VPFeatures>
-  <VPFeature
-    title="Email Support"
-    details="Reach out to us directly at nimotecode@gmail.com for personalized assistance."
-    link="mailto:nimotecode@gmail.com"
-    linkText="Email support"
-  />
-  <VPFeature
-    title="GitHub Issues"
-    details="Report bugs, request features, or track existing issues on our GitHub repository."
-    link="https://github.com/nimotecode/nimote_issues/issues"
-    linkText="Open GitHub Issues"
-    target="_blank"
-    rel="noreferrer"
-  />
-  <VPFeature
-    title="Documentation"
-    details="Check our comprehensive guides and tutorials for self-service troubleshooting."
-    link="/docs/quick-start"
-    linkText="Read the docs"
-  />
-  <VPFeature
-    title="Community feedback"
-    details="Share an idea, a workflow detail, or a reproducible issue with the NimoteCode community on GitHub."
-    link="https://github.com/nimotecode/nimote_issues/issues"
-    linkText="Join the conversation"
-    target="_blank"
-    rel="noreferrer"
-  />
-</VPFeatures>
+<div class="product-card-grid">
+  <div class="product-card"><strong>SSH connection problems</strong><span>Check the host, port, username, authentication method and network reachability. Start with a saved profile and a harmless command such as <code>pwd</code>.</span></div>
+  <div class="product-card"><strong>AI provider or API key</strong><span>Confirm the base URL, model name and provider-account access. NimoteCode uses BYOK; model access and billing are controlled by your provider.</span></div>
+  <div class="product-card"><strong>Restore Pro</strong><span>Sign in with the account used for the purchase, verify that the store subscription is active, then use the restore option in the app.</span></div>
+  <div class="product-card"><strong>Subscription or account</strong><span>For billing, cancellation, sign-in, privacy or deletion questions, contact support with the platform and purchase/account email where applicable.</span></div>
 </div>
 
-## Quick Links
+## Self-service guides
 
-| Resource | What You'll Find |
-|----------|------------------|
-| [Quick Start Guide](/docs/quick-start) | Step-by-step setup and first-time use |
-| [Features Overview](/features) | Complete capability map and feature details |
-| [FAQ](/docs/faq) | Common questions and troubleshooting tips |
-| [Full Documentation](/docs) | Complete guides for all features |
+- [SSH Workspace setup](/docs/ssh)
+- [AI provider configuration](/docs/ai)
+- [Account and subscription](/docs/account-subscription)
+- [Frequently asked questions](/docs/faq)
+- [What's New](/changelog)
 
-## Common Issues & Solutions
+## Contact Support
 
-### SSH Connection Problems
+Email [nimotecode@gmail.com](mailto:nimotecode@gmail.com) for account, subscription and private support requests. For reproducible product bugs and feature ideas, use [GitHub Issues](https://github.com/nimotecode/nimote_issues/issues). We aim to reply to urgent access issues within 1–2 business days and regular requests within 2–3 business days.
 
-**Problem:** Can't connect to SSH server
-
-**Solutions:**
-1. Verify host, port, username, and authentication method are correct
-2. Confirm the SSH service is reachable from your network
-3. Double-check private key format or password
-4. Try connecting from a saved connection profile
-5. Check if your server allows password authentication (if using password)
-6. Verify your network doesn't block SSH traffic
-
-**Technical Details:**
-- NimoteCode uses standard SSH protocols
-- Connections timeout after 30 seconds by default
-- Heartbeat monitoring begins after successful connection
-
-### Terminal Not Responding
-
-**Problem:** Terminal appears frozen or unresponsive
-
-**Solutions:**
-1. Confirm workspace connection status in the header
-2. Open a new terminal tab and retry the operation
-3. Check if your shell is available on the remote host
-4. Verify you have appropriate permissions in the working directory
-5. Try running a simple command like `pwd` or `ls` first
-
-**Technical Details:**
-- Terminal sessions persist across reconnections
-- Output is buffered for searchability
-- ANSI escape codes are supported for colors and formatting
-
-### AI Chat and Agent Issues
-
-**Problem:** AI not responding or configuration errors
-
-**Solutions:**
-1. Verify provider configuration (API key, base URL, model name)
-2. Confirm network access to the provider endpoint
-3. Try a different configured provider if available
-4. Check that your API key has sufficient credits/permissions
-5. Verify the model name is correct for your provider
-
-**Technical Details:**
-- API keys are stored in platform secure storage
-- Multiple providers can be configured simultaneously
-- Streaming responses are supported when available
-
-### Source Control Problems
-
-**Problem:** Git operations failing
-
-**Solutions:**
-1. Confirm the workspace is a valid Git repository
-2. Check Git identity and configuration in the repository
-3. Refresh the Source Control panel and retry
-4. Verify you have appropriate permissions for the repository
-5. Check network access to Git remote (if pushing/pulling)
-
-**Technical Details:**
-- Repository status, diffs and history are available without Pro
-- Gated Git write actions such as commit, push and stash require Pro
-- Git identity is pulled from repository config
-- Operations are atomic and can be retried
-
-### Pro Feature Unavailable
-
-**Problem:** Can't access Pro features
-
-**Solutions:**
-1. Check your login state in Settings
-2. Trigger subscription verification from Account page
-3. Retry from the gated feature entry point
-4. Restore purchases if you previously subscribed
-5. Verify your subscription is active and not expired
-
-**Technical Details:**
-- Pro gating: `aiAgentUnlimited`, `gitWrite`, `lsp`, `multiTerminal`, `remoteSearch`, `sync`, `debug`
-- Subscription status is cached and periodically refreshed
-- New users receive a three-day, per-device Pro trial
-
-### Debug Panel Issues
-
-**Problem:** Debugger not working as expected
-
-**Solutions:**
-1. Confirm you're in an SSH workspace (not available in Local mode)
-2. Verify debug adapter is properly configured
-3. Check launch configuration in `.nimote/launch.json`
-4. Ensure your program is compiled with debug symbols
-5. Check the available debugger logs and adapter output
-
-**Technical Details:**
-- Debug panel is Pro-only and SSH-only
-- Uses DAP (Debug Adapter Protocol)
-- Breakpoints, call stack, variables, and watch are supported
-
-## Privacy & Account Requests
-
-For privacy, account, or data deletion requests, contact us through the channels above and include:
-
-| Information | Why We Need It |
-|-------------|-----------------|
-| **Account Email** | To locate your account (if registered) |
-| **Platform** | Android, or an iOS availability inquiry, for appropriate handling |
-| **Request Type** | Access, correction, or deletion request |
-| **Additional Details** | Any specific context to help process your request |
-
-We process these requests in accordance with our [Privacy Policy](/privacy) and applicable data protection laws.
-
-## Security & Credentials
-
-Your security is important to us. Here's how we protect your data:
-
-### Data Protection
-
-| Credential Type | Storage Method |
-|-----------------|----------------|
-| **SSH Passwords** | Platform secure storage (iOS Keychain / Android Keystore) when saved in a connection profile |
-| **AI API Keys** | Platform secure storage (iOS Keychain / Android Keystore) |
-| **SSH Private Keys** | Encrypted storage with user protection |
-| **Account Auth** | Secure token-based authentication |
-
-### Security Practices
-
-- Release builds minimize sensitive authentication/credential logging
-- No sensitive data is transmitted to third parties without your consent
-- All network communications use industry-standard encryption
-- Local data is protected at rest using platform security features
-
-## Feature Requests & Feedback
-
-We love hearing from our users! To suggest features or provide feedback:
-
-1. **GitHub Issues**: Submit detailed feature requests with use cases
-2. **Email**: Send general feedback to nimotecode@gmail.com
-3. **Community**: Share ideas with other users
-
-When submitting feedback, include:
-- What you're trying to accomplish
-- Your current workflow
-- How NimoteCode could help
-- Any specific feature ideas you have
-
-## Response Times
-
-We strive to respond to all inquiries promptly:
-
-- **Critical Issues**: Within 24-48 hours
-- **General Support**: Within 2-3 business days
-- **Feature Requests**: Reviewed regularly, response when prioritized
-- **Privacy Requests**: Processed within 30 days as required by law
-
----
-
-Still need help? [Contact Us](#contact-us) and we'll assist you as soon as possible.
+For privacy or account deletion, see [Privacy](/privacy) and [Account deletion](/account-delete). Include only the information needed to locate the request.

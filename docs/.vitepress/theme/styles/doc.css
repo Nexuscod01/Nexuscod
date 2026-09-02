@@ -458,6 +458,12 @@
   line-height: 1.6;
 }
 
+/* Blog index cards share the same content system as documentation cards. */
+.vp-doc .blog-index-cards { margin-top: 18px; }
+.vp-doc .blog-index-cards .product-card { display: block; min-height: 132px; color: var(--nimote-text-secondary); text-decoration: none; }
+.vp-doc .blog-index-cards .product-card:hover { border-color: var(--nimote-border-accent); transform: translateY(-2px); }
+.vp-doc .blog-index-cards .product-card strong { color: var(--nimote-text-primary); }
+
 .vp-doc .seo-media-placeholder span {
   max-width: 560px;
   font-size: 0.88rem;
@@ -504,6 +510,38 @@
   font-weight: 700;
 }
 
+/* AI Agent demo: a native, responsive player with a calm product-frame. */
+.vp-doc .agent-demo {
+  margin: 28px 0 18px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid var(--nimote-border);
+  border-radius: var(--nimote-radius-lg);
+  background:
+    radial-gradient(circle at top right, rgba(var(--nimote-accent-rgb), 0.16), transparent 42%),
+    var(--nimote-bg-subtle);
+  box-shadow: var(--nimote-shadow-md);
+}
+
+.vp-doc .agent-demo video {
+  display: block;
+  width: 100%;
+  max-height: min(72vh, 760px);
+  margin: 0;
+  border: 0;
+  border-radius: calc(var(--nimote-radius-lg) - 5px);
+  background: #08090a;
+  object-fit: contain;
+}
+
+.vp-doc .agent-demo figcaption {
+  padding: 12px 8px 3px;
+  color: var(--nimote-text-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+
 @media (max-width: 560px) {
   .vp-doc .seo-cta {
     padding: 20px;
@@ -526,6 +564,15 @@
 
   .vp-doc .seo-media-placeholder__device {
     justify-content: center;
+  }
+
+  .vp-doc .agent-demo {
+    margin: 22px 0 16px;
+    padding: 6px;
+  }
+
+  .vp-doc .agent-demo video {
+    max-height: 66vh;
   }
 
   .vp-doc .seo-media-placeholder__device--phone .seo-media-placeholder__image {

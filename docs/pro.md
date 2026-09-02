@@ -1,11 +1,11 @@
 ---
 title: NimoteCode Pro | Advanced Mobile Development Workflows
-description: NimoteCode Pro unlocks Git write workflows, multi-terminal, AI Agent and remote search, LSP, debugging, and sync/cache.
+description: NimoteCode Pro is $3.99/month or $39.99/year and unlocks Git write workflows, multi-terminal, AI Agent and remote search, LSP, debugging, and sync/cache.
 ---
 
 # NimoteCode Pro
 
-NimoteCode Free lets you open projects, edit files, run a baseline terminal and use AI Chat. **Pro** is for completing the higher-leverage parts of a mobile development workflow: gated Git delivery, AI-assisted work, deeper diagnostics and multiple terminal contexts.
+NimoteCode Free lets you open projects, edit files, run a baseline terminal and use AI Chat. **Pro costs $3.99/month or $39.99/year** and is for completing the higher-leverage parts of a mobile development workflow: gated Git delivery, AI-assisted work, deeper diagnostics and multiple terminal contexts.
 
 ## What Pro adds
 
@@ -20,7 +20,7 @@ NimoteCode Free lets you open projects, edit files, run a baseline terminal and 
 
 ## What remains useful on Free
 
-Free is enough to evaluate the central workflow: use Local Explorer or SSH, edit a project file, run a command, configure an AI provider, ask AI Chat for help, and create or run terminal-backed Tasks. New users receive a three-day, per-device Pro trial to evaluate Agent, remote search and other gated workflows.
+Free is enough to evaluate the central workflow: use Local Explorer or SSH, edit a project file, run a command, configure an AI provider, ask AI Chat for help, and create or run terminal-backed Tasks. New users receive a 14-day, per-device Pro trial to evaluate Agent, remote search and other gated workflows. AI is BYOK: your provider account controls model access and billing.
 
 ## Pick Pro when the task needs a full loop
 
