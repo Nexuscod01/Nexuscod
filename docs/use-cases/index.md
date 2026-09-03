@@ -35,6 +35,10 @@ Verification is part of the run, not an afterthought. When tests expose an impor
 
 > An agent can accelerate a multi-step build, but it does not replace engineering judgment. Review the plan, commands, test evidence and Git diff—especially when a workspace has production access.
 
+<div class="product-card-grid">
+  <div class="product-card"><strong><a href="/use-cases/mobile-workspace-demo">Mobile Workspace Demo</a></strong><span>Watch the local and SSH workflow—inspect, edit, verify and review—play directly on the site.</span></div>
+</div>
+
 <p class="seo-cta-actions">
   <a href="/download?utm_source=workflows&utm_medium=website&utm_campaign=ai_agent_build_demo" class="home-page-btn primary">Try NimoteCode</a>
   <a href="/docs/ai" class="home-page-btn secondary">Read the AI Agent guide</a>

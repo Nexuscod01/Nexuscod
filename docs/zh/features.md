@@ -47,10 +47,3 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 5. 使用 [Source Control](/zh/docs/source-control) 审查结果；交付需要受限 Git 写入操作时再使用 Pro。
 
 > 功能会遵循权限与环境前置条件。例如 LSP、Debug 需要远程主机配置相应语言服务或调试适配器；面对敏感系统时，仍应审查每个 AI 结果与执行动作。
-
-## 按目标继续了解
-
-- [移动 IDE](/zh/mobile-ide) —— 一体化开发工作流
-- [SSH IDE](/zh/ssh-ide) —— 在移动端操作远程项目
-- [手机 AI 编程](/zh/mobile-ai-coding) —— 带工作区上下文的 AI 协助
-- [移动值班诊断](/zh/use-cases/on-call-diagnostics) —— 聚焦故障排查

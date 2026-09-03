@@ -35,6 +35,10 @@ Agent 检查 Node.js 环境，创建 Vite 项目，并以小模块组织应用�
 
 > Agent 能加速多步骤开发，但不能代替工程判断。尤其是工作区具备生产环境访问权限时，请审查计划、命令、测试证据与 Git diff。
 
+<div class="product-card-grid">
+  <div class="product-card"><strong><a href="/zh/use-cases/mobile-workspace-demo">移动工作区演示</a></strong><span>直接在网站中观看本地与 SSH 工作流：检查、编辑、验证与审查都在同一处完成。</span></div>
+</div>
+
 <p class="seo-cta-actions">
   <a href="/zh/download?utm_source=zh_workflows&utm_medium=website&utm_campaign=ai_agent_build_demo" class="home-page-btn primary">体验 NimoteCode</a>
   <a href="/zh/docs/ai" class="home-page-btn secondary">阅读 AI Agent 指南</a>

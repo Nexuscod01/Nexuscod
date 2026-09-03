@@ -29,13 +29,6 @@ export const placeholderImages = {
   quickStart: {
     phone: { src: '/images/placeholders/24_LocalWorkSpace.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
   },
-  workspaceOverview: {
-    phone: {
-      src: '/images/placeholders/Homepage_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    }
-  },
   sshWorkspace: {
     phone: {
       src: '/images/placeholders/07_RemoteProjectExplorer.jpg',
@@ -90,20 +83,6 @@ export const placeholderImages = {
       src: '/images/placeholders/11_SyncCachePage.jpg',
       width: SCREENSHOT_PHONE_WIDTH,
       height: SCREENSHOT_PHONE_HEIGHT
-    }
-  },
-  remoteHotfix: {
-    phone: {
-      src: '/images/placeholders/Editor_Remote_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    }
-  },
-  onCallDiagnostics: {
-    phone: {
-      src: '/images/placeholders/Debug_Diagnostics_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
     }
   },
   mobileIde: {

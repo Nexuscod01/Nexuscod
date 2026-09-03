@@ -561,6 +561,15 @@
   margin-top: 36px;
 }
 
+.home-page-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .home-page-video-link {
   display: block;
   color: inherit;
@@ -591,6 +600,23 @@
   height: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.home-page-video-player {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #08090a;
+  object-fit: contain;
+}
+
+.home-page-video-shell figcaption {
+  padding: 12px 16px 14px;
+  color: var(--nimote-text-muted);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .home-page-video-overlay {
@@ -1050,6 +1076,7 @@ html:not(.dark) .home-page-btn.tertiary {
   .home-page-signal-band { grid-template-columns: 1fr; width: auto; margin: 0 18px; border-radius: 15px; }
   .home-page-module-grid,
   .home-page-use-case-grid { grid-template-columns: 1fr; margin-top: 28px; }
+  .home-page-video-grid { grid-template-columns: 1fr; }
   .home-page-module-card,
   .home-page-use-case-card { min-height: 230px; }
   .home-page-cta-premium { padding: 52px 22px; }

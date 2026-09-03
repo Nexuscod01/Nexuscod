@@ -1,26 +1,24 @@
 ---
 title: "NimoteCode Demo: Mobile SSH, Git and AI Coding Workflow"
 description: "Watch the NimoteCode demo and read the walkthrough of a mobile development workflow: SSH into a project, edit code, run terminal commands, review Git and use AI assistance."
-image: https://nimotecode.com/screenshots/NimoteCode_Promotion.jpg
 video:
   name: NimoteCode Mobile Development Workspace Demo
   description: A walkthrough of using NimoteCode for a mobile SSH development workflow with code editing, terminal commands, Git review and AI assistance.
-  thumbnailUrl: https://nimotecode.com/screenshots/NimoteCode_Promotion.jpg
   uploadDate: 2026-06-28
-  contentUrl: https://www.youtube.com/watch?v=cTpxPqJwo_s
-  embedUrl: https://www.youtube.com/embed/cTpxPqJwo_s
+  contentUrl: https://nimotecode.com/videos/pad_workflow.mp4
 ---
 
 # NimoteCode Demo: A Real Mobile Development Workflow
 
 The NimoteCode demo shows the workflow the product is built for: move from a remote SSH connection to project inspection, code editing, terminal verification, Git review and AI assistance without changing tools.
 
-<p class="seo-video-frame">
-  <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s&utm_source=nimotecode&utm_medium=website&utm_campaign=demo_page" target="_blank" rel="noreferrer">
-    <img src="/screenshots/NimoteCode_Promotion.jpg" alt="Preview of the NimoteCode mobile SSH, Git and AI coding demo" width="4096" height="2304" loading="eager">
-    <span>Play the full demo on YouTube</span>
-  </a>
-</p>
+<figure class="agent-demo">
+  <video controls autoplay muted loop playsinline preload="metadata">
+    <source src="/videos/pad_workflow.mp4" type="video/mp4">
+    Your browser does not support embedded video.
+  </video>
+  <figcaption>NimoteCode’s local and SSH workspace workflow on mobile.</figcaption>
+</figure>
 
 ## What the demo shows
 

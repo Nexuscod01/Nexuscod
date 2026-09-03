@@ -1,26 +1,24 @@
 ---
 title: "NimoteCode 演示：移动端 SSH、Git 与 AI 编程工作流"
 description: 观看 NimoteCode 演示并阅读移动开发工作流的说明：SSH 进入项目、编辑代码、运行终端命令、审查 Git 并使用 AI 辅助。
-image: https://nimotecode.com/screenshots/NimoteCode_Promotion.jpg
 video:
   name: NimoteCode 移动开发工作区演示
   description: 使用 NimoteCode 完成移动端 SSH 开发工作流的演示，包括代码编辑、终端命令、Git 审查与 AI 辅助。
-  thumbnailUrl: https://nimotecode.com/screenshots/NimoteCode_Promotion.jpg
   uploadDate: 2026-06-28
-  contentUrl: https://www.youtube.com/watch?v=cTpxPqJwo_s
-  embedUrl: https://www.youtube.com/embed/cTpxPqJwo_s
+  contentUrl: https://nimotecode.com/videos/pad_workflow.mp4
 ---
 
 # NimoteCode 演示：一次真实的移动开发工作流
 
 NimoteCode 演示展示了这款产品面向的工作流：不切换工具，就从一次远程 SSH 连接走向项目检查、代码编辑、终端验证、Git 审查与 AI 辅助。
 
-<p class="seo-video-frame">
-  <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s&utm_source=nimotecode&utm_medium=website&utm_campaign=demo_page" target="_blank" rel="noreferrer">
-    <img src="/screenshots/NimoteCode_Promotion.jpg" alt="NimoteCode 移动 SSH、Git 与 AI 编程演示预览" width="4096" height="2304" loading="eager">
-    <span>在 YouTube 播放完整演示</span>
-  </a>
-</p>
+<figure class="agent-demo">
+  <video controls autoplay muted loop playsinline preload="metadata">
+    <source src="/videos/pad_workflow.mp4" type="video/mp4">
+    当前浏览器不支持内嵌视频。
+  </video>
+  <figcaption>NimoteCode 手机上的本地与 SSH 工作区开发流程。</figcaption>
+</figure>
 
 ## 演示展示了什么
 

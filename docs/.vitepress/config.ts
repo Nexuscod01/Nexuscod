@@ -605,7 +605,8 @@ export default defineConfig({
               text: 'Workflows',
               collapsed: false,
               items: [
-                { text: 'AI Agent Build Demo', link: '/use-cases/' }
+                { text: 'AI Agent Build Demo', link: '/use-cases/' },
+                { text: 'Mobile Workspace Demo', link: '/use-cases/mobile-workspace-demo' }
               ]
             }
           ]
@@ -704,7 +705,8 @@ export default defineConfig({
               text: '工作流',
               collapsed: false,
               items: [
-                { text: 'AI Agent 构建演示', link: '/zh/use-cases/' }
+                { text: 'AI Agent 构建演示', link: '/zh/use-cases/' },
+                { text: '移动工作区演示', link: '/zh/use-cases/mobile-workspace-demo' }
               ]
             }
           ]

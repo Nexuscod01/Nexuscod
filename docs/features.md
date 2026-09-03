@@ -47,11 +47,3 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
 5. Use [Source Control](/docs/source-control) to review the result; Pro is required when the delivery step needs a gated Git write action.
 
 > Features are deliberately permission- and environment-aware. For example, LSP and Debug depend on the language server or debug adapter being set up on the remote host, and AI output should be reviewed before use on sensitive systems.
-
-## Explore by outcome
-
-- [Mobile IDE](/mobile-ide) — the all-in-one workflow
-- [SSH IDE](/ssh-ide) — remote projects from mobile
-- [Mobile AI Coding](/mobile-ai-coding) — AI assistance with workspace context
-- [On-call Diagnostics](/use-cases/on-call-diagnostics) — a focused incident workflow
-- [Compare Free and Pro](/pro) — feature access at a glance
