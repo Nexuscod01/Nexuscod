@@ -20,6 +20,18 @@ NimoteCode 将直接的 AI 问答与 AI 辅助执行分开。**AI Chat** 适合�
 
 当工作需要检查文件、提出计划、执行编辑、运行检查并汇总结果时，Agent 更适合。它可在按设备计算的 14 天试用期间使用，也可通过 Pro 使用；并非按量提供的免费额度。
 
+<ImagePlaceholder image-key="agentRunLog" alt="NimoteCode 手机上的 AI Agent 执行日志">
+  <strong>Agent 执行日志</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="agentRunPythonBenchmark" alt="NimoteCode 手机上的 AI Agent Python 基准测试">
+  <strong>Agent 执行 Python 基准测试</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="agentAlgorithmBenchmarkResults" alt="NimoteCode 手机上的 AI Agent 基准测试结果">
+  <strong>Agent 基准测试结果</strong>
+</ImagePlaceholder>
+
 ## 谨慎配置 Provider
 
 Provider 配置档包含端点、API 凭据、模型、流式和上下文行为等设置。你需要连接自己的 AI 提供商与 API key；NimoteCode 不捆绑模型访问或额度。保留一个稳定主配置与一个已测试的备选配置。实用设置方法见 [配置指南](/zh/docs/configuration)。

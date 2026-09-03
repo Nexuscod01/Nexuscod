@@ -20,6 +20,18 @@ Ask Chat to explain unfamiliar code, interpret terminal output, outline a refact
 
 Agent is appropriate when a task needs to inspect files, propose a plan, make an edit, run a check and summarize the result. It is available during the 14-day, per-device trial and with Pro; it does not use a free usage quota.
 
+<ImagePlaceholder image-key="agentRunLog" alt="AI Agent run log on NimoteCode for phone">
+  <strong>Agent execution log</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="agentRunPythonBenchmark" alt="AI Agent running a Python benchmark on phone">
+  <strong>Agent runs a Python benchmark</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="agentAlgorithmBenchmarkResults" alt="AI Agent benchmark results on phone">
+  <strong>Agent benchmark results</strong>
+</ImagePlaceholder>
+
 ## Configure providers deliberately
 
 Provider profiles hold connection and model settings such as endpoint, API credential, model, streaming and context behavior. You connect your own AI provider and API key; NimoteCode does not bundle model access or tokens. Keep a working primary profile and a tested backup profile. See [Configuration](/docs/configuration) for a practical checklist.

@@ -27,6 +27,14 @@ Source Control 将 Git 中最需要审查的部分带回刚刚编辑和验证过
 3. 暂存目标改动，编写或生成提交信息。
 4. 有 Pro 时，仅在符合仓库流程的前提下提交、拉取或推送。
 
+<ImagePlaceholder image-key="gitCommitRecord" alt="NimoteCode 手机上的 Git 提交记录">
+  <strong>Git 提交记录</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="localWorkspaceGitPanel" alt="NimoteCode 手机上的本地工作区 Source Control 面板">
+  <strong>审查本地工作区改动</strong>
+</ImagePlaceholder>
+
 AI 可以加快审查，但无法替代对环境与业务意图的验证。该执行的 CI、分支保护和人工评审仍应保留。
 
 相关：[手机远程热修](/zh/use-cases/remote-hotfix) · [AI Chat 与 Agent](/zh/docs/ai)

@@ -227,11 +227,11 @@
     font-size: 0.95rem;
   }
   .vp-doc h1 {
-    font-size: clamp(1.85rem, 7vw, 2.4rem);
+    font-size: clamp(1.65rem, 6vw, 2rem);
   }
   .vp-doc h2 {
-    margin-top: 40px;
-    font-size: 1.4rem;
+    margin-top: 34px;
+    font-size: 1.35rem;
   }
   .vp-doc h3 {
     font-size: 1.15rem;
@@ -326,7 +326,7 @@
     padding: 40px 18px;
   }
   .vp-doc h1 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 

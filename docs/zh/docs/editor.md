@@ -20,6 +20,10 @@ description: 使用 NimoteCode 移动代码编辑器的标签页、剪贴板、�
 - 符号数据可用时，通过大纲了解代码结构。
 - 让 [AI Chat 与 Agent](/zh/docs/ai) 结合当前激活文件理解问题。
 
+<ImagePlaceholder image-key="editorOutline" alt="NimoteCode 手机上的代码编辑器大纲">
+  <strong>使用编辑器大纲定位代码</strong>
+</ImagePlaceholder>
+
 ## 一条好的移动编辑路径
 
 1. 在 Explorer 中定位文件。

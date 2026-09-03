@@ -7,9 +7,9 @@ description: Open a local or SSH workspace in NimoteCode, edit a file, run a ver
 
 Use this guide to prove the workflow first: open a project, make one small edit and verify it in the terminal. It works with a local project or an SSH workspace.
 
-<ImagePlaceholder image-key="quickStart" alt="NimoteCode Quick Start workflow on phone and iPad">
+<ImagePlaceholder image-key="quickStart" alt="Local workspace in NimoteCode on phone">
   <strong>Image placeholder — complete the first mobile workflow</strong>
-  <span>Replace with matching phone and iPad screenshots showing a workspace being opened, a focused edit and terminal verification.</span>
+  <span>Open a local workspace, make a focused edit, then verify it in Terminal.</span>
 </ImagePlaceholder>
 
 ## 1. Open a workspace

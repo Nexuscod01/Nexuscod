@@ -20,6 +20,10 @@ The editor is where a workspace becomes a change. Open files from a local projec
 - Use an outline when symbol information is available.
 - Keep the active file available as context for [AI Chat and Agent](/docs/ai).
 
+<ImagePlaceholder image-key="editorOutline" alt="Code editor outline on NimoteCode for phone">
+  <strong>Navigate code with the editor outline</strong>
+</ImagePlaceholder>
+
 ## A good mobile editing loop
 
 1. Locate a file in Explorer or [Search](/docs/search).

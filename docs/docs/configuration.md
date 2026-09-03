@@ -11,6 +11,14 @@ Set up NimoteCode around the work you actually do. A small, tested configuration
 
 Add the provider endpoint, credential and model you plan to use; then verify it in AI Chat before relying on Agent. A primary profile and a tested fallback help balance reliability and cost. Choose lower randomness for precise code tasks, use streaming when it improves responsiveness, and set context behavior deliberately.
 
+<ImagePlaceholder image-key="aiModelConfig" alt="AI model configuration on NimoteCode for phone">
+  <strong>AI model configuration</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="aiEditConfig" alt="AI edit configuration on NimoteCode for phone">
+  <strong>AI editing configuration</strong>
+</ImagePlaceholder>
+
 ## SSH: name the environment, then set the boundary
 
 Create one profile per environment, with a recognizable name, host, port, user and authentication method. Confirm the workspace root after connecting. Prefer key-based access and least-privilege accounts for sensitive hosts; never assume a familiar profile still points to a safe environment.

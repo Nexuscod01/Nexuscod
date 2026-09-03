@@ -11,6 +11,14 @@ description: 使用实用的 AI Provider、SSH 工作区和远程 Tasks 配置�
 
 填入 Provider 端点、凭据和模型后，先在 AI Chat 中验证，再把它用于 Agent。保留一个主配置和一个已测试的备用配置，有助于平衡可靠性与成本。精确代码任务可选择较低随机性；需要更快反馈时可开启流式输出；上下文行为应按任务明确设置。
 
+<ImagePlaceholder image-key="aiModelConfig" alt="NimoteCode 手机上的 AI 模型配置">
+  <strong>AI 模型配置</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="aiEditConfig" alt="NimoteCode 手机上的 AI 编辑配置">
+  <strong>AI 编辑配置</strong>
+</ImagePlaceholder>
+
 ## SSH：先命名环境，再划定边界
 
 为每个环境创建独立配置档，并设置易识别的名称、主机、端口、用户和认证方式。连接后确认项目根路径。敏感主机建议使用私钥和最小权限账号；不要因为配置档名称熟悉，就假定它仍指向安全环境。

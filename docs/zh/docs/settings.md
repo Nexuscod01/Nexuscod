@@ -7,6 +7,10 @@ description: 通过账户、订阅、主题、语言、编辑器和移动键盘�
 
 设置用于让工作区适配真正使用它的设备。优先调整阅读与输入，再在需要使用 Pro 功能前确认账户与订阅状态。
 
+<ImagePlaceholder image-key="appSettings" alt="NimoteCode 手机上的应用设置">
+  <strong>手机上的应用设置</strong>
+</ImagePlaceholder>
+
 <div class="product-card-grid">
   <div class="product-card"><strong>外观</strong><span>选择应用和 IDE 主题，并按需要切换界面语言。</span></div>
   <div class="product-card"><strong>编辑器</strong><span>调整字体、字号与行高，让小屏幕上的代码更易读。</span></div>

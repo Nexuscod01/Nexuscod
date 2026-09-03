@@ -24,4 +24,8 @@ Terminal 是 NimoteCode 工作区的验证层。在正在编辑的项目中执�
 
 Pro 提供进阶多终端工作流，适合并行保留日志、测试、服务与部署等上下文。高风险命令应保持清晰可见；已恢复的终端会话并不代表远程状态没有变化。
 
+<ImagePlaceholder image-key="terminalMenu" alt="NimoteCode 手机上的终端菜单">
+  <strong>终端操作与会话控制</strong>
+</ImagePlaceholder>
+
 下一步：[SSH 工作区](/zh/docs/ssh) · [Tasks](/zh/docs/tasks) · [移动值班诊断](/zh/use-cases/on-call-diagnostics)

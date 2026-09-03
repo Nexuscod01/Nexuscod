@@ -17,6 +17,14 @@ Sync / Cache 是用于在本地与远程工作区之间主动移动项目内容�
 - **Sync**：从本地项目向远程工作区传输。
 - **Cache**：将远程项目内容带回本地工作区。
 
+<ImagePlaceholder image-key="cacheToLocalWorkspace" alt="NimoteCode 手机上的远程项目缓存至本地工作区">
+  <strong>将远程项目缓存到本地工作区</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="cacheToLocalWorkspaceComplete" alt="NimoteCode 手机上的本地工作区缓存传输完成">
+  <strong>本地工作区缓存传输完成</strong>
+</ImagePlaceholder>
+
 传输前请阅读方向和目标路径、明确哪一份内容是权威版本，并在结束后检查记录结果。Sync / Cache 适合受控交接或离线检查，不应替代仓库正常的 Git 审查与备份策略。
 
 相关：[SSH 工作区](/zh/docs/ssh) · [Source Control](/zh/docs/source-control)

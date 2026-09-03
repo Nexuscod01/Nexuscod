@@ -7,6 +7,10 @@ description: Save, group and run repeatable SSH terminal commands in NimoteCode 
 
 Tasks turns a known remote command procedure into a named, reusable action. It is useful for build checks, tests, formatting, health checks and log routines that should not be retyped on a small screen.
 
+<ImagePlaceholder image-key="tasksPage" alt="Tasks page on NimoteCode for phone">
+  <strong>Reusable remote task catalog</strong>
+</ImagePlaceholder>
+
 ## Build a task catalog around outcomes
 
 - Group related **build and test** commands.

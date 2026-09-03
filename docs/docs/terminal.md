@@ -24,4 +24,8 @@ Terminal is the verification layer of a NimoteCode workspace. Run commands where
 
 Pro provides advanced multi-terminal workflows for parallel contexts—such as one terminal following logs while another runs tests or a deployment command. Keep high-risk commands explicit and avoid treating a restored terminal as proof that the remote state is unchanged.
 
+<ImagePlaceholder image-key="terminalMenu" alt="Terminal menu on NimoteCode for phone">
+  <strong>Terminal actions and session controls</strong>
+</ImagePlaceholder>
+
 Next: [SSH Workspace](/docs/ssh) · [Tasks](/docs/tasks) · [On-call Diagnostics](/use-cases/on-call-diagnostics)

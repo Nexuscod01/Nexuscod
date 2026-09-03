@@ -17,6 +17,14 @@ Sync / Cache is a **Pro** workflow for deliberately moving project content betwe
 - **Sync** moves a local project toward a remote workspace.
 - **Cache** brings remote project content back to a local workspace.
 
+<ImagePlaceholder image-key="cacheToLocalWorkspace" alt="Caching a remote project to a local workspace on NimoteCode for phone">
+  <strong>Cache a remote project to a local workspace</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="cacheToLocalWorkspaceComplete" alt="Completed cache transfer to a local workspace on NimoteCode for phone">
+  <strong>Completed local workspace cache transfer</strong>
+</ImagePlaceholder>
+
 Before a transfer, read the direction and target path, check which version is authoritative, and review the recorded result afterward. Sync / Cache is useful for a controlled handoff or offline inspection; it should not replace a repository’s normal Git review and backup practices.
 
 Related: [SSH Workspace](/docs/ssh) · [Source Control](/docs/source-control) · [Pro](/pro)

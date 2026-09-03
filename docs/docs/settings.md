@@ -7,6 +7,10 @@ description: Personalize NimoteCode with account, subscription, theme, language,
 
 Settings helps the workspace feel predictable on the device you actually use. Start with readability and input, then verify account and subscription status when you need Pro features.
 
+<ImagePlaceholder image-key="appSettings" alt="App settings on NimoteCode for phone">
+  <strong>Settings on phone</strong>
+</ImagePlaceholder>
+
 <div class="product-card-grid">
   <div class="product-card"><strong>Appearance</strong><span>Choose the app and IDE theme, then switch the interface language where needed.</span></div>
   <div class="product-card"><strong>Editor</strong><span>Adjust font family, size and line height for the amount of code you read on your screen.</span></div>

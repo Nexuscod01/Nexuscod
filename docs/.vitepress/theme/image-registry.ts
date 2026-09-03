@@ -3,18 +3,12 @@
  *
  * Put future placeholder assets in `docs/public/images/placeholders/`, then
  * add matching phone and iPad screenshots to each entry. Every page using that
- * key will pick up the pair automatically. For example:
+ * key will pick up the available devices automatically. iPad sources are
+ * temporarily null while those assets are being refreshed. For example:
  *
  *   phone: { src: '/images/placeholders/ssh-workspace-phone.webp' },
- *   ipad: { src: '/images/placeholders/ssh-workspace-ipad.webp' }
- *
- * A single composite image that already includes both devices can use:
- *
- *   layout: 'wide',
- *   wide: { src: '/images/placeholders/quick-start.webp' }
+ *   ipad: { src: null }
  */
-export type PlaceholderImageLayout = 'device-pair' | 'wide'
-
 export interface DeviceScreenshot {
   src: string | null
   width?: number
@@ -22,36 +16,24 @@ export interface DeviceScreenshot {
 }
 
 export interface PlaceholderImage {
-  layout?: PlaceholderImageLayout
-  wide?: DeviceScreenshot
   phone?: DeviceScreenshot
   ipad?: DeviceScreenshot
 }
 
 const PHONE_WIDTH = 1320
 const PHONE_HEIGHT = 2868
-const IPAD_WIDTH = 2560
-const IPAD_HEIGHT = 1600
+const SCREENSHOT_PHONE_WIDTH = 1264
+const SCREENSHOT_PHONE_HEIGHT = 2780
 
 export const placeholderImages = {
   quickStart: {
-    layout: 'wide',
-    wide: {
-      src: '/images/placeholders/QuickStart.png',
-      width: 1024,
-      height: 500
-    }
+    phone: { src: '/images/placeholders/24_LocalWorkSpace.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
   },
   workspaceOverview: {
     phone: {
       src: '/images/placeholders/Homepage_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SSH_Workspace_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   featureOverview: {
@@ -59,83 +41,48 @@ export const placeholderImages = {
       src: '/images/placeholders/Homepage_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/FeatureOverview_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   sshWorkspace: {
     phone: {
-      src: '/images/placeholders/SSH_Workspace_Phone.PNG',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SSH_Workspace_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/07_RemoteProjectExplorer.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   editor: {
     phone: {
-      src: '/images/placeholders/Editor_Phone.PNG',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/LSP_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/06_EditorPythonBenchmarkCode.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   terminal: {
     phone: {
-      src: '/images/placeholders/Terminal_Phone.PNG',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/Terminal_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/17_TerminalSSHTopMonitor.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   aiAssistant: {
     phone: {
-      src: '/images/placeholders/AI_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/AIAgent_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/02_AgentRunPendingApproval.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   sourceControl: {
     phone: {
-      src: '/images/placeholders/GitPanel_Phone.PNG',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/GitPanel_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/08_SourceControlPanel.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   lsp: {
     phone: {
-      src: '/images/placeholders/LSP_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/LSP_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/09_LSPInstallFailed.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   debugging: {
@@ -143,23 +90,13 @@ export const placeholderImages = {
       src: '/images/placeholders/Debug_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/Debug_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   syncCache: {
     phone: {
-      src: '/images/placeholders/Cache_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SearchSync_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
+      src: '/images/placeholders/11_SyncCachePage.jpg',
+      width: SCREENSHOT_PHONE_WIDTH,
+      height: SCREENSHOT_PHONE_HEIGHT
     }
   },
   remoteHotfix: {
@@ -167,11 +104,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Editor_Remote_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/LSP_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   onCallDiagnostics: {
@@ -179,11 +111,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Debug_Diagnostics_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/Debug_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   mobileIde: {
@@ -191,11 +118,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Homepage_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/FeatureOverview_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   sshIde: {
@@ -203,11 +125,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Explorer_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SSH_Workspace_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   androidSshClient: {
@@ -215,11 +132,6 @@ export const placeholderImages = {
       src: '/images/placeholders/SSH_Workspace_Phone.PNG',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SSH_Workspace_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   iphoneSshClient: {
@@ -227,11 +139,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Explorer_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SSH_Workspace_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   ipadCoding: {
@@ -239,11 +146,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Homepage_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/FeatureOverview_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   mobileAiCoding: {
@@ -251,11 +153,6 @@ export const placeholderImages = {
       src: '/images/placeholders/AI_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/AIAgent_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   claudeCodeFromPhone: {
@@ -263,11 +160,6 @@ export const placeholderImages = {
       src: '/images/placeholders/AI_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/AIAgent_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   codexFromPhone: {
@@ -275,11 +167,6 @@ export const placeholderImages = {
       src: '/images/placeholders/AI_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/AIAgent_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   termiusAlternative: {
@@ -287,11 +174,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Terminal_Phone.PNG',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/Terminal_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   blinkShellAlternative: {
@@ -299,11 +181,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Terminal_Phone.PNG',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/Terminal_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   terminalVsWorkspace: {
@@ -311,11 +188,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Terminal_Phone.PNG',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/Terminal_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   bestMobileIdes: {
@@ -323,11 +195,6 @@ export const placeholderImages = {
       src: '/images/placeholders/Homepage_Phone.png',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/FeatureOverview_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
   },
   bestSshClients: {
@@ -335,12 +202,64 @@ export const placeholderImages = {
       src: '/images/placeholders/SSH_Workspace_Phone.PNG',
       width: PHONE_WIDTH,
       height: PHONE_HEIGHT
-    },
-    ipad: {
-      src: '/images/placeholders/SSH_Workspace_IPad.png',
-      width: IPAD_WIDTH,
-      height: IPAD_HEIGHT
     }
+  },
+  gitCommitRecord: {
+    phone: { src: '/images/placeholders/01_GitCommitRecord.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  agentRunLog: {
+    phone: { src: '/images/placeholders/03_AgentRunLog.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  agentRunPythonBenchmark: {
+    phone: { src: '/images/placeholders/04_AgentRunPythonBenchmark.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  agentAlgorithmBenchmarkResults: {
+    phone: { src: '/images/placeholders/05_AgentAlgorithmBenchmarkResults.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  editorOutline: {
+    phone: { src: '/images/placeholders/16_CodeEditorOutline.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  codeGlobalSearch: {
+    phone: { src: '/images/placeholders/10_CodeGlobalSearch.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  aiModelConfig: {
+    phone: { src: '/images/placeholders/12_AIModelConfig.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  aiEditConfig: {
+    phone: { src: '/images/placeholders/13_AIEditConfig.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  tasksPage: {
+    phone: { src: '/images/placeholders/14_TasksPage.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  appSettings: {
+    phone: { src: '/images/placeholders/15_AppSettings.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  terminalMenu: {
+    phone: { src: '/images/placeholders/18_TerminalMenu.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  notifications: {
+    phone: { src: '/images/placeholders/19_Notifications.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  explorerPage: {
+    phone: { src: '/images/placeholders/20_SelectExplorerPage.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  explorerPopup: {
+    phone: { src: '/images/placeholders/21_SelectExplorerPopup.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  remoteDirectory: {
+    phone: { src: '/images/placeholders/22_RemoteDirectoryDialog.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  localWorkspaceGitPanel: {
+    phone: { src: '/images/placeholders/23_LocalWorksapceGitPanel.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  localWorkspace: {
+    phone: { src: '/images/placeholders/24_LocalWorkSpace.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  cacheToLocalWorkspace: {
+    phone: { src: '/images/placeholders/26_Cache2LocalWorkspace.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
+  },
+  cacheToLocalWorkspaceComplete: {
+    phone: { src: '/images/placeholders/25_Cache2Loc calWrokSpaceFinish.jpg', width: SCREENSHOT_PHONE_WIDTH, height: SCREENSHOT_PHONE_HEIGHT }
   }
 } as const satisfies Record<string, PlaceholderImage>
 

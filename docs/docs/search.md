@@ -7,6 +7,10 @@ description: Search remote workspace file contents in NimoteCode by keyword or r
 
 Search helps you answer a focused question in an SSH project: where is this configuration value, error string or function used? It searches remote workspace content and opens matches directly in the editor.
 
+<ImagePlaceholder image-key="codeGlobalSearch" alt="Global code search on NimoteCode for phone">
+  <strong>Search the remote workspace</strong>
+</ImagePlaceholder>
+
 ## Find the right line quickly
 
 1. Connect to an [SSH Workspace](/docs/ssh).

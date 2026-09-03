@@ -566,7 +566,7 @@ export default defineConfig({
               text: 'Daily Workflow',
               collapsed: false,
               items: [
-                { text: 'SSH Workspace', link: '/docs/ssh' },
+                { text: 'Workspaces', link: '/docs/ssh' },
                 { text: 'Editor', link: '/docs/editor' },
                 { text: 'Terminal', link: '/docs/terminal' },
                 { text: 'Search', link: '/docs/search' },
@@ -591,6 +591,7 @@ export default defineConfig({
                 { text: 'Account and Subscription', link: '/docs/account-subscription' },
                 { text: 'Security and Safety', link: '/docs/security' },
                 { text: 'Settings', link: '/docs/settings' },
+                { text: 'Notifications', link: '/docs/notifications' },
                 { text: 'Configuration', link: '/docs/configuration' },
                 { text: 'FAQ', link: '/docs/faq' }
               ]
@@ -676,7 +677,7 @@ export default defineConfig({
               text: '日常开发',
               collapsed: false,
               items: [
-                { text: 'SSH 远程开发', link: '/zh/docs/ssh' },
+                { text: '本地与 SSH 工作区', link: '/zh/docs/ssh' },
                 { text: '编辑器', link: '/zh/docs/editor' },
                 { text: '终端使用', link: '/zh/docs/terminal' },
                 { text: '远程搜索', link: '/zh/docs/search' },
@@ -701,6 +702,7 @@ export default defineConfig({
                 { text: '账户与订阅', link: '/zh/docs/account-subscription' },
                 { text: '安全与防护', link: '/zh/docs/security' },
                 { text: '设置', link: '/zh/docs/settings' },
+                { text: '通知', link: '/zh/docs/notifications' },
                 { text: '配置', link: '/zh/docs/configuration' },
                 { text: '常见问题', link: '/zh/docs/faq' }
               ]

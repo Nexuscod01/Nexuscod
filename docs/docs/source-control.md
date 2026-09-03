@@ -27,6 +27,14 @@ Source Control brings the reviewable part of Git into the workspace where you ed
 3. Stage the intended changes and write or generate a commit message.
 4. With Pro access, commit, then pull or push only if it is appropriate for your repository workflow.
 
+<ImagePlaceholder image-key="gitCommitRecord" alt="Git commit record on NimoteCode for phone">
+  <strong>Git commit record</strong>
+</ImagePlaceholder>
+
+<ImagePlaceholder image-key="localWorkspaceGitPanel" alt="Source Control panel for a local workspace on NimoteCode for phone">
+  <strong>Review local workspace changes</strong>
+</ImagePlaceholder>
+
 AI assistance can make a review faster, but it cannot validate environment-specific intent. Keep branch protection, CI and human review in the workflow where your team requires them.
 
 See [Remote Hotfix from Mobile](/use-cases/remote-hotfix), [AI Chat and Agent](/docs/ai), and [Compare Free and Pro](/pro).

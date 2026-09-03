@@ -7,6 +7,10 @@ description: 在 NimoteCode Tasks 中保存、分组和运行可复用的 SSH �
 
 Tasks 将已经验证过的远程命令流程保存为可命名、可复用的操作。它适合构建检查、测试、格式化、健康检查和日志查询等不应在小屏幕上反复输入的工作。
 
+<ImagePlaceholder image-key="tasksPage" alt="NimoteCode 手机上的 Tasks 页面">
+  <strong>可复用的远程任务目录</strong>
+</ImagePlaceholder>
+
 ## 围绕结果组织任务
 
 - 将 **构建与测试** 命令放到一个清晰分组。
