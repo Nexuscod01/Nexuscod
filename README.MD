@@ -69,7 +69,7 @@ NimoteCode is designed for focused development when you are away from a desk—n
 - [Documentation](https://nimotecode.com/docs/quick-start)
 - [Download](https://nimotecode.com/download)
 - [Google Play](https://play.google.com/store/apps/details?id=com.nimote.nimotecode)
-- [Report an issue](https://github.com/nimotecode/nimote_issues/issues)
+- [Report an issue](https://github.com/aounma/nimote_issues/issues)
 
 ## Safety note
 

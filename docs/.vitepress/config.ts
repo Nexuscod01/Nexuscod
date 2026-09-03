@@ -108,7 +108,7 @@ function pageSchemas(context: TransformContext): object[] {
       url: siteUrl,
       logo: brandLogo,
       sameAs: [
-        'https://github.com/nimotecode',
+        'https://github.com/aounma',
         'https://x.com/nimotecode'
       ]
     },
@@ -507,12 +507,12 @@ export default defineConfig({
       dark: '/app_icon.png'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/nimotecode' },
+      { icon: 'github', link: 'https://github.com/aounma' },
       { icon: 'twitter', link: 'https://x.com/nimotecode' },
       { icon: 'discord', link: 'https://discord.gg/nimotecode' }
     ],
     editLink: {
-      pattern: 'https://github.com/nimotecode/nimote_issues/edit/main/docs/:path',
+      pattern: 'https://github.com/aounma/nimote_issues/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   },

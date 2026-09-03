@@ -103,7 +103,7 @@ function localized(path: string) {
           <h2>{{ copy.social }}</h2>
           <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s" target="_blank" rel="noreferrer">{{ copy.youtube }}</a>
           <a href="https://x.com/nimotecode" target="_blank" rel="noreferrer">{{ copy.x }}</a>
-          <a href="https://github.com/nimotecode" target="_blank" rel="noreferrer">{{ copy.github }}</a>
+          <a href="https://github.com/aounma" target="_blank" rel="noreferrer">{{ copy.github }}</a>
           <a :href="localized('/blog/')">{{ copy.guides }}</a>
           <a :href="localized('/changelog')">{{ copy.changelog }}</a>
         </nav>

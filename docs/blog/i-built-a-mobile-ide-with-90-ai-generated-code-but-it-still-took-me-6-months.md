@@ -45,6 +45,6 @@ AI didn't reduce the need for developers. It changed what developers spend time 
 This is the origin story behind why the editor, SSH, terminal and Git had to be built as one system. Read [Why Existing Flutter Code Editors Broke Down](/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide) and [Why I Decided to Build a Mobile IDE Instead of Another AI App](/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app). For the product overview, see [NimoteCode Features](/features) and [Mobile IDE](/mobile-ide).
 
 <div class="seo-cta">
-  <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/nimotecode">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
-  <p class="seo-cta-actions"><a href="/features?utm_source=blog&utm_medium=organic&utm_campaign=90percent_ai_features" class="home-page-btn secondary">Explore Features</a><a href="https://github.com/nimotecode" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Follow on GitHub</a></p>
+  <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/aounma">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
+  <p class="seo-cta-actions"><a href="/features?utm_source=blog&utm_medium=organic&utm_campaign=90percent_ai_features" class="home-page-btn secondary">Explore Features</a><a href="https://github.com/aounma" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Follow on GitHub</a></p>
 </div>
