@@ -1,132 +1,76 @@
-<!-- HERO -->
+# NimoteCode
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:4F46E5,100:06B6D4&text=NimoteCode&fontColor=ffffff&fontSize=64&animation=fadeIn&fontAlignY=38&desc=Mobile-First%20IDE%20for%20Real%20Development&descAlignY=58">
-</p>
-
-<h3 align="center">
-Build, SSH, Terminal, Git and AI — all from your phone & tablet.
-</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Mobile+Development+Workspace;SSH+Remote+Coding;Terminal+and+Git+Workflow;AI-Assisted+Development;Flutter+%2B+Rust+Powered">
+  <strong>A mobile AI development workspace for real projects.</strong><br>
+  Open a local or SSH workspace, edit code, run commands, review Git changes, and work with AI from one focused environment.
 </p>
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android-blue?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust"/>
-
-<img src="https://img.shields.io/badge/SSH-Workspace-success?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/AI-Coding-purple?style=for-the-badge"/>
-
+  <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode"><img src="https://img.shields.io/badge/Get_it_on-Google_Play-34A853?logo=googleplay&logoColor=white" alt="Get NimoteCode on Google Play"></a>
+  <a href="https://nimotecode.com"><img src="https://img.shields.io/badge/Website-nimotecode.com-4F46E5" alt="NimoteCode website"></a>
+  <a href="https://nimotecode.com/docs/quick-start"><img src="https://img.shields.io/badge/Docs-Quick_Start-06B6D4" alt="NimoteCode documentation"></a>
 </p>
+
+## Build with an AI Agent from your phone
+
+NimoteCode AI Agent can work through a multi-step coding task in the active workspace: plan the work, inspect files, make changes, run checks, repair failures, and leave a reviewable Git result.
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+  <video src="https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18" controls muted playsinline width="420">
+    Your browser does not support embedded video. Open the <a href="https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18">AI Agent demo video</a> instead.
+  </video>
 </p>
 
-## Overview
-> 📢 **NimoteCode is now available on Google Play!**  
-> 🍏 The iOS version is currently under App Store review and will be released soon.
-[![Google Play](https://img.shields.io/badge/Google_Play-Available-success?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nimote.nimotecode)
-![App Store](https://img.shields.io/badge/App_Store-Coming_Soon-blue?logo=apple)
+If the embedded player is unavailable in your GitHub client, [open the AI Agent demo video](https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18).
 
-**NimoteCode** is a mobile-first IDE designed for developers who want a real development environment on phones and tablets.
+## Why NimoteCode
 
-Instead of being a lightweight code viewer, NimoteCode focuses on complete development workflows:
+NimoteCode is designed for focused development when you are away from a desk—not for reading isolated snippets or issuing an unreviewed shell command. It keeps the project, tools and evidence for the next decision together.
 
-- 📱 Local development
-- 🌐 SSH remote workspaces
-- ⚡ Terminal access
-- 🌿 Git workflow
-- 🤖 AI-assisted coding
-- 📂 Project management
-- 📳 sync code between local and ssh remote env
-- 🔍 Syntax highlighting & code intelligence
-
-Built with **Flutter + Rust** for performance and cross-platform consistency.
-
-NimoteCode turns your phone or tablet into a practical coding workspace. Connect to local or SSH workspaces, edit files, run commands, review Git changes, use AI assistance, debug issues, and ship fixes without reaching for a laptop.
-
-Everything is designed around real mobile development workflows: focused panels, persistent terminal sessions, SSH reconnection, AI-assisted automation, and iPad-friendly workspace layouts.
-
-## Preview
-
-### Screeshots
-<p align="center">
-  <img src="docs/public/screenshots/p1.png" alt="NimoteCode file explorer on phone" width="100%">
-  <img src="docs/public/screenshots/p2.png" alt="NimoteCode file explorer on phone" width="100%">
-  <img src="docs/public/screenshots/p3.png" alt="NimoteCode file explorer on phone" width="100%">
-</p>
-
-### DEMO Video
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s">
-    <img src="docs/public/screenshots/NimoteCode_Promotion.jpg" alt="Watch NimoteCode demo" width="100%">
-  </a>
-</p>
-
-Youtube: https://www.youtube.com/watch?v=cTpxPqJwo_s
-
-## Features
-
-| Feature | Description |
+| In one workspace | What it enables |
 | --- | --- |
-| **SSH Workspace** | Connect to real servers with heartbeat monitoring, auto-reconnection, and remote file access. |
-| **Terminal** | Run persistent terminal sessions, search output, and execute frequent commands faster. |
-| **Editor** | Edit code with syntax highlighting, outline navigation, find/replace, and symbol search. |
-| **Git Source Control** | Review diffs, stage changes, commit, branch, stash, sync, and use Git AI. |
-| **AI Chat & Agent** | Explain code, refactor files, automate tasks, and keep workspace-aware memory. |
-| **LSP & Debug** | Use diagnostics, code actions, breakpoints, call stack, variables, and watches. |
-| **Tasks & Timeline** | Run repeatable tasks, trace events, and analyze issues with AI-assisted root-cause workflows. |
-| **Sync / Cache** | Sync local and remote files with safer path handling and operation history. |
+| **Local + SSH projects** | Open code on the device or connect to the right remote host and project root. |
+| **Code editor + Explorer** | Inspect files, make targeted edits, and navigate project structure on a mobile screen. |
+| **Terminal** | Run project commands, inspect logs, search output, and keep command results next to the code. |
+| **Git Source Control** | Review diffs and history; use gated write workflows when your plan and repository allow them. |
+| **AI Chat + Agent** | Explain code, plan a change, or execute a controlled multi-step workflow with project context. |
+| **Developer tooling** | Use Tasks, remote search, LSP, Debug, Sync / Cache, and advanced terminal workflows where configured. |
 
-## High-Value Scenarios
+## See the product
 
-| Scenario | Workflow |
-| --- | --- |
-| **Remote hotfix** | Connect over SSH, edit files, run terminal commands, review changes, and commit the fix. |
-| **On-call triage** | Inspect logs, check diagnostics, trace timeline events, and identify likely root causes faster. |
-| **AI-assisted coding** | Ask questions, explain unfamiliar code, generate changes, and automate repetitive steps. |
-| **Server maintenance** | Manage SSH profiles, run saved commands, update configs, and keep terminal sessions persistent. |
-| **iPad development** | Use a larger workspace for Git, terminal, editor, and debugging workflows on the go. |
+<p align="center">
+  <img src="docs/public/screenshots/p1.png" alt="NimoteCode workspaces, editor and AI Agent" width="720">
+</p>
 
-## Free And Pro
+<p align="center">
+  <img src="docs/public/screenshots/p2.png" alt="NimoteCode Terminal, Source Control and diagnostics" width="720">
+</p>
 
-Start free with the essentials for mobile development. Upgrade to Pro when you need deeper Git, debugging, language tooling, and sync workflows.
+<p align="center">
+  <img src="docs/public/screenshots/p3.png" alt="NimoteCode mobile development workflow" width="720">
+</p>
 
-| Capability | Free | Pro |
-| --- | :---: | :---: |
-| SSH workspace and auto-reconnection | Yes | Yes |
-| Editor, terminal, search, and tasks | Yes | Yes |
-| AI Chat and Timeline analysis | Yes | Yes |
-| Git Source Control and Git AI |  | Yes |
-| LSP diagnostics and code actions |  | Yes |
-| Full debugger |  | Yes |
-| Multi-terminal support |  | Yes |
-| Local / remote sync |  | Yes |
+## Workflows that stay in context
 
-## Availability
+- **AI Agent build demo** — follow an agent from product brief to tested, committed task board: [watch the workflow](https://nimotecode.com/use-cases/).
+- **Mobile workspace demo** — inspect, edit, verify and review across local and SSH projects: [watch the workflow](https://nimotecode.com/use-cases/mobile-workspace-demo).
+- **Terminal AI tools** — run Codex, Claude, Kimi and other configured command-line AI tools directly in Terminal: [watch the workflow](https://nimotecode.com/use-cases/terminal-ai-tools).
 
-| Platform | Status |
-| --- | --- |
-| **iOS** | ![App Store](https://img.shields.io/badge/App_Store-Coming_Soon-blue?logo=apple) |
-| **Android** | [![Google Play](https://img.shields.io/badge/Google_Play-Available-success?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.nimote.nimotecode) |
+## Get started
+
+1. Install NimoteCode from [Google Play](https://play.google.com/store/apps/details?id=com.nimote.nimotecode).
+2. Open a [local or SSH workspace](https://nimotecode.com/docs/ssh) and confirm the project root.
+3. Make a focused edit, then verify it in [Terminal](https://nimotecode.com/docs/terminal).
+4. Review the resulting diff in [Source Control](https://nimotecode.com/docs/source-control) before delivery.
 
 ## Links
 
-- Website: https://nimotecode.com
-- Download: https://nimotecode.com/download
-- Documentation: https://nimotecode.com/docs/quick-start
-- X: https://x.com/nimotecode
-- Issues: https://github.com/nimotecode/nimote_issues/issues
-- Email: nimotecode@gmail.com
+- [Website](https://nimotecode.com)
+- [Documentation](https://nimotecode.com/docs/quick-start)
+- [Download](https://nimotecode.com/download)
+- [Google Play](https://play.google.com/store/apps/details?id=com.nimote.nimotecode)
+- [Report an issue](https://github.com/nimotecode/nimote_issues/issues)
 
-## Keywords
+## Safety note
 
-mobile IDE, SSH client, remote development, code editor, iOS app, Android app, Flutter app, Rust backend, developer tools
+NimoteCode makes remote and AI-assisted work more accessible from mobile, but it does not remove the need for review. Confirm the workspace, inspect commands and output, run relevant checks, and review file changes before committing or deploying.

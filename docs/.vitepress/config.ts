@@ -606,7 +606,8 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'AI Agent Build Demo', link: '/use-cases/' },
-                { text: 'Mobile Workspace Demo', link: '/use-cases/mobile-workspace-demo' }
+                { text: 'Mobile Workspace Demo', link: '/use-cases/mobile-workspace-demo' },
+                { text: 'Terminal AI Tools', link: '/use-cases/terminal-ai-tools' }
               ]
             }
           ]
@@ -706,7 +707,8 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'AI Agent 构建演示', link: '/zh/use-cases/' },
-                { text: '移动工作区演示', link: '/zh/use-cases/mobile-workspace-demo' }
+                { text: '移动工作区演示', link: '/zh/use-cases/mobile-workspace-demo' },
+                { text: '终端 AI 工具', link: '/zh/use-cases/terminal-ai-tools' }
               ]
             }
           ]

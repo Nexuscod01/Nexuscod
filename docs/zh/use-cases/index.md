@@ -37,6 +37,7 @@ Agent 检查 Node.js 环境，创建 Vite 项目，并以小模块组织应用�
 
 <div class="product-card-grid">
   <div class="product-card"><strong><a href="/zh/use-cases/mobile-workspace-demo">移动工作区演示</a></strong><span>直接在网站中观看本地与 SSH 工作流：检查、编辑、验证与审查都在同一处完成。</span></div>
+  <div class="product-card"><strong><a href="/zh/use-cases/terminal-ai-tools">终端 AI 工具</a></strong><span>在当前工作区中直接运行 Codex、Claude、Kimi 等 AI 编程工具。</span></div>
 </div>
 
 <p class="seo-cta-actions">

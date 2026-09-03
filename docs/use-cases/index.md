@@ -37,6 +37,7 @@ Verification is part of the run, not an afterthought. When tests expose an impor
 
 <div class="product-card-grid">
   <div class="product-card"><strong><a href="/use-cases/mobile-workspace-demo">Mobile Workspace Demo</a></strong><span>Watch the local and SSH workflow—inspect, edit, verify and review—play directly on the site.</span></div>
+  <div class="product-card"><strong><a href="/use-cases/terminal-ai-tools">Terminal AI Tools</a></strong><span>Run Codex, Claude, Kimi and other AI coding tools directly in the active workspace.</span></div>
 </div>
 
 <p class="seo-cta-actions">
