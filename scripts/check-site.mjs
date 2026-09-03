@@ -4,6 +4,12 @@ import { resolve, relative } from 'node:path'
 const dist = resolve(process.cwd(), 'docs/.vitepress/dist')
 const site = 'https://nimotecode.com'
 const failures = []
+const redirects = new Set(
+  readFileSync(resolve(process.cwd(), 'docs/public/_redirects'), 'utf8')
+    .split('\n')
+    .map((line) => line.trim().split(/\s+/)[0])
+    .filter((source) => source && !source.startsWith('#'))
+)
 
 function files(directory) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -15,6 +21,7 @@ function files(directory) {
 function targetExists(href) {
   const path = href.replace(site, '').replace(/[?#].*$/, '') || '/'
   if (path.startsWith('/assets/') || path.startsWith('/images/') || path.startsWith('/screenshots/')) return true
+  if (redirects.has(path)) return true
   const normalized = path.replace(/^\//, '').replace(/\/$/, '')
   return [
     resolve(dist, normalized || 'index.html'),

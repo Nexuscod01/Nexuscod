@@ -1,25 +1,41 @@
 ---
-title: 移动开发使用场景 | NimoteCode
-description: NimoteCode 的真实移动开发场景：手机远程热修、值班诊断，以及在本地或 SSH 项目中的 AI 辅助工作流。
+title: AI Agent 构建演示 | NimoteCode 工作流
+description: 观看 NimoteCode AI Agent 在手机上构建、测试、修复并提交开发者任务看板应用。
 ---
 
-# 移动开发使用场景
+# AI Agent 在手机上构建开发者任务看板
 
-这些场景对应的是笔记本电脑不在身边时的真实时刻：在手机上修复一个聚焦的线上问题、离开办公桌排查一次事故，以及让 AI 辅助的工作保持在可审查的移动流程内。每个场景都展示 NimoteCode 如何把 SSH、项目文件、终端和 Git 收敛在一起。
+这段工作流记录了 NimoteCode AI Agent 如何把一条产品需求变成可运行的开发者任务看板。演示使用 DeepSeek-v4-flash：Agent 先规划，再创建项目、验证结果并记录完成的改动，开发者无需在多个移动应用之间来回切换。
 
-<div class="product-card-grid">
-  <div class="product-card"><strong><a href="/zh/use-cases/remote-hotfix">手机远程热修</a></strong><span>连接、检查、编辑、验证，再审查一次聚焦补丁，不必切换应用。</span></div>
-  <div class="product-card"><strong><a href="/zh/use-cases/on-call-diagnostics">移动值班诊断</a></strong><span>先用终端收集证据，再按需使用已配置的诊断工具与 AI 上下文。</span></div>
-  <div class="product-card"><strong><a href="/zh/use-cases/ai-agent">AI Agent 工作流</a></strong><span>直接问题用 Chat；需要多个明确步骤时再使用受控 Agent 协助。</span></div>
-  <div class="product-card"><strong><a href="/zh/mobile-ide">移动 IDE 概览</a></strong><span>理解 Editor + Explorer + SSH + Terminal + Git + AI 为什么应在同一工作流中。</span></div>
-</div>
+<figure class="agent-demo">
+  <video controls playsinline preload="metadata">
+    <source src="/videos/ai-agent-demo-small.mp4" type="video/mp4">
+    当前浏览器不支持内嵌视频。
+  </video>
+  <figcaption>AI Agent 在 NimoteCode 移动工作区中构建并验证开发者任务看板。</figcaption>
+</figure>
 
-每个场景都以明确的项目边界开始，以验证结果结束。这正是“可用的移动工程能力”和“未经审查地在手机上执行一条命令”之间的区别。
+## 从需求到可执行计划
 
-<div class="seo-cta">
-  <p><strong>在下一次紧急任务前，先看看完整工作流。</strong></p>
-  <p class="seo-cta-actions">
-    <a href="/demo?utm_source=zh_use_cases&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
-    <a href="/zh/download?utm_source=zh_use_cases&utm_medium=website&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
-  </p>
-</div>
+演示从一条任务看板需求开始：React、TypeScript、Vite、可编辑任务、优先级、本地持久化、深色开发者风格和自动化测试。Agent 在改动工作区前先生成有序计划，将环境准备、实现、测试和交付检查拆成清晰步骤。
+
+## 在工作区中完成应用
+
+Agent 检查 Node.js 环境，创建 Vite 项目，并以小模块组织应用。任务状态与持久化、表单与列表、进度反馈和看板视觉层都在同一工作区中完成；文件、终端输出与 Git 状态始终保持关联。
+
+## 验证、修复与交付
+
+验证不是最后才做的步骤。测试出现导入或断言问题时，Agent 会读取失败信息，定位相关代码，完成修正后再次运行检查。随后它执行生产构建、补充项目说明，并在收到指令后提交完成的工作。
+
+## 这个工作流说明了什么
+
+- **在同一闭环中规划、执行与检查。** Agent 可以从目标出发，经过文件和终端操作，回到测试与构建证据。
+- **完整的移动开发界面。** Explorer、编辑器、终端、Source Control 和 AI 面板都围绕同一个项目上下文工作。
+- **自动化仍然可审查。** 命令、文件改动、测试输出和最终 diff 都保留给开发者检查。
+
+> Agent 能加速多步骤开发，但不能代替工程判断。尤其是工作区具备生产环境访问权限时，请审查计划、命令、测试证据与 Git diff。
+
+<p class="seo-cta-actions">
+  <a href="/zh/download?utm_source=zh_workflows&utm_medium=website&utm_campaign=ai_agent_build_demo" class="home-page-btn primary">体验 NimoteCode</a>
+  <a href="/zh/docs/ai" class="home-page-btn secondary">阅读 AI Agent 指南</a>
+</p>

@@ -1,25 +1,41 @@
 ---
-title: Mobile Developer Use Cases | NimoteCode
-description: Practical NimoteCode workflows for mobile remote hotfixes, on-call diagnostics and AI-assisted work in local or SSH projects.
+title: AI Agent Build Demo | NimoteCode Workflows
+description: Watch NimoteCode AI Agent build, test, repair and commit a developer task board web app from a phone.
 ---
 
-# Mobile Developer Use Cases
+# An AI Agent Builds a Developer Task Board From a Phone
 
-These scenes cover the moments when a laptop isn't available: fixing a focused production issue from your phone, diagnosing an incident away from your desk, and keeping AI-assisted work inside a reviewable mobile workflow. Each one shows how NimoteCode keeps SSH, project files, terminal and Git together.
+This workflow follows NimoteCode AI Agent as it turns one product brief into a working developer task board. Using the DeepSeek-v4-flash model, the agent plans the work, creates the project, verifies it and records the finished change—without the developer having to move between separate mobile apps.
 
-<div class="product-card-grid">
-  <div class="product-card"><strong><a href="/use-cases/remote-hotfix">Remote hotfix</a></strong><span>Connect, inspect, edit, verify and review a focused patch without leaving the workspace.</span></div>
-  <div class="product-card"><strong><a href="/use-cases/on-call-diagnostics">On-call diagnostics</a></strong><span>Use terminal evidence first, then bring in configured diagnostics and AI context as needed.</span></div>
-  <div class="product-card"><strong><a href="/use-cases/ai-agent">AI Agent workflow</a></strong><span>Choose Chat for a direct answer or Agent for deliberate multi-step assistance.</span></div>
-  <div class="product-card"><strong><a href="/mobile-ide">Mobile IDE overview</a></strong><span>See why Editor + Explorer + SSH + Terminal + Git + AI belong in one workflow.</span></div>
-</div>
+<figure class="agent-demo">
+  <video controls playsinline preload="metadata">
+    <source src="/videos/ai-agent-demo-small.mp4" type="video/mp4">
+    Your browser does not support embedded video.
+  </video>
+  <figcaption>AI Agent builds and verifies a developer task board in a NimoteCode mobile workspace.</figcaption>
+</figure>
 
-Each scenario begins with a project boundary and ends with verification. That is the distinction between useful mobile engineering work and a quick, unreviewed command from a phone.
+## From a product brief to an executable plan
 
-<div class="seo-cta">
-  <p><strong>See the workflow before your next urgent task.</strong></p>
-  <p class="seo-cta-actions">
-    <a href="/demo?utm_source=use_cases&utm_medium=website&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
-    <a href="/download?utm_source=use_cases&utm_medium=website&utm_campaign=download" class="home-page-btn primary">Download NimoteCode</a>
-  </p>
-</div>
+The run begins with a request for a React, TypeScript and Vite task board: editable tasks, priority ordering, persistent local data, a dark developer-focused interface and automated coverage. The agent turns that brief into an ordered plan before it changes the workspace, separating setup, implementation, tests and release checks into clear steps.
+
+## Build the application in the workspace
+
+The agent checks the available Node.js environment, creates the Vite project and writes the application in small modules. The resulting structure includes task state and persistence, form and list components, progress feedback and the visual system needed for the dashboard. Each change remains in the same workspace as the files, terminal output and Git state.
+
+## Verify, repair and deliver
+
+Verification is part of the run, not an afterthought. When tests expose an import or expectation problem, the agent reads the failure, adjusts the relevant code and runs the checks again. It then completes the production build, prepares project documentation and commits the completed work when instructed.
+
+## What this workflow demonstrates
+
+- **Plan, execute and inspect in one loop.** The agent can move from a stated outcome through files and terminal commands to evidence from tests and builds.
+- **A complete mobile development surface.** Explorer, editor, terminal, Source Control and the AI panel stay attached to the same project context.
+- **Automation that remains reviewable.** Commands, changed files, test output and the final diff are visible for the developer to inspect before delivery.
+
+> An agent can accelerate a multi-step build, but it does not replace engineering judgment. Review the plan, commands, test evidence and Git diff—especially when a workspace has production access.
+
+<p class="seo-cta-actions">
+  <a href="/download?utm_source=workflows&utm_medium=website&utm_campaign=ai_agent_build_demo" class="home-page-btn primary">Try NimoteCode</a>
+  <a href="/docs/ai" class="home-page-btn secondary">Read the AI Agent guide</a>
+</p>

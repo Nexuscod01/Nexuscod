@@ -449,6 +449,9 @@ export default defineConfig({
   base: '/',
   lang: 'en-US',
   cleanUrls: true,
+  // These retired workflow URLs are retained as 301 redirects in public/_redirects
+  // so existing articles and external links continue to resolve to the single demo.
+  ignoreDeadLinks: [/^\/(?:zh\/)?use-cases\/(?:remote-hotfix|on-call-diagnostics|ai-agent)\/?$/],
   sitemap: {
     hostname: siteUrl
   },
@@ -602,19 +605,7 @@ export default defineConfig({
               text: 'Workflows',
               collapsed: false,
               items: [
-                { text: 'Overview', link: '/use-cases/' },
-                { text: 'Remote Hotfix', link: '/use-cases/remote-hotfix' },
-                { text: 'On-call Diagnostics', link: '/use-cases/on-call-diagnostics' },
-                { text: 'AI Agent Workflow', link: '/use-cases/ai-agent' }
-              ]
-            },
-            {
-              text: 'Documentation',
-              collapsed: false,
-              items: [
-                { text: 'Quick Start', link: '/docs/quick-start' },
-                { text: 'SSH Workspace', link: '/docs/ssh' },
-                { text: 'AI Chat and Agent', link: '/docs/ai' }
+                { text: 'AI Agent Build Demo', link: '/use-cases/' }
               ]
             }
           ]
@@ -632,7 +623,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '产品', link: '/zh/features' },
-          { text: '场景', link: '/zh/use-cases/' },
+          { text: '工作流', link: '/zh/use-cases/' },
           { text: '文档', link: '/zh/docs/quick-start' },
           { text: '博客', link: '/zh/blog/' },
           { text: '下载', link: '/zh/download?utm_source=navigation&utm_medium=website&utm_campaign=primary_nav' }
@@ -713,19 +704,7 @@ export default defineConfig({
               text: '工作流',
               collapsed: false,
               items: [
-                { text: '总览', link: '/zh/use-cases/' },
-                { text: '远程热修', link: '/zh/use-cases/remote-hotfix' },
-                { text: '值班排障', link: '/zh/use-cases/on-call-diagnostics' },
-                { text: 'AI Agent 工作流', link: '/zh/use-cases/ai-agent' }
-              ]
-            },
-            {
-              text: '文档',
-              collapsed: false,
-              items: [
-                { text: '快速开始', link: '/zh/docs/quick-start' },
-                { text: 'SSH 工作区', link: '/zh/docs/ssh' },
-                { text: 'AI Chat 与 Agent', link: '/zh/docs/ai' }
+                { text: 'AI Agent 构建演示', link: '/zh/use-cases/' }
               ]
             }
           ]
