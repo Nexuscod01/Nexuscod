@@ -7,10 +7,16 @@ description: 浏览 NimoteCode 的移动开发能力：本地与 SSH 工作区�
 
 NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → Editor → Terminal → Git → AI**。任务需要什么，就打开什么，同时保留项目上下文。
 
-<ImagePlaceholder image-key="featureOverview" alt="NimoteCode 核心工作区功能">
-  <strong>图片占位符 —— 核心工作区模块</strong>
-  <span>请替换为能清晰展示 Explorer、代码编辑器、Terminal、Source Control 与 AI 面板的产品截图。</span>
-</ImagePlaceholder>
+<div class="feature-showcase" role="region" aria-label="NimoteCode 功能亮点">
+  <div class="feature-showcase__track">
+    <figure class="feature-showcase__item"><img src="/screenshots/p1.png" alt="NimoteCode 中的本地文件、SSH、代码编辑与 AI Agent" width="1604" height="901" loading="eager"><figcaption>工作区、编辑与 AI Agent</figcaption></figure>
+    <figure class="feature-showcase__item"><img src="/screenshots/p2.png" alt="NimoteCode 中的 SSH 终端、Source Control 与代码诊断" width="1597" height="896" loading="lazy"><figcaption>终端、Git 与诊断</figcaption></figure>
+    <figure class="feature-showcase__item"><img src="/screenshots/p3.png" alt="NimoteCode 手机上的开发效率功能" width="1598" height="893" loading="lazy"><figcaption>移动开发工作流</figcaption></figure>
+    <figure class="feature-showcase__item" aria-hidden="true"><img src="/screenshots/p1.png" alt="" width="1604" height="901" loading="lazy"><figcaption>工作区、编辑与 AI Agent</figcaption></figure>
+    <figure class="feature-showcase__item" aria-hidden="true"><img src="/screenshots/p2.png" alt="" width="1597" height="896" loading="lazy"><figcaption>终端、Git 与诊断</figcaption></figure>
+    <figure class="feature-showcase__item" aria-hidden="true"><img src="/screenshots/p3.png" alt="" width="1598" height="893" loading="lazy"><figcaption>移动开发工作流</figcaption></figure>
+  </div>
+</div>
 
 ## 核心工作区
 

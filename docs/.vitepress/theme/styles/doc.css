@@ -252,6 +252,58 @@
   box-shadow: var(--nimote-shadow-sm);
 }
 
+.vp-doc .feature-showcase {
+  margin: 28px 0 44px;
+  overflow: hidden;
+  border-radius: var(--nimote-radius-lg);
+}
+
+.vp-doc .feature-showcase__track {
+  display: flex;
+  width: max-content;
+  gap: 16px;
+  animation: feature-showcase-scroll 42s linear infinite;
+}
+
+.vp-doc .feature-showcase__item {
+  flex: 0 0 clamp(320px, 82vw, 720px);
+  margin: 0;
+}
+
+.vp-doc .feature-showcase__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.vp-doc .feature-showcase__item figcaption {
+  margin-top: 8px;
+  color: var(--nimote-text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.vp-doc .feature-showcase:hover .feature-showcase__track {
+  animation-play-state: paused;
+}
+
+@keyframes feature-showcase-scroll {
+  to { transform: translateX(calc(-50% - 8px)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vp-doc .feature-showcase {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .vp-doc .feature-showcase__track {
+    animation: none;
+  }
+}
+
 /* Conversion and media blocks used by SEO landing pages and guides. */
 .vp-doc .seo-cta {
   margin: 40px 0;

@@ -7,10 +7,16 @@ description: "Explore NimoteCode’s mobile development capabilities: local and 
 
 NimoteCode keeps the essential development loop in one mobile workspace: **Explorer → Editor → Terminal → Git → AI**. Choose only the tools a task needs, while keeping the project context intact.
 
-<ImagePlaceholder image-key="featureOverview" alt="NimoteCode feature overview">
-  <strong>Image placeholder — core workspace modules</strong>
-  <span>Replace with a product screenshot that clearly shows Explorer, code editor, Terminal, Source Control and AI in the NimoteCode interface.</span>
-</ImagePlaceholder>
+<div class="feature-showcase" role="region" aria-label="NimoteCode feature highlights">
+  <div class="feature-showcase__track">
+    <figure class="feature-showcase__item"><img src="/screenshots/p1.png" alt="Local files, SSH, code editing and AI Agent in NimoteCode" width="1604" height="901" loading="eager"><figcaption>Workspaces, editing and AI Agent</figcaption></figure>
+    <figure class="feature-showcase__item"><img src="/screenshots/p2.png" alt="SSH terminal, Source Control and code diagnostics in NimoteCode" width="1597" height="896" loading="lazy"><figcaption>Terminal, Git and diagnostics</figcaption></figure>
+    <figure class="feature-showcase__item"><img src="/screenshots/p3.png" alt="NimoteCode productivity features on mobile" width="1598" height="893" loading="lazy"><figcaption>Mobile development workflow</figcaption></figure>
+    <figure class="feature-showcase__item" aria-hidden="true"><img src="/screenshots/p1.png" alt="" width="1604" height="901" loading="lazy"><figcaption>Workspaces, editing and AI Agent</figcaption></figure>
+    <figure class="feature-showcase__item" aria-hidden="true"><img src="/screenshots/p2.png" alt="" width="1597" height="896" loading="lazy"><figcaption>Terminal, Git and diagnostics</figcaption></figure>
+    <figure class="feature-showcase__item" aria-hidden="true"><img src="/screenshots/p3.png" alt="" width="1598" height="893" loading="lazy"><figcaption>Mobile development workflow</figcaption></figure>
+  </div>
+</div>
 
 ## Core workspace
 

@@ -36,13 +36,6 @@ export const placeholderImages = {
       height: PHONE_HEIGHT
     }
   },
-  featureOverview: {
-    phone: {
-      src: '/images/placeholders/Homepage_Phone.png',
-      width: PHONE_WIDTH,
-      height: PHONE_HEIGHT
-    }
-  },
   sshWorkspace: {
     phone: {
       src: '/images/placeholders/07_RemoteProjectExplorer.jpg',
