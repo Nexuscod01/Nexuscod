@@ -47,5 +47,4 @@ iOS 版目前正在筹备公版 App Store 上线。本页用于说明发布后�
 
 - [iPad 编程工作区](/zh/ipad-coding)
 - [移动 IDE 总览](/zh/mobile-ide)
-- [如何用 iPad 编程](/zh/blog/how-to-code-from-ipad)
 - [快速入门文档](/zh/docs/quick-start)

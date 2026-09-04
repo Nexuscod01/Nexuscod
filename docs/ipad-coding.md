@@ -43,7 +43,6 @@ AI is most useful when it has a clear job: explain an unfamiliar module, turn an
 
 ## Useful next reads
 
-- [How to code from iPad](/blog/how-to-code-from-ipad)
 - [Mobile IDE overview](/mobile-ide)
 - [iPhone SSH client workflow](/iphone-ssh-client)
 - [Mobile AI coding](/mobile-ai-coding)

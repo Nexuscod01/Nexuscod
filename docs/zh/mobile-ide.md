@@ -66,4 +66,3 @@ NimoteCode 目前提供 Android 版；iOS 公版正在 App Store 准备中。可
 - [面向远程开发的 SSH IDE](/zh/ssh-ide)
 - [移动 AI 编程](/zh/mobile-ai-coding)
 - [iPad 编程工作区](/zh/ipad-coding)
-- [最佳移动 IDE：要看什么](/zh/blog/best-mobile-ides)

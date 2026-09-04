@@ -18,12 +18,8 @@ The product is positioned as a Mobile AI Development Workspace: Editor + Explore
 - [Demo](https://nimotecode.com/demo): Product video and written workflow walkthrough.
 
 ## Guides
-- [Mobile Development Guides](https://nimotecode.com/blog/): Decision and setup guides for phone and tablet development.
-- [Best Mobile IDEs](https://nimotecode.com/blog/best-mobile-ides): What to look for in a mobile development workspace.
-- [Best SSH Clients](https://nimotecode.com/blog/best-ssh-clients): Choosing a terminal-first or workspace-first SSH workflow.
-- [How to Code From iPad](https://nimotecode.com/blog/how-to-code-from-ipad): Practical iPad, SSH, Git, and AI workflow guidance.
-- [Claude Code From Phone](https://nimotecode.com/blog/claude-code-from-phone): Reviewable remote coding-agent workflow guidance.
-- [Codex From Phone](https://nimotecode.com/blog/codex-from-phone): SSH, project context, validation, and Git review guidance.
+- [Mobile Developer Lab](https://nimotecode.com/blog/): Practical mobile development tutorials.
+- [How to Use Android as a Remote IDE with Tailscale and NimoteCode: Free SSH Access to Mac and Linux](https://nimotecode.com/blog/tailscale-ssh-android-mac-linux): A guide to free private SSH access over the internet, without a public IP address or router port forwarding.
 
 ## Documentation
 - [Quick Start](https://nimotecode.com/docs/quick-start): First-run setup and workspace basics.

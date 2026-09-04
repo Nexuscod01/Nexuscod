@@ -43,7 +43,6 @@ AI 在目标清晰时最有价值：解释陌生模块、把报错变成调试�
 
 ## 值得继续阅读
 
-- [如何用 iPad 编程](/zh/blog/how-to-code-from-ipad)
 - [移动 IDE 总览](/zh/mobile-ide)
 - [iPhone SSH 客户端工作流](/zh/iphone-ssh-client)
 - [移动 AI 编程](/zh/mobile-ai-coding)

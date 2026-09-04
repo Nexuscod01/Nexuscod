@@ -526,7 +526,7 @@ export default defineConfig({
           { text: 'Product', link: '/features' },
           { text: 'Workflows', link: '/use-cases/' },
           { text: 'Docs', link: '/docs/quick-start' },
-          { text: 'Blog', link: '/blog/' },
+          { text: 'Mobile Developer Lab', link: '/blog/' },
           { text: 'Download', link: '/download?utm_source=navigation&utm_medium=website&utm_campaign=primary_nav' }
         ],
         sidebar: {
@@ -536,12 +536,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'All Guides', link: '/blog/' },
-                { text: 'Best Mobile IDEs', link: '/blog/best-mobile-ides' },
-                { text: 'Best SSH Clients', link: '/blog/best-ssh-clients' },
-                { text: 'How to Code From iPad', link: '/blog/how-to-code-from-ipad' },
-                { text: 'Claude Code From Phone', link: '/blog/claude-code-from-phone' },
-                { text: 'Codex From Phone', link: '/blog/codex-from-phone' },
-                { text: 'Termius vs Blink vs NimoteCode', link: '/blog/termius-vs-blink-vs-nimotecode' }
+                { text: 'How to Use Android as a Remote IDE with Tailscale and NimoteCode: Free SSH Access to Mac and Linux', link: '/blog/tailscale-ssh-android-mac-linux' }
               ]
             },
             {
@@ -627,7 +622,7 @@ export default defineConfig({
           { text: '产品', link: '/zh/features' },
           { text: '工作流', link: '/zh/use-cases/' },
           { text: '文档', link: '/zh/docs/quick-start' },
-          { text: '博客', link: '/zh/blog/' },
+          { text: '移动开发实验室', link: '/zh/blog/' },
           { text: '下载', link: '/zh/download?utm_source=navigation&utm_medium=website&utm_campaign=primary_nav' }
         ],
         sidebar: {
@@ -637,12 +632,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '全部指南', link: '/zh/blog/' },
-                { text: '最佳移动 IDE', link: '/zh/blog/best-mobile-ides' },
-                { text: '最佳 SSH 客户端', link: '/zh/blog/best-ssh-clients' },
-                { text: '如何用 iPad 编程', link: '/zh/blog/how-to-code-from-ipad' },
-                { text: '用手机使用 Claude Code', link: '/zh/blog/claude-code-from-phone' },
-                { text: '用手机使用 Codex', link: '/zh/blog/codex-from-phone' },
-                { text: 'Termius 对比 Blink 与 NimoteCode', link: '/zh/blog/termius-vs-blink-vs-nimotecode' }
+                { text: '如何使用 Android 作为远程 IDE：借助 Tailscale 和 NimoteCode 免费 SSH 访问 Mac 与 Linux', link: '/zh/blog/tailscale-ssh-android-mac-linux' }
               ]
             },
             {

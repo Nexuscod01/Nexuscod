@@ -46,4 +46,3 @@ Blink Shell 是其各自权利人的商标。本页与 Blink Shell 无关联，�
 - [移动 IDE 总览](/zh/mobile-ide)
 - [Termius 替代品](/zh/termius-alternative)
 - [iPad 编程工作区](/zh/ipad-coding)
-- [最佳移动 IDE：决策指南](/zh/blog/best-mobile-ides)

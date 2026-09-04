@@ -46,4 +46,3 @@ Blink Shell is a trademark of its respective owner. This page is not affiliated 
 - [Mobile IDE overview](/mobile-ide)
 - [Termius alternative](/termius-alternative)
 - [iPad coding workspace](/ipad-coding)
-- [Best mobile IDEs: decision guide](/blog/best-mobile-ides)

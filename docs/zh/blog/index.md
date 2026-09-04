@@ -1,21 +1,16 @@
 ---
-title: "移动开发指南 | NimoteCode"
-description: 关于如何选择移动 IDE 或 SSH 客户端，以及如何在 iPad、手机、Claude Code 与 Codex 工作流中编码的实用指南。
+title: "移动开发实验室 | NimoteCode"
+description: NimoteCode 提供的实用移动开发教程。
 ---
 
-# 移动开发指南
+# 移动开发实验室
 
-面向希望在手机或平板上继续处理真实开发任务的开发者。按你要解决的决策浏览，或阅读 NimoteCode 背后的构建记录。
+面向手机和平板开发连接、编码与协作的实用教程。
 
-## 选择工作流
+## 全部指南
 
 <div class="product-card-grid blog-index-cards">
-  <a class="product-card" href="/zh/blog/best-mobile-ides"><strong>最佳移动 IDE</strong><span>移动任务涉及代码、终端、Git 与 AI 时，哪些能力最重要。</span></a>
-  <a class="product-card" href="/zh/blog/best-ssh-clients"><strong>最佳 SSH 客户端</strong><span>选择纯终端客户端，还是基于 SSH 的开发工作区。</span></a>
-  <a class="product-card" href="/zh/blog/how-to-code-from-ipad"><strong>如何用 iPad 编程</strong><span>适用于 SSH 项目和 Git 审查的一套实用流程。</span></a>
-  <a class="product-card" href="/zh/blog/claude-code-from-phone"><strong>用手机使用 Claude Code</strong><span>让远程 Agent 工作流保持可观察、可审查。</span></a>
-  <a class="product-card" href="/zh/blog/codex-from-phone"><strong>用手机使用 Codex</strong><span>让代码库、终端输出和 Git 上下文始终贴近 Agent。</span></a>
-  <a class="product-card" href="/zh/blog/termius-vs-blink-vs-nimotecode"><strong>Termius、Blink 与 NimoteCode</strong><span>根据任务在终端优先和工作区优先之间选择。</span></a>
+  <a class="product-card" href="/zh/blog/tailscale-ssh-android-mac-linux"><strong>如何使用 Android 作为远程 IDE：借助 Tailscale 和 NimoteCode 免费 SSH 访问 Mac 与 Linux</strong><span>无需公网 IP 或路由器端口映射，通过 NimoteCode 安全连接 Mac 或 Linux。</span></a>
 </div>
 
 ## 构建日志

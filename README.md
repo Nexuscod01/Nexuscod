@@ -1,6 +1,10 @@
 # NimoteCode
 
 <p align="center">
+  <a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
   <strong>AI-Powered Mobile IDE for Android</strong><br>
   <strong>Code on your phone. On your real projects.</strong>
 </p>
@@ -14,6 +18,14 @@
   <a href="https://nimotecode.com"><img src="https://img.shields.io/badge/Visit-Website-4F46E5" alt="Visit the NimoteCode website"></a>
   <a href="https://nimotecode.com/docs/quick-start"><img src="https://img.shields.io/badge/Read-Docs-06B6D4" alt="Read NimoteCode documentation"></a>
 </p>
+
+## Turn your Android phone into a remote IDE — free, from anywhere
+
+Your Mac or Linux development machine can stay at home, in the office, or on a VPS. With **Tailscale + NimoteCode**, your Android phone can securely reach it over SSH from any network—without a public IP address, router port forwarding, or exposing SSH to the internet.
+
+This is more than remote terminal access. Open the real project in NimoteCode, browse files, edit code, run tests, inspect Git diffs, and use AI assistance in the same mobile workspace. It is a practical way to fix, review, or keep moving on real work when you are away from your desk.
+
+> **Try it today:** follow the [step-by-step guide to use Android as a remote IDE with Tailscale and NimoteCode](https://nimotecode.com/blog/tailscale-ssh-android-mac-linux), then [install NimoteCode from Google Play](https://play.google.com/store/apps/details?id=com.nimote.nimotecode).
 
 ## AI Agent workflow: from brief to reviewable Git result
 

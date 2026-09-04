@@ -50,4 +50,3 @@ Termius is a trademark of its respective owner. This page is a workflow comparis
 - [SSH IDE for remote development](/ssh-ide)
 - [Mobile IDE overview](/mobile-ide)
 - [Blink Shell alternative](/blink-shell-alternative)
-- [Termius vs Blink vs NimoteCode](/blog/termius-vs-blink-vs-nimotecode)

@@ -50,4 +50,3 @@ Termius 是其各自权利人的商标。本页是工作流对比，不构成关
 - [面向远程开发的 SSH IDE](/zh/ssh-ide)
 - [移动 IDE 总览](/zh/mobile-ide)
 - [Blink Shell 替代品](/zh/blink-shell-alternative)
-- [Termius 对比 Blink 与 NimoteCode](/zh/blog/termius-vs-blink-vs-nimotecode)

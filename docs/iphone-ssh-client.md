@@ -47,5 +47,4 @@ If you use Android today, you can install the current release from Google Play. 
 
 - [iPad coding workspace](/ipad-coding)
 - [Mobile IDE overview](/mobile-ide)
-- [How to code from iPad](/blog/how-to-code-from-ipad)
 - [Quick Start documentation](/docs/quick-start)

@@ -46,5 +46,4 @@ On a phone, speed comes from reducing context switching, not from skipping safeg
 
 - [Mobile AI coding workspace](/mobile-ai-coding)
 - [Claude Code from phone](/claude-code-from-phone)
-- [Codex from phone guide](/blog/codex-from-phone)
 - [Remote hotfix workflow](/use-cases/remote-hotfix)

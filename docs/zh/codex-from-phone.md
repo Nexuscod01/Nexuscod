@@ -46,5 +46,4 @@ NimoteCode 也支持为其应用内 AI Chat 与 Agent 工作流配置 AI 提供�
 
 - [移动 AI 编程工作区](/zh/mobile-ai-coding)
 - [用手机使用 Claude Code](/zh/claude-code-from-phone)
-- [用手机使用 Codex 指南](/zh/blog/codex-from-phone)
 - [远程热修工作流](/zh/use-cases/remote-hotfix)

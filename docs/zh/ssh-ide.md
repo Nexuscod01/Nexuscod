@@ -77,4 +77,3 @@ SSH IDE 在 SSH 连接之上增加项目浏览、代码编辑、终端命令与 
 - [Android SSH 客户端](/zh/android-ssh-client)
 - [iPhone SSH 客户端](/zh/iphone-ssh-client)
 - [移动端值班排障](/zh/use-cases/on-call-diagnostics)
-- [最佳 SSH 客户端：如何选择](/zh/blog/best-ssh-clients)

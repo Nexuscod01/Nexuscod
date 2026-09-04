@@ -77,4 +77,3 @@ Choose an SSH IDE when the task includes locating files, editing code, running v
 - [Android SSH client](/android-ssh-client)
 - [iPhone SSH client](/iphone-ssh-client)
 - [On-call diagnostics from mobile](/use-cases/on-call-diagnostics)
-- [Best SSH clients: how to choose](/blog/best-ssh-clients)

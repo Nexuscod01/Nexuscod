@@ -50,5 +50,4 @@ For AI provider setup inside NimoteCode itself, see [AI Chat and Agent](/docs/ai
 
 - [Codex from phone](/codex-from-phone)
 - [SSH IDE for remote development](/ssh-ide)
-- [Claude Code from phone guide](/blog/claude-code-from-phone)
 - [AI Agent workflows](/use-cases/ai-agent)
