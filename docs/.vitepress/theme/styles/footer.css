@@ -42,7 +42,7 @@
 
 .nimote-site-footer-inner {
   display: grid;
-  grid-template-columns: minmax(230px, 1.6fr) repeat(3, minmax(130px, 1fr));
+  grid-template-columns: minmax(230px, 1.6fr) repeat(4, minmax(130px, 1fr));
   gap: 36px;
   max-width: var(--nimote-container);
   margin: 0 auto;

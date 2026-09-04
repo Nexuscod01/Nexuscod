@@ -26,7 +26,7 @@ const copy = computed(() => isChinese.value ? {
   x: 'X / Twitter',
   github: 'GitHub',
   demo: '观看演示',
-  company: '帮助与政策',
+  company: '帮助与隐私',
   support: '支持',
   privacy: '隐私政策',
   terms: '服务条款',
@@ -54,7 +54,7 @@ const copy = computed(() => isChinese.value ? {
   x: 'X / Twitter',
   github: 'GitHub',
   demo: 'Watch demo',
-  company: 'Company',
+  company: 'Support & Privacy',
   support: 'Support',
   privacy: 'Privacy',
   terms: 'Terms',
@@ -101,7 +101,7 @@ function localized(path: string) {
 
         <nav :aria-label="copy.social">
           <h2>{{ copy.social }}</h2>
-          <a href="https://www.youtube.com/watch?v=cTpxPqJwo_s" target="_blank" rel="noreferrer">{{ copy.youtube }}</a>
+          <a href="https://www.youtube.com/watch?v=gW2wFNIBNws" target="_blank" rel="noreferrer">{{ copy.youtube }}</a>
           <a href="https://x.com/nimotecode" target="_blank" rel="noreferrer">{{ copy.x }}</a>
           <a href="https://github.com/aounma" target="_blank" rel="noreferrer">{{ copy.github }}</a>
           <a :href="localized('/blog/')">{{ copy.guides }}</a>
