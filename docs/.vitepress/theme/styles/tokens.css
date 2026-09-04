@@ -135,12 +135,32 @@
   --nimote-inset-highlight: rgba(255, 255, 255, 0.8);
   --nimote-panel-shadow: 0 2px 4px rgba(8, 9, 10, 0.08);
   --nimote-panel-shadow-hover: 0 12px 28px rgba(8, 9, 10, 0.12);
-  --nimote-hero-image-filter: saturate(0.98) contrast(1.02) brightness(0.98);
+  --nimote-hero-image-filter: saturate(1.04) contrast(1.08) brightness(0.92);
+  /* Hero contrast presets (light theme) */
+  --nimote-hero-image-filter-soft: saturate(1.02) contrast(1.05) brightness(0.96);
+  --nimote-hero-image-filter-strong: saturate(1.06) contrast(1.12) brightness(0.88);
   --nimote-hero-overlay:
-    linear-gradient(90deg, rgba(247, 248, 248, 0.94) 0%, rgba(247, 248, 248, 0.78) 34%, rgba(247, 248, 248, 0.42) 58%, rgba(247, 248, 248, 0.16) 100%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(247, 248, 248, 0.1) 34%, rgba(247, 248, 248, 0.42) 100%),
-    radial-gradient(circle at 16% 18%, rgba(217, 70, 239, 0.12), transparent 28%),
-    radial-gradient(circle at 82% 14%, rgba(94, 106, 210, 0.12), transparent 24%);
+    linear-gradient(90deg, rgba(247, 248, 248, 0.86) 0%, rgba(247, 248, 248, 0.60) 34%, rgba(247, 248, 248, 0.30) 58%, rgba(247, 248, 248, 0.10) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(247, 248, 248, 0.02) 34%, rgba(247, 248, 248, 0.28) 100%),
+    radial-gradient(circle at 16% 18%, rgba(217, 70, 239, 0.08), transparent 28%),
+    radial-gradient(circle at 82% 14%, rgba(94, 106, 210, 0.08), transparent 24%);
+  --nimote-hero-overlay-soft:
+    linear-gradient(90deg, rgba(247, 248, 248, 0.90) 0%, rgba(247, 248, 248, 0.70) 34%, rgba(247, 248, 248, 0.40) 58%, rgba(247, 248, 248, 0.20) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(247, 248, 248, 0.06) 34%, rgba(247, 248, 248, 0.36) 100%),
+    radial-gradient(circle at 16% 18%, rgba(217, 70, 239, 0.10), transparent 28%),
+    radial-gradient(circle at 82% 14%, rgba(94, 106, 210, 0.10), transparent 24%);
+  --nimote-hero-overlay-strong:
+    linear-gradient(90deg, rgba(247, 248, 248, 0.80) 0%, rgba(247, 248, 248, 0.50) 34%, rgba(247, 248, 248, 0.20) 58%, rgba(247, 248, 248, 0.06) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(247, 248, 248, 0.00) 34%, rgba(247, 248, 248, 0.22) 100%),
+    radial-gradient(circle at 16% 18%, rgba(217, 70, 239, 0.06), transparent 28%),
+    radial-gradient(circle at 82% 14%, rgba(94, 106, 210, 0.06), transparent 24%);
+  /* Default hero profile: optimized (balanced). Switch to:
+     --nimote-hero-overlay: var(--nimote-hero-overlay-soft);
+     --nimote-hero-image-filter: var(--nimote-hero-image-filter-soft);
+     for more conservative look,
+     --nimote-hero-overlay: var(--nimote-hero-overlay-strong);
+     --nimote-hero-image-filter: var(--nimote-hero-image-filter-strong);
+     for stronger contrast separation. */
   --nimote-video-shell-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(240, 241, 242, 0.96)), var(--nimote-bg-elevated);
   --nimote-video-overlay: linear-gradient(180deg, rgba(8, 9, 10, 0), rgba(8, 9, 10, 0.74));
   --nimote-grid-line: rgba(8, 9, 10, 0.04);

@@ -722,6 +722,9 @@ html:not(.dark) .home-page-feature-label {
 html:not(.dark) .home-page-hero::after {
   background: var(--nimote-hero-overlay);
 }
+html:not(.dark) .home-page-hero::before {
+  filter: var(--nimote-hero-image-filter);
+}
 
 html:not(.dark) .home-page-feature-card,
 html:not(.dark) .home-page-cta {
