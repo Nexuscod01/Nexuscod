@@ -9,6 +9,12 @@ This is the public record of notable product updates. For setup help, use the [d
 
 ## 2026
 
+### Version 1.1.5 · September 6, 2026
+
+This release adds in-app web preview, split editor panes, built-in media viewing, and a richer AI workspace. It also substantially improves SSH reliability, mobile terminal input, Git workflows, memory use, and interface consistency.
+
+[Read the complete 1.1.5 release notes →](/releases/1.1.5)
+
 ### Current release channel
 
 - **Compatibility:** Android is the currently available public release channel. iPhone and iPad availability will be announced on [Download](/download) when it changes.
