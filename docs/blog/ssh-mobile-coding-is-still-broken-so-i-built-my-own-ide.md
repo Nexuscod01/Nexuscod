@@ -46,6 +46,6 @@ NimoteCode is available now on Google Play for Android, with the App Store versi
 This post is also part of the story behind the build: read [Why Existing Flutter Code Editors Broke Down](/blog/why-existing-flutter-code-editors-broke-down-when-i-built-a-mobile-ide) and [Why I Decided to Build a Mobile IDE Instead of Another AI App](/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app).
 
 <div class="seo-cta">
-  <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/aounma">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
+  <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/mobiledevloperlab">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
   <p class="seo-cta-actions"><a href="/demo?utm_source=blog&utm_medium=organic&utm_campaign=ssh_broken_demo" class="home-page-btn primary">Watch Demo</a><a href="/ssh-ide?utm_source=blog&utm_medium=organic&utm_campaign=ssh_broken_workflow" class="home-page-btn secondary">Explore SSH development</a></p>
 </div>

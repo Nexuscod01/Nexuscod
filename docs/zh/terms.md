@@ -120,4 +120,4 @@ https://nimotecode.com/privacy
 ## 15. 联系方式
 
 邮箱：nimotecode@gmail.com  
-GitHub：https://github.com/aounma/nimote_issues/issues
+GitHub：https://github.com/mobiledevloperlab/nimote_issues/issues

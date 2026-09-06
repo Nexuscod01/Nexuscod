@@ -139,4 +139,4 @@ We may update this policy. The latest published version and effective date on th
 ## 12. Contact
 
 - Email: nimotecode@gmail.com
-- GitHub Issues: https://github.com/aounma/nimote_issues/issues
+- GitHub Issues: https://github.com/mobiledevloperlab/nimote_issues/issues

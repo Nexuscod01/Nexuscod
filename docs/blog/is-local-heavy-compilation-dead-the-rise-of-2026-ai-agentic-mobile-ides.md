@@ -43,6 +43,6 @@ If you've fixed a production bug from an iPad or a folding phone on the go, or y
 NimoteCode is designed around this remote, agent-assisted workflow—read [Mobile IDE](/mobile-ide), [SSH IDE](/ssh-ide) and [Mobile AI Coding](/mobile-ai-coding) to see how SSH, terminal and Git come together. For the thinking behind building it, start with [Why I Decided to Build a Mobile IDE Instead of Another AI App](/blog/why-i-decided-to-build-a-mobile-ide-instead-of-another-ai-app).
 
 <div class="seo-cta">
-  <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/aounma">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
+  <p><strong>About the author</strong> · Building <a href="/">NimoteCode</a>, a mobile-first IDE built with Flutter and Rust. Follow the project on <a href="https://dev.to/ma_dev">DEV.to</a> · <a href="https://github.com/mobiledevloperlab">GitHub</a> · <a href="https://x.com/nimotecode">X</a>.</p>
   <p class="seo-cta-actions"><a href="/demo?utm_source=blog&utm_medium=organic&utm_campaign=local_compilation_demo" class="home-page-btn primary">Watch Demo</a><a href="/mobile-ai-coding?utm_source=blog&utm_medium=organic&utm_campaign=local_compilation_workflow" class="home-page-btn secondary">Explore the workflow</a></p>
 </div>
