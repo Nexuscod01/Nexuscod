@@ -116,6 +116,8 @@ NimoteCode 将 AI Chat 和自主编码 Agent 与验证结果所需的工具结�
 - [文档](https://nimotecode.com/zh/docs/quick-start)
 - [报告问题](https://github.com/aounma/nimote_issues/issues)
 
-## 安全提示
+## 仓库与发布说明
 
-提交或部署前，请审查 AI 辅助产生的改动。验证命令和测试结果后，再检查 Git diff。
+- 本仓库是 NimoteCode 官方网站仓库，包含官网内容（文档、落地页、公开信息），并非应用源码仓库。
+- NimoteCode 的正式版本会在本仓库的 GitHub Releases 页面发布：[Releases](https://github.com/aounma/nimotecode-ai-powered-mobile-ide/releases)。
+- NimoteCode 目前为**闭源**产品。

@@ -116,6 +116,8 @@ Run configured CLI-based AI coding tools in the active local or SSH workspace, i
 - [Documentation](https://nimotecode.com/docs/quick-start)
 - [Report an issue](https://github.com/aounma/nimote_issues/issues)
 
-## Safety
+## Repository and release notes
 
-Review AI-assisted changes before committing or deploying. Verify commands and test results, then inspect Git diffs before delivery.
+- This repository is the NimoteCode website repository (docs, landing pages, and public content), not the private application source code repository.
+- Official NimoteCode release versions are published through GitHub Releases on this repository: [Releases](https://github.com/aounma/nimotecode-ai-powered-mobile-ide/releases).
+- NimoteCode is currently **closed source**.
