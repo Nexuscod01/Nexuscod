@@ -1,13 +1,13 @@
 ---
 title: "适用于 SSH、Git 与 AI 编程的移动 IDE | NimoteCode"
-description: NimoteCode 是面向 Android 的移动 AI 开发工作台，集编辑器、资源管理器、终端与 AI Chat 和 Agent 于一个工作区，支持 SSH、Git 与 AI 编程。
+description: NimoteCode 是面向 Android 的移动 AI 开发工作台，集 SSH、双栏编辑、应用内 Web 预览、Git 与 AI 编程于同一个工作区。
 ---
 
 # 适用于 SSH、Git 与 AI 编程的移动 IDE
 
 大多数移动编码工具只解决其中一环：打开文件、连接服务器或用 SSH 运行命令。而一个**移动 IDE** 应该把完整开发闭环串在一起：浏览项目、理解代码、做出修改、完成验证，并审查将要交付的内容。
 
-NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor、Explorer、SSH、Terminal、Git、AI Chat 与 Agent 放进同一个工作区；iOS 公版仍在准备中。
+NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor、Explorer、SSH、应用内 Web 与媒体预览、Terminal、Git、AI Chat 与 Agent 放进同一个工作区；iOS 公版仍在准备中。
 
 <ImagePlaceholder image-key="mobileIde" alt="NimoteCode 移动 IDE">
   <strong>图片占位 —— 移动 IDE 总览</strong>
@@ -21,6 +21,8 @@ NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor
 | 理解项目 | 打开单个文件 | 在 Explorer 中浏览项目，文件保留在标签页 |
 | 远程工作 | 在 SSH 与编辑器之间切换 | 连接 SSH 工作区并直接处理其文件 |
 | 验证改动 | 把命令复制到另一个 App | 在工作区终端中运行命令 |
+| 预览 Web 改动 | 切换到独立浏览器 | 从工作区或 Terminal URL 直接打开本地或远程 Web 项目 |
+| 对照相关代码 | 在文件之间反复切换 | 通过编辑器双栏并排查看两个文件 |
 | 谨慎交付 | 在别处查看原始 diff | 在编辑过的代码旁审查 Git 改动 |
 | 获取帮助 | 把片段粘贴到独立的 AI 聊天 | 在带工作区上下文的 AI Chat / Agent 中处理 |
 
@@ -28,13 +30,13 @@ NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor
 
 ## 完整工作流，无需切换应用
 
-当项目在设备上时从本地项目开始，或通过 [SSH 工作区](/zh/docs/ssh) 连接远程开发机或服务器。接着在编辑器中打开文件，在[终端](/zh/docs/terminal)中运行测试或排查命令，并用[源代码管理](/zh/docs/source-control)查看改动产生的 diff。
+当项目在设备上时从本地项目开始，或通过 [SSH 工作区](/zh/docs/ssh) 连接远程开发机或服务器。接着在编辑器中双栏打开文件，需要时预览本地或远程 Web 项目，在[终端](/zh/docs/terminal)中运行测试或排查命令，并用[源代码管理](/zh/docs/source-control)查看改动产生的 diff。
 
 当任务需要更多上下文时，[AI Chat 与 Agent](/zh/docs/ai)可以解释代码或规划改动。AI Agent 面向受控的多步骤任务；你可以检查它提出的内容，把最终决定权留在自己手中。
 
 ## 为移动端限制而设计
 
-好的移动开发不是把桌面界面塞进小屏幕。NimoteCode 围绕触控、移动键盘、聚焦面板以及断线重连的远程工作设计。平板上更大的屏幕给你更多空间浏览项目与终端输出；手机上，同一个工作区依然聚焦于下一步动作。
+好的移动开发不是把桌面界面塞进小屏幕。NimoteCode 围绕触控、移动键盘、聚焦面板以及断线重连的远程工作设计。当前版本还通过更稳定的 SSH 处理、受控的预览资源与更可靠的移动端终端输入，让长时间使用更流畅。平板上更大的屏幕给你更多空间进行双栏编辑、浏览项目与查看终端输出；手机上，同一个工作区依然聚焦于下一步动作。
 
 功能细节见[功能特性](/zh/features)。具体生产场景见[移动端远程热修](/zh/use-cases/remote-hotfix)。安装指引从[快速入门](/zh/docs/quick-start)开始。
 

@@ -1,6 +1,6 @@
 # NimoteCode Full Context
 
-> NimoteCode is a Mobile AI Development Workspace currently available for Android. It is built for real development work on mobile: SSH access, code editing, terminal sessions, Git review and gated write workflows, AI Chat and Agent, debugging, task execution, and sync/cache movement between environments. The public iOS release is being prepared.
+> NimoteCode is a Mobile AI Development Workspace currently available for Android. It is built for real development work on mobile: SSH access, split code editing, in-app web and media preview, terminal sessions, Git review and gated write workflows, AI Chat and Agent, debugging, task execution, and sync/cache movement between environments. The public iOS release is being prepared.
 
 NimoteCode is not a code viewer or note-taking app. It is designed for practical workflows such as remote hotfixes, on-call diagnostics, AI-assisted coding, and mobile-first project inspection and delivery.
 

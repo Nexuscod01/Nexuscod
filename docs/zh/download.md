@@ -5,7 +5,7 @@ description: 下载 NimoteCode 移动 AI 开发工作台，用于本地与 SSH �
 
 # 下载 NimoteCode
 
-NimoteCode 将本地或 SSH 项目的文件编辑、终端命令和 AI 协助收敛在一个移动工作区中。目前 Android 已可下载；iOS 公开 App Store 发布正在准备中。
+NimoteCode 将本地或 SSH 项目的双栏文件编辑、Web 与支持媒体预览、终端命令和 AI 协助收敛在一个移动工作区中。目前 Android 已可下载；iOS 公开 App Store 发布正在准备中。
 
 ## 选择你的平台
 

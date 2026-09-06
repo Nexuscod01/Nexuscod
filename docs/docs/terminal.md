@@ -1,6 +1,6 @@
 ---
 title: Mobile Terminal | NimoteCode SSH Workspace
-description: Run workspace commands in NimoteCode, search terminal output, use quick commands and keep advanced multi-terminal contexts with Pro.
+description: Run workspace commands in NimoteCode, open project URLs in in-app preview, search terminal output, use quick commands and keep advanced multi-terminal contexts with Pro.
 ---
 
 # Mobile Terminal
@@ -17,8 +17,9 @@ Terminal is the verification layer of a NimoteCode workspace. Run commands where
 - Run commands in the active local or SSH workspace.
 - Inspect streaming output and search long logs for an error or warning.
 - Use quick or custom commands for known routines.
+- Open a URL emitted by a local or remote web project directly in the in-app browser preview.
 - Send relevant output to [AI Chat and Agent](/docs/ai) when interpretation would help.
-- Resume remote work after reconnection, then verify host and directory before continuing.
+- Resume remote work after reconnection, then verify host and directory before continuing. Terminal input is designed to preserve composing-keyboard text, key repeat and physical-keyboard shortcuts during mobile work.
 
 ## When more than one shell matters
 

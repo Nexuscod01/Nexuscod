@@ -16,6 +16,7 @@ description: 通过账户、订阅、主题、语言、编辑器和移动键盘�
   <div class="product-card"><strong>编辑器</strong><span>调整字体、字号与行高，让小屏幕上的代码更易读。</span></div>
   <div class="product-card"><strong>键盘</strong><span>设置软键盘、反馈、数字/功能行、手势和功能键映射。</span></div>
   <div class="product-card"><strong>账户</strong><span>查看登录、订阅状态、购买管理和恢复购买入口。</span></div>
+  <div class="product-card"><strong>开源许可证</strong><span>查看 Codex、xterm、Flutter 依赖及其他随应用分发的开源软件许可证与版权归属。</span></div>
 </div>
 
 ## 推荐的首次设置

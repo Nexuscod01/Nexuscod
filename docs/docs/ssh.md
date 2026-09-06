@@ -57,6 +57,6 @@ Choose the project root—not merely the server home directory. This gives Edito
 
 ## Safer remote habits
 
-Use a separate profile for each environment, prefer a least-privilege account and key-based authentication for sensitive hosts, and choose a deliberate project root. Reconnect-aware behavior helps resume work after a connection interruption, but you should always verify the active host and directory before running a write command.
+Use a separate profile for each environment, prefer a least-privilege account and key-based authentication for sensitive hosts, and choose a deliberate project root. Reconnect-aware behavior and connection reuse make remote commands and preview tunnels more resilient, but you should always verify the active host and directory before running a write command.
 
 Next: [Terminal](/docs/terminal) · [Remote Hotfix from Mobile](/use-cases/remote-hotfix) · [Security and Safety](/docs/security)

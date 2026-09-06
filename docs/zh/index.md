@@ -2,7 +2,7 @@
 layout: home
 title: NimoteCode | 移动 AI 开发工作台
 titleTemplate: false
-description: NimoteCode 是面向手机、平板、Android 与 iOS 的移动 AI 开发工作台，整合编辑器、资源管理器、SSH、终端、Git 与 AI Chat 和 Agent。
+description: NimoteCode 是支持 Android 与 iOS 的移动 AI 开发工作台，整合本地与 SSH 项目、双栏编辑、应用内 Web 与媒体预览、终端、Git 与 AI Chat 和 Agent。Android 现已可用，iOS 正在 App Store 审核上架中。
 
 hero:
   name: ""
@@ -17,7 +17,7 @@ hero:
       <p class="home-page-badge">移动 AI 开发工作台</p>
       <div class="home-page-logo-lockup"><img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async"><span class="home-page-brand">NimoteCode</span></div>
       <h1 class="home-page-title">把真实的开发工作区，<br><em>带到任何地方。</em></h1>
-      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Chat 与 Agent，支持手机、平板、Android 与 iOS 上聚焦开发工作。</p>
+      <p class="home-page-subtitle">Editor + Explorer + SSH + Terminal + Git + AI Chat 与 Agent，现加入双栏编辑、应用内 Web 预览与媒体预览，支持 Android 与 iOS 上的聚焦开发。iOS 正在 App Store 审核上架中。</p>
       <div class="home-page-actions home-page-actions-hero"><a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a><a href="/demo?utm_source=zh_homepage&utm_medium=website&utm_campaign=hero_demo" class="home-page-btn secondary">观看演示</a></div>
       <a class="home-page-availability-link" href="/zh/download?utm_source=zh_homepage&utm_medium=website&utm_campaign=ios_availability">了解 iOS 可用性 <span aria-hidden="true">→</span></a>
     </div>
@@ -30,15 +30,15 @@ hero:
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">用户为什么选 NimoteCode</p>
     <h2 class="home-page-section-title">从“能连上”到“能完整开发”。</h2>
-    <p class="home-page-section-copy">多数工具只做到“SSH 连通”。NimoteCode 在 Android 上把完整开发工作流串起来：文件浏览、编辑、终端、Git 审核与 AI 协作，全程保持同一上下文。</p>
+    <p class="home-page-section-copy">多数工具只做到“SSH 连通”。NimoteCode 在移动端把完整开发工作流串起来：浏览文件、并排编辑两个文件、预览 Web 应用、运行终端、审核 Git 与 AI 协作，全程保持同一上下文。</p>
   </div>
 </section>
 
 <section class="home-page-section">
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">核心能力</p>
-    <h2 class="home-page-section-title">七项能力，一屏完成。</h2>
-    <p class="home-page-section-copy">让 SSH、编码、终端、Git 与 AI 在同一个工作流里闭环，减少跨设备切换和上下文丢失。</p>
+    <h2 class="home-page-section-title">完整移动工作区，一处完成。</h2>
+    <p class="home-page-section-copy">让 SSH、编码、预览、终端、Git 与 AI 在同一个工作流里闭环，减少跨设备切换和上下文丢失。</p>
   </div>
 
   <div class="home-page-feature-grid home-page-feature-grid-priority">
@@ -55,12 +55,17 @@ hero:
     <article class="home-page-feature-card">
       <p class="home-page-feature-label">编辑</p>
       <h3><a href="/zh/docs/editor">移动端代码编辑</a></h3>
-      <p>移动端友好的编辑方式，支持跨目录快速定位与改动，避免反复在多个窗口间切换。</p>
+      <p>移动端友好的编辑方式，支持跨目录快速定位与改动，也可双栏并排处理两个文件。</p>
     </article>
     <article class="home-page-feature-card">
       <p class="home-page-feature-label">终端</p>
       <h3><a href="/zh/docs/terminal">内置终端</a></h3>
       <p>在项目所在位置运行测试、构建和脚本，把验证动作和代码改动留在同一条操作链上。</p>
+    </article>
+    <article class="home-page-feature-card">
+      <p class="home-page-feature-label">预览</p>
+      <h3><a href="/zh/features">Web 与媒体预览</a></h3>
+      <p>无需离开 NimoteCode 即可打开本地或远程 Web 项目，从 Terminal URL 直接进入预览，也能查看图片和播放支持的媒体。</p>
     </article>
     <article class="home-page-feature-card">
       <p class="home-page-feature-label">检查</p>

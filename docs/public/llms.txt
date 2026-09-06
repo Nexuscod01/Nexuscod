@@ -1,10 +1,10 @@
 # NimoteCode
 
-> NimoteCode is a Mobile AI Development Workspace currently available for Android. It combines SSH workspaces, code editing, terminals, Git workflows, AI Chat and Agent, debugging, tasks, sync/cache, and product support in one app. The public iOS release is being prepared.
+> NimoteCode is a Mobile AI Development Workspace currently available for Android. It combines SSH workspaces, split code editing, in-app web and media preview, terminals, Git workflows, AI Chat and Agent, debugging, tasks, sync/cache, and product support in one app. The public iOS release is being prepared.
 
 NimoteCode is organized around a few primary journeys: learn the product, compare Free and Pro, install the app, and move into the documentation for day-to-day workflows.
 
-The product is positioned as a Mobile AI Development Workspace: Editor + Explorer + SSH + Terminal + Git + AI Chat and Agent. It is not only an SSH client or a standalone code editor.
+The product is positioned as a Mobile AI Development Workspace: Editor + Explorer + SSH + Web Preview + Terminal + Git + AI Chat and Agent. It is not only an SSH client or a standalone code editor.
 
 ## Product
 - [Home](https://nimotecode.com/): Main product overview and demo-led landing page.

@@ -16,6 +16,7 @@ Settings helps the workspace feel predictable on the device you actually use. St
   <div class="product-card"><strong>Editor</strong><span>Adjust font family, size and line height for the amount of code you read on your screen.</span></div>
   <div class="product-card"><strong>Keyboard</strong><span>Configure soft-keyboard behavior, feedback, number/function rows, gestures and function-key mappings.</span></div>
   <div class="product-card"><strong>Account</strong><span>Review sign-in, subscription state, purchase management and restore-purchase options.</span></div>
+  <div class="product-card"><strong>Open-source notices</strong><span>Review licenses and attribution for Codex, xterm, Flutter packages and other bundled open-source software.</span></div>
 </div>
 
 ## Recommended first setup

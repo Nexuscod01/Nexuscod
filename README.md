@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  NimoteCode is a mobile IDE and SSH IDE for Android that brings real software-development workflows to mobile devices: local or SSH workspaces, terminal + Git, AI agent tasks, and on-device code review.
+  NimoteCode is a mobile IDE and SSH IDE for Android and iOS that brings real software-development workflows to mobile devices: local or SSH workspaces, terminal + Git, AI agent tasks, and on-device code review. Android is available now; iOS is under App Store review.
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ Run configured CLI-based AI coding tools in the active local or SSH workspace, i
 - **Official Website:** https://nimotecode.com
 - **Google Play (latest):** https://play.google.com/store/apps/details?id=com.nimote.nimotecode
 - **App Store:** Under review for release
-- **GitHub Releases (legacy/historical builds):** https://github.com/mobiledevloperlab/nimotecode-ai-powered-mobile-ide/releases
+- **GitHub Releases (legacy/historical builds):** https://github.com/aounma/nimotecode-ai-powered-mobile-ide/releases
 
 The latest Android release is always on Google Play. App Store availability will be announced after approval.
 

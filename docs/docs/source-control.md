@@ -16,6 +16,7 @@ Source Control brings the reviewable part of Git into the workspace where you ed
 
 - Review staged, unstaged and conflicted files.
 - Inspect file diffs and repository history.
+- Refresh local and remote repository status in the active workspace, including first-commit repositories.
 - Stage selected work and prepare a commit after reviewing the diff.
 - With Pro, use gated Git write actions such as commit, push and stash when repository and host permissions allow it.
 - Use Git AI to help explain a change, draft a commit message or prompt a risk-oriented review.

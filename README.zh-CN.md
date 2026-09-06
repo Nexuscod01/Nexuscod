@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  NimoteCode 是一款 Android 端的移动 IDE 与 SSH IDE，让“真实的软件开发”可以在移动端完成：本地与 SSH 工作区、终端与 Git、AI Agent 任务、并支持现有项目的代码审查。
+  NimoteCode 是一款支持 Android 与 iOS 的移动 IDE 与 SSH IDE，让“真实的软件开发”可以在移动端完成：本地与 SSH 工作区、终端与 Git、AI Agent 任务、并支持现有项目的代码审查。Android 现已可用；iOS 正在 App Store 审核上架中。
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ NimoteCode 将 AI Chat 与自主编码 Agent 与可验证闭环打通：项目�
 - **官网**：https://nimotecode.com
 - **Google Play（最新版）**：https://play.google.com/store/apps/details?id=com.nimote.nimotecode
 - **App Store**：审核上架中
-- **GitHub Releases（历史/legacy 构建）**：https://github.com/mobiledevloperlab/nimotecode-ai-powered-mobile-ide/releases
+- **GitHub Releases（历史/legacy 构建）**：https://github.com/aounma/nimotecode-ai-powered-mobile-ide/releases
 
 Android 最新官方版本请以 Google Play 为准；App Store 通过审核后将公布。
 

@@ -5,7 +5,7 @@ description: Download NimoteCode, the mobile AI development workspace for local 
 
 # Download NimoteCode
 
-NimoteCode lets you open a local or SSH project, edit files, run terminal commands and use AI assistance from one mobile workspace. It is currently available for Android; public iOS App Store availability is being prepared.
+NimoteCode lets you open a local or SSH project, edit files side by side, preview web projects and supported media, run terminal commands and use AI assistance from one mobile workspace. It is currently available for Android; public iOS App Store availability is being prepared.
 
 ## Choose your platform
 

@@ -14,7 +14,7 @@ NimoteCode separates direct AI help from AI-assisted execution. **AI Chat** is f
 
 ## Use AI Chat for the next decision
 
-Ask Chat to explain unfamiliar code, interpret terminal output, outline a refactor, or review an idea before you change a file. Keeping the relevant file active gives the conversation useful workspace context.
+Ask Chat to explain unfamiliar code, interpret terminal output, outline a refactor, or review an idea before you change a file. Keeping the relevant file active gives the conversation useful workspace context. Recent tasks and workspace context stay visible in Chat, while a compact global indicator keeps active Agent work visible as you move between panels.
 
 ## Use AI Agent for a controlled sequence
 
