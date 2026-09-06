@@ -40,12 +40,12 @@ If you're on Android, start with the step-by-step guide and install from Google 
 Give the Agent a product brief, then follow one loop: **plan → inspect the project → edit files → run checks → repair failures → review the Git result**. This is AI coding in the project workspace, not just chat.
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18" controls muted playsinline width="420">
-    Your browser does not support embedded video. Open the <a href="https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18">AI Agent demo video</a> instead.
+  <video src="https://github.com/user-attachments/assets/531d62fc-4874-41b9-96af-1ac9d2ad6fd6" controls muted playsinline width="420">
+    Your browser does not support embedded video. Open the <a href="https://github.com/user-attachments/assets/531d62fc-4874-41b9-96af-1ac9d2ad6fd6">AI Agent demo video</a> instead.
   </video>
 </p>
 
-If the embedded player is unavailable in your GitHub client, [watch the AI Agent demo](https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18).
+If the embedded player is unavailable in your GitHub client, [watch the AI Agent demo](https://github.com/user-attachments/assets/531d62fc-4874-41b9-96af-1ac9d2ad6fd6).
 
 ## Why NimoteCode
 

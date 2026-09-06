@@ -27,7 +27,7 @@ hero:
   </div>
 </section>
 
-<section id="product-demo" class="home-page-section home-page-video-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">Product Demo</p><h2 class="home-page-section-title">See an AI Agent build an app from a phone.</h2><p class="home-page-section-copy">Watch planning, implementation, verification and delivery unfold in one mobile workspace.</p></div><div class="home-page-video"><figure class="home-page-video-shell"><video class="home-page-video-player" controls autoplay muted loop playsinline preload="metadata" aria-label="NimoteCode AI Agent build demonstration"><source src="/videos/ai-agent-demo-small.mp4" type="video/mp4">Your browser does not support embedded video.</video><figcaption>AI Agent Build Demo</figcaption></figure></div></section>
+<section id="product-demo" class="home-page-section home-page-video-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">Product Demo</p><h2 class="home-page-section-title">See an AI Agent build an app from a phone.</h2><p class="home-page-section-copy">Watch planning, implementation, verification and delivery unfold in one mobile workspace.</p></div><div class="home-page-video"><figure class="home-page-video-shell"><video class="home-page-video-player" controls autoplay muted loop playsinline preload="metadata" aria-label="NimoteCode AI Agent build demonstration"><source src="/videos/nimotecode.mp4" type="video/mp4">Your browser does not support embedded video.</video><figcaption>AI Agent Build Demo</figcaption></figure></div></section>
 
 <section class="home-page-section">
   <div class="home-page-section-head home-page-section-head-centered">

@@ -41,7 +41,7 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
 
 ## New in 1.1.5
 
-The current release makes more of the development loop visible without leaving the workspace: preview local or remote web projects in-app, keep two files open side by side, inspect images and play supported media, and follow active Agent work across panels. It also improves SSH connection reuse, mobile terminal input, Git refresh and diff rendering, long-session resource use, and interface consistency. See the [1.1.5 release notes](/releases/1.1.5) for the complete change list.
+The current release makes more of the development loop visible without leaving the workspace: preview local or remote web projects in-app, keep two files open side by side, inspect images and play supported media, and follow active Agent work across panels. It also improves SSH connection reuse, mobile terminal input, Git refresh and diff rendering, long-session resource use, and interface consistency. See the [release notes](/releases/) for the complete change list.
 
 ## A practical way to use the features
 

@@ -40,12 +40,12 @@
 给 Agent 一个产品需求，然后按一条闭环推进：**规划 → 检查项目 → 编辑文件 → 运行检查 → 修复问题 → 审查 Git 结果**。这不是“聊天式建议”，而是工作区内的 AI 编码流程。
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18" controls muted playsinline width="420">
-    你的浏览器不支持嵌入式视频。请改为打开<a href="https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18">AI Agent 演示视频</a>。
+  <video src="https://github.com/user-attachments/assets/531d62fc-4874-41b9-96af-1ac9d2ad6fd6" controls muted playsinline width="420">
+    你的浏览器不支持嵌入式视频。请改为打开<a href="https://github.com/user-attachments/assets/531d62fc-4874-41b9-96af-1ac9d2ad6fd6">AI Agent 演示视频</a>。
   </video>
 </p>
 
-如果你的 GitHub 客户端无法显示嵌入播放器，请[观看 AI Agent 演示](https://github.com/user-attachments/assets/0293a811-c9f0-4b61-ada1-b72b6bb61a18)。
+如果你的 GitHub 客户端无法显示嵌入播放器，请[观看 AI Agent 演示](https://github.com/user-attachments/assets/531d62fc-4874-41b9-96af-1ac9d2ad6fd6)。
 
 ## 为什么选择 NimoteCode
 

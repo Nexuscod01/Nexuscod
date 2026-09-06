@@ -7,13 +7,15 @@ description: Product updates, new capabilities, fixes and compatibility notes fo
 
 This is the public record of notable product updates. For setup help, use the [documentation](/docs/quick-start); for a problem with your account or subscription, visit [Support](/support).
 
+[Read the complete release history →](/releases/)
+
 ## 2026
 
 ### Version 1.1.5 · September 6, 2026
 
 This release adds in-app web preview, split editor panes, built-in media viewing, and a richer AI workspace. It also substantially improves SSH reliability, mobile terminal input, Git workflows, memory use, and interface consistency.
 
-[Read the complete 1.1.5 release notes →](/releases/1.1.5)
+[Read the complete 1.1.5 release notes →](/releases/)
 
 ### Current release channel
 

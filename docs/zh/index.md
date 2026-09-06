@@ -24,7 +24,7 @@ hero:
   </div>
 </section>
 
-<section id="product-demo" class="home-page-section home-page-video-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">产品演示</p><h2 class="home-page-section-title">看 AI Agent 如何在手机上构建应用。</h2><p class="home-page-section-copy">在同一个移动工作区中，观察规划、实现、验证与交付如何连续完成。</p></div><div class="home-page-video"><figure class="home-page-video-shell"><video class="home-page-video-player" controls autoplay muted loop playsinline preload="metadata" aria-label="NimoteCode AI Agent 构建演示"><source src="/videos/ai-agent-demo-small.mp4" type="video/mp4">当前浏览器不支持内嵌视频。</video><figcaption>AI Agent 构建演示</figcaption></figure></div></section>
+<section id="product-demo" class="home-page-section home-page-video-section"><div class="home-page-section-head home-page-section-head-centered"><p class="home-page-eyebrow">产品演示</p><h2 class="home-page-section-title">看 AI Agent 如何在手机上构建应用。</h2><p class="home-page-section-copy">在同一个移动工作区中，观察规划、实现、验证与交付如何连续完成。</p></div><div class="home-page-video"><figure class="home-page-video-shell"><video class="home-page-video-player" controls autoplay muted loop playsinline preload="metadata" aria-label="NimoteCode AI Agent 构建演示"><source src="/videos/nimotecode.mp4" type="video/mp4">当前浏览器不支持内嵌视频。</video><figcaption>AI Agent 构建演示</figcaption></figure></div></section>
 
 <section class="home-page-section">
   <div class="home-page-section-head home-page-section-head-centered">
