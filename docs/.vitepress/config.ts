@@ -509,7 +509,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mobiledevloperlab' },
       { icon: 'twitter', link: 'https://x.com/nimotecode' },
-      { icon: 'discord', link: 'https://discord.gg/nimotecode' }
+      { icon: 'discord', link: 'https://discord.gg/tTxbpqYmhR' }
     ],
     editLink: {
       pattern: 'https://github.com/mobiledevloperlab/nimote_issues/edit/main/docs/:path',

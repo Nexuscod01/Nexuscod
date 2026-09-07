@@ -18,6 +18,7 @@
   <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode"><img src="https://img.shields.io/badge/Get_on-Google_Play-34A853?logo=googleplay&logoColor=white" alt="Get NimoteCode on Google Play"></a>
   <img src="https://img.shields.io/badge/App_Store-Under_Review-0A84FF?logo=apple&logoColor=white" alt="NimoteCode is under review for the App Store">
   <a href="https://nimotecode.com/docs/quick-start"><img src="https://img.shields.io/badge/Read-Docs-06B6D4" alt="Read NimoteCode documentation"></a>
+  <a href="https://discord.gg/tTxbpqYmhR"><img src="https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&logoColor=white" alt="Join the NimoteCode Discord community"></a>
 </p>
 
 > NimoteCode is a **Mobile-first AI Development Environment**.  
@@ -121,6 +122,7 @@ The latest Android release is always on Google Play. App Store availability will
 - [Start with SSH](https://nimotecode.com/docs/ssh)
 - [Watch workflows](https://nimotecode.com/use-cases/)
 - [Official documentation](https://nimotecode.com/docs/quick-start)
+- [Join our Discord community](https://discord.gg/tTxbpqYmhR)
 - [Report an issue](https://github.com/mobiledevloperlab/nimote_issues/issues)
 
 ## Repository and release notes

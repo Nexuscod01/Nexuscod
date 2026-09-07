@@ -18,6 +18,7 @@
   <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode"><img src="https://img.shields.io/badge/Google_Play-获取-34A853?logo=googleplay&logoColor=white" alt="在 Google Play 获取 NimoteCode"></a>
   <img src="https://img.shields.io/badge/App_Store-审核上架中-0A84FF?logo=apple&logoColor=white" alt="NimoteCode 正在 App Store 审核上架中">
   <a href="https://nimotecode.com/zh/docs/quick-start"><img src="https://img.shields.io/badge/文档-快速入门-06B6D4" alt="阅读 NimoteCode 文档"></a>
+  <a href="https://discord.gg/tTxbpqYmhR"><img src="https://img.shields.io/badge/加入-Discord-5865F2?logo=discord&logoColor=white" alt="加入 NimoteCode Discord 社区"></a>
 </p>
 
 > NimoteCode 是 **Mobile-first AI Development Environment**（以移动设备为主的 AI 开发环境）。  
@@ -121,6 +122,7 @@ Android 最新官方版本请以 Google Play 为准；App Store 通过审核后�
 - [从 SSH 开始](https://nimotecode.com/zh/docs/ssh)
 - [观看工作流](https://nimotecode.com/zh/use-cases/)
 - [官方文档](https://nimotecode.com/zh/docs/quick-start)
+- [加入 Discord 社区](https://discord.gg/tTxbpqYmhR)
 - [问题反馈](https://github.com/mobiledevloperlab/nimote_issues/issues)
 
 ## 仓库与发布说明
